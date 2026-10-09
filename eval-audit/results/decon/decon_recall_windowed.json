@@ -1,0 +1,283 @@
+{
+  "decon_py_sha256": "a6ef1ed28f95d72259fa5a16540b4fdf5f82546785c20da16ea8963130f626cb",
+  "settings": {
+    "ngram_length": 13,
+    "stride": 0,
+    "overlap_threshold": 0.5,
+    "min_matched_features": 2,
+    "paragraph_delimiter": "\n\n"
+  },
+  "eval_ptb_valid_sha256": "c9fe6985fe0d4ccb578183407d7668fc6066c20700cb4cf87d8ff1cc34df1bf2",
+  "eval_features_in_bloom": 70126,
+  "trained_doc_chars": 4830448,
+  "trained_doc_file_order": [
+    "README.md",
+    "extract_ngrams.py",
+    "train.lua",
+    "data/ptb/test.6grams",
+    "data/ptb/valid.6grams",
+    "util/BatchLoader.lua",
+    "util/IdentityLinear.lua"
+  ],
+  "current_matcher": {
+    "torch-nplm as trained (6-gram windows)": {
+      "max_overlap": 0.0,
+      "matched_features": 0,
+      "flagged": false
+    },
+    "torch-nplm + raw data/ptb/valid.txt": {
+      "max_overlap": 1.0,
+      "matched_features": 70126,
+      "flagged": true
+    },
+    "raw valid.txt alone": {
+      "max_overlap": 1.0,
+      "matched_features": 70126,
+      "flagged": true
+    },
+    "valid.6grams alone": {
+      "max_overlap": 0.0,
+      "matched_features": 0,
+      "flagged": false
+    }
+  },
+  "with_dewindowing": {
+    "torch-nplm as trained, with de-windowing": {
+      "max_overlap": 1.0,
+      "matched_features": 70126,
+      "dewindowed_paragraphs": 2,
+      "flagged": true
+    },
+    "valid.6grams alone, with de-windowing": {
+      "max_overlap": 1.0,
+      "matched_features": 70126,
+      "dewindowed_paragraphs": 1,
+      "flagged": true
+    },
+    "valid.6grams with marvin davis -> <NAME>, with de-windowing": {
+      "max_overlap": 0.9994,
+      "matched_features": 70102,
+      "dewindowed_paragraphs": 1,
+      "flagged": true
+    },
+    "raw valid.txt alone, with de-windowing": {
+      "max_overlap": 1.0,
+      "matched_features": 70126,
+      "dewindowed_paragraphs": 0,
+      "flagged": true
+    }
+  },
+  "window_width_sweep": {
+    "3": {
+      "current_overlap": 0.0,
+      "current_flagged": false,
+      "dewindow_overlap": 1.0,
+      "dewindow_flagged": true
+    },
+    "4": {
+      "current_overlap": 0.0,
+      "current_flagged": false,
+      "dewindow_overlap": 1.0,
+      "dewindow_flagged": true
+    },
+    "5": {
+      "current_overlap": 0.0004,
+      "current_flagged": false,
+      "dewindow_overlap": 1.0,
+      "dewindow_flagged": true
+    },
+    "6": {
+      "current_overlap": 0.0,
+      "current_flagged": false,
+      "dewindow_overlap": 1.0,
+      "dewindow_flagged": true
+    },
+    "7": {
+      "current_overlap": 0.0005,
+      "current_flagged": false,
+      "dewindow_overlap": 1.0,
+      "dewindow_flagged": true
+    },
+    "8": {
+      "current_overlap": 0.0,
+      "current_flagged": false,
+      "dewindow_overlap": 1.0,
+      "dewindow_flagged": true
+    },
+    "9": {
+      "current_overlap": 0.0003,
+      "current_flagged": false,
+      "dewindow_overlap": 1.0,
+      "dewindow_flagged": true
+    },
+    "10": {
+      "current_overlap": 0.0012,
+      "current_flagged": false,
+      "dewindow_overlap": 1.0,
+      "dewindow_flagged": true
+    },
+    "11": {
+      "current_overlap": 0.0007,
+      "current_flagged": false,
+      "dewindow_overlap": 1.0,
+      "dewindow_flagged": true
+    },
+    "12": {
+      "current_overlap": 0.002,
+      "current_flagged": false,
+      "dewindow_overlap": 1.0,
+      "dewindow_flagged": true
+    },
+    "13": {
+      "current_overlap": 0.0379,
+      "current_flagged": false,
+      "dewindow_overlap": 1.0,
+      "dewindow_flagged": true
+    },
+    "14": {
+      "current_overlap": 0.0646,
+      "current_flagged": false,
+      "dewindow_overlap": 1.0,
+      "dewindow_flagged": true
+    },
+    "15": {
+      "current_overlap": 0.0862,
+      "current_flagged": false,
+      "dewindow_overlap": 1.0,
+      "dewindow_flagged": true
+    },
+    "16": {
+      "current_overlap": 0.1027,
+      "current_flagged": false,
+      "dewindow_overlap": 1.0,
+      "dewindow_flagged": true
+    },
+    "17": {
+      "current_overlap": 0.1156,
+      "current_flagged": false,
+      "dewindow_overlap": 1.0,
+      "dewindow_flagged": true
+    },
+    "18": {
+      "current_overlap": 0.1253,
+      "current_flagged": false,
+      "dewindow_overlap": 1.0,
+      "dewindow_flagged": true
+    },
+    "19": {
+      "current_overlap": 0.1327,
+      "current_flagged": false,
+      "dewindow_overlap": 1.0,
+      "dewindow_flagged": true
+    },
+    "20": {
+      "current_overlap": 0.1375,
+      "current_flagged": false,
+      "dewindow_overlap": 1.0,
+      "dewindow_flagged": true
+    },
+    "21": {
+      "current_overlap": 0.141,
+      "current_flagged": false,
+      "dewindow_overlap": 1.0,
+      "dewindow_flagged": true
+    },
+    "22": {
+      "current_overlap": 0.1431,
+      "current_flagged": false,
+      "dewindow_overlap": 1.0,
+      "dewindow_flagged": true
+    },
+    "23": {
+      "current_overlap": 0.1441,
+      "current_flagged": false,
+      "dewindow_overlap": 1.0,
+      "dewindow_flagged": true
+    },
+    "24": {
+      "current_overlap": 0.1442,
+      "current_flagged": false,
+      "dewindow_overlap": 1.0,
+      "dewindow_flagged": true
+    },
+    "25": {
+      "current_overlap": 0.1437,
+      "current_flagged": false,
+      "dewindow_overlap": 1.0,
+      "dewindow_flagged": true
+    },
+    "26": {
+      "current_overlap": 0.1424,
+      "current_flagged": false,
+      "dewindow_overlap": 1.0,
+      "dewindow_flagged": true
+    },
+    "27": {
+      "current_overlap": 0.1408,
+      "current_flagged": false,
+      "dewindow_overlap": 1.0,
+      "dewindow_flagged": true
+    },
+    "28": {
+      "current_overlap": 0.1389,
+      "current_flagged": false,
+      "dewindow_overlap": 1.0,
+      "dewindow_flagged": true
+    },
+    "29": {
+      "current_overlap": 0.1366,
+      "current_flagged": false,
+      "dewindow_overlap": 1.0,
+      "dewindow_flagged": true
+    },
+    "30": {
+      "current_overlap": 0.1342,
+      "current_flagged": false,
+      "dewindow_overlap": 1.0,
+      "dewindow_flagged": true
+    }
+  },
+  "stitched_equals_eval_tokens": true,
+  "stitched_tokens": 70390,
+  "eval_tokens": 70390,
+  "seconds_on_trained_doc": {
+    "current_matcher": 1.317,
+    "dewindow_pass": 0.074
+  },
+  "paragraphs_trained_doc_ge_100_features": [
+    {
+      "paragraph": "cmd = torch.CmdLine()",
+      "chars": 2355,
+      "features": 239,
+      "matched": 0,
+      "overlap": 0.0
+    },
+    {
+      "paragraph": "-- initialize cunn/cutorch for training on the GPU and fall ",
+      "chars": 862,
+      "features": 102,
+      "matched": 0,
+      "overlap": 0.0
+    },
+    {
+      "paragraph": "File: data/ptb/test.6grams",
+      "chars": 2545442,
+      "features": 472004,
+      "matched": 1,
+      "overlap": 0.0
+    },
+    {
+      "paragraph": "",
+      "chars": 2264217,
+      "features": 422330,
+      "matched": 1,
+      "overlap": 0.0
+    }
+  ],
+  "negative_control": {
+    "files": 5724,
+    "paragraphs": 241449,
+    "dewindow_triggered": 0,
+    "examples": []
+  }
+}

@@ -42,6 +42,7 @@ The bridge table in the pre-registration shows how much each change moves the fo
 | `results/v2/` | The v2 frozen results and `freeze_manifest_v2.json` |
 | `results/step5/` | The v1 frozen results and `freeze_manifest.json` |
 | `addenda/` | Notes added after the freeze, each with its script and output. They never change the frozen forecast |
+| `eval-audit/` | A separate analysis from Oct 9: PTB and WikiText-103 eval drops on the hero, and a recall test of Marin's decontamination matcher on the PTB copy found in training. See its README |
 | `results/step2_*`, `results/step3*`, `results/hero_actual.csv` | Reproduction of the team's forecasts and exploration, from an earlier snapshot (data through step 224,999) |
 
 ## Reproduce
