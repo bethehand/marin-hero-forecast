@@ -1,0 +1,27 @@
+{
+ "frozen_files": {
+  "code/fetch_snapshot.py": "1de8e4010f242d8d5c488e7c25a767c131e7ca05df9b13ebaa349e6825789c50",
+  "code/check_snapshot.py": "87ff21cd0fd3c527af7ba0770a4f53b36ae8f81f8553d1fce7d8f85027ddd3ab",
+  "code/reproduce.py": "aa365567a960c662a7af3c4cf792b93ebd52fb1381450a34584e75bbae1cdc61",
+  "code/diagnose_floor.py": "d41992b6384510709761723f8fffe79b826efa280152e11dffb8f4443b414b09",
+  "code/explore_step3.py": "32707b8085125b50fb5777272d9f559745429e806ed37cf04313d67cc22506a3",
+  "code/forecast_step3.py": "7f9292da5948a41e2cecf30dcfb47fb26f41cf9b3dcf0b7ce9a658d4cb1231e0",
+  "code/robustness_step3.py": "ad0b311cf74d1915c3cace8dea7d70766089ba23b1ef16c49030f4eaaba5d310",
+  "code/perturbations_step4.py": "ca60ee2d48ea8cbc7e099c0e681f65707ba5ee81f26a16822c5ece3875ee72c1",
+  "code/freeze_step5.py": "4571568207b4929e7c5dba973b929be9e123f19477bc7dc6b6a52e6c702ec7f6",
+  "results/step5/backtest.csv": "bc2298773eb30abc674c1488e2967a418f05334f6a23b45d400d0e859a078938",
+  "results/step5/coverage.csv": "f5adc34407ce501192c5a2d114b92222628a3852b8564398f23aaed9e3a3087b",
+  "results/step5/end_samples.npz": "250558fdbda619579625aae1d3937d64bf50c6fd4ad4d73f2dfe9f8e02ba3eec",
+  "results/step5/forecast_en.png": "646dceea400ec37c7e4b0456f5d6db5ef5329144eacdbb9b58480068b59cdc2c",
+  "results/step5/forecast_step3.json": "61e467971c7b93592504902a7b6e74d3bdcb5bf4a715d1faf83bf11c5d92f5d2",
+  "results/step5/forecast_step3.png": "3aa3e59f53f6b9919cd36dca989f34de8e53c818bad12b949ccf64ae8b6162cb",
+  "results/step5/forecast_summary.json": "4d14e241b19315d0fbef2f85eb72b407b43db14ca8021e4fe7b9f3d297ca5b53",
+  "results/step5/perturbations_step4.json": "cbb06c2ba4ab8c77c54ea8598a9cb65785dd61ca02265e46e61a6e5e3d500699",
+  "results/step5/remaining_drop_by_ladder.csv": "b45786ec844f288a61e516e7fa83d205acdd9dacedf5a4e83657cbaa269f4943",
+  "results/step5/robustness.json": "5ac9001a37e9f45eb088d3340f4236d95af4c2741ef0ded8659b49c05e18b5a7",
+  "results/step5/trajectory_macro15.csv": "f45577545fb4e53c429abb6d1d008ce485a7052b3e2dbd931911a4ef7e0dae8a",
+  "results/step5/trajectory_official_macro16.csv": "35cb7a183d80566398b801c1d3ad82aa44429b82b6c4ee643ec1e57d30a1a379",
+  "05_preregistration.md": "abc088c2c703f59437b94a61882026dd78ccaecb03aa47f8bb934140f1fdee18",
+  "data/snapshot_2026-10-09T0440Z/manifest.json": "402a613d47800a6b54b022723f60e8975625f5400517a1a05226084899383bf7"
+ }
+}

@@ -1,0 +1,57 @@
+{
+ "name": "hero-uncheatable-ladder-floor14-swap-20260914",
+ "displayName": "hero-uncheatable-ladder-floor14-swap-20260914",
+ "createdAt": "2026-09-15T01:06:24Z",
+ "heartbeatAt": "2026-09-15T01:06:28Z",
+ "state": "finished",
+ "config": {
+  "_wandb": {
+   "value": {
+    "cli_version": "0.29.0",
+    "m": [],
+    "python_version": "3.12.12",
+    "t": {
+     "12": "0.29.0",
+     "13": "darwin-arm64",
+     "3": [
+      2,
+      13,
+      14,
+      16,
+      61
+     ],
+     "4": "3.12.12",
+     "5": "0.29.0"
+    }
+   }
+  },
+  "cohort": {
+   "value": "swap"
+  },
+  "fixed_floor": {
+   "value": 1.4
+  },
+  "forecast_only": {
+   "value": true
+  },
+  "method": {
+   "value": "separate per-progress ladder-only nonlinear least squares; hero observations diagnostics only"
+  },
+  "model": {
+   "value": {
+    "hidden_dim": 6144
+   }
+  },
+  "num_train_steps": {
+   "value": 390251
+  }
+ },
+ "summaryMetrics": {
+  "_runtime": 0.73112925,
+  "_step": 390251,
+  "_timestamp": 1789434385.18467,
+  "_wandb.runtime": 0,
+  "eval_dropless/uncheatable_eval/macro_loss": 1.558983213594977,
+  "run_progress": 1
+ }
+}

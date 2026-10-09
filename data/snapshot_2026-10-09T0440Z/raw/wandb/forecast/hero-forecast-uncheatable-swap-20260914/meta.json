@@ -1,0 +1,74 @@
+{
+ "name": "hero-forecast-uncheatable-swap-20260914",
+ "displayName": "hero-forecast-uncheatable-swap-20260914",
+ "createdAt": "2026-09-15T00:32:29Z",
+ "heartbeatAt": "2026-09-15T00:32:33Z",
+ "state": "finished",
+ "config": {
+  "_wandb": {
+   "value": {
+    "cli_version": "0.29.0",
+    "m": [],
+    "python_version": "3.12.12",
+    "t": {
+     "12": "0.29.0",
+     "13": "darwin-arm64",
+     "3": [
+      2,
+      13,
+      14,
+      16,
+      61
+     ],
+     "4": "3.12.12",
+     "5": "0.29.0"
+    }
+   }
+  },
+  "anchor": {
+   "value": {
+    "_step": 104999,
+    "eval_dropless/uncheatable_eval/macro_loss": 1.6586610078811646
+   }
+  },
+  "forecast_only": {
+   "value": true
+  },
+  "method": {
+   "value": "transfer mean log loss changes from H100 d768/d1024 controls and pre-offset-corrected swap effects"
+  },
+  "model": {
+   "value": {
+    "hidden_dim": 6144
+   }
+  },
+  "num_train_steps": {
+   "value": 390251
+  },
+  "pairs": {
+   "value": [
+    {
+     "control": "h100-ladder-d768-2xep8-bs1024-791tpp-20260824",
+     "treatment": "h100-mix25-20260912-d768",
+     "pre_swap_log_ratio": -0.0006135339026797429
+    },
+    {
+     "control": "h100-ladder-d1024-ep8x4-bs1024-791tpp-20260825-rno2a-interactive",
+     "treatment": "h100-mix25-20260912-d1024",
+     "pre_swap_log_ratio": 0.00015673900504971824
+    }
+   ]
+  }
+ },
+ "summaryMetrics": {
+  "_runtime": 0.771506333,
+  "_step": 390251,
+  "_timestamp": 1789432350.121699,
+  "_wandb.runtime": 0,
+  "eval_dropless/uncheatable_eval/macro_loss": 1.411138285624165,
+  "forecast/d1024_transfer": 1.414212811618481,
+  "forecast/d768_transfer": 1.4080704437088023,
+  "forecast/uncheatable_no_swap": 1.4309015754818097,
+  "run_progress": 1
+ }
+}

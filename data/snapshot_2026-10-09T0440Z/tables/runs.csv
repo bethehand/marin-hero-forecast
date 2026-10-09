@@ -1,0 +1,49 @@
+category,run,display_name,created_at,heartbeat_at,state,stop_after_steps,num_train_steps,summary_step,ref_eval_rows
+ladder,rav-ladder-d768-v2,rav-ladder-d768-v2,2026-08-18T11:01:48Z,2026-08-18T13:54:24Z,finished,11420,,11419,20
+ladder,rav-ladder-d1024,rav-ladder-d1024,2026-08-19T03:39:38Z,2026-08-19T09:01:23Z,finished,15276,,15275,20
+ladder,rav-ladder-d1536,rav-ladder-d1536,2026-08-19T03:39:41Z,2026-08-19T11:45:31Z,finished,15128,,15127,21
+ladder,rav-ladder-d2048-v3,rav-ladder-d2048-v3,2026-08-18T12:11:45Z,2026-08-19T00:28:51Z,crashed,20072,,16350,16
+ladder_mix,rav-ladder-d768-v2-old-mix,rav-ladder-d768-v2-old-mix,2026-08-18T18:28:59Z,2026-08-18T21:04:24Z,finished,11420,,11419,20
+ladder_mix,rav-ladder-d768-v2-epsilon0-monotonic-pi-57rows-candidate1-pergpu-prefetch32-w512-ts125g,rav-ladder-d768-v2-epsilon0-monotonic-pi-57rows-candidate1-pergpu-prefetch32-w512-ts125g,2026-08-19T16:53:38Z,2026-08-19T19:09:48Z,finished,11420,,11419,20
+ladder_mix,rav-ladder-d768-v2-epsilon0-pi-57rows-candidate1-pergpu-prefetch32-w512-ts125g,rav-ladder-d768-v2-epsilon0-pi-57rows-candidate1-pergpu-prefetch32-w512-ts125g,2026-08-19T17:34:44Z,2026-08-19T19:54:25Z,finished,11420,,11419,20
+ladder_mix,rav-ladder-d768-v2-semantic-pi-56rows-candidate1-pergpu-prefetch32-w512-ts125g,rav-ladder-d768-v2-semantic-pi-56rows-candidate1-pergpu-prefetch32-w512-ts125g,2026-08-19T04:14:08Z,2026-08-19T07:09:10Z,finished,11420,,11419,20
+ladder_h100,h100-mix25-20260912-d512,h100-mix25-20260912-d512,2026-09-12T08:16:28Z,2026-09-12T11:33:50Z,finished,3930,,3929,21
+ladder_h100,h100-mix25-20260912-d768,h100-mix25-20260912-d768,2026-09-12T08:16:32Z,2026-09-12T15:37:28Z,finished,11420,,11419,20
+ladder_h100,h100-mix25-20260912-d1024,h100-mix25-20260912-d1024,2026-09-12T08:17:23Z,2026-09-13T04:30:38Z,finished,30552,,30551,20
+ladder_h100,h100-mix25-20260912-d1536,h100-mix25-20260912-d1536,2026-09-12T08:16:49Z,2026-09-15T20:34:12Z,finished,90767,,90766,21
+ladder_h100,h100-ladder-d512-ep8-bs1024-791tpp-20260824-rno2a,h100-ladder-d512-ep8-bs1024-791tpp-20260824-rno2a,2026-08-25T04:26:49Z,2026-08-25T08:41:14Z,finished,3930,,3929,21
+ladder_h100,h100-ladder-d768-2xep8-bs1024-791tpp-20260824,h100-ladder-d768-2xep8-bs1024-791tpp-20260824,2026-08-25T03:28:29Z,2026-08-25T10:49:14Z,finished,11420,,11419,20
+ladder_h100,h100-ladder-d1024-ep8x4-bs1024-791tpp-20260825-rno2a-interactive,h100-ladder-d1024-ep8x4-bs1024-791tpp-20260825-rno2a-interactive,2026-08-25T18:45:38Z,2026-08-26T13:05:41Z,finished,30552,,30551,20
+ladder_h100,h100-ladder-d1536-ep8x8-bs1024-791tpp-20260825-rno2a-interactive,h100-ladder-d1536-ep8x8-bs1024-791tpp-20260825-rno2a-interactive,2026-08-25T19:02:42Z,2026-08-26T19:44:18Z,crashed,90767,,30757,6
+hero,hero-84579c80-072503,hero-84579c80-072503,2026-08-20T01:23:47Z,2026-08-20T01:48:10Z,finished,390251,,0,1
+hero,hero-12d8b6f0-dee637,hero-12d8b6f0-dee637,2026-08-20T02:04:58Z,2026-09-03T23:14:25Z,crashed,390251,,58020,20
+hero,hero-wd-gate-router-p02-step58k,hero-wd-gate-router-p02-step58k,2026-09-04T00:43:09Z,2026-09-09T19:34:06Z,crashed,390251,,81919,8
+hero,hero-ragged_a2a-nccl2307-ep-step81k,hero-ragged_a2a-nccl2307-ep-step81k,2026-09-09T22:52:18Z,2026-09-15T17:14:34Z,crashed,390251,,108257,9
+hero,hero-nopdl-step108k,hero-nopdl-step108k,2026-09-15T23:24:38Z,2026-09-18T19:14:23Z,crashed,390251,,121979,4
+hero,hero-main-step121638,hero-main-step121638,2026-09-18T19:13:23Z,2026-09-23T21:40:33Z,crashed,390251,,146344,12
+hero,hero-fa4sm100-nomask-step146k,hero-fa4sm100-nomask-step146k,2026-09-23T20:53:10Z,2026-10-09T04:39:17Z,running,390251,,228802,40
+forecast,hero-forecast-seqlen4096-fc,hero-forecast-seqlen4096,2026-09-01T01:11:02Z,2026-09-01T01:11:03Z,finished,,390251,390251,20
+forecast,hero-forecast-swap-adjusted-20260914,hero-forecast-swap-adjusted-20260914,2026-09-15T00:23:57Z,2026-09-15T00:24:00Z,finished,,390251,390251,22
+forecast,hero-forecast-uncheatable-swap-20260914,hero-forecast-uncheatable-swap-20260914,2026-09-15T00:32:29Z,2026-09-15T00:32:33Z,finished,,390251,390251,0
+forecast,hero-forecast-uncheatable-no-swap-20260914,hero-forecast-uncheatable-no-swap-20260914,2026-09-15T00:50:19Z,2026-09-15T00:50:21Z,finished,,390251,390251,0
+forecast,hero-forecast-uncheatable-asymptote-no-swap-20260914,hero-forecast-uncheatable-asymptote-no-swap-20260914,2026-09-15T00:54:41Z,2026-09-15T00:54:44Z,finished,,390251,390251,0
+forecast,hero-forecast-uncheatable-asymptote-swap-20260914,hero-forecast-uncheatable-asymptote-swap-20260914,2026-09-15T00:54:45Z,2026-09-15T00:54:48Z,finished,,390251,390251,0
+forecast,hero-forecast-uncheatable-asymptote-no-swap-from0-20260914,hero-forecast-uncheatable-asymptote-no-swap-from0-20260914,2026-09-15T00:57:19Z,2026-09-15T00:57:22Z,finished,,390251,390251,0
+forecast,hero-forecast-uncheatable-asymptote-swap-from0-20260914,hero-forecast-uncheatable-asymptote-swap-from0-20260914,2026-09-15T00:57:23Z,2026-09-15T00:57:27Z,finished,,390251,390251,0
+forecast,hero-uncheatable-ladder-floor14-no-swap-20260914,hero-uncheatable-ladder-floor14-no-swap-20260914,2026-09-15T01:06:18Z,2026-09-15T01:06:23Z,finished,,390251,390251,0
+forecast,hero-uncheatable-ladder-floor14-swap-20260914,hero-uncheatable-ladder-floor14-swap-20260914,2026-09-15T01:06:24Z,2026-09-15T01:06:28Z,finished,,390251,390251,0
+forecast,hero-uncheatable-joint-floor14-no-swap-20260914,hero-uncheatable-joint-floor14-no-swap-20260914,2026-09-15T01:09:01Z,2026-09-15T01:09:05Z,finished,,390251,390251,0
+forecast,hero-uncheatable-joint-floor14-swap-20260914,hero-uncheatable-joint-floor14-swap-20260914,2026-09-15T01:09:08Z,2026-09-15T01:09:12Z,finished,,390251,390251,0
+forecast,hero-uncheatable-joint-floor15-no-swap-20260914,hero-uncheatable-joint-floor15-no-swap-20260914,2026-09-15T01:10:32Z,2026-09-15T01:10:36Z,finished,,390251,390251,0
+forecast,hero-uncheatable-joint-floor15-swap-20260914,hero-uncheatable-joint-floor15-swap-20260914,2026-09-15T01:10:42Z,2026-09-15T01:10:45Z,finished,,390251,390251,0
+forecast,hero-uncheatable-monotone-floor15-old-5d24c2,hero-uncheatable-monotone-floor15-old-5d24c2,2026-09-15T01:25:56Z,2026-09-15T01:25:59Z,finished,,390251,390251,0
+forecast,hero-uncheatable-monotone-floor15-swap-5d24c2,hero-uncheatable-monotone-floor15-swap-5d24c2,2026-09-15T01:26:00Z,2026-09-15T01:26:04Z,finished,,390251,390251,0
+forecast,hero-uncheatable-floor14-old-from30-75c36f,Uncheatable forecast · old mix · floor 1.4,2026-09-15T22:30:36Z,2026-09-15T22:30:40Z,finished,,,390251,0
+forecast,hero-uncheatable-floor14-new-from30-75c36f,Uncheatable forecast · new mix · floor 1.4,2026-09-15T22:30:44Z,2026-09-15T22:30:48Z,finished,,,390251,0
+forecast,hero-dropless-refit-old-20261003-phq0qbmf,Hero forecast · old mix · refitted floors · 15 points,2026-10-03T20:09:17Z,2026-10-03T20:09:22Z,finished,,,390251,15
+forecast,hero-dropless-refit-new-20261003-aa4pdwep,Hero forecast · new mix · refitted floors · 15 points,2026-10-03T20:09:23Z,2026-10-03T20:09:26Z,finished,,,390251,15
+backtest_67b,june_prep_moe_may_d512_ep2_no_long_rope_seq8192_sw2k,june_prep_moe_may_d512_ep2_no_long_rope_seq8192_sw2k,2026-06-17T05:45:20Z,2026-06-18T16:31:51Z,finished,,,90121,91
+backtest_67b,june_prep_moe_may_d768_ep2_no_long_rope_seq8192_sw2k,june_prep_moe_may_d768_ep2_no_long_rope_seq8192_sw2k,2026-06-17T05:57:34Z,2026-06-20T08:47:46Z,finished,,,262736,250
+backtest_67b,june_prep_moe_may_d1024_ep2_bs512_no_long_rope_seq8192_sw2k,june_prep_moe_may_d1024_ep2_bs512_no_long_rope_seq8192_sw2k,2026-06-17T21:05:14Z,2026-06-22T19:03:26Z,finished,,,161647,162
+backtest_67b,moe_67b_a2b_d2560_ep1_rep16_bs4096_seq8192_sw2k_v4_2048_muon_10T,moe_67b_a2b_d2560_ep1_rep16_bs4096_seq8192_sw2k_v4_2048_muon_10T,2026-06-27T15:20:20Z,2026-07-01T02:35:28Z,crashed,,,15288,5
+backtest_67b,moe_67b_a2b_d2560_ep1_rep8_bs8192_seq8192_sw2k_v4_2048_muon_resume15k_v2_10T,moe_67b_a2b_d2560_ep1_rep8_bs8192_seq8192_sw2k_v4_2048_muon_resume15k_v2_10T,2026-07-01T03:33:54Z,2026-08-15T21:19:15Z,crashed,,,141004,43

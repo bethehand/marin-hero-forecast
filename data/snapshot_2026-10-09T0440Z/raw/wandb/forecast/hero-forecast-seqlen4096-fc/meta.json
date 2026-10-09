@@ -1,0 +1,47 @@
+{
+ "name": "hero-forecast-seqlen4096-fc",
+ "displayName": "hero-forecast-seqlen4096",
+ "createdAt": "2026-09-01T01:11:02Z",
+ "heartbeatAt": "2026-09-01T01:11:03Z",
+ "state": "finished",
+ "config": {
+  "_wandb": {
+   "value": {
+    "cli_version": "0.26.0",
+    "m": [],
+    "python_version": "3.12.2",
+    "t": {
+     "12": "0.26.0",
+     "13": "darwin-arm64",
+     "3": [
+      2,
+      13,
+      14,
+      16,
+      61
+     ],
+     "4": "3.12.2",
+     "5": "0.26.0"
+    }
+   }
+  },
+  "note": {
+   "value": "per-percentile scaling-ladder forecast of d6144 hero dropless paloma macro loss"
+  },
+  "num_train_steps": {
+   "value": 390251
+  },
+  "seq_len": {
+   "value": 4096
+  }
+ },
+ "summaryMetrics": {
+  "_runtime": 0.111869917,
+  "_step": 390251,
+  "_timestamp": 1788225062.7601159,
+  "_wandb.runtime": 0,
+  "eval_dropless/paloma/macro_loss": 2.039,
+  "forecast/training_pct": 100,
+  "run_progress": 1
+ }
+}

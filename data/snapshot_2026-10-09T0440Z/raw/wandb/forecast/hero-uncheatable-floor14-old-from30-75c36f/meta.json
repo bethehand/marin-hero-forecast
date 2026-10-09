@@ -1,0 +1,63 @@
+{
+ "name": "hero-uncheatable-floor14-old-from30-75c36f",
+ "displayName": "Uncheatable forecast · old mix · floor 1.4",
+ "createdAt": "2026-09-15T22:30:36Z",
+ "heartbeatAt": "2026-09-15T22:30:40Z",
+ "state": "finished",
+ "config": {
+  "_wandb": {
+   "value": {
+    "cli_version": "0.29.0",
+    "m": [],
+    "python_version": "3.12.12",
+    "t": {
+     "12": "0.29.0",
+     "13": "darwin-arm64",
+     "3": [
+      2,
+      13,
+      14,
+      16,
+      61
+     ],
+     "4": "3.12.12",
+     "5": "0.29.0"
+    }
+   }
+  },
+  "floor": {
+   "value": 1.4
+  },
+  "forecast_only": {
+   "value": true
+  },
+  "fractions": {
+   "value": [
+    0.3,
+    0.5,
+    0.75,
+    1
+   ]
+  },
+  "hero_loss_used": {
+   "value": false
+  },
+  "method": {
+   "value": "independent H100 d512/d768/d1024 cross-size fits"
+  },
+  "mixture": {
+   "value": "old"
+  },
+  "source_run": {
+   "value": "uncheatable-traditional-from30-c06fa87c"
+  }
+ },
+ "summaryMetrics": {
+  "_runtime": 1.213177208,
+  "_step": 390251,
+  "_timestamp": 1789511437.209064,
+  "_wandb.runtime": 1,
+  "eval_dropless/uncheatable_eval/macro_loss": 1.5704670122344422,
+  "run_progress": 1
+ }
+}

@@ -1,0 +1,4542 @@
+{
+ "name": "moe_67b_a2b_d2560_ep1_rep16_bs4096_seq8192_sw2k_v4_2048_muon_10T",
+ "displayName": "moe_67b_a2b_d2560_ep1_rep16_bs4096_seq8192_sw2k_v4_2048_muon_10T",
+ "createdAt": "2026-06-27T15:20:20Z",
+ "heartbeatAt": "2026-07-01T02:35:28Z",
+ "state": "crashed",
+ "config": {
+  "_wandb": {
+   "value": {
+    "cli_version": "0.26.0",
+    "code_path": "source-marin_moe-_callable_runner.py",
+    "m": [],
+    "python_version": "3.11.14",
+    "t": {
+     "1": [
+      1,
+      11,
+      12,
+      41,
+      45,
+      49,
+      51
+     ],
+     "12": "0.26.0",
+     "13": "linux-x86_64",
+     "2": [
+      1,
+      11,
+      12,
+      41,
+      45,
+      49,
+      51
+     ],
+     "3": [
+      5,
+      13,
+      14,
+      15,
+      16,
+      61,
+      62
+     ],
+     "4": "3.11.14",
+     "5": "0.26.0",
+     "6": "4.57.5"
+    }
+   }
+  },
+  "data": {
+   "value": {
+    "auto_build_caches": false,
+    "block_cross_document_attention": true,
+    "cache_dir": null,
+    "cache_options": {
+     "batch_size": 128
+    },
+    "chat_template": null,
+    "components": {
+     "c01q0": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=1/quality=0",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c01q0"
+      ]
+     },
+     "c01q1": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=1/quality=1",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c01q1"
+      ]
+     },
+     "c01q2": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=1/quality=2",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c01q2"
+      ]
+     },
+     "c01q3": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=1/quality=3",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c01q3"
+      ]
+     },
+     "c01q4": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=1/quality=4",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c01q4"
+      ]
+     },
+     "c02q0": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=2/quality=0",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c02q0"
+      ]
+     },
+     "c02q1": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=2/quality=1",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c02q1"
+      ]
+     },
+     "c02q2": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=2/quality=2",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c02q2"
+      ]
+     },
+     "c02q3": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=2/quality=3",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c02q3"
+      ]
+     },
+     "c02q4": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=2/quality=4",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c02q4"
+      ]
+     },
+     "c03q0": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=3/quality=0",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c03q0"
+      ]
+     },
+     "c03q1": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=3/quality=1",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c03q1"
+      ]
+     },
+     "c03q2": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=3/quality=2",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c03q2"
+      ]
+     },
+     "c03q3": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=3/quality=3",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c03q3"
+      ]
+     },
+     "c03q4": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=3/quality=4",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c03q4"
+      ]
+     },
+     "c05q0": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=5/quality=0",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c05q0"
+      ]
+     },
+     "c05q1": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=5/quality=1",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c05q1"
+      ]
+     },
+     "c05q2": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=5/quality=2",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c05q2"
+      ]
+     },
+     "c05q3": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=5/quality=3",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c05q3"
+      ]
+     },
+     "c05q4": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=5/quality=4",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c05q4"
+      ]
+     },
+     "c06q0": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=6/quality=0",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c06q0"
+      ]
+     },
+     "c06q1": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=6/quality=1",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c06q1"
+      ]
+     },
+     "c06q2": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=6/quality=2",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c06q2"
+      ]
+     },
+     "c06q3": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=6/quality=3",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c06q3"
+      ]
+     },
+     "c06q4": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=6/quality=4",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c06q4"
+      ]
+     },
+     "c08q0": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=8/quality=0",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c08q0"
+      ]
+     },
+     "c08q1": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=8/quality=1",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c08q1"
+      ]
+     },
+     "c08q2": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=8/quality=2",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c08q2"
+      ]
+     },
+     "c08q3": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=8/quality=3",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c08q3"
+      ]
+     },
+     "c08q4": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=8/quality=4",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c08q4"
+      ]
+     },
+     "c10q0": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=10/quality=0",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c10q0"
+      ]
+     },
+     "c11q0": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=11/quality=0",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c11q0"
+      ]
+     },
+     "c11q1": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=11/quality=1",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c11q1"
+      ]
+     },
+     "c11q2": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=11/quality=2",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c11q2"
+      ]
+     },
+     "c11q3": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=11/quality=3",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c11q3"
+      ]
+     },
+     "c11q4": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=11/quality=4",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c11q4"
+      ]
+     },
+     "c12q0": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=12/quality=0",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c12q0"
+      ]
+     },
+     "c12q1": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=12/quality=1",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c12q1"
+      ]
+     },
+     "c12q2": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=12/quality=2",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c12q2"
+      ]
+     },
+     "c12q3": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=12/quality=3",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c12q3"
+      ]
+     },
+     "c12q4": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=12/quality=4",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c12q4"
+      ]
+     },
+     "c13q0": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=13/quality=0",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c13q0"
+      ]
+     },
+     "c13q1": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=13/quality=1",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c13q1"
+      ]
+     },
+     "c13q2": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=13/quality=2",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c13q2"
+      ]
+     },
+     "c13q3": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=13/quality=3",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c13q3"
+      ]
+     },
+     "c13q4": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=13/quality=4",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c13q4"
+      ]
+     },
+     "c14q0": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=14/quality=0",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c14q0"
+      ]
+     },
+     "c14q1": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=14/quality=1",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c14q1"
+      ]
+     },
+     "c14q2": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=14/quality=2",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c14q2"
+      ]
+     },
+     "c14q3": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=14/quality=3",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c14q3"
+      ]
+     },
+     "c14q4": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=14/quality=4",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c14q4"
+      ]
+     },
+     "c15q0": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=15/quality=0",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c15q0"
+      ]
+     },
+     "c15q1": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=15/quality=1",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c15q1"
+      ]
+     },
+     "c15q2": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=15/quality=2",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c15q2"
+      ]
+     },
+     "c15q3": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=15/quality=3",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c15q3"
+      ]
+     },
+     "c15q4": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=15/quality=4",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c15q4"
+      ]
+     },
+     "c16q0": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=16/quality=0",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c16q0"
+      ]
+     },
+     "c16q1": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=16/quality=1",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c16q1"
+      ]
+     },
+     "c16q2": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=16/quality=2",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c16q2"
+      ]
+     },
+     "c16q3": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=16/quality=3",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c16q3"
+      ]
+     },
+     "c16q4": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=16/quality=4",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c16q4"
+      ]
+     },
+     "c17q0": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=17/quality=0",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c17q0"
+      ]
+     },
+     "c17q1": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=17/quality=1",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c17q1"
+      ]
+     },
+     "c17q2": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=17/quality=2",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c17q2"
+      ]
+     },
+     "c17q3": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=17/quality=3",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c17q3"
+      ]
+     },
+     "c17q4": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=17/quality=4",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c17q4"
+      ]
+     },
+     "c18q0": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=18/quality=0",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c18q0"
+      ]
+     },
+     "c18q1": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=18/quality=1",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c18q1"
+      ]
+     },
+     "c18q2": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=18/quality=2",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c18q2"
+      ]
+     },
+     "c18q3": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=18/quality=3",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c18q3"
+      ]
+     },
+     "c18q4": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=18/quality=4",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c18q4"
+      ]
+     },
+     "c19q0": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=19/quality=0",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c19q0"
+      ]
+     },
+     "c19q1": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=19/quality=1",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c19q1"
+      ]
+     },
+     "c19q2": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=19/quality=2",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c19q2"
+      ]
+     },
+     "c19q3": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=19/quality=3",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c19q3"
+      ]
+     },
+     "c19q4": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=19/quality=4",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c19q4"
+      ]
+     },
+     "c20q0": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=20/quality=0",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c20q0"
+      ]
+     },
+     "c20q1": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=20/quality=1",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c20q1"
+      ]
+     },
+     "c20q2": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=20/quality=2",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c20q2"
+      ]
+     },
+     "c20q3": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=20/quality=3",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c20q3"
+      ]
+     },
+     "c20q4": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=20/quality=4",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c20q4"
+      ]
+     },
+     "c21q0": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=21/quality=0",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c21q0"
+      ]
+     },
+     "c21q1": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=21/quality=1",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c21q1"
+      ]
+     },
+     "c21q2": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=21/quality=2",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c21q2"
+      ]
+     },
+     "c21q3": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=21/quality=3",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c21q3"
+      ]
+     },
+     "c21q4": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=21/quality=4",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c21q4"
+      ]
+     },
+     "c22q0": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=22/quality=0",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c22q0"
+      ]
+     },
+     "c22q1": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=22/quality=1",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c22q1"
+      ]
+     },
+     "c22q2": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=22/quality=2",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c22q2"
+      ]
+     },
+     "c22q3": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=22/quality=3",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c22q3"
+      ]
+     },
+     "c22q4": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=22/quality=4",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c22q4"
+      ]
+     },
+     "c23q0": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=23/quality=0",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c23q0"
+      ]
+     },
+     "c23q1": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=23/quality=1",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c23q1"
+      ]
+     },
+     "c23q2": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=23/quality=2",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c23q2"
+      ]
+     },
+     "c23q3": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=23/quality=3",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c23q3"
+      ]
+     },
+     "c23q4": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=23/quality=4",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c23q4"
+      ]
+     },
+     "c24q0": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=24/quality=0",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c24q0"
+      ]
+     },
+     "c24q1": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=24/quality=1",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c24q1"
+      ]
+     },
+     "c24q2": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=24/quality=2",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c24q2"
+      ]
+     },
+     "c24q3": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=24/quality=3",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c24q3"
+      ]
+     },
+     "c24q4": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=24/quality=4",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c24q4"
+      ]
+     },
+     "c25q0": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=25/quality=0",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c25q0"
+      ]
+     },
+     "c25q1": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=25/quality=1",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c25q1"
+      ]
+     },
+     "c25q2": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=25/quality=2",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c25q2"
+      ]
+     },
+     "c25q3": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=25/quality=3",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c25q3"
+      ]
+     },
+     "c25q4": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=25/quality=4",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c25q4"
+      ]
+     },
+     "c26q0": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=26/quality=0",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c26q0"
+      ]
+     },
+     "c26q1": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=26/quality=1",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c26q1"
+      ]
+     },
+     "c26q2": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=26/quality=2",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c26q2"
+      ]
+     },
+     "c26q3": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=26/quality=3",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c26q3"
+      ]
+     },
+     "c26q4": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=26/quality=4",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c26q4"
+      ]
+     },
+     "c27q0": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=27/quality=0",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c27q0"
+      ]
+     },
+     "c27q1": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=27/quality=1",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c27q1"
+      ]
+     },
+     "c27q2": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=27/quality=2",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c27q2"
+      ]
+     },
+     "c27q3": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=27/quality=3",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c27q3"
+      ]
+     },
+     "c27q4": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=27/quality=4",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c27q4"
+      ]
+     },
+     "c28q0": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=28/quality=0",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c28q0"
+      ]
+     },
+     "c28q1": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=28/quality=1",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c28q1"
+      ]
+     },
+     "c28q2": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=28/quality=2",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c28q2"
+      ]
+     },
+     "c28q3": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=28/quality=3",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c28q3"
+      ]
+     },
+     "c28q4": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=28/quality=4",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c28q4"
+      ]
+     },
+     "c29q0": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=29/quality=0",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c29q0"
+      ]
+     },
+     "c29q1": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=29/quality=1",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c29q1"
+      ]
+     },
+     "c29q2": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=29/quality=2",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c29q2"
+      ]
+     },
+     "c29q3": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=29/quality=3",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c29q3"
+      ]
+     },
+     "c29q4": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=29/quality=4",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c29q4"
+      ]
+     },
+     "c30q0": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=30/quality=0",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c30q0"
+      ]
+     },
+     "c30q1": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=30/quality=1",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c30q1"
+      ]
+     },
+     "c30q2": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=30/quality=2",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c30q2"
+      ]
+     },
+     "c30q3": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=30/quality=3",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c30q3"
+      ]
+     },
+     "c30q4": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=30/quality=4",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c30q4"
+      ]
+     },
+     "c31q0": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=31/quality=0",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c31q0"
+      ]
+     },
+     "c31q1": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=31/quality=1",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c31q1"
+      ]
+     },
+     "c31q2": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=31/quality=2",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c31q2"
+      ]
+     },
+     "c31q3": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=31/quality=3",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c31q3"
+      ]
+     },
+     "c31q4": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=31/quality=4",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c31q4"
+      ]
+     },
+     "c32q0": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=32/quality=0",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c32q0"
+      ]
+     },
+     "c32q1": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=32/quality=1",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c32q1"
+      ]
+     },
+     "c32q2": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=32/quality=2",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c32q2"
+      ]
+     },
+     "c32q3": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=32/quality=3",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c32q3"
+      ]
+     },
+     "c32q4": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=32/quality=4",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c32q4"
+      ]
+     },
+     "c33q0": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=33/quality=0",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c33q0"
+      ]
+     },
+     "c33q1": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=33/quality=1",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c33q1"
+      ]
+     },
+     "c33q2": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=33/quality=2",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c33q2"
+      ]
+     },
+     "c33q3": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=33/quality=3",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c33q3"
+      ]
+     },
+     "c33q4": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=33/quality=4",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c33q4"
+      ]
+     },
+     "c34q0": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=34/quality=0",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c34q0"
+      ]
+     },
+     "c34q1": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=34/quality=1",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c34q1"
+      ]
+     },
+     "c34q2": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=34/quality=2",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c34q2"
+      ]
+     },
+     "c34q3": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=34/quality=3",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c34q3"
+      ]
+     },
+     "c34q4": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=34/quality=4",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c34q4"
+      ]
+     },
+     "c35q0": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=35/quality=0",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c35q0"
+      ]
+     },
+     "c35q1": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=35/quality=1",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c35q1"
+      ]
+     },
+     "c35q2": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=35/quality=2",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c35q2"
+      ]
+     },
+     "c35q3": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=35/quality=3",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c35q3"
+      ]
+     },
+     "c35q4": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=35/quality=4",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c35q4"
+      ]
+     },
+     "c36q0": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=36/quality=0",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c36q0"
+      ]
+     },
+     "c36q1": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=36/quality=1",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c36q1"
+      ]
+     },
+     "c36q2": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=36/quality=2",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c36q2"
+      ]
+     },
+     "c36q3": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=36/quality=3",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c36q3"
+      ]
+     },
+     "c36q4": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=36/quality=4",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c36q4"
+      ]
+     },
+     "c37q0": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=37/quality=0",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c37q0"
+      ]
+     },
+     "c37q1": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=37/quality=1",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c37q1"
+      ]
+     },
+     "c37q2": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=37/quality=2",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c37q2"
+      ]
+     },
+     "c37q3": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=37/quality=3",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c37q3"
+      ]
+     },
+     "c37q4": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=37/quality=4",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c37q4"
+      ]
+     },
+     "c38q0": {
+      "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=38/quality=0",
+      "flat_cache": true,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": null,
+      "split": "validation",
+      "tags": [
+       "c38q0"
+      ]
+     },
+     "paloma/4chan": {
+      "cache_dir": "gs://marin-us-central2/tokenized/paloma/4chan-9017f1",
+      "flat_cache": false,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": {
+       "cache_dir": "gs://marin-us-central2/tokenized/paloma/4chan-9017f1",
+       "format": {
+        "text_key": "text"
+       },
+       "tags": [],
+       "train_urls": [],
+       "validation_urls": [
+        "gs://marin-us-central2/raw/paloma-fc6827/65cd6fc/4chan_meta_sep/val/val*.jsonl.gz"
+       ]
+      },
+      "split": "validation",
+      "tags": []
+     },
+     "paloma/c4_100_domains": {
+      "cache_dir": "gs://marin-us-central2/tokenized/paloma/c4_100_domains-6e382b",
+      "flat_cache": false,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": {
+       "cache_dir": "gs://marin-us-central2/tokenized/paloma/c4_100_domains-6e382b",
+       "format": {
+        "text_key": "text"
+       },
+       "tags": [],
+       "train_urls": [],
+       "validation_urls": [
+        "gs://marin-us-central2/raw/paloma-fc6827/65cd6fc/c4_100_domains/val/val*.jsonl.gz"
+       ]
+      },
+      "split": "validation",
+      "tags": []
+     },
+     "paloma/c4_en": {
+      "cache_dir": "gs://marin-us-central2/tokenized/paloma/c4_en-c2eba6",
+      "flat_cache": false,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": {
+       "cache_dir": "gs://marin-us-central2/tokenized/paloma/c4_en-c2eba6",
+       "format": {
+        "text_key": "text"
+       },
+       "tags": [],
+       "train_urls": [],
+       "validation_urls": [
+        "gs://marin-us-central2/raw/paloma-fc6827/65cd6fc/c4_en/val/val*.jsonl.gz"
+       ]
+      },
+      "split": "validation",
+      "tags": []
+     },
+     "paloma/dolma-v1_5": {
+      "cache_dir": "gs://marin-us-central2/tokenized/paloma/dolma-v1_5-124514",
+      "flat_cache": false,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": {
+       "cache_dir": "gs://marin-us-central2/tokenized/paloma/dolma-v1_5-124514",
+       "format": {
+        "text_key": "text"
+       },
+       "tags": [],
+       "train_urls": [],
+       "validation_urls": [
+        "gs://marin-us-central2/raw/paloma-fc6827/65cd6fc/dolma-v1_5/val/val*.jsonl.gz"
+       ]
+      },
+      "split": "validation",
+      "tags": []
+     },
+     "paloma/dolma_100_programing_languages": {
+      "cache_dir": "gs://marin-us-central2/tokenized/paloma/dolma_100_programing_languages-ec92d1",
+      "flat_cache": false,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": {
+       "cache_dir": "gs://marin-us-central2/tokenized/paloma/dolma_100_programing_languages-ec92d1",
+       "format": {
+        "text_key": "text"
+       },
+       "tags": [],
+       "train_urls": [],
+       "validation_urls": [
+        "gs://marin-us-central2/raw/paloma-fc6827/65cd6fc/dolma_100_programing_languages/val/val*.jsonl.gz"
+       ]
+      },
+      "split": "validation",
+      "tags": []
+     },
+     "paloma/dolma_100_subreddits": {
+      "cache_dir": "gs://marin-us-central2/tokenized/paloma/dolma_100_subreddits-a2cfe9",
+      "flat_cache": false,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": {
+       "cache_dir": "gs://marin-us-central2/tokenized/paloma/dolma_100_subreddits-a2cfe9",
+       "format": {
+        "text_key": "text"
+       },
+       "tags": [],
+       "train_urls": [],
+       "validation_urls": [
+        "gs://marin-us-central2/raw/paloma-fc6827/65cd6fc/dolma_100_subreddits/val/val*.jsonl.gz"
+       ]
+      },
+      "split": "validation",
+      "tags": []
+     },
+     "paloma/falcon-refinedweb": {
+      "cache_dir": "gs://marin-us-central2/tokenized/paloma/falcon-refinedweb-7d6450",
+      "flat_cache": false,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": {
+       "cache_dir": "gs://marin-us-central2/tokenized/paloma/falcon-refinedweb-7d6450",
+       "format": {
+        "text_key": "text"
+       },
+       "tags": [],
+       "train_urls": [],
+       "validation_urls": [
+        "gs://marin-us-central2/raw/paloma-fc6827/65cd6fc/falcon-refinedweb/val/val*.jsonl.gz"
+       ]
+      },
+      "split": "validation",
+      "tags": []
+     },
+     "paloma/gab": {
+      "cache_dir": "gs://marin-us-central2/tokenized/paloma/gab-3ddd92",
+      "flat_cache": false,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": {
+       "cache_dir": "gs://marin-us-central2/tokenized/paloma/gab-3ddd92",
+       "format": {
+        "text_key": "text"
+       },
+       "tags": [],
+       "train_urls": [],
+       "validation_urls": [
+        "gs://marin-us-central2/raw/paloma-fc6827/65cd6fc/gab/val/val*.jsonl.gz"
+       ]
+      },
+      "split": "validation",
+      "tags": []
+     },
+     "paloma/m2d2_s2orc_unsplit": {
+      "cache_dir": "gs://marin-us-central2/tokenized/paloma/m2d2_s2orc_unsplit-d210f8",
+      "flat_cache": false,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": {
+       "cache_dir": "gs://marin-us-central2/tokenized/paloma/m2d2_s2orc_unsplit-d210f8",
+       "format": {
+        "text_key": "text"
+       },
+       "tags": [],
+       "train_urls": [],
+       "validation_urls": [
+        "gs://marin-us-central2/raw/paloma-fc6827/65cd6fc/m2d2_s2orc_unsplit/val/val*.jsonl.gz"
+       ]
+      },
+      "split": "validation",
+      "tags": []
+     },
+     "paloma/m2d2_wikipedia_unsplit": {
+      "cache_dir": "gs://marin-us-central2/tokenized/paloma/m2d2_wikipedia_unsplit-894276",
+      "flat_cache": false,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": {
+       "cache_dir": "gs://marin-us-central2/tokenized/paloma/m2d2_wikipedia_unsplit-894276",
+       "format": {
+        "text_key": "text"
+       },
+       "tags": [],
+       "train_urls": [],
+       "validation_urls": [
+        "gs://marin-us-central2/raw/paloma-fc6827/65cd6fc/m2d2_wikipedia_unsplit/val/val*.jsonl.gz"
+       ]
+      },
+      "split": "validation",
+      "tags": []
+     },
+     "paloma/manosphere_meta_sep": {
+      "cache_dir": "gs://marin-us-central2/tokenized/paloma/manosphere_meta_sep-1dbbe4",
+      "flat_cache": false,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": {
+       "cache_dir": "gs://marin-us-central2/tokenized/paloma/manosphere_meta_sep-1dbbe4",
+       "format": {
+        "text_key": "text"
+       },
+       "tags": [],
+       "train_urls": [],
+       "validation_urls": [
+        "gs://marin-us-central2/raw/paloma-fc6827/65cd6fc/manosphere_meta_sep/val/val*.jsonl.gz"
+       ]
+      },
+      "split": "validation",
+      "tags": []
+     },
+     "paloma/mc4": {
+      "cache_dir": "gs://marin-us-central2/tokenized/paloma/mc4-3e534c",
+      "flat_cache": false,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": {
+       "cache_dir": "gs://marin-us-central2/tokenized/paloma/mc4-3e534c",
+       "format": {
+        "text_key": "text"
+       },
+       "tags": [],
+       "train_urls": [],
+       "validation_urls": [
+        "gs://marin-us-central2/raw/paloma-fc6827/65cd6fc/mc4/val/val*.jsonl.gz"
+       ]
+      },
+      "split": "validation",
+      "tags": []
+     },
+     "paloma/ptb": {
+      "cache_dir": "gs://marin-us-central2/tokenized/paloma/ptb-08deb4",
+      "flat_cache": false,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": {
+       "cache_dir": "gs://marin-us-central2/tokenized/paloma/ptb-08deb4",
+       "format": {
+        "text_key": "text"
+       },
+       "tags": [],
+       "train_urls": [],
+       "validation_urls": [
+        "gs://marin-us-central2/raw/paloma-fc6827/65cd6fc/ptb/val/val*.jsonl.gz"
+       ]
+      },
+      "split": "validation",
+      "tags": []
+     },
+     "paloma/redpajama": {
+      "cache_dir": "gs://marin-us-central2/tokenized/paloma/redpajama-8fdb06",
+      "flat_cache": false,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": {
+       "cache_dir": "gs://marin-us-central2/tokenized/paloma/redpajama-8fdb06",
+       "format": {
+        "text_key": "text"
+       },
+       "tags": [],
+       "train_urls": [],
+       "validation_urls": [
+        "gs://marin-us-central2/raw/paloma-fc6827/65cd6fc/redpajama/val/val*.jsonl.gz"
+       ]
+      },
+      "split": "validation",
+      "tags": []
+     },
+     "paloma/twitterAAE_HELM_fixed": {
+      "cache_dir": "gs://marin-us-central2/tokenized/paloma/twitterAAE_HELM_fixed-8cb5df",
+      "flat_cache": false,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": {
+       "cache_dir": "gs://marin-us-central2/tokenized/paloma/twitterAAE_HELM_fixed-8cb5df",
+       "format": {
+        "text_key": "text"
+       },
+       "tags": [],
+       "train_urls": [],
+       "validation_urls": [
+        "gs://marin-us-central2/raw/paloma-fc6827/65cd6fc/twitterAAE_HELM_fixed/val/val*.jsonl.gz"
+       ]
+      },
+      "split": "validation",
+      "tags": []
+     },
+     "paloma/wikitext_103": {
+      "cache_dir": "gs://marin-us-central2/tokenized/paloma/wikitext_103-3bfdbd",
+      "flat_cache": false,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": {
+       "cache_dir": "gs://marin-us-central2/tokenized/paloma/wikitext_103-3bfdbd",
+       "format": {
+        "text_key": "text"
+       },
+       "tags": [],
+       "train_urls": [],
+       "validation_urls": [
+        "gs://marin-us-central2/raw/paloma-fc6827/65cd6fc/wikitext_103/val/val*.jsonl.gz"
+       ]
+      },
+      "split": "validation",
+      "tags": []
+     },
+     "tail": {
+      "children": {
+       "c00q0": {
+        "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=0/quality=0",
+        "flat_cache": true,
+        "format": {
+         "text_key": "text"
+        },
+        "pack": null,
+        "source": null,
+        "split": "validation",
+        "tags": [
+         "c00q0"
+        ]
+       },
+       "c00q1": {
+        "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=0/quality=1",
+        "flat_cache": true,
+        "format": {
+         "text_key": "text"
+        },
+        "pack": null,
+        "source": null,
+        "split": "validation",
+        "tags": [
+         "c00q1"
+        ]
+       },
+       "c00q2": {
+        "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=0/quality=2",
+        "flat_cache": true,
+        "format": {
+         "text_key": "text"
+        },
+        "pack": null,
+        "source": null,
+        "split": "validation",
+        "tags": [
+         "c00q2"
+        ]
+       },
+       "c00q3": {
+        "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=0/quality=3",
+        "flat_cache": true,
+        "format": {
+         "text_key": "text"
+        },
+        "pack": null,
+        "source": null,
+        "split": "validation",
+        "tags": [
+         "c00q3"
+        ]
+       },
+       "c00q4": {
+        "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=0/quality=4",
+        "flat_cache": true,
+        "format": {
+         "text_key": "text"
+        },
+        "pack": null,
+        "source": null,
+        "split": "validation",
+        "tags": [
+         "c00q4"
+        ]
+       },
+       "c04q0": {
+        "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=4/quality=0",
+        "flat_cache": true,
+        "format": {
+         "text_key": "text"
+        },
+        "pack": null,
+        "source": null,
+        "split": "validation",
+        "tags": [
+         "c04q0"
+        ]
+       },
+       "c04q1": {
+        "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=4/quality=1",
+        "flat_cache": true,
+        "format": {
+         "text_key": "text"
+        },
+        "pack": null,
+        "source": null,
+        "split": "validation",
+        "tags": [
+         "c04q1"
+        ]
+       },
+       "c04q2": {
+        "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=4/quality=2",
+        "flat_cache": true,
+        "format": {
+         "text_key": "text"
+        },
+        "pack": null,
+        "source": null,
+        "split": "validation",
+        "tags": [
+         "c04q2"
+        ]
+       },
+       "c04q3": {
+        "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=4/quality=3",
+        "flat_cache": true,
+        "format": {
+         "text_key": "text"
+        },
+        "pack": null,
+        "source": null,
+        "split": "validation",
+        "tags": [
+         "c04q3"
+        ]
+       },
+       "c04q4": {
+        "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=4/quality=4",
+        "flat_cache": true,
+        "format": {
+         "text_key": "text"
+        },
+        "pack": null,
+        "source": null,
+        "split": "validation",
+        "tags": [
+         "c04q4"
+        ]
+       },
+       "c07q0": {
+        "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=7/quality=0",
+        "flat_cache": true,
+        "format": {
+         "text_key": "text"
+        },
+        "pack": null,
+        "source": null,
+        "split": "validation",
+        "tags": [
+         "c07q0"
+        ]
+       },
+       "c07q1": {
+        "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=7/quality=1",
+        "flat_cache": true,
+        "format": {
+         "text_key": "text"
+        },
+        "pack": null,
+        "source": null,
+        "split": "validation",
+        "tags": [
+         "c07q1"
+        ]
+       },
+       "c07q2": {
+        "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=7/quality=2",
+        "flat_cache": true,
+        "format": {
+         "text_key": "text"
+        },
+        "pack": null,
+        "source": null,
+        "split": "validation",
+        "tags": [
+         "c07q2"
+        ]
+       },
+       "c07q3": {
+        "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=7/quality=3",
+        "flat_cache": true,
+        "format": {
+         "text_key": "text"
+        },
+        "pack": null,
+        "source": null,
+        "split": "validation",
+        "tags": [
+         "c07q3"
+        ]
+       },
+       "c07q4": {
+        "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=7/quality=4",
+        "flat_cache": true,
+        "format": {
+         "text_key": "text"
+        },
+        "pack": null,
+        "source": null,
+        "split": "validation",
+        "tags": [
+         "c07q4"
+        ]
+       },
+       "c09q0": {
+        "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=9/quality=0",
+        "flat_cache": true,
+        "format": {
+         "text_key": "text"
+        },
+        "pack": null,
+        "source": null,
+        "split": "validation",
+        "tags": [
+         "c09q0"
+        ]
+       },
+       "c09q1": {
+        "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=9/quality=1",
+        "flat_cache": true,
+        "format": {
+         "text_key": "text"
+        },
+        "pack": null,
+        "source": null,
+        "split": "validation",
+        "tags": [
+         "c09q1"
+        ]
+       },
+       "c09q2": {
+        "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=9/quality=2",
+        "flat_cache": true,
+        "format": {
+         "text_key": "text"
+        },
+        "pack": null,
+        "source": null,
+        "split": "validation",
+        "tags": [
+         "c09q2"
+        ]
+       },
+       "c09q3": {
+        "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=9/quality=3",
+        "flat_cache": true,
+        "format": {
+         "text_key": "text"
+        },
+        "pack": null,
+        "source": null,
+        "split": "validation",
+        "tags": [
+         "c09q3"
+        ]
+       },
+       "c09q4": {
+        "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=9/quality=4",
+        "flat_cache": true,
+        "format": {
+         "text_key": "text"
+        },
+        "pack": null,
+        "source": null,
+        "split": "validation",
+        "tags": [
+         "c09q4"
+        ]
+       },
+       "c10q1": {
+        "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=10/quality=1",
+        "flat_cache": true,
+        "format": {
+         "text_key": "text"
+        },
+        "pack": null,
+        "source": null,
+        "split": "validation",
+        "tags": [
+         "c10q1"
+        ]
+       },
+       "c10q2": {
+        "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=10/quality=2",
+        "flat_cache": true,
+        "format": {
+         "text_key": "text"
+        },
+        "pack": null,
+        "source": null,
+        "split": "validation",
+        "tags": [
+         "c10q2"
+        ]
+       },
+       "c10q3": {
+        "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=10/quality=3",
+        "flat_cache": true,
+        "format": {
+         "text_key": "text"
+        },
+        "pack": null,
+        "source": null,
+        "split": "validation",
+        "tags": [
+         "c10q3"
+        ]
+       },
+       "c10q4": {
+        "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=10/quality=4",
+        "flat_cache": true,
+        "format": {
+         "text_key": "text"
+        },
+        "pack": null,
+        "source": null,
+        "split": "validation",
+        "tags": [
+         "c10q4"
+        ]
+       },
+       "c38q1": {
+        "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=38/quality=1",
+        "flat_cache": true,
+        "format": {
+         "text_key": "text"
+        },
+        "pack": null,
+        "source": null,
+        "split": "validation",
+        "tags": [
+         "c38q1"
+        ]
+       },
+       "c38q2": {
+        "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=38/quality=2",
+        "flat_cache": true,
+        "format": {
+         "text_key": "text"
+        },
+        "pack": null,
+        "source": null,
+        "split": "validation",
+        "tags": [
+         "c38q2"
+        ]
+       },
+       "c38q3": {
+        "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=38/quality=3",
+        "flat_cache": true,
+        "format": {
+         "text_key": "text"
+        },
+        "pack": null,
+        "source": null,
+        "split": "validation",
+        "tags": [
+         "c38q3"
+        ]
+       },
+       "c38q4": {
+        "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=38/quality=4",
+        "flat_cache": true,
+        "format": {
+         "text_key": "text"
+        },
+        "pack": null,
+        "source": null,
+        "split": "validation",
+        "tags": [
+         "c38q4"
+        ]
+       },
+       "c39q0": {
+        "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=39/quality=0",
+        "flat_cache": true,
+        "format": {
+         "text_key": "text"
+        },
+        "pack": null,
+        "source": null,
+        "split": "validation",
+        "tags": [
+         "c39q0"
+        ]
+       },
+       "c39q1": {
+        "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=39/quality=1",
+        "flat_cache": true,
+        "format": {
+         "text_key": "text"
+        },
+        "pack": null,
+        "source": null,
+        "split": "validation",
+        "tags": [
+         "c39q1"
+        ]
+       },
+       "c39q2": {
+        "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=39/quality=2",
+        "flat_cache": true,
+        "format": {
+         "text_key": "text"
+        },
+        "pack": null,
+        "source": null,
+        "split": "validation",
+        "tags": [
+         "c39q2"
+        ]
+       },
+       "c39q3": {
+        "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=39/quality=3",
+        "flat_cache": true,
+        "format": {
+         "text_key": "text"
+        },
+        "pack": null,
+        "source": null,
+        "split": "validation",
+        "tags": [
+         "c39q3"
+        ]
+       },
+       "c39q4": {
+        "cache_dir": "gs://marin-us-central2/datakit/store_8ac06c74/cluster=39/quality=4",
+        "flat_cache": true,
+        "format": {
+         "text_key": "text"
+        },
+        "pack": null,
+        "source": null,
+        "split": "validation",
+        "tags": [
+         "c39q4"
+        ]
+       }
+      },
+      "tags": [
+       "tail"
+      ]
+     },
+     "uncheatable_eval/ao3_english": {
+      "cache_dir": "gs://marin-us-central2/tokenized/uncheatable_eval/ao3_english-5d7063",
+      "flat_cache": false,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": {
+       "cache_dir": "gs://marin-us-central2/tokenized/uncheatable_eval/ao3_english-5d7063",
+       "format": {
+        "text_key": "text"
+       },
+       "tags": [],
+       "train_urls": [],
+       "validation_urls": [
+        "gs://marin-us-central2/raw/uncheatable-eval/latest_43d8c7f4/ao3_english_*.jsonl.gz"
+       ]
+      },
+      "split": "validation",
+      "tags": []
+     },
+     "uncheatable_eval/arxiv_computer_science": {
+      "cache_dir": "gs://marin-us-central2/tokenized/uncheatable_eval/arxiv_computer_science-4b1064",
+      "flat_cache": false,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": {
+       "cache_dir": "gs://marin-us-central2/tokenized/uncheatable_eval/arxiv_computer_science-4b1064",
+       "format": {
+        "text_key": "text"
+       },
+       "tags": [],
+       "train_urls": [],
+       "validation_urls": [
+        "gs://marin-us-central2/raw/uncheatable-eval/latest_43d8c7f4/arxiv_computer_science_*.jsonl.gz"
+       ]
+      },
+      "split": "validation",
+      "tags": []
+     },
+     "uncheatable_eval/arxiv_physics": {
+      "cache_dir": "gs://marin-us-central2/tokenized/uncheatable_eval/arxiv_physics-fbe2be",
+      "flat_cache": false,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": {
+       "cache_dir": "gs://marin-us-central2/tokenized/uncheatable_eval/arxiv_physics-fbe2be",
+       "format": {
+        "text_key": "text"
+       },
+       "tags": [],
+       "train_urls": [],
+       "validation_urls": [
+        "gs://marin-us-central2/raw/uncheatable-eval/latest_43d8c7f4/arxiv_physics_*.jsonl.gz"
+       ]
+      },
+      "split": "validation",
+      "tags": []
+     },
+     "uncheatable_eval/bbc_news": {
+      "cache_dir": "gs://marin-us-central2/tokenized/uncheatable_eval/bbc_news-e50005",
+      "flat_cache": false,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": {
+       "cache_dir": "gs://marin-us-central2/tokenized/uncheatable_eval/bbc_news-e50005",
+       "format": {
+        "text_key": "text"
+       },
+       "tags": [],
+       "train_urls": [],
+       "validation_urls": [
+        "gs://marin-us-central2/raw/uncheatable-eval/latest_43d8c7f4/bbc_news_*.jsonl.gz"
+       ]
+      },
+      "split": "validation",
+      "tags": []
+     },
+     "uncheatable_eval/github_cpp": {
+      "cache_dir": "gs://marin-us-central2/tokenized/uncheatable_eval/github_cpp-f72aee",
+      "flat_cache": false,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": {
+       "cache_dir": "gs://marin-us-central2/tokenized/uncheatable_eval/github_cpp-f72aee",
+       "format": {
+        "text_key": "text"
+       },
+       "tags": [],
+       "train_urls": [],
+       "validation_urls": [
+        "gs://marin-us-central2/raw/uncheatable-eval/latest_43d8c7f4/github_cpp_*.jsonl.gz"
+       ]
+      },
+      "split": "validation",
+      "tags": []
+     },
+     "uncheatable_eval/github_python": {
+      "cache_dir": "gs://marin-us-central2/tokenized/uncheatable_eval/github_python-c49fc3",
+      "flat_cache": false,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": {
+       "cache_dir": "gs://marin-us-central2/tokenized/uncheatable_eval/github_python-c49fc3",
+       "format": {
+        "text_key": "text"
+       },
+       "tags": [],
+       "train_urls": [],
+       "validation_urls": [
+        "gs://marin-us-central2/raw/uncheatable-eval/latest_43d8c7f4/github_python_*.jsonl.gz"
+       ]
+      },
+      "split": "validation",
+      "tags": []
+     },
+     "uncheatable_eval/wikipedia_english": {
+      "cache_dir": "gs://marin-us-central2/tokenized/uncheatable_eval/wikipedia_english-f4981c",
+      "flat_cache": false,
+      "format": {
+       "text_key": "text"
+      },
+      "pack": null,
+      "source": {
+       "cache_dir": "gs://marin-us-central2/tokenized/uncheatable_eval/wikipedia_english-f4981c",
+       "format": {
+        "text_key": "text"
+       },
+       "tags": [],
+       "train_urls": [],
+       "validation_urls": [
+        "gs://marin-us-central2/raw/uncheatable-eval/latest_43d8c7f4/wikipedia_english_*.jsonl.gz"
+       ]
+      },
+      "split": "validation",
+      "tags": []
+     }
+    },
+    "enforce_eos": true,
+    "experiment_budget": null,
+    "max_train_batches": null,
+    "mixture_block_size": 49152,
+    "num_validation_sequences": null,
+    "permutation_type": "feistel",
+    "shuffle": {
+     "io_block_size": 256,
+     "perm_type": "feistel",
+     "window_blocks": 512
+    },
+    "shuffle_before_trainval_split": true,
+    "stop_strategy": "restart",
+    "target_budget": null,
+    "tokenizer": "marin-community/marin-tokenizer",
+    "train_weights": [
+     [
+      0,
+      {
+       "tail": 6.999958000251996e-05,
+       "c01q0": 0.022956862258826444,
+       "c01q1": 0.018952886282682303,
+       "c01q2": 0.0693085841484951,
+       "c01q3": 0.10678235930584416,
+       "c01q4": 0.12466825199048805,
+       "c02q0": 0.005078969526182842,
+       "c02q1": 0.0037869772781363303,
+       "c02q2": 0.005352967882192706,
+       "c02q3": 0.01550090699455803,
+       "c02q4": 0.021760869434783385,
+       "c03q0": 0.0010459937240376556,
+       "c03q1": 0.003038981766109403,
+       "c03q2": 0.0036989778061331624,
+       "c03q3": 0.0012829923020461877,
+       "c03q4": 0.0015609906340561955,
+       "c05q0": 0.011292932242406545,
+       "c05q1": 0.021914868510788933,
+       "c05q2": 0.035837784973290154,
+       "c05q3": 0.009496943018341888,
+       "c05q4": 0.004877970732175606,
+       "c06q0": 0.008111951328292028,
+       "c06q1": 0.009700941794349232,
+       "c06q2": 0.017896892618644286,
+       "c06q3": 0.0012959922240466555,
+       "c06q4": 0.0018859886840678951,
+       "c08q0": 0.004233974596152422,
+       "c08q1": 0.0008089951460291238,
+       "c08q2": 0.0012559924640452155,
+       "c08q3": 0.00046899718601688383,
+       "c08q4": 0.00037399775601346384,
+       "c10q0": 8.599948400309597e-05,
+       "c11q0": 0.005797965212208726,
+       "c11q1": 0.003332980002119986,
+       "c11q2": 0.0025419847480915112,
+       "c11q3": 0.0007789953260280436,
+       "c11q4": 0.00019899880600716393,
+       "c12q0": 0.0003109981340111959,
+       "c12q1": 0.0002589984460093239,
+       "c12q2": 0.00015099909400543597,
+       "c12q3": 0.00029599822401065584,
+       "c12q4": 0.00024699851800889187,
+       "c13q0": 0.0002269986380081719,
+       "c13q1": 0.0003639978160131039,
+       "c13q2": 0.00011599930400417596,
+       "c13q3": 0.0004719971680169918,
+       "c13q4": 6.299962200226798e-05,
+       "c14q0": 0.0006329962020227877,
+       "c14q1": 0.0004389973660158038,
+       "c14q2": 0.0009759941440351356,
+       "c14q3": 0.0005849964900210598,
+       "c14q4": 0.00044299734201594783,
+       "c15q0": 0.002383985696085823,
+       "c15q1": 0.003225980644116135,
+       "c15q2": 0.002357985852084887,
+       "c15q3": 0.002818983086101483,
+       "c15q4": 0.0004859970840174958,
+       "c16q0": 0.004550972694163834,
+       "c16q1": 0.0066219602682383895,
+       "c16q2": 0.004253974476153143,
+       "c16q3": 0.005394967630194218,
+       "c16q4": 0.0010359937840372956,
+       "c17q0": 0.0014529912820523076,
+       "c17q1": 0.003892976642140147,
+       "c17q2": 0.0035389787661274028,
+       "c17q3": 0.002153987076077543,
+       "c17q4": 0.0018099891400651593,
+       "c18q0": 0.002813983116101303,
+       "c18q1": 0.004575972544164734,
+       "c18q2": 0.003186980878114731,
+       "c18q3": 0.005100969394183634,
+       "c18q4": 0.0014689911860528834,
+       "c19q0": 0.004085975484147094,
+       "c19q1": 0.0038049771701369785,
+       "c19q2": 0.002326986038083771,
+       "c19q3": 0.002110987334075995,
+       "c19q4": 0.0005209968740187557,
+       "c20q0": 0.0009919940480357116,
+       "c20q1": 0.0012979922120467274,
+       "c20q2": 0.001600990394057635,
+       "c20q3": 0.0014759911440531356,
+       "c20q4": 0.00037399775601346384,
+       "c21q0": 0.002195986824079055,
+       "c21q1": 0.0023769857380855713,
+       "c21q2": 0.0010959934240394556,
+       "c21q3": 0.0009759941440351356,
+       "c21q4": 0.0016859898840606952,
+       "c22q0": 0.002233986596080423,
+       "c22q1": 0.00344697931812409,
+       "c22q2": 0.0035869784781291307,
+       "c22q3": 0.002542984742091547,
+       "c22q4": 0.0013639918160491037,
+       "c23q0": 0.007765953404279573,
+       "c23q1": 0.003634978190130858,
+       "c23q2": 0.0025819845080929512,
+       "c23q3": 0.004335973984156094,
+       "c23q4": 0.0018789887260676431,
+       "c24q0": 0.0045569726581640504,
+       "c24q1": 0.004782971302172186,
+       "c24q2": 0.0016819899080605513,
+       "c24q3": 0.0027179836920978467,
+       "c24q4": 0.0005779965320208077,
+       "c25q0": 0.005997964012215926,
+       "c25q1": 0.005658966046203722,
+       "c25q2": 0.003610978334129995,
+       "c25q3": 0.0034489793061241625,
+       "c25q4": 0.0006139963160221037,
+       "c26q0": 0.004178974926150443,
+       "c26q1": 0.0052439685361887825,
+       "c26q2": 0.004385973684157894,
+       "c26q3": 0.002378985726085643,
+       "c26q4": 0.0008199950800295197,
+       "c27q0": 0.005147969112185326,
+       "c27q1": 0.0018029891820649073,
+       "c27q2": 0.0037059777641334146,
+       "c27q3": 0.0008809947140317156,
+       "c27q4": 0.0006839958960246238,
+       "c28q0": 0.006397961612230325,
+       "c28q1": 0.02052087687473875,
+       "c28q2": 0.005378967726193642,
+       "c28q3": 0.007224956650260097,
+       "c28q4": 0.0014259914440513351,
+       "c29q0": 0.004777971332172007,
+       "c29q1": 0.003143981136113183,
+       "c29q2": 0.002374985750085499,
+       "c29q3": 0.0018429889420663473,
+       "c29q4": 0.0009709941740349556,
+       "c30q0": 0.007902952582284505,
+       "c30q1": 0.008204950770295377,
+       "c30q2": 0.013894916630500216,
+       "c30q3": 0.0048249710501736985,
+       "c30q4": 0.0013229920620476275,
+       "c31q0": 0.00781895308628148,
+       "c31q1": 0.002744983530098819,
+       "c31q2": 0.0013239920560476637,
+       "c31q3": 0.002474985150089099,
+       "c31q4": 0.00045599726401641586,
+       "c32q0": 0.004859970840174958,
+       "c32q1": 0.001978988126071243,
+       "c32q2": 0.0010129939220364676,
+       "c32q3": 0.0011089933460399237,
+       "c32q4": 0.00010599936400381597,
+       "c33q0": 0.002960982234106595,
+       "c33q1": 0.004152975082149506,
+       "c33q2": 0.006075963544218734,
+       "c33q3": 0.004800971194172833,
+       "c33q4": 0.00031599810401137585,
+       "c34q0": 0.0005139969160185039,
+       "c34q1": 0.0009409943540338756,
+       "c34q2": 0.008669947980312117,
+       "c34q3": 0.0036849778901326584,
+       "c34q4": 0.0008339949960300237,
+       "c35q0": 0.004317974092155446,
+       "c35q1": 0.007960952234286592,
+       "c35q2": 0.004450973294160235,
+       "c35q3": 0.002710983734097595,
+       "c35q4": 0.003108981346111923,
+       "c36q0": 0.002888982666104003,
+       "c36q1": 0.0026729839620962268,
+       "c36q2": 0.0027179836920978467,
+       "c36q3": 0.004709971740169558,
+       "c36q4": 0.009674941950348296,
+       "c37q0": 0.002775983344099935,
+       "c37q1": 0.0038209770741375543,
+       "c37q2": 0.01237892572644564,
+       "c37q3": 0.03662578024531852,
+       "c37q4": 0.01319392083647498,
+       "c38q0": 2.199986800079199e-05,
+       "paloma/gab": 0,
+       "paloma/mc4": 0,
+       "paloma/ptb": 0,
+       "paloma/4chan": 0,
+       "paloma/c4_en": 0,
+       "paloma/redpajama": 0,
+       "paloma/dolma-v1_5": 0,
+       "paloma/wikitext_103": 0,
+       "paloma/c4_100_domains": 0,
+       "paloma/falcon-refinedweb": 0,
+       "paloma/m2d2_s2orc_unsplit": 0,
+       "uncheatable_eval/bbc_news": 0,
+       "paloma/manosphere_meta_sep": 0,
+       "paloma/dolma_100_subreddits": 0,
+       "uncheatable_eval/github_cpp": 0,
+       "paloma/twitterAAE_HELM_fixed": 0,
+       "uncheatable_eval/ao3_english": 0,
+       "paloma/m2d2_wikipedia_unsplit": 0,
+       "uncheatable_eval/arxiv_physics": 0,
+       "uncheatable_eval/github_python": 0,
+       "uncheatable_eval/wikipedia_english": 0,
+       "paloma/dolma_100_programing_languages": 0,
+       "uncheatable_eval/arxiv_computer_science": 0
+      }
+     ],
+     [
+      240000,
+      {
+       "tail": 2.9999850000750004e-05,
+       "c01q0": 0.03193684031579843,
+       "c01q1": 0.04184579077104615,
+       "c01q2": 0.053563732181339106,
+       "c01q3": 0.09375553122234392,
+       "c01q4": 0.1038034809825951,
+       "c02q0": 0.013404932975335128,
+       "c02q1": 0.00622996885015575,
+       "c02q2": 0.0038419807900960503,
+       "c02q3": 0.013841930790346051,
+       "c02q4": 0.00870595647021765,
+       "c03q0": 0.008814955925220375,
+       "c03q1": 0.001348993255033725,
+       "c03q2": 0.0036789816050919752,
+       "c03q3": 0.00629796851015745,
+       "c03q4": 0.0027979860100699502,
+       "c05q0": 0.012138939305303477,
+       "c05q1": 0.023055884720576403,
+       "c05q2": 0.017235913820430902,
+       "c05q3": 0.0107039464802676,
+       "c05q4": 0.0099039504802476,
+       "c06q0": 0.01089394553027235,
+       "c06q1": 0.017408912955435226,
+       "c06q2": 0.005936970315148425,
+       "c06q3": 0.0019049904750476252,
+       "c06q4": 0.000708996455017725,
+       "c08q0": 0.0037039814800926,
+       "c08q1": 0.0008489957550212251,
+       "c08q2": 0.00156999215003925,
+       "c08q3": 0.000628996855015725,
+       "c08q4": 0.00027899860500697505,
+       "c10q0": 9.99995000025e-05,
+       "c11q0": 0.002362988185059075,
+       "c11q1": 0.0017999910000450002,
+       "c11q2": 0.0022969885150574253,
+       "c11q3": 0.001258993705031475,
+       "c11q4": 0.0006719966400168,
+       "c12q0": 0.000544997275013625,
+       "c12q1": 0.00041899790501047504,
+       "c12q2": 0.0007909960450197751,
+       "c12q3": 0.000880995595022025,
+       "c12q4": 0.000686996565017175,
+       "c13q0": 0.0005259973700131501,
+       "c13q1": 9.4999525002375e-05,
+       "c13q2": 0.0004999975000125,
+       "c13q3": 0.00204998975005125,
+       "c13q4": 0.00015699921500392502,
+       "c14q0": 0.0005119974400128,
+       "c14q1": 0.0005159974200129,
+       "c14q2": 0.00039899800500997504,
+       "c14q3": 0.00046199769001155,
+       "c14q4": 0.0005259973700131501,
+       "c15q0": 0.00621796891015545,
+       "c15q1": 0.003074984625076875,
+       "c15q2": 0.002512987435062825,
+       "c15q3": 0.0034049829750851255,
+       "c15q4": 0.0007729961350193251,
+       "c16q0": 0.00548997255013725,
+       "c16q1": 0.00701796491017545,
+       "c16q2": 0.004356978215108925,
+       "c16q3": 0.0027879860600697,
+       "c16q4": 0.001564992175039125,
+       "c17q0": 0.001400992995035025,
+       "c17q1": 0.001948990255048725,
+       "c17q2": 0.006944965275173625,
+       "c17q3": 0.00251798741006295,
+       "c17q4": 0.0009729951350243252,
+       "c18q0": 0.0035649821750891254,
+       "c18q1": 0.0035269823650881755,
+       "c18q2": 0.004374978125109376,
+       "c18q3": 0.00361798191009045,
+       "c18q4": 0.002142989285053575,
+       "c19q0": 0.00218598907005465,
+       "c19q1": 0.001879990600047,
+       "c19q2": 0.0025109874450627754,
+       "c19q3": 0.00147399263003685,
+       "c19q4": 0.000994995025024875,
+       "c20q0": 0.002132989335053325,
+       "c20q1": 0.0017149914250428752,
+       "c20q2": 0.001148994255028725,
+       "c20q3": 0.00098999505002475,
+       "c20q4": 0.0005399973000135,
+       "c21q0": 0.0008779956100219501,
+       "c21q1": 0.00119999400003,
+       "c21q2": 0.0009479952600237,
+       "c21q3": 0.00097399513002435,
+       "c21q4": 0.0019019904900475504,
+       "c22q0": 0.0031759841200794,
+       "c22q1": 0.003770981145094275,
+       "c22q2": 0.002234988825055875,
+       "c22q3": 0.0032159839200804003,
+       "c22q4": 0.000719996400018,
+       "c23q0": 0.002832985835070825,
+       "c23q1": 0.002798986005069975,
+       "c23q2": 0.0047309763451182756,
+       "c23q3": 0.002362988185059075,
+       "c23q4": 0.002430987845060775,
+       "c24q0": 0.004442977785111075,
+       "c24q1": 0.006301968490157551,
+       "c24q2": 0.002942985285073575,
+       "c24q3": 0.0016899915500422503,
+       "c24q4": 0.0006839965800171001,
+       "c25q0": 0.0054359728201359,
+       "c25q1": 0.003900980495097525,
+       "c25q2": 0.006287968560157201,
+       "c25q3": 0.00266598667006665,
+       "c25q4": 0.000480997595012025,
+       "c26q0": 0.00444997775011125,
+       "c26q1": 0.00410197949010255,
+       "c26q2": 0.004961975190124051,
+       "c26q3": 0.0026559867200664,
+       "c26q4": 0.0017509912450437751,
+       "c27q0": 0.001262993685031575,
+       "c27q1": 0.001538992305038475,
+       "c27q2": 0.0028619856900715503,
+       "c27q3": 0.001018994905025475,
+       "c27q4": 0.0034249828750856255,
+       "c28q0": 0.01522192389038055,
+       "c28q1": 0.015837920810395954,
+       "c28q2": 0.010676946615266926,
+       "c28q3": 0.0027969860150699253,
+       "c28q4": 0.001548992255038725,
+       "c29q0": 0.003880980595097025,
+       "c29q1": 0.0038589807050964753,
+       "c29q2": 0.0023139884300578503,
+       "c29q3": 0.0018949905250473752,
+       "c29q4": 0.002560987195064025,
+       "c30q0": 0.03527082364588177,
+       "c30q1": 0.007996960015199926,
+       "c30q2": 0.0090559547202264,
+       "c30q3": 0.005008974955125226,
+       "c30q4": 0.0012609936950315251,
+       "c31q0": 0.003530982345088275,
+       "c31q1": 0.00468997655011725,
+       "c31q2": 0.0028659856700716502,
+       "c31q3": 0.0017569912150439252,
+       "c31q4": 0.0010239948800256,
+       "c32q0": 0.002464987675061625,
+       "c32q1": 0.008456957715211424,
+       "c32q2": 0.0026199869000655,
+       "c32q3": 0.001446992765036175,
+       "c32q4": 0.000134999325003375,
+       "c33q0": 0.003770981145094275,
+       "c33q1": 0.005534972325138375,
+       "c33q2": 0.0023879880600597,
+       "c33q3": 0.00132599337003315,
+       "c33q4": 0.0006829965850170751,
+       "c34q0": 0.0007359963200184001,
+       "c34q1": 0.0009239953800231,
+       "c34q2": 0.007027964860175701,
+       "c34q3": 0.0106639466802666,
+       "c34q4": 0.0033299833500832505,
+       "c35q0": 0.003900980495097525,
+       "c35q1": 0.0027189864050679753,
+       "c35q2": 0.0022389888050559754,
+       "c35q3": 0.0017259913700431505,
+       "c35q4": 0.0005259973700131501,
+       "c36q0": 0.0027089864550677253,
+       "c36q1": 0.002148989255053725,
+       "c36q2": 0.0022559887200564004,
+       "c36q3": 0.003360983195084025,
+       "c36q4": 0.002204988975055125,
+       "c37q0": 0.003736981315093425,
+       "c37q1": 0.0047359763201184,
+       "c37q2": 0.020838895805520976,
+       "c37q3": 0.03154284228578858,
+       "c37q4": 0.021404892975535127,
+       "c38q0": 0.000178999105004475,
+       "paloma/gab": 0,
+       "paloma/mc4": 0,
+       "paloma/ptb": 0,
+       "paloma/4chan": 0,
+       "paloma/c4_en": 0,
+       "paloma/redpajama": 0,
+       "paloma/dolma-v1_5": 0,
+       "paloma/wikitext_103": 0,
+       "paloma/c4_100_domains": 0,
+       "paloma/falcon-refinedweb": 0,
+       "paloma/m2d2_s2orc_unsplit": 0,
+       "uncheatable_eval/bbc_news": 0,
+       "paloma/manosphere_meta_sep": 0,
+       "paloma/dolma_100_subreddits": 0,
+       "uncheatable_eval/github_cpp": 0,
+       "paloma/twitterAAE_HELM_fixed": 0,
+       "uncheatable_eval/ao3_english": 0,
+       "paloma/m2d2_wikipedia_unsplit": 0,
+       "uncheatable_eval/arxiv_physics": 0,
+       "uncheatable_eval/github_python": 0,
+       "uncheatable_eval/wikipedia_english": 0,
+       "paloma/dolma_100_programing_languages": 0,
+       "uncheatable_eval/arxiv_computer_science": 0
+      }
+     ]
+    ],
+    "vocab_size": null
+   }
+  },
+  "eval": {
+   "value": {
+    "compute_bpb": true,
+    "eval_batch_size": 1024,
+    "eval_current": true,
+    "eval_ema": false,
+    "max_eval_batches": 1,
+    "prefix": "eval",
+    "steps_per_eval": 3000
+   }
+  },
+  "model": {
+   "value": {
+    "attention_implementation": null,
+    "disable_long_rope": true,
+    "disable_pko": true,
+    "head_dim": null,
+    "hidden_dim": 2560,
+    "initializer_std": 0.009882117688026186,
+    "intermediate_dim": 1280,
+    "layer_norm_eps": 1e-05,
+    "max_seq_len": 8192,
+    "moe_implementation": null,
+    "num_experts": 256,
+    "num_experts_per_token": 4,
+    "num_heads": 20,
+    "num_kv_heads": 5,
+    "num_layers": 26,
+    "qk_mult": 1.3,
+    "remat_mode": "recompute_all",
+    "replicate_attn_weights": false,
+    "rope": {
+     "scaling_factor": null,
+     "theta": 10000
+    },
+    "router_z_loss_coef": 0,
+    "shared_expert_intermediate_dim": 2560,
+    "sliding_window": 2048,
+    "split_w_gate_up": true,
+    "use_array_stacked_blocks": true,
+    "vocab_size": 128256
+   }
+  },
+  "optimizer": {
+   "value": {
+    "adam_lr": 0.0008613514084604099,
+    "backend_steps": 5,
+    "beta1": 0.9062,
+    "beta2": 0.95,
+    "coefficient_type": "quintic",
+    "cooldown": null,
+    "cycle_length": null,
+    "cycles": null,
+    "decay": null,
+    "default_weight_decay_mask": null,
+    "epsilon": 5.299763466419988e-15,
+    "haps": null,
+    "learning_rate": 0.003732522769995109,
+    "lr_schedule": "linear",
+    "max_grad_norm": null,
+    "min_lr_ratio": 0.05,
+    "momentum": 0.95,
+    "muon_epsilon": 1e-08,
+    "nesterov": true,
+    "rewarmup": 0,
+    "rmsnorm_to_adam": true,
+    "schedule_num_train_steps_override": null,
+    "warmup": 0.01,
+    "weight_decay": 0.1,
+    "weight_decay_modules": null
+   }
+  },
+  "resources": {
+   "value": {
+    "cpu": 32,
+    "device": {
+     "kind": "tpu",
+     "topology": null,
+     "variant": "v4-2048"
+    },
+    "device_alternatives": null,
+    "disk": "50g",
+    "image": null,
+    "preemptible": false,
+    "ram": "128g",
+    "regions": null,
+    "replicas": 256,
+    "zone": null
+   }
+  },
+  "trainer": {
+   "value": {
+    "data_seed": null,
+    "ema_beta": null,
+    "expert_axis_size": 1,
+    "log_every": 1,
+    "model_axis_size": 1,
+    "replica_axis_size": 16,
+    "trainer": {
+     "allow_nondivisible_batch_size": false,
+     "allow_partial_checkpoint": false,
+     "checkpointer": {
+      "append_run_id_to_base_path": false,
+      "base_path": "gs://marin-us-central2/grug/moe_67b_a2b_d2560_ep1_rep16_bs4096_seq8192_sw2k_v4_2048_muon_10T-93542a/checkpoints",
+      "debug": {
+       "dump_stacks_after": null,
+       "enabled": false,
+       "flush_logs": true,
+       "force_gc_before_serialize": true,
+       "log_interval": 60,
+       "top_allocations": 8,
+       "tracemalloc_frames": 25
+      },
+      "delete_old_temp_checkpoints": true,
+      "keep": [
+       {
+        "every": 3000
+       }
+      ],
+      "keep_last_temporary_checkpoints": 1,
+      "save_interval": "1:00:00",
+      "temporary_base_path": "gs://marin-us-central2/tmp/ttl=14d/checkpoints-temp/marin-us-central2/grug/moe_67b_a2b_d2560_ep1_rep16_bs4096_seq8192_sw2k_v4_2048_muon_10T-93542a/checkpoints"
+     },
+     "crash_on_inf": true,
+     "crash_on_nan": true,
+     "distributed": {
+      "coordinator_address": null,
+      "initialize_jax_distributed": true,
+      "local_device_ids": null,
+      "num_processes": null,
+      "process_id": null
+     },
+     "id": "moe_67b_a2b_d2560_ep1_rep16_bs4096_seq8192_sw2k_v4_2048_muon_10T",
+     "initialize_from": null,
+     "jax_compilation_cache_dir": null,
+     "jax_config": {
+      "jax_softmax_custom_jvp": true,
+      "jax_threefry_partitionable": true
+     },
+     "load_checkpoint": null,
+     "load_checkpoint_path": null,
+     "log_dir": "logs",
+     "log_jaxprs": true,
+     "log_xla_hlo": true,
+     "max_eval_batches": null,
+     "mesh": {
+      "axes": {
+       "expert": 1
+      },
+      "batch_axis_name": "batch",
+      "dcn_axes": {
+       "replica_dcn": -1
+      },
+      "param_mapping": {
+       "embed": "data"
+      }
+     },
+     "model_averaging": null,
+     "mp": {
+      "compute_dtype": "jax.numpy.bfloat16",
+      "output_dtype": "jax.numpy.bfloat16",
+      "param_dtype": "jax.numpy.float32"
+     },
+     "num_train_steps": 300000,
+     "per_device_eval_parallelism": 4,
+     "per_device_parallelism": 4,
+     "profiler": {
+      "enabled": false,
+      "num_steps": 25,
+      "perfetto_link": false,
+      "profile_options": {
+       "device_tracer_level": null,
+       "enable_hlo_proto": null,
+       "host_tracer_level": null,
+       "include_dataset_ops": null,
+       "python_tracer_level": null
+      },
+      "start_step": 5
+     },
+     "quantization": null,
+     "require_accelerator": true,
+     "seed": 0,
+     "shutdown_at_exit": false,
+     "steps_per_eval": 1000,
+     "tracker": {
+      "background": true,
+      "background_finish_timeout": 120,
+      "background_max_queue_size": 10000,
+      "entity": null,
+      "group": "june-tpu-67b-a2b-10T",
+      "id": null,
+      "mode": null,
+      "name": "moe_67b_a2b_d2560_ep1_rep16_bs4096_seq8192_sw2k_v4_2048_muon_10T",
+      "project": "marin_moe",
+      "replicate_path": null,
+      "resume": "allow",
+      "save_code": true,
+      "save_xla_dumps": false,
+      "tags": [
+       "moe",
+       "june_tpu",
+       "67b_a2b",
+       "d2560",
+       "ep1",
+       "rep16",
+       "datakit_mix",
+       "disable_pko",
+       "no_long_rope",
+       "seq8k",
+       "stacked",
+       "logit_z_loss",
+       "rmsadam",
+       "muon",
+       "v4_2048",
+       "10T"
+      ]
+     },
+     "train_batch_size": 4096,
+     "use_explicit_mesh_axes": true,
+     "wandb": null,
+     "watch": {
+      "include_histograms": false,
+      "include_norms": true,
+      "include_per_parameter_norms": true,
+      "interval": 10,
+      "split_scan_layers": true,
+      "watch_targets": [
+       "grads",
+       "params"
+      ]
+     }
+    },
+    "z_loss_weight": 0.0001
+   }
+  }
+ },
+ "summaryMetrics": {
+  "_runtime": 291379.217033563,
+  "_step": 15288,
+  "_timestamp": 1782873299.2206843,
+  "_wandb.runtime": 661,
+  "backend": "tpu",
+  "eval/bpb": 0.7402752637863159,
+  "eval/loading_time": 1.6042451759276446,
+  "eval/loss": 2.1781749725341797,
+  "eval/macro_bpb": 0.8129198551177979,
+  "eval/macro_loss": 2.3258216381073,
+  "eval/paloma/4chan/bpb": 0.9161742329597472,
+  "eval/paloma/4chan/loss": 2.133239507675171,
+  "eval/paloma/bpb": 0.7563216686248779,
+  "eval/paloma/c4_100_domains/bpb": 0.7452759146690369,
+  "eval/paloma/c4_100_domains/loss": 2.3897392749786377,
+  "eval/paloma/c4_en/bpb": 0.7903118133544922,
+  "eval/paloma/c4_en/loss": 2.5681748390197754,
+  "eval/paloma/dolma-v1_5/bpb": 0.7383115887641907,
+  "eval/paloma/dolma-v1_5/loss": 2.2052266597747803,
+  "eval/paloma/dolma_100_programing_languages/bpb": 0.3955639004707336,
+  "eval/paloma/dolma_100_programing_languages/loss": 0.9286007881164552,
+  "eval/paloma/dolma_100_subreddits/bpb": 0.9636308550834656,
+  "eval/paloma/dolma_100_subreddits/loss": 2.935457468032837,
+  "eval/paloma/falcon-refinedweb/bpb": 0.838172972202301,
+  "eval/paloma/falcon-refinedweb/loss": 2.6278176307678223,
+  "eval/paloma/gab/bpb": 1.4692317247390747,
+  "eval/paloma/gab/loss": 3.565559148788452,
+  "eval/paloma/m2d2_s2orc_unsplit/bpb": 0.6795783042907715,
+  "eval/paloma/m2d2_s2orc_unsplit/loss": 2.0796031951904297,
+  "eval/paloma/m2d2_wikipedia_unsplit/bpb": 0.697631299495697,
+  "eval/paloma/m2d2_wikipedia_unsplit/loss": 2.1585559844970703,
+  "eval/paloma/macro_bpb": 0.899294912815094,
+  "eval/paloma/macro_loss": 2.4939961433410645,
+  "eval/paloma/manosphere_meta_sep/bpb": 1.0004568099975586,
+  "eval/paloma/manosphere_meta_sep/loss": 2.9297561645507812,
+  "eval/paloma/mc4/bpb": 0.7432135343551636,
+  "eval/paloma/mc4/loss": 2.156226634979248,
+  "eval/paloma/micro_loss": 2.209181785583496,
+  "eval/paloma/ptb/bpb": 0.8106553554534912,
+  "eval/paloma/ptb/loss": 2.579495906829834,
+  "eval/paloma/redpajama/bpb": 0.6513209939002991,
+  "eval/paloma/redpajama/loss": 1.8980427980422976,
+  "eval/paloma/twitterAAE_HELM_fixed/bpb": 2.289189338684082,
+  "eval/paloma/twitterAAE_HELM_fixed/loss": 4.672978401184082,
+  "eval/paloma/wikitext_103/bpb": 0.6600005626678467,
+  "eval/paloma/wikitext_103/loss": 2.0754663944244385,
+  "eval/total_time": 62.34681779498351,
+  "eval/uncheatable_eval/ao3_english/bpb": 0.9278822541236876,
+  "eval/uncheatable_eval/ao3_english/loss": 2.833158254623413,
+  "eval/uncheatable_eval/arxiv_computer_science/bpb": 0.6262623071670532,
+  "eval/uncheatable_eval/arxiv_computer_science/loss": 2.286619186401367,
+  "eval/uncheatable_eval/arxiv_physics/bpb": 0.6541104912757874,
+  "eval/uncheatable_eval/arxiv_physics/loss": 2.1525917053222656,
+  "eval/uncheatable_eval/bbc_news/bpb": 0.7256529927253723,
+  "eval/uncheatable_eval/bbc_news/loss": 2.3882908821105957,
+  "eval/uncheatable_eval/bpb": 0.614124596118927,
+  "eval/uncheatable_eval/github_cpp/bpb": 0.3493446409702301,
+  "eval/uncheatable_eval/github_cpp/loss": 0.8949102163314819,
+  "eval/uncheatable_eval/github_python/bpb": 0.3210296928882599,
+  "eval/uncheatable_eval/github_python/loss": 0.9283828735351562,
+  "eval/uncheatable_eval/macro_bpb": 0.6154910326004028,
+  "eval/uncheatable_eval/macro_loss": 1.9414225816726685,
+  "eval/uncheatable_eval/micro_loss": 1.9382559061050415,
+  "eval/uncheatable_eval/wikipedia_english/bpb": 0.7041552066802979,
+  "eval/uncheatable_eval/wikipedia_english/loss": 2.1060051918029785,
+  "global_step": 15288,
+  "grad/norm/embed_gated_norm.w_down": 0.002904202090576291,
+  "grad/norm/embed_gated_norm.w_up": 0.031565919518470764,
+  "grad/norm/embed_norm.weight": 0.0004128759901504963,
+  "grad/norm/final_gated_norm.w_down": 0.004937930032610893,
+  "grad/norm/final_gated_norm.w_up": 0.002388652181252837,
+  "grad/norm/final_norm.weight": 0.0007297027623280883,
+  "grad/norm/output_proj": 0.2525482773780823,
+  "grad/norm/stacked_blocks.stacked.attn.attn_gate": 0.014456494711339474,
+  "grad/norm/stacked_blocks.stacked.attn.w_k": 0.03035968728363514,
+  "grad/norm/stacked_blocks.stacked.attn.w_o": 0.07656536996364594,
+  "grad/norm/stacked_blocks.stacked.attn.w_q": 0.030314667150378227,
+  "grad/norm/stacked_blocks.stacked.attn.w_v": 0.06853393465280533,
+  "grad/norm/stacked_blocks.stacked.attn_gated_norm.w_down": 0.006300940643996,
+  "grad/norm/stacked_blocks.stacked.attn_gated_norm.w_up": 0.0075677321292459965,
+  "grad/norm/stacked_blocks.stacked.mlp.expert_mlp.w_down": 0.015286856330931188,
+  "grad/norm/stacked_blocks.stacked.mlp.expert_mlp.w_gate": 0.010198267176747322,
+  "grad/norm/stacked_blocks.stacked.mlp.expert_mlp.w_up": 0.010308049619197844,
+  "grad/norm/stacked_blocks.stacked.mlp.router": 0.0014234529808163645,
+  "grad/norm/stacked_blocks.stacked.mlp.router_bias": 0,
+  "grad/norm/stacked_blocks.stacked.mlp_gated_norm.w_down": 0.015573161654174328,
+  "grad/norm/stacked_blocks.stacked.mlp_gated_norm.w_up": 0.014603406190872192,
+  "grad/norm/stacked_blocks.stacked.rms_attn.weight": 0.0008725227089598775,
+  "grad/norm/stacked_blocks.stacked.rms_mlp.weight": 0.001076586893759668,
+  "grad/norm/stacked_blocks.stacked.shared.w_down": 0.07920567691326141,
+  "grad/norm/stacked_blocks.stacked.shared.w_gate": 0.025955861434340477,
+  "grad/norm/stacked_blocks.stacked.shared.w_up": 0.02877683937549591,
+  "grad/norm/token_embed": 0.0013213669881224632,
+  "grad/norm/total": 0.29360324144363403,
+  "mixture/stage": 0,
+  "mixture/weight/c01q0": 0.022956862258826448,
+  "mixture/weight/c01q1": 0.018952886282682307,
+  "mixture/weight/c01q2": 0.06930858414849511,
+  "mixture/weight/c01q3": 0.10678235930584418,
+  "mixture/weight/c01q4": 0.12466825199048806,
+  "mixture/weight/c02q0": 0.005078969526182843,
+  "mixture/weight/c02q1": 0.003786977278136331,
+  "mixture/weight/c02q2": 0.005352967882192707,
+  "mixture/weight/c02q3": 0.015500906994558031,
+  "mixture/weight/c02q4": 0.02176086943478339,
+  "mixture/weight/c03q0": 0.0010459937240376558,
+  "mixture/weight/c03q1": 0.003038981766109404,
+  "mixture/weight/c03q2": 0.0036989778061331633,
+  "mixture/weight/c03q3": 0.0012829923020461877,
+  "mixture/weight/c03q4": 0.001560990634056196,
+  "mixture/weight/c05q0": 0.011292932242406545,
+  "mixture/weight/c05q1": 0.021914868510788936,
+  "mixture/weight/c05q2": 0.03583778497329016,
+  "mixture/weight/c05q3": 0.00949694301834189,
+  "mixture/weight/c05q4": 0.004877970732175607,
+  "mixture/weight/c06q0": 0.00811195132829203,
+  "mixture/weight/c06q1": 0.009700941794349232,
+  "mixture/weight/c06q2": 0.01789689261864429,
+  "mixture/weight/c06q3": 0.0012959922240466555,
+  "mixture/weight/c06q4": 0.001885988684067896,
+  "mixture/weight/c08q0": 0.004233974596152423,
+  "mixture/weight/c08q1": 0.000808995146029124,
+  "mixture/weight/c08q2": 0.0012559924640452155,
+  "mixture/weight/c08q3": 0.00046899718601688394,
+  "mixture/weight/c08q4": 0.0003739977560134639,
+  "mixture/weight/c10q0": 8.599948400309599e-05,
+  "mixture/weight/c11q0": 0.005797965212208727,
+  "mixture/weight/c11q1": 0.0033329800021199875,
+  "mixture/weight/c11q2": 0.0025419847480915117,
+  "mixture/weight/c11q3": 0.0007789953260280439,
+  "mixture/weight/c11q4": 0.000198998806007164,
+  "mixture/weight/c12q0": 0.00031099813401119596,
+  "mixture/weight/c12q1": 0.00025899844600932396,
+  "mixture/weight/c12q2": 0.00015099909400543597,
+  "mixture/weight/c12q3": 0.0002959982240106559,
+  "mixture/weight/c12q4": 0.0002469985180088919,
+  "mixture/weight/c13q0": 0.00022699863800817197,
+  "mixture/weight/c13q1": 0.0003639978160131039,
+  "mixture/weight/c13q2": 0.00011599930400417598,
+  "mixture/weight/c13q3": 0.0004719971680169919,
+  "mixture/weight/c13q4": 6.2999622002268e-05,
+  "mixture/weight/c14q0": 0.0006329962020227879,
+  "mixture/weight/c14q1": 0.0004389973660158039,
+  "mixture/weight/c14q2": 0.0009759941440351358,
+  "mixture/weight/c14q3": 0.0005849964900210599,
+  "mixture/weight/c14q4": 0.00044299734201594794,
+  "mixture/weight/c15q0": 0.0023839856960858235,
+  "mixture/weight/c15q1": 0.0032259806441161357,
+  "mixture/weight/c15q2": 0.0023579858520848874,
+  "mixture/weight/c15q3": 0.0028189830861014833,
+  "mixture/weight/c15q4": 0.0004859970840174959,
+  "mixture/weight/c16q0": 0.004550972694163835,
+  "mixture/weight/c16q1": 0.006621960268238391,
+  "mixture/weight/c16q2": 0.004253974476153144,
+  "mixture/weight/c16q3": 0.0053949676301942185,
+  "mixture/weight/c16q4": 0.0010359937840372958,
+  "mixture/weight/c17q0": 0.0014529912820523078,
+  "mixture/weight/c17q1": 0.003892976642140148,
+  "mixture/weight/c17q2": 0.0035389787661274036,
+  "mixture/weight/c17q3": 0.0021539870760775436,
+  "mixture/weight/c17q4": 0.0018099891400651597,
+  "mixture/weight/c18q0": 0.002813983116101303,
+  "mixture/weight/c18q1": 0.004575972544164735,
+  "mixture/weight/c18q2": 0.003186980878114732,
+  "mixture/weight/c18q3": 0.005100969394183635,
+  "mixture/weight/c18q4": 0.0014689911860528838,
+  "mixture/weight/c19q0": 0.004085975484147095,
+  "mixture/weight/c19q1": 0.0038049771701369793,
+  "mixture/weight/c19q2": 0.0023269860380837715,
+  "mixture/weight/c19q3": 0.0021109873340759955,
+  "mixture/weight/c19q4": 0.0005209968740187558,
+  "mixture/weight/c20q0": 0.000991994048035712,
+  "mixture/weight/c20q1": 0.0012979922120467276,
+  "mixture/weight/c20q2": 0.0016009903940576355,
+  "mixture/weight/c20q3": 0.001475991144053136,
+  "mixture/weight/c20q4": 0.0003739977560134639,
+  "mixture/weight/c21q0": 0.0021959868240790555,
+  "mixture/weight/c21q1": 0.0023769857380855717,
+  "mixture/weight/c21q2": 0.001095993424039456,
+  "mixture/weight/c21q3": 0.0009759941440351358,
+  "mixture/weight/c21q4": 0.0016859898840606957,
+  "mixture/weight/c22q0": 0.0022339865960804236,
+  "mixture/weight/c22q1": 0.0034469793181240915,
+  "mixture/weight/c22q2": 0.0035869784781291316,
+  "mixture/weight/c22q3": 0.0025429847420915474,
+  "mixture/weight/c22q4": 0.0013639918160491037,
+  "mixture/weight/c23q0": 0.007765953404279575,
+  "mixture/weight/c23q1": 0.003634978190130859,
+  "mixture/weight/c23q2": 0.0025819845080929517,
+  "mixture/weight/c23q3": 0.004335973984156095,
+  "mixture/weight/c23q4": 0.001878988726067644,
+  "mixture/weight/c24q0": 0.004556972658164051,
+  "mixture/weight/c24q1": 0.004782971302172187,
+  "mixture/weight/c24q2": 0.0016819899080605515,
+  "mixture/weight/c24q3": 0.002717983692097847,
+  "mixture/weight/c24q4": 0.0005779965320208078,
+  "mixture/weight/c25q0": 0.005997964012215928,
+  "mixture/weight/c25q1": 0.005658966046203723,
+  "mixture/weight/c25q2": 0.003610978334129996,
+  "mixture/weight/c25q3": 0.0034489793061241634,
+  "mixture/weight/c25q4": 0.0006139963160221038,
+  "mixture/weight/c26q0": 0.004178974926150444,
+  "mixture/weight/c26q1": 0.005243968536188783,
+  "mixture/weight/c26q2": 0.004385973684157895,
+  "mixture/weight/c26q3": 0.0023789857260856436,
+  "mixture/weight/c26q4": 0.0008199950800295199,
+  "mixture/weight/c27q0": 0.005147969112185327,
+  "mixture/weight/c27q1": 0.0018029891820649077,
+  "mixture/weight/c27q2": 0.003705977764133415,
+  "mixture/weight/c27q3": 0.0008809947140317158,
+  "mixture/weight/c27q4": 0.0006839958960246239,
+  "mixture/weight/c28q0": 0.006397961612230327,
+  "mixture/weight/c28q1": 0.02052087687473875,
+  "mixture/weight/c28q2": 0.005378967726193643,
+  "mixture/weight/c28q3": 0.007224956650260099,
+  "mixture/weight/c28q4": 0.0014259914440513356,
+  "mixture/weight/c29q0": 0.004777971332172008,
+  "mixture/weight/c29q1": 0.003143981136113184,
+  "mixture/weight/c29q2": 0.0023749857500854994,
+  "mixture/weight/c29q3": 0.0018429889420663475,
+  "mixture/weight/c29q4": 0.0009709941740349558,
+  "mixture/weight/c30q0": 0.007902952582284507,
+  "mixture/weight/c30q1": 0.008204950770295379,
+  "mixture/weight/c30q2": 0.013894916630500218,
+  "mixture/weight/c30q3": 0.004824971050173699,
+  "mixture/weight/c30q4": 0.0013229920620476275,
+  "mixture/weight/c31q0": 0.007818953086281482,
+  "mixture/weight/c31q1": 0.0027449835300988193,
+  "mixture/weight/c31q2": 0.001323992056047664,
+  "mixture/weight/c31q3": 0.0024749851500891,
+  "mixture/weight/c31q4": 0.000455997264016416,
+  "mixture/weight/c32q0": 0.004859970840174959,
+  "mixture/weight/c32q1": 0.0019789881260712434,
+  "mixture/weight/c32q2": 0.0010129939220364678,
+  "mixture/weight/c32q3": 0.0011089933460399237,
+  "mixture/weight/c32q4": 0.000105999364003816,
+  "mixture/weight/c33q0": 0.0029609822341065957,
+  "mixture/weight/c33q1": 0.0041529750821495065,
+  "mixture/weight/c33q2": 0.006075963544218735,
+  "mixture/weight/c33q3": 0.004800971194172834,
+  "mixture/weight/c33q4": 0.0003159981040113759,
+  "mixture/weight/c34q0": 0.000513996916018504,
+  "mixture/weight/c34q1": 0.0009409943540338758,
+  "mixture/weight/c34q2": 0.008669947980312119,
+  "mixture/weight/c34q3": 0.0036849778901326593,
+  "mixture/weight/c34q4": 0.0008339949960300239,
+  "mixture/weight/c35q0": 0.004317974092155447,
+  "mixture/weight/c35q1": 0.007960952234286594,
+  "mixture/weight/c35q2": 0.004450973294160236,
+  "mixture/weight/c35q3": 0.0027109837340975954,
+  "mixture/weight/c35q4": 0.0031089813461119237,
+  "mixture/weight/c36q0": 0.0028889826661040036,
+  "mixture/weight/c36q1": 0.002672983962096227,
+  "mixture/weight/c36q2": 0.002717983692097847,
+  "mixture/weight/c36q3": 0.004709971740169559,
+  "mixture/weight/c36q4": 0.009674941950348298,
+  "mixture/weight/c37q0": 0.0027759833440999353,
+  "mixture/weight/c37q1": 0.003820977074137555,
+  "mixture/weight/c37q2": 0.012378925726445642,
+  "mixture/weight/c37q3": 0.036625780245318526,
+  "mixture/weight/c37q4": 0.013193920836474984,
+  "mixture/weight/c38q0": 2.199986800079199e-05,
+  "mixture/weight/tail": 6.999958000251998e-05,
+  "num_devices": 1024,
+  "num_hosts": 256,
+  "optim/adam_lr": 0.0008274959400296211,
+  "optim/learning_rate": 0.0035858156625181437,
+  "parameter_count": 67078882816.0,
+  "params/norm/embed_gated_norm.w_down": 5.581620216369629,
+  "params/norm/embed_gated_norm.w_up": 5.583465099334717,
+  "params/norm/embed_norm.weight": 46.67897415161133,
+  "params/norm/final_gated_norm.w_down": 5.585678577423096,
+  "params/norm/final_gated_norm.w_up": 5.562811851501465,
+  "params/norm/final_norm.weight": 263.3443603515625,
+  "params/norm/output_proj": 176.662109375,
+  "params/norm/stacked_blocks.stacked.attn.attn_gate": 19.50375747680664,
+  "params/norm/stacked_blocks.stacked.attn.w_k": 63.63065719604492,
+  "params/norm/stacked_blocks.stacked.attn.w_o": 127.27027893066406,
+  "params/norm/stacked_blocks.stacked.attn.w_q": 127.27539825439452,
+  "params/norm/stacked_blocks.stacked.attn.w_v": 63.63357162475586,
+  "params/norm/stacked_blocks.stacked.attn_gated_norm.w_down": 28.468311309814453,
+  "params/norm/stacked_blocks.stacked.attn_gated_norm.w_up": 28.45350646972656,
+  "params/norm/stacked_blocks.stacked.mlp.expert_mlp.w_down": 1439.81787109375,
+  "params/norm/stacked_blocks.stacked.mlp.expert_mlp.w_gate": 1439.8204345703125,
+  "params/norm/stacked_blocks.stacked.mlp.expert_mlp.w_up": 1439.82373046875,
+  "params/norm/stacked_blocks.stacked.mlp.router": 302.85247802734375,
+  "params/norm/stacked_blocks.stacked.mlp.router_bias": 23.94940948486328,
+  "params/norm/stacked_blocks.stacked.mlp_gated_norm.w_down": 28.455320358276367,
+  "params/norm/stacked_blocks.stacked.mlp_gated_norm.w_up": 28.462352752685547,
+  "params/norm/stacked_blocks.stacked.rms_attn.weight": 258.6335144042969,
+  "params/norm/stacked_blocks.stacked.rms_mlp.weight": 294.8782043457031,
+  "params/norm/stacked_blocks.stacked.shared.w_down": 127.26498413085938,
+  "params/norm/stacked_blocks.stacked.shared.w_gate": 127.26192474365234,
+  "params/norm/stacked_blocks.stacked.shared.w_up": 127.26692199707033,
+  "params/norm/token_embed": 1700.89697265625,
+  "params/norm/total": 3090.95556640625,
+  "run_progress": 0.05096,
+  "throughput/device_kind": "TPU v4",
+  "throughput/duration": 17.953900502005126,
+  "throughput/examples_per_second": 228.1398406737606,
+  "throughput/flops_per_example": 167205761187840.0,
+  "throughput/flops_per_example_analytic": 167205761187840.0,
+  "throughput/flops_per_token_analytic": 6803619840.0,
+  "throughput/gflops_per_second": 38146295.71712868,
+  "throughput/hook_time": 0.0062444589857477695,
+  "throughput/loading_time": 3.203999949619174e-05,
+  "throughput/mean_mfu": 13.471319449788302,
+  "throughput/mfu": 13.546269785912171,
+  "throughput/mfu_sample_count": 333,
+  "throughput/p10_mfu": 13.431353301683195,
+  "throughput/p50_mfu": 13.547468199439756,
+  "throughput/p90_mfu": 13.549664467375294,
+  "throughput/stddev_mfu": 0.550318617440265,
+  "throughput/theoretical_flops": 2.816e+17,
+  "throughput/theoretical_flops_per_device": 275000000000000.0,
+  "throughput/tokens_per_second": 1868921.5747994469,
+  "throughput/total_gflops": 10471050783952.428,
+  "throughput/total_tokens": 513013710848.0,
+  "train/cross_entropy_loss": 1.4971848726272583,
+  "train/loss": 1.4971848726272583,
+  "train/router/aux_loss_weighted": 0,
+  "train/router/capacity_overflow_rate_mean": 0,
+  "train/router/layer_0/capacity_overflow_rate": 0,
+  "train/router/layer_0/load_balancing_loss": 4.076868534088135,
+  "train/router/layer_0/router_z_loss": 3.478757858276367,
+  "train/router/layer_0/routing_entropy": 5.515430450439453,
+  "train/router/layer_0/routing_hist/histogram": {
+   "_type": "histogram"
+  },
+  "train/router/layer_0/routing_hist/max": 255,
+  "train/router/layer_0/routing_hist/mean": 128.7578125,
+  "train/router/layer_0/routing_hist/min": 0,
+  "train/router/layer_0/routing_hist/nonzero_count": 256,
+  "train/router/layer_0/routing_hist/num": 134217728.0,
+  "train/router/layer_0/routing_hist/rms": 148.26138305664062,
+  "train/router/layer_0/routing_hist/sum": 17281581056.0,
+  "train/router/layer_0/routing_hist/sum_squares": 2950298075136.0,
+  "train/router/layer_0/routing_hist/variance": 5402.859375,
+  "train/router/layer_1/capacity_overflow_rate": 0,
+  "train/router/layer_1/load_balancing_loss": 4.010563850402832,
+  "train/router/layer_1/router_z_loss": 4.143654823303223,
+  "train/router/layer_1/routing_entropy": 5.527636528015137,
+  "train/router/layer_1/routing_hist/histogram": {
+   "_type": "histogram"
+  },
+  "train/router/layer_1/routing_hist/max": 255,
+  "train/router/layer_1/routing_hist/mean": 127.38311767578124,
+  "train/router/layer_1/routing_hist/min": 0,
+  "train/router/layer_1/routing_hist/nonzero_count": 256,
+  "train/router/layer_1/routing_hist/num": 134217728.0,
+  "train/router/layer_1/routing_hist/rms": 147.33326721191406,
+  "train/router/layer_1/routing_hist/sum": 17097072640.0,
+  "train/router/layer_1/routing_hist/sum_squares": 2913476542464.0,
+  "train/router/layer_1/routing_hist/variance": 5480.6328125,
+  "train/router/layer_10/capacity_overflow_rate": 0,
+  "train/router/layer_10/load_balancing_loss": 4.036150932312012,
+  "train/router/layer_10/router_z_loss": 6.619704723358154,
+  "train/router/layer_10/routing_entropy": 5.5323896408081055,
+  "train/router/layer_10/routing_hist/histogram": {
+   "_type": "histogram"
+  },
+  "train/router/layer_10/routing_hist/max": 255,
+  "train/router/layer_10/routing_hist/mean": 127.28437042236328,
+  "train/router/layer_10/routing_hist/min": 0,
+  "train/router/layer_10/routing_hist/nonzero_count": 256,
+  "train/router/layer_10/routing_hist/num": 134217728.0,
+  "train/router/layer_10/routing_hist/rms": 147.2585906982422,
+  "train/router/layer_10/routing_hist/sum": 17083819008.0,
+  "train/router/layer_10/routing_hist/sum_squares": 2910523490304.0,
+  "train/router/layer_10/routing_hist/variance": 5483.779296875,
+  "train/router/layer_11/capacity_overflow_rate": 0,
+  "train/router/layer_11/load_balancing_loss": 4.027873516082764,
+  "train/router/layer_11/router_z_loss": 7.666950702667236,
+  "train/router/layer_11/routing_entropy": 5.531867027282715,
+  "train/router/layer_11/routing_hist/histogram": {
+   "_type": "histogram"
+  },
+  "train/router/layer_11/routing_hist/max": 255,
+  "train/router/layer_11/routing_hist/mean": 127.72388458251952,
+  "train/router/layer_11/routing_hist/min": 0,
+  "train/router/layer_11/routing_hist/nonzero_count": 256,
+  "train/router/layer_11/routing_hist/num": 134217728.0,
+  "train/router/layer_11/routing_hist/rms": 147.53582763671875,
+  "train/router/layer_11/routing_hist/sum": 17142809600.0,
+  "train/router/layer_11/routing_hist/sum_squares": 2921493430272.0,
+  "train/router/layer_11/routing_hist/variance": 5453.431640625,
+  "train/router/layer_12/capacity_overflow_rate": 0,
+  "train/router/layer_12/load_balancing_loss": 4.048751354217529,
+  "train/router/layer_12/router_z_loss": 7.764336585998535,
+  "train/router/layer_12/routing_entropy": 5.531469821929932,
+  "train/router/layer_12/routing_hist/histogram": {
+   "_type": "histogram"
+  },
+  "train/router/layer_12/routing_hist/max": 255,
+  "train/router/layer_12/routing_hist/mean": 127.22355651855467,
+  "train/router/layer_12/routing_hist/min": 0,
+  "train/router/layer_12/routing_hist/nonzero_count": 256,
+  "train/router/layer_12/routing_hist/num": 134217720.0,
+  "train/router/layer_12/routing_hist/rms": 147.1416778564453,
+  "train/router/layer_12/routing_hist/sum": 17075656704.0,
+  "train/router/layer_12/routing_hist/sum_squares": 2905903726592.0,
+  "train/router/layer_12/routing_hist/variance": 5464.8369140625,
+  "train/router/layer_13/capacity_overflow_rate": 0,
+  "train/router/layer_13/load_balancing_loss": 4.064069747924805,
+  "train/router/layer_13/router_z_loss": 8.114326477050781,
+  "train/router/layer_13/routing_entropy": 5.531295299530029,
+  "train/router/layer_13/routing_hist/histogram": {
+   "_type": "histogram"
+  },
+  "train/router/layer_13/routing_hist/max": 255,
+  "train/router/layer_13/routing_hist/mean": 128.23318481445312,
+  "train/router/layer_13/routing_hist/min": 0,
+  "train/router/layer_13/routing_hist/nonzero_count": 256,
+  "train/router/layer_13/routing_hist/num": 134217728.0,
+  "train/router/layer_13/routing_hist/rms": 147.86248779296875,
+  "train/router/layer_13/routing_hist/sum": 17211166720.0,
+  "train/router/layer_13/routing_hist/sum_squares": 2934444392448.0,
+  "train/router/layer_13/routing_hist/variance": 5419.564453125,
+  "train/router/layer_14/capacity_overflow_rate": 0,
+  "train/router/layer_14/load_balancing_loss": 4.04419469833374,
+  "train/router/layer_14/router_z_loss": 8.873437881469727,
+  "train/router/layer_14/routing_entropy": 5.528254985809326,
+  "train/router/layer_14/routing_hist/histogram": {
+   "_type": "histogram"
+  },
+  "train/router/layer_14/routing_hist/max": 255,
+  "train/router/layer_14/routing_hist/mean": 128.8387451171875,
+  "train/router/layer_14/routing_hist/min": 0,
+  "train/router/layer_14/routing_hist/nonzero_count": 256,
+  "train/router/layer_14/routing_hist/num": 134217744.0,
+  "train/router/layer_14/routing_hist/rms": 148.80819702148438,
+  "train/router/layer_14/routing_hist/sum": 17292445696.0,
+  "train/router/layer_14/routing_hist/sum_squares": 2972101378048.0,
+  "train/router/layer_14/routing_hist/variance": 5544.45703125,
+  "train/router/layer_15/capacity_overflow_rate": 0,
+  "train/router/layer_15/load_balancing_loss": 4.049473762512207,
+  "train/router/layer_15/router_z_loss": 9.197235107421877,
+  "train/router/layer_15/routing_entropy": 5.533083438873291,
+  "train/router/layer_15/routing_hist/histogram": {
+   "_type": "histogram"
+  },
+  "train/router/layer_15/routing_hist/max": 255,
+  "train/router/layer_15/routing_hist/mean": 127.72838592529295,
+  "train/router/layer_15/routing_hist/min": 0,
+  "train/router/layer_15/routing_hist/nonzero_count": 256,
+  "train/router/layer_15/routing_hist/num": 134217728.0,
+  "train/router/layer_15/routing_hist/rms": 147.09457397460938,
+  "train/router/layer_15/routing_hist/sum": 17143413760.0,
+  "train/router/layer_15/routing_hist/sum_squares": 2904044077056.0,
+  "train/router/layer_15/routing_hist/variance": 5322.2734375,
+  "train/router/layer_16/capacity_overflow_rate": 0,
+  "train/router/layer_16/load_balancing_loss": 4.016364574432373,
+  "train/router/layer_16/router_z_loss": 9.662827491760254,
+  "train/router/layer_16/routing_entropy": 5.537629127502441,
+  "train/router/layer_16/routing_hist/histogram": {
+   "_type": "histogram"
+  },
+  "train/router/layer_16/routing_hist/max": 255,
+  "train/router/layer_16/routing_hist/mean": 127.52601623535156,
+  "train/router/layer_16/routing_hist/min": 0,
+  "train/router/layer_16/routing_hist/nonzero_count": 256,
+  "train/router/layer_16/routing_hist/num": 134217720.0,
+  "train/router/layer_16/routing_hist/rms": 147.3642578125,
+  "train/router/layer_16/routing_hist/sum": 17116252160.0,
+  "train/router/layer_16/routing_hist/sum_squares": 2914702589952.0,
+  "train/router/layer_16/routing_hist/variance": 5453.341796875,
+  "train/router/layer_17/capacity_overflow_rate": 0,
+  "train/router/layer_17/load_balancing_loss": 4.027201175689697,
+  "train/router/layer_17/router_z_loss": 9.142118453979492,
+  "train/router/layer_17/routing_entropy": 5.536612510681152,
+  "train/router/layer_17/routing_hist/histogram": {
+   "_type": "histogram"
+  },
+  "train/router/layer_17/routing_hist/max": 255,
+  "train/router/layer_17/routing_hist/mean": 127.41558074951172,
+  "train/router/layer_17/routing_hist/min": 0,
+  "train/router/layer_17/routing_hist/nonzero_count": 256,
+  "train/router/layer_17/routing_hist/num": 134217720.0,
+  "train/router/layer_17/routing_hist/rms": 147.13352966308594,
+  "train/router/layer_17/routing_hist/sum": 17101429760.0,
+  "train/router/layer_17/routing_hist/sum_squares": 2905582075904.0,
+  "train/router/layer_17/routing_hist/variance": 5413.54296875,
+  "train/router/layer_18/capacity_overflow_rate": 0,
+  "train/router/layer_18/load_balancing_loss": 4.038495063781738,
+  "train/router/layer_18/router_z_loss": 8.160096168518066,
+  "train/router/layer_18/routing_entropy": 5.536332607269287,
+  "train/router/layer_18/routing_hist/histogram": {
+   "_type": "histogram"
+  },
+  "train/router/layer_18/routing_hist/max": 255,
+  "train/router/layer_18/routing_hist/mean": 127.02959442138672,
+  "train/router/layer_18/routing_hist/min": 0,
+  "train/router/layer_18/routing_hist/nonzero_count": 256,
+  "train/router/layer_18/routing_hist/num": 134217712.0,
+  "train/router/layer_18/routing_hist/rms": 146.87098693847656,
+  "train/router/layer_18/routing_hist/sum": 17049621504.0,
+  "train/router/layer_18/routing_hist/sum_squares": 2895222145024.0,
+  "train/router/layer_18/routing_hist/variance": 5434.5703125,
+  "train/router/layer_19/capacity_overflow_rate": 0,
+  "train/router/layer_19/load_balancing_loss": 4.027586936950684,
+  "train/router/layer_19/router_z_loss": 8.67820930480957,
+  "train/router/layer_19/routing_entropy": 5.53717565536499,
+  "train/router/layer_19/routing_hist/histogram": {
+   "_type": "histogram"
+  },
+  "train/router/layer_19/routing_hist/max": 255,
+  "train/router/layer_19/routing_hist/mean": 127.55369567871094,
+  "train/router/layer_19/routing_hist/min": 0,
+  "train/router/layer_19/routing_hist/nonzero_count": 256,
+  "train/router/layer_19/routing_hist/num": 134217728.0,
+  "train/router/layer_19/routing_hist/rms": 147.62356567382812,
+  "train/router/layer_19/routing_hist/sum": 17119967232.0,
+  "train/router/layer_19/routing_hist/sum_squares": 2924968935424.0,
+  "train/router/layer_19/routing_hist/variance": 5522.771484375,
+  "train/router/layer_2/capacity_overflow_rate": 0,
+  "train/router/layer_2/load_balancing_loss": 4.023049354553223,
+  "train/router/layer_2/router_z_loss": 4.21385383605957,
+  "train/router/layer_2/routing_entropy": 5.5218095779418945,
+  "train/router/layer_2/routing_hist/histogram": {
+   "_type": "histogram"
+  },
+  "train/router/layer_2/routing_hist/max": 255,
+  "train/router/layer_2/routing_hist/mean": 128.431884765625,
+  "train/router/layer_2/routing_hist/min": 0,
+  "train/router/layer_2/routing_hist/nonzero_count": 256,
+  "train/router/layer_2/routing_hist/num": 134217728.0,
+  "train/router/layer_2/routing_hist/rms": 148.3228759765625,
+  "train/router/layer_2/routing_hist/sum": 17237835776.0,
+  "train/router/layer_2/routing_hist/sum_squares": 2952746237952.0,
+  "train/router/layer_2/routing_hist/variance": 5504.923828125,
+  "train/router/layer_20/capacity_overflow_rate": 0,
+  "train/router/layer_20/load_balancing_loss": 4.028861045837402,
+  "train/router/layer_20/router_z_loss": 8.355964660644531,
+  "train/router/layer_20/routing_entropy": 5.535138130187988,
+  "train/router/layer_20/routing_hist/histogram": {
+   "_type": "histogram"
+  },
+  "train/router/layer_20/routing_hist/max": 255,
+  "train/router/layer_20/routing_hist/mean": 126.36577606201172,
+  "train/router/layer_20/routing_hist/min": 0,
+  "train/router/layer_20/routing_hist/nonzero_count": 256,
+  "train/router/layer_20/routing_hist/num": 134217720.0,
+  "train/router/layer_20/routing_hist/rms": 146.2903289794922,
+  "train/router/layer_20/routing_hist/sum": 16960527360.0,
+  "train/router/layer_20/routing_hist/sum_squares": 2872374722560.0,
+  "train/router/layer_20/routing_hist/variance": 5432.5498046875,
+  "train/router/layer_21/capacity_overflow_rate": 0,
+  "train/router/layer_21/load_balancing_loss": 4.0308732986450195,
+  "train/router/layer_21/router_z_loss": 9.759737014770508,
+  "train/router/layer_21/routing_entropy": 5.536722183227539,
+  "train/router/layer_21/routing_hist/histogram": {
+   "_type": "histogram"
+  },
+  "train/router/layer_21/routing_hist/max": 255,
+  "train/router/layer_21/routing_hist/mean": 126.73158264160156,
+  "train/router/layer_21/routing_hist/min": 0,
+  "train/router/layer_21/routing_hist/nonzero_count": 256,
+  "train/router/layer_21/routing_hist/num": 134217728.0,
+  "train/router/layer_21/routing_hist/rms": 146.66015625,
+  "train/router/layer_21/routing_hist/sum": 17009625088.0,
+  "train/router/layer_21/routing_hist/sum_squares": 2886915850240.0,
+  "train/router/layer_21/routing_hist/variance": 5448.3056640625,
+  "train/router/layer_22/capacity_overflow_rate": 0,
+  "train/router/layer_22/load_balancing_loss": 4.0534138679504395,
+  "train/router/layer_22/router_z_loss": 10.097041130065918,
+  "train/router/layer_22/routing_entropy": 5.5349531173706055,
+  "train/router/layer_22/routing_hist/histogram": {
+   "_type": "histogram"
+  },
+  "train/router/layer_22/routing_hist/max": 255,
+  "train/router/layer_22/routing_hist/mean": 128.3096466064453,
+  "train/router/layer_22/routing_hist/min": 0,
+  "train/router/layer_22/routing_hist/nonzero_count": 256,
+  "train/router/layer_22/routing_hist/num": 134217744.0,
+  "train/router/layer_22/routing_hist/rms": 148.063720703125,
+  "train/router/layer_22/routing_hist/sum": 17221431296.0,
+  "train/router/layer_22/routing_hist/sum_squares": 2942437163008.0,
+  "train/router/layer_22/routing_hist/variance": 5459.498046875,
+  "train/router/layer_23/capacity_overflow_rate": 0,
+  "train/router/layer_23/load_balancing_loss": 4.330920219421387,
+  "train/router/layer_23/router_z_loss": 12.735311508178713,
+  "train/router/layer_23/routing_entropy": 5.5327534675598145,
+  "train/router/layer_23/routing_hist/histogram": {
+   "_type": "histogram"
+  },
+  "train/router/layer_23/routing_hist/max": 255,
+  "train/router/layer_23/routing_hist/mean": 126.84298706054688,
+  "train/router/layer_23/routing_hist/min": 0,
+  "train/router/layer_23/routing_hist/nonzero_count": 256,
+  "train/router/layer_23/routing_hist/num": 134217728.0,
+  "train/router/layer_23/routing_hist/rms": 146.85755920410156,
+  "train/router/layer_23/routing_hist/sum": 17024577536.0,
+  "train/router/layer_23/routing_hist/sum_squares": 2894692876288.0,
+  "train/router/layer_23/routing_hist/variance": 5477.9990234375,
+  "train/router/layer_24/capacity_overflow_rate": 0,
+  "train/router/layer_24/load_balancing_loss": 4.030474662780762,
+  "train/router/layer_24/router_z_loss": 12.163518905639648,
+  "train/router/layer_24/routing_entropy": 5.531161308288574,
+  "train/router/layer_24/routing_hist/histogram": {
+   "_type": "histogram"
+  },
+  "train/router/layer_24/routing_hist/max": 255,
+  "train/router/layer_24/routing_hist/mean": 126.9211196899414,
+  "train/router/layer_24/routing_hist/min": 0,
+  "train/router/layer_24/routing_hist/nonzero_count": 256,
+  "train/router/layer_24/routing_hist/num": 134217728.0,
+  "train/router/layer_24/routing_hist/rms": 146.7673797607422,
+  "train/router/layer_24/routing_hist/sum": 17035064320.0,
+  "train/router/layer_24/routing_hist/sum_squares": 2891139514368.0,
+  "train/router/layer_24/routing_hist/variance": 5431.697265625,
+  "train/router/layer_25/capacity_overflow_rate": 0,
+  "train/router/layer_25/load_balancing_loss": 4.0545125007629395,
+  "train/router/layer_25/router_z_loss": 14.042974472045898,
+  "train/router/layer_25/routing_entropy": 5.530482769012451,
+  "train/router/layer_25/routing_hist/histogram": {
+   "_type": "histogram"
+  },
+  "train/router/layer_25/routing_hist/max": 255,
+  "train/router/layer_25/routing_hist/mean": 127.22062683105467,
+  "train/router/layer_25/routing_hist/min": 0,
+  "train/router/layer_25/routing_hist/nonzero_count": 256,
+  "train/router/layer_25/routing_hist/num": 134217728.0,
+  "train/router/layer_25/routing_hist/rms": 147.27020263671875,
+  "train/router/layer_25/routing_hist/sum": 17075263488.0,
+  "train/router/layer_25/routing_hist/sum_squares": 2910982766592.0,
+  "train/router/layer_25/routing_hist/variance": 5503.423828125,
+  "train/router/layer_3/capacity_overflow_rate": 0,
+  "train/router/layer_3/load_balancing_loss": 4.02449893951416,
+  "train/router/layer_3/router_z_loss": 3.668160915374756,
+  "train/router/layer_3/routing_entropy": 5.518333911895752,
+  "train/router/layer_3/routing_hist/histogram": {
+   "_type": "histogram"
+  },
+  "train/router/layer_3/routing_hist/max": 255,
+  "train/router/layer_3/routing_hist/mean": 128.4798583984375,
+  "train/router/layer_3/routing_hist/min": 0,
+  "train/router/layer_3/routing_hist/nonzero_count": 256,
+  "train/router/layer_3/routing_hist/num": 134217744.0,
+  "train/router/layer_3/routing_hist/rms": 148.31915283203125,
+  "train/router/layer_3/routing_hist/sum": 17244276736.0,
+  "train/router/layer_3/routing_hist/sum_squares": 2952598388736.0,
+  "train/router/layer_3/routing_hist/variance": 5491.49609375,
+  "train/router/layer_4/capacity_overflow_rate": 0,
+  "train/router/layer_4/load_balancing_loss": 4.029483318328857,
+  "train/router/layer_4/router_z_loss": 4.2132568359375,
+  "train/router/layer_4/routing_entropy": 5.528933525085449,
+  "train/router/layer_4/routing_hist/histogram": {
+   "_type": "histogram"
+  },
+  "train/router/layer_4/routing_hist/max": 255,
+  "train/router/layer_4/routing_hist/mean": 129.4099884033203,
+  "train/router/layer_4/routing_hist/min": 0,
+  "train/router/layer_4/routing_hist/nonzero_count": 256,
+  "train/router/layer_4/routing_hist/num": 134217712.0,
+  "train/router/layer_4/routing_hist/rms": 149.34007263183594,
+  "train/router/layer_4/routing_hist/sum": 17369112576.0,
+  "train/router/layer_4/routing_hist/sum_squares": 2993384587264.0,
+  "train/router/layer_4/routing_hist/variance": 5555.509765625,
+  "train/router/layer_5/capacity_overflow_rate": 0,
+  "train/router/layer_5/load_balancing_loss": 4.007271766662598,
+  "train/router/layer_5/router_z_loss": 4.358128070831299,
+  "train/router/layer_5/routing_entropy": 5.5367751121521,
+  "train/router/layer_5/routing_hist/histogram": {
+   "_type": "histogram"
+  },
+  "train/router/layer_5/routing_hist/max": 255,
+  "train/router/layer_5/routing_hist/mean": 126.9377212524414,
+  "train/router/layer_5/routing_hist/min": 0,
+  "train/router/layer_5/routing_hist/nonzero_count": 256,
+  "train/router/layer_5/routing_hist/num": 134217728.0,
+  "train/router/layer_5/routing_hist/rms": 146.817626953125,
+  "train/router/layer_5/routing_hist/sum": 17037292544.0,
+  "train/router/layer_5/routing_hist/sum_squares": 2893119225856.0,
+  "train/router/layer_5/routing_hist/variance": 5442.232421875,
+  "train/router/layer_6/capacity_overflow_rate": 0,
+  "train/router/layer_6/load_balancing_loss": 4.0363569259643555,
+  "train/router/layer_6/router_z_loss": 4.897200584411621,
+  "train/router/layer_6/routing_entropy": 5.530821800231934,
+  "train/router/layer_6/routing_hist/histogram": {
+   "_type": "histogram"
+  },
+  "train/router/layer_6/routing_hist/max": 255,
+  "train/router/layer_6/routing_hist/mean": 126.84944152832033,
+  "train/router/layer_6/routing_hist/min": 0,
+  "train/router/layer_6/routing_hist/nonzero_count": 256,
+  "train/router/layer_6/routing_hist/num": 134217728.0,
+  "train/router/layer_6/routing_hist/rms": 146.80615234375,
+  "train/router/layer_6/routing_hist/sum": 17025443840.0,
+  "train/router/layer_6/routing_hist/sum_squares": 2892666241024.0,
+  "train/router/layer_6/routing_hist/variance": 5461.26171875,
+  "train/router/layer_7/capacity_overflow_rate": 0,
+  "train/router/layer_7/load_balancing_loss": 4.021883010864258,
+  "train/router/layer_7/router_z_loss": 5.592259407043457,
+  "train/router/layer_7/routing_entropy": 5.531501770019531,
+  "train/router/layer_7/routing_hist/histogram": {
+   "_type": "histogram"
+  },
+  "train/router/layer_7/routing_hist/max": 255,
+  "train/router/layer_7/routing_hist/mean": 127.9395751953125,
+  "train/router/layer_7/routing_hist/min": 0,
+  "train/router/layer_7/routing_hist/nonzero_count": 256,
+  "train/router/layer_7/routing_hist/num": 134217720.0,
+  "train/router/layer_7/routing_hist/rms": 147.84510803222656,
+  "train/router/layer_7/routing_hist/sum": 17171759104.0,
+  "train/router/layer_7/routing_hist/sum_squares": 2933754429440.0,
+  "train/router/layer_7/routing_hist/variance": 5489.638671875,
+  "train/router/layer_8/capacity_overflow_rate": 0,
+  "train/router/layer_8/load_balancing_loss": 4.010733127593994,
+  "train/router/layer_8/router_z_loss": 5.983260154724121,
+  "train/router/layer_8/routing_entropy": 5.535224437713623,
+  "train/router/layer_8/routing_hist/histogram": {
+   "_type": "histogram"
+  },
+  "train/router/layer_8/routing_hist/max": 255,
+  "train/router/layer_8/routing_hist/mean": 127.07872772216795,
+  "train/router/layer_8/routing_hist/min": 0,
+  "train/router/layer_8/routing_hist/nonzero_count": 256,
+  "train/router/layer_8/routing_hist/num": 134217728.0,
+  "train/router/layer_8/routing_hist/rms": 146.9112548828125,
+  "train/router/layer_8/routing_hist/sum": 17056218112.0,
+  "train/router/layer_8/routing_hist/sum_squares": 2896810213376.0,
+  "train/router/layer_8/routing_hist/variance": 5433.9150390625,
+  "train/router/layer_9/capacity_overflow_rate": 0,
+  "train/router/layer_9/load_balancing_loss": 4.027170658111572,
+  "train/router/layer_9/router_z_loss": 6.279055595397949,
+  "train/router/layer_9/routing_entropy": 5.533903121948242,
+  "train/router/layer_9/routing_hist/histogram": {
+   "_type": "histogram"
+  },
+  "train/router/layer_9/routing_hist/max": 255,
+  "train/router/layer_9/routing_hist/mean": 128.53631591796875,
+  "train/router/layer_9/routing_hist/min": 0,
+  "train/router/layer_9/routing_hist/nonzero_count": 256,
+  "train/router/layer_9/routing_hist/num": 134217728.0,
+  "train/router/layer_9/routing_hist/rms": 148.38595581054688,
+  "train/router/layer_9/routing_hist/sum": 17251852288.0,
+  "train/router/layer_9/routing_hist/sum_squares": 2955258888192.0,
+  "train/router/layer_9/routing_hist/variance": 5496.810546875,
+  "train/router/load_balancing_loss": 4.0452728271484375,
+  "train/router/router_z_loss": 7.610053062438965,
+  "train/router/routing_entropy_mean": 5.531450271606445
+ }
+}

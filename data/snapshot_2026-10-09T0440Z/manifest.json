@@ -1,0 +1,1953 @@
+{
+ "started_utc": "2026-10-09T04:38:41.297979+00:00",
+ "finished_utc": "2026-10-09T04:42:08.624765+00:00",
+ "script": "../../code/fetch_snapshot.py",
+ "script_sha256": "1de8e4010f242d8d5c488e7c25a767c131e7ca05df9b13ebaa349e6825789c50",
+ "wandb": {
+  "endpoint": "https://api.wandb.ai/graphql",
+  "project": "marin-community/marin_moe",
+  "eval_samples": 100000,
+  "train_samples": 4000,
+  "runs": [
+   {
+    "category": "ladder",
+    "run": "rav-ladder-d768-v2",
+    "rows": {
+     "eval/_top": 20,
+     "eval/paloma": 20,
+     "eval_dropless/_top": 20,
+     "eval_dropless/paloma": 20,
+     "train(sampled)": 4000
+    },
+    "ref_rows": 20,
+    "log": []
+   },
+   {
+    "category": "ladder",
+    "run": "rav-ladder-d1024",
+    "rows": {
+     "eval/_top": 20,
+     "eval/paloma": 20,
+     "eval_dropless/_top": 20,
+     "eval_dropless/paloma": 20,
+     "train(sampled)": 4000
+    },
+    "ref_rows": 20,
+    "log": []
+   },
+   {
+    "category": "ladder",
+    "run": "rav-ladder-d1536",
+    "rows": {
+     "eval/_top": 21,
+     "eval/paloma": 21,
+     "eval_dropless/_top": 21,
+     "eval_dropless/paloma": 21,
+     "train(sampled)": 4000
+    },
+    "ref_rows": 21,
+    "log": []
+   },
+   {
+    "category": "ladder",
+    "run": "rav-ladder-d2048-v3",
+    "rows": {
+     "eval/_top": 16,
+     "eval/paloma": 16,
+     "eval_dropless/_top": 16,
+     "eval_dropless/paloma": 16,
+     "train(sampled)": 4000
+    },
+    "ref_rows": 16,
+    "log": []
+   },
+   {
+    "category": "ladder_mix",
+    "run": "rav-ladder-d768-v2-old-mix",
+    "rows": {
+     "eval/_top": 20,
+     "eval/paloma": 20,
+     "eval_dropless/_top": 20,
+     "eval_dropless/paloma": 20,
+     "train(sampled)": 4000
+    },
+    "ref_rows": 20,
+    "log": []
+   },
+   {
+    "category": "ladder_mix",
+    "run": "rav-ladder-d768-v2-epsilon0-monotonic-pi-57rows-candidate1-pergpu-prefetch32-w512-ts125g",
+    "rows": {
+     "eval/_top": 20,
+     "eval/paloma": 20,
+     "eval/uncheatable_eval": 20,
+     "eval_dropless/_top": 20,
+     "eval_dropless/paloma": 20,
+     "eval_dropless/uncheatable_eval": 20,
+     "train(sampled)": 4000
+    },
+    "ref_rows": 20,
+    "log": []
+   },
+   {
+    "category": "ladder_mix",
+    "run": "rav-ladder-d768-v2-epsilon0-pi-57rows-candidate1-pergpu-prefetch32-w512-ts125g",
+    "rows": {
+     "eval/_top": 20,
+     "eval/paloma": 20,
+     "eval/uncheatable_eval": 20,
+     "eval_dropless/_top": 20,
+     "eval_dropless/paloma": 20,
+     "eval_dropless/uncheatable_eval": 20,
+     "train(sampled)": 4000
+    },
+    "ref_rows": 20,
+    "log": []
+   },
+   {
+    "category": "ladder_mix",
+    "run": "rav-ladder-d768-v2-semantic-pi-56rows-candidate1-pergpu-prefetch32-w512-ts125g",
+    "rows": {
+     "eval/_top": 20,
+     "eval/paloma": 20,
+     "eval/uncheatable_eval": 20,
+     "eval_dropless/_top": 20,
+     "eval_dropless/paloma": 20,
+     "eval_dropless/uncheatable_eval": 20,
+     "train(sampled)": 4000
+    },
+    "ref_rows": 20,
+    "log": []
+   },
+   {
+    "category": "ladder_h100",
+    "run": "h100-mix25-20260912-d512",
+    "rows": {
+     "eval/_top": 21,
+     "eval/paloma": 21,
+     "eval/uncheatable_eval": 21,
+     "eval_dropless/_top": 21,
+     "eval_dropless/paloma": 21,
+     "eval_dropless/uncheatable_eval": 21,
+     "train(sampled)": 3930
+    },
+    "ref_rows": 21,
+    "log": []
+   },
+   {
+    "category": "ladder_h100",
+    "run": "h100-mix25-20260912-d768",
+    "rows": {
+     "eval/_top": 20,
+     "eval/paloma": 20,
+     "eval/uncheatable_eval": 20,
+     "eval_dropless/_top": 20,
+     "eval_dropless/paloma": 20,
+     "eval_dropless/uncheatable_eval": 20,
+     "train(sampled)": 4000
+    },
+    "ref_rows": 20,
+    "log": []
+   },
+   {
+    "category": "ladder_h100",
+    "run": "h100-mix25-20260912-d1024",
+    "rows": {
+     "eval/_top": 20,
+     "eval/paloma": 20,
+     "eval/uncheatable_eval": 20,
+     "eval_dropless/_top": 20,
+     "eval_dropless/paloma": 20,
+     "eval_dropless/uncheatable_eval": 20,
+     "train(sampled)": 4000
+    },
+    "ref_rows": 20,
+    "log": []
+   },
+   {
+    "category": "ladder_h100",
+    "run": "h100-mix25-20260912-d1536",
+    "rows": {
+     "eval/_top": 21,
+     "eval/paloma": 21,
+     "eval/uncheatable_eval": 21,
+     "eval_dropless/_top": 21,
+     "eval_dropless/paloma": 21,
+     "eval_dropless/uncheatable_eval": 21,
+     "train(sampled)": 4000
+    },
+    "ref_rows": 21,
+    "log": []
+   },
+   {
+    "category": "ladder_h100",
+    "run": "h100-ladder-d512-ep8-bs1024-791tpp-20260824-rno2a",
+    "rows": {
+     "eval/_top": 21,
+     "eval/paloma": 21,
+     "eval/uncheatable_eval": 21,
+     "eval_dropless/_top": 21,
+     "eval_dropless/paloma": 21,
+     "eval_dropless/uncheatable_eval": 21,
+     "train(sampled)": 3930
+    },
+    "ref_rows": 21,
+    "log": []
+   },
+   {
+    "category": "ladder_h100",
+    "run": "h100-ladder-d768-2xep8-bs1024-791tpp-20260824",
+    "rows": {
+     "eval/_top": 20,
+     "eval/paloma": 20,
+     "eval/uncheatable_eval": 20,
+     "eval_dropless/_top": 20,
+     "eval_dropless/paloma": 20,
+     "eval_dropless/uncheatable_eval": 20,
+     "train(sampled)": 4000
+    },
+    "ref_rows": 20,
+    "log": []
+   },
+   {
+    "category": "ladder_h100",
+    "run": "h100-ladder-d1024-ep8x4-bs1024-791tpp-20260825-rno2a-interactive",
+    "rows": {
+     "eval/_top": 20,
+     "eval/paloma": 20,
+     "eval/uncheatable_eval": 20,
+     "eval_dropless/_top": 20,
+     "eval_dropless/paloma": 20,
+     "eval_dropless/uncheatable_eval": 20,
+     "train(sampled)": 4000
+    },
+    "ref_rows": 20,
+    "log": []
+   },
+   {
+    "category": "ladder_h100",
+    "run": "h100-ladder-d1536-ep8x8-bs1024-791tpp-20260825-rno2a-interactive",
+    "rows": {
+     "eval/_top": 6,
+     "eval/paloma": 6,
+     "eval/uncheatable_eval": 6,
+     "eval_dropless/_top": 6,
+     "eval_dropless/paloma": 6,
+     "eval_dropless/uncheatable_eval": 6,
+     "train(sampled)": 4000
+    },
+    "ref_rows": 6,
+    "log": []
+   },
+   {
+    "category": "hero",
+    "run": "hero-84579c80-072503",
+    "rows": {
+     "eval/_top": 1,
+     "eval/paloma": 1,
+     "eval/uncheatable_eval": 1,
+     "eval_dropless/_top": 1,
+     "eval_dropless/paloma": 1,
+     "eval_dropless/uncheatable_eval": 1
+    },
+    "ref_rows": 1,
+    "log": []
+   },
+   {
+    "category": "hero",
+    "run": "hero-12d8b6f0-dee637",
+    "rows": {
+     "eval/_top": 20,
+     "eval/paloma": 20,
+     "eval/uncheatable_eval": 20,
+     "eval_dropless/_top": 20,
+     "eval_dropless/paloma": 20,
+     "eval_dropless/uncheatable_eval": 20,
+     "train(sampled)": 4000
+    },
+    "ref_rows": 20,
+    "log": []
+   },
+   {
+    "category": "hero",
+    "run": "hero-wd-gate-router-p02-step58k",
+    "rows": {
+     "eval_dropless/_top": 8,
+     "eval_dropless/paloma": 8,
+     "eval_dropless/uncheatable_eval": 8,
+     "train(sampled)": 4000
+    },
+    "ref_rows": 8,
+    "log": []
+   },
+   {
+    "category": "hero",
+    "run": "hero-ragged_a2a-nccl2307-ep-step81k",
+    "rows": {
+     "eval_dropless/_top": 9,
+     "eval_dropless/paloma": 9,
+     "eval_dropless/uncheatable_eval": 9,
+     "train(sampled)": 4000
+    },
+    "ref_rows": 9,
+    "log": []
+   },
+   {
+    "category": "hero",
+    "run": "hero-nopdl-step108k",
+    "rows": {
+     "eval_dropless/_top": 4,
+     "eval_dropless/paloma": 4,
+     "eval_dropless/uncheatable_eval": 4,
+     "train(sampled)": 4000
+    },
+    "ref_rows": 4,
+    "log": []
+   },
+   {
+    "category": "hero",
+    "run": "hero-main-step121638",
+    "rows": {
+     "eval_dropless/_top": 12,
+     "eval_dropless/paloma": 12,
+     "eval_dropless/uncheatable_eval": 12,
+     "train(sampled)": 4000
+    },
+    "ref_rows": 12,
+    "log": []
+   },
+   {
+    "category": "hero",
+    "run": "hero-fa4sm100-nomask-step146k",
+    "rows": {
+     "eval_dropless/_top": 40,
+     "eval_dropless/paloma": 40,
+     "eval_dropless/uncheatable_eval": 40,
+     "train(sampled)": 4000
+    },
+    "ref_rows": 40,
+    "log": []
+   },
+   {
+    "category": "forecast",
+    "run": "hero-forecast-seqlen4096-fc",
+    "rows": {
+     "all": 20
+    },
+    "ref_rows": 20,
+    "log": []
+   },
+   {
+    "category": "forecast",
+    "run": "hero-forecast-swap-adjusted-20260914",
+    "rows": {
+     "all": 22
+    },
+    "ref_rows": 22,
+    "log": []
+   },
+   {
+    "category": "forecast",
+    "run": "hero-forecast-uncheatable-swap-20260914",
+    "rows": {
+     "all": 61
+    },
+    "ref_rows": 0,
+    "log": []
+   },
+   {
+    "category": "forecast",
+    "run": "hero-forecast-uncheatable-no-swap-20260914",
+    "rows": {
+     "all": 61
+    },
+    "ref_rows": 0,
+    "log": []
+   },
+   {
+    "category": "forecast",
+    "run": "hero-forecast-uncheatable-asymptote-no-swap-20260914",
+    "rows": {
+     "all": 61
+    },
+    "ref_rows": 0,
+    "log": []
+   },
+   {
+    "category": "forecast",
+    "run": "hero-forecast-uncheatable-asymptote-swap-20260914",
+    "rows": {
+     "all": 61
+    },
+    "ref_rows": 0,
+    "log": []
+   },
+   {
+    "category": "forecast",
+    "run": "hero-forecast-uncheatable-asymptote-no-swap-from0-20260914",
+    "rows": {
+     "all": 82
+    },
+    "ref_rows": 0,
+    "log": []
+   },
+   {
+    "category": "forecast",
+    "run": "hero-forecast-uncheatable-asymptote-swap-from0-20260914",
+    "rows": {
+     "all": 82
+    },
+    "ref_rows": 0,
+    "log": []
+   },
+   {
+    "category": "forecast",
+    "run": "hero-uncheatable-ladder-floor14-no-swap-20260914",
+    "rows": {
+     "all": 20
+    },
+    "ref_rows": 0,
+    "log": []
+   },
+   {
+    "category": "forecast",
+    "run": "hero-uncheatable-ladder-floor14-swap-20260914",
+    "rows": {
+     "all": 20
+    },
+    "ref_rows": 0,
+    "log": []
+   },
+   {
+    "category": "forecast",
+    "run": "hero-uncheatable-joint-floor14-no-swap-20260914",
+    "rows": {
+     "all": 160
+    },
+    "ref_rows": 0,
+    "log": []
+   },
+   {
+    "category": "forecast",
+    "run": "hero-uncheatable-joint-floor14-swap-20260914",
+    "rows": {
+     "all": 160
+    },
+    "ref_rows": 0,
+    "log": []
+   },
+   {
+    "category": "forecast",
+    "run": "hero-uncheatable-joint-floor15-no-swap-20260914",
+    "rows": {
+     "all": 160
+    },
+    "ref_rows": 0,
+    "log": []
+   },
+   {
+    "category": "forecast",
+    "run": "hero-uncheatable-joint-floor15-swap-20260914",
+    "rows": {
+     "all": 160
+    },
+    "ref_rows": 0,
+    "log": []
+   },
+   {
+    "category": "forecast",
+    "run": "hero-uncheatable-monotone-floor15-old-5d24c2",
+    "rows": {
+     "all": 168
+    },
+    "ref_rows": 0,
+    "log": []
+   },
+   {
+    "category": "forecast",
+    "run": "hero-uncheatable-monotone-floor15-swap-5d24c2",
+    "rows": {
+     "all": 168
+    },
+    "ref_rows": 0,
+    "log": []
+   },
+   {
+    "category": "forecast",
+    "run": "hero-uncheatable-floor14-old-from30-75c36f",
+    "rows": {
+     "all": 4
+    },
+    "ref_rows": 0,
+    "log": []
+   },
+   {
+    "category": "forecast",
+    "run": "hero-uncheatable-floor14-new-from30-75c36f",
+    "rows": {
+     "all": 4
+    },
+    "ref_rows": 0,
+    "log": []
+   },
+   {
+    "category": "forecast",
+    "run": "hero-dropless-refit-old-20261003-phq0qbmf",
+    "rows": {
+     "all": 15
+    },
+    "ref_rows": 15,
+    "log": [
+     "hero-dropless-refit-old-20261003-phq0qbmf:all grouped=0 < ref=15; refetched per key -> 15"
+    ]
+   },
+   {
+    "category": "forecast",
+    "run": "hero-dropless-refit-new-20261003-aa4pdwep",
+    "rows": {
+     "all": 15
+    },
+    "ref_rows": 15,
+    "log": [
+     "hero-dropless-refit-new-20261003-aa4pdwep:all grouped=0 < ref=15; refetched per key -> 15"
+    ]
+   },
+   {
+    "category": "backtest_67b",
+    "run": "june_prep_moe_may_d512_ep2_no_long_rope_seq8192_sw2k",
+    "rows": {
+     "eval/_top": 91,
+     "eval/paloma": 91,
+     "eval/uncheatable_eval": 91,
+     "train(sampled)": 4000
+    },
+    "ref_rows": 91,
+    "log": []
+   },
+   {
+    "category": "backtest_67b",
+    "run": "june_prep_moe_may_d768_ep2_no_long_rope_seq8192_sw2k",
+    "rows": {
+     "eval/_top": 250,
+     "eval/paloma": 250,
+     "eval/uncheatable_eval": 250,
+     "train(sampled)": 4000
+    },
+    "ref_rows": 250,
+    "log": []
+   },
+   {
+    "category": "backtest_67b",
+    "run": "june_prep_moe_may_d1024_ep2_bs512_no_long_rope_seq8192_sw2k",
+    "rows": {
+     "eval/_top": 162,
+     "eval/paloma": 162,
+     "eval/uncheatable_eval": 162,
+     "train(sampled)": 4000
+    },
+    "ref_rows": 162,
+    "log": []
+   },
+   {
+    "category": "backtest_67b",
+    "run": "moe_67b_a2b_d2560_ep1_rep16_bs4096_seq8192_sw2k_v4_2048_muon_10T",
+    "rows": {
+     "eval/_top": 5,
+     "eval/paloma": 5,
+     "eval/uncheatable_eval": 5,
+     "train(sampled)": 4000
+    },
+    "ref_rows": 5,
+    "log": []
+   },
+   {
+    "category": "backtest_67b",
+    "run": "moe_67b_a2b_d2560_ep1_rep8_bs8192_seq8192_sw2k_v4_2048_muon_resume15k_v2_10T",
+    "rows": {
+     "eval/_top": 43,
+     "eval/paloma": 43,
+     "eval/uncheatable_eval": 43,
+     "train(sampled)": 4000
+    },
+    "ref_rows": 43,
+    "log": []
+   }
+  ]
+ },
+ "github_issues": {
+  "8435": 27,
+  "8506": 59,
+  "8824": 19,
+  "6044": 33,
+  "9126": 2,
+  "9874": 5,
+  "9615": 19
+ },
+ "external": {
+  "gcs_8824_hero-bpb-forecast-analysis.json": {
+   "url": "https://storage.googleapis.com/marin-public/held/hero-open-weight-ppl/2026.09.05.1/hero-bpb-forecast-analysis.json",
+   "status": 200
+  },
+  "gcs_8824_paloma-subset-forecast-analysis.json": {
+   "url": "https://storage.googleapis.com/marin-public/held/hero-open-weight-ppl/2026.09.05.1/paloma-subset-forecast-analysis.json",
+   "status": 200
+  },
+  "gcs_8824_metrics.json": {
+   "url": "https://storage.googleapis.com/marin-public/held/hero-open-weight-ppl/2026.09.05.1/metrics.json",
+   "status": 200
+  },
+  "mtracker_hero-run-535b_loss.json": {
+   "url": "https://mtracker.oa.dev/api/pages/hero-run-535b/loss",
+   "status": 200
+  }
+ },
+ "wandb_long_rows": 74749,
+ "errors": [],
+ "files": [
+  {
+   "path": "raw/external/gcs_8824_hero-bpb-forecast-analysis.json",
+   "bytes": 16729,
+   "sha256": "60320b221d3a95fc8af7a05156bed7c6810ee47927137fa9dc2c8c051de4a2ab"
+  },
+  {
+   "path": "raw/external/gcs_8824_metrics.json",
+   "bytes": 35635,
+   "sha256": "c791f03488257d28627573c85d904a6f2e46df508c9b5e7575793ecf3e39b7d3"
+  },
+  {
+   "path": "raw/external/gcs_8824_paloma-subset-forecast-analysis.json",
+   "bytes": 130117,
+   "sha256": "36861adc64c9256df93244daf0ec5cabc0e124eaeb598045a276790241a1d6e8"
+  },
+  {
+   "path": "raw/external/mtracker_hero-run-535b_loss.json",
+   "bytes": 1037879,
+   "sha256": "d0122afd9c9b81bca445d95dba8e2ede942ef2ad0e623c1ec7e6ff8f1493fa46"
+  },
+  {
+   "path": "raw/github/issue_6044.json",
+   "bytes": 127022,
+   "sha256": "2c9c6c481169316a86a6b898cba23a468b7c0cf7d0a866b8bba485d05299b6db"
+  },
+  {
+   "path": "raw/github/issue_8435.json",
+   "bytes": 123435,
+   "sha256": "f544e82f81b2403d92812bccd412208804b647315a99ea1640191b286651dba7"
+  },
+  {
+   "path": "raw/github/issue_8506.json",
+   "bytes": 177891,
+   "sha256": "dbbe2be0938a1eb3ed05668e5cbcb21f375d9fc397aed4e453242137832f08d5"
+  },
+  {
+   "path": "raw/github/issue_8824.json",
+   "bytes": 53805,
+   "sha256": "6674353cc83f6ff9cca405650fa9fca7180b9be4e23ec195b3e18ebd54beebac"
+  },
+  {
+   "path": "raw/github/issue_9126.json",
+   "bytes": 25039,
+   "sha256": "79234622bde9aca2d1707e9c3192f03122f49a6025294957ba0b15937f6bb8c7"
+  },
+  {
+   "path": "raw/github/issue_9615.json",
+   "bytes": 73483,
+   "sha256": "170e3da682388dc2902ce47e87a77f9b0d8fc787a1888fb589866624b0e96057"
+  },
+  {
+   "path": "raw/github/issue_9874.json",
+   "bytes": 23085,
+   "sha256": "9db8c68a55ed308e82a86c432c659533fb5127240ab41a39497052e8332a93c3"
+  },
+  {
+   "path": "raw/wandb/backtest_67b/june_prep_moe_may_d1024_ep2_bs512_no_long_rope_seq8192_sw2k/eval___top.json",
+   "bytes": 28047,
+   "sha256": "6a1b67aa5ee8b1d103e5bfbcd2bf0dbed7a5048eb46f1266e6e0a286cc403858"
+  },
+  {
+   "path": "raw/wandb/backtest_67b/june_prep_moe_may_d1024_ep2_bs512_no_long_rope_seq8192_sw2k/eval__paloma.json",
+   "bytes": 320433,
+   "sha256": "f0b03538b451749709d1eab0ff7f4b850a9faf38ae1993cb580a477131e973a0"
+  },
+  {
+   "path": "raw/wandb/backtest_67b/june_prep_moe_may_d1024_ep2_bs512_no_long_rope_seq8192_sw2k/eval__uncheatable_eval.json",
+   "bytes": 189071,
+   "sha256": "8990a9f19e8ffe289c07890935acf2abca140c6a97287a07a100ff7ef1335267"
+  },
+  {
+   "path": "raw/wandb/backtest_67b/june_prep_moe_may_d1024_ep2_bs512_no_long_rope_seq8192_sw2k/meta.json",
+   "bytes": 146387,
+   "sha256": "118898e1674c7c41661127abe15edb43787757c1fbcb022410102041a0746554"
+  },
+  {
+   "path": "raw/wandb/backtest_67b/june_prep_moe_may_d1024_ep2_bs512_no_long_rope_seq8192_sw2k/reference_eval__paloma__macro_loss.json",
+   "bytes": 11637,
+   "sha256": "a9e6a330ef9e63a3e15850745cde81c5b58c885b239703cea7f7523d49b54807"
+  },
+  {
+   "path": "raw/wandb/backtest_67b/june_prep_moe_may_d1024_ep2_bs512_no_long_rope_seq8192_sw2k/train_sampled.json",
+   "bytes": 629583,
+   "sha256": "b2bede5ad9295bda66b953c7331998f4bf71be41d1df0dc9a224a39af03a485a"
+  },
+  {
+   "path": "raw/wandb/backtest_67b/june_prep_moe_may_d512_ep2_no_long_rope_seq8192_sw2k/eval___top.json",
+   "bytes": 15691,
+   "sha256": "360272dabd9461bf18e584c84dc6ae142cc704557dadbb74882992c41da3ac34"
+  },
+  {
+   "path": "raw/wandb/backtest_67b/june_prep_moe_may_d512_ep2_no_long_rope_seq8192_sw2k/eval__paloma.json",
+   "bytes": 179762,
+   "sha256": "c40639a99e88b952ad329ac53b7f26aa6aba9ced77dd0b410d34ee9dd9135c61"
+  },
+  {
+   "path": "raw/wandb/backtest_67b/june_prep_moe_may_d512_ep2_no_long_rope_seq8192_sw2k/eval__uncheatable_eval.json",
+   "bytes": 106067,
+   "sha256": "2865b6a6b9bfb5f1ef43d04be6deb9bd8cbf311b2961797a481d76ca5f9430cd"
+  },
+  {
+   "path": "raw/wandb/backtest_67b/june_prep_moe_may_d512_ep2_no_long_rope_seq8192_sw2k/meta.json",
+   "bytes": 130470,
+   "sha256": "8eddaedb9821c3a51fead4d938ed8f1b978be363f63ab8bf211aa9b48bd4d074"
+  },
+  {
+   "path": "raw/wandb/backtest_67b/june_prep_moe_may_d512_ep2_no_long_rope_seq8192_sw2k/reference_eval__paloma__macro_loss.json",
+   "bytes": 6495,
+   "sha256": "bc701c6644da58b0213507e68109e934c8701771167d3ef3ab1449969ed37580"
+  },
+  {
+   "path": "raw/wandb/backtest_67b/june_prep_moe_may_d512_ep2_no_long_rope_seq8192_sw2k/train_sampled.json",
+   "bytes": 625691,
+   "sha256": "7f5c98efe9abf1bda169fba71261b5d918b66568d0b3936d1f005ff4b714021d"
+  },
+  {
+   "path": "raw/wandb/backtest_67b/june_prep_moe_may_d768_ep2_no_long_rope_seq8192_sw2k/eval___top.json",
+   "bytes": 43318,
+   "sha256": "4758fe9df6550ae178ac7a58eb83e728c19d4cffa9c2dc81e9ccdba6f7131032"
+  },
+  {
+   "path": "raw/wandb/backtest_67b/june_prep_moe_may_d768_ep2_no_long_rope_seq8192_sw2k/eval__paloma.json",
+   "bytes": 494333,
+   "sha256": "f3c0e867243af1a22d225c99840baa8f17b7f5b310683587e5ed8a98f348b930"
+  },
+  {
+   "path": "raw/wandb/backtest_67b/june_prep_moe_may_d768_ep2_no_long_rope_seq8192_sw2k/eval__uncheatable_eval.json",
+   "bytes": 291704,
+   "sha256": "4a6c64e8636feb318fa60dfa04e1a3b2d9c6505306d8482188b918258fce38f8"
+  },
+  {
+   "path": "raw/wandb/backtest_67b/june_prep_moe_may_d768_ep2_no_long_rope_seq8192_sw2k/meta.json",
+   "bytes": 136737,
+   "sha256": "c68000a51a1f95fb158b653b7199663cbfc201aac81f8fce9f02f4b213d1488c"
+  },
+  {
+   "path": "raw/wandb/backtest_67b/june_prep_moe_may_d768_ep2_no_long_rope_seq8192_sw2k/reference_eval__paloma__macro_loss.json",
+   "bytes": 18023,
+   "sha256": "e0444fce263c3cd7d0e929c27cff08e481ae273fffb67bccd9e835bd25046ffa"
+  },
+  {
+   "path": "raw/wandb/backtest_67b/june_prep_moe_may_d768_ep2_no_long_rope_seq8192_sw2k/train_sampled.json",
+   "bytes": 630115,
+   "sha256": "1c87f80e22136d628d2e5f92e8aa37f457f99c3c92abc9fc18a11adc6734e655"
+  },
+  {
+   "path": "raw/wandb/backtest_67b/moe_67b_a2b_d2560_ep1_rep16_bs4096_seq8192_sw2k_v4_2048_muon_10T/eval___top.json",
+   "bytes": 862,
+   "sha256": "2211e45b783dd0b4bf12d35069a78b11535e350072da200b54ccdd7afb421806"
+  },
+  {
+   "path": "raw/wandb/backtest_67b/moe_67b_a2b_d2560_ep1_rep16_bs4096_seq8192_sw2k_v4_2048_muon_10T/eval__paloma.json",
+   "bytes": 9899,
+   "sha256": "5fbfdc1a24890c9e284cd849a6301e5eaad11555620c1eaa3ce0c9c830bbc8e3"
+  },
+  {
+   "path": "raw/wandb/backtest_67b/moe_67b_a2b_d2560_ep1_rep16_bs4096_seq8192_sw2k_v4_2048_muon_10T/eval__uncheatable_eval.json",
+   "bytes": 5839,
+   "sha256": "14def83aa7fdd192eebf192144eef8d944d01edced0e55d7aa1e68591873969d"
+  },
+  {
+   "path": "raw/wandb/backtest_67b/moe_67b_a2b_d2560_ep1_rep16_bs4096_seq8192_sw2k_v4_2048_muon_10T/meta.json",
+   "bytes": 136821,
+   "sha256": "6c1e6a82b37d2166de0813cc435a658e7fc75d2ee55d86b79e925b36d77ecf27"
+  },
+  {
+   "path": "raw/wandb/backtest_67b/moe_67b_a2b_d2560_ep1_rep16_bs4096_seq8192_sw2k_v4_2048_muon_10T/reference_eval__paloma__macro_loss.json",
+   "bytes": 358,
+   "sha256": "87bfdf33d6997749434210a5f8d2d1f18e8d4ce5f89118802da51df213409356"
+  },
+  {
+   "path": "raw/wandb/backtest_67b/moe_67b_a2b_d2560_ep1_rep16_bs4096_seq8192_sw2k_v4_2048_muon_10T/train_sampled.json",
+   "bytes": 624942,
+   "sha256": "96475efdd84192ed94a55dcf1e678b9d62fd3b38aa4ec9968d42fbe6db77a442"
+  },
+  {
+   "path": "raw/wandb/backtest_67b/moe_67b_a2b_d2560_ep1_rep8_bs8192_seq8192_sw2k_v4_2048_muon_resume15k_v2_10T/eval___top.json",
+   "bytes": 7442,
+   "sha256": "9ae5d834010196bd7c819f9793705a42bcc16e255ee3a9ec84b99fb1fd970559"
+  },
+  {
+   "path": "raw/wandb/backtest_67b/moe_67b_a2b_d2560_ep1_rep8_bs8192_seq8192_sw2k_v4_2048_muon_resume15k_v2_10T/eval__paloma.json",
+   "bytes": 85153,
+   "sha256": "0f90f795c0cb90dac3763577bf375a361edb9ab43580ada7b1e17d1131f0f9cf"
+  },
+  {
+   "path": "raw/wandb/backtest_67b/moe_67b_a2b_d2560_ep1_rep8_bs8192_seq8192_sw2k_v4_2048_muon_resume15k_v2_10T/eval__uncheatable_eval.json",
+   "bytes": 50250,
+   "sha256": "f7a2008cee8ee154875b842cf68033b41aac0a50755a9a2e57662b6934e94e63"
+  },
+  {
+   "path": "raw/wandb/backtest_67b/moe_67b_a2b_d2560_ep1_rep8_bs8192_seq8192_sw2k_v4_2048_muon_resume15k_v2_10T/meta.json",
+   "bytes": 137394,
+   "sha256": "02584d87701e67ebe9fe6abd71cb43c85dd45e7beeb8e4f02ae95b57875430b1"
+  },
+  {
+   "path": "raw/wandb/backtest_67b/moe_67b_a2b_d2560_ep1_rep8_bs8192_seq8192_sw2k_v4_2048_muon_resume15k_v2_10T/reference_eval__paloma__macro_loss.json",
+   "bytes": 3094,
+   "sha256": "426a7222ccd15da7515b752bc082366552ae93ab1058e964ad5a6183b9671c42"
+  },
+  {
+   "path": "raw/wandb/backtest_67b/moe_67b_a2b_d2560_ep1_rep8_bs8192_seq8192_sw2k_v4_2048_muon_resume15k_v2_10T/train_sampled.json",
+   "bytes": 629068,
+   "sha256": "9d98e34bd973b67602999187c683f6493e6236ad2dfbfa2a84f85876c163dd7a"
+  },
+  {
+   "path": "raw/wandb/forecast/hero-dropless-refit-new-20261003-aa4pdwep/all.json",
+   "bytes": 31688,
+   "sha256": "17b5e665f3348d9933bbd7636816f3290a3bebb9c2d918d329b2304ae32d805b"
+  },
+  {
+   "path": "raw/wandb/forecast/hero-dropless-refit-new-20261003-aa4pdwep/meta.json",
+   "bytes": 15013,
+   "sha256": "129387d069e3c0c7ea881bb96a0933f669094ef07dc876fbc0372f1b7b7a1cbf"
+  },
+  {
+   "path": "raw/wandb/forecast/hero-dropless-refit-new-20261003-aa4pdwep/reference_eval_dropless__paloma__macro_loss.json",
+   "bytes": 1221,
+   "sha256": "6e0ae59a8a45e34d61d4753af4ede1a37cee19b29a478c60414a61e8442b6404"
+  },
+  {
+   "path": "raw/wandb/forecast/hero-dropless-refit-old-20261003-phq0qbmf/all.json",
+   "bytes": 31683,
+   "sha256": "e2b2eec1177bae81f17d3f30fa1df2d483cf6902c281df0095c568f797e61699"
+  },
+  {
+   "path": "raw/wandb/forecast/hero-dropless-refit-old-20261003-phq0qbmf/meta.json",
+   "bytes": 15012,
+   "sha256": "2018aef4de92085377e554ebd5c1815b7b623c9bf4302e605e1e8bfe4e7cb5d3"
+  },
+  {
+   "path": "raw/wandb/forecast/hero-dropless-refit-old-20261003-phq0qbmf/reference_eval_dropless__paloma__macro_loss.json",
+   "bytes": 1226,
+   "sha256": "cf4761c6a8582b7a08658af4ff200d1ed14bfb37125590dca0801bb5264333b5"
+  },
+  {
+   "path": "raw/wandb/forecast/hero-forecast-seqlen4096-fc/all.json",
+   "bytes": 2464,
+   "sha256": "a29895249bb6aaa671e054c544c0c6966b08067a25c3b709f0c556c843408e8e"
+  },
+  {
+   "path": "raw/wandb/forecast/hero-forecast-seqlen4096-fc/meta.json",
+   "bytes": 907,
+   "sha256": "f7c7418a4270a1e8ca848a6beff8e135c285b2d2d656319fa9f8741515f5e4b6"
+  },
+  {
+   "path": "raw/wandb/forecast/hero-forecast-seqlen4096-fc/reference_eval_dropless__paloma__macro_loss.json",
+   "bytes": 1376,
+   "sha256": "23bb3b616be1944acfdfd3ecb459f5a345e594a942697bd9d4c7d2b6e1703ee7"
+  },
+  {
+   "path": "raw/wandb/forecast/hero-forecast-swap-adjusted-20260914/all.json",
+   "bytes": 5304,
+   "sha256": "3fab832f83f68d1ae247f8fc320ae6923f01df9d0f921f69373158099bba0412"
+  },
+  {
+   "path": "raw/wandb/forecast/hero-forecast-swap-adjusted-20260914/meta.json",
+   "bytes": 1684,
+   "sha256": "16e96da4a196055e78f2ca85b42b90d89d1ff9894a71bbd372fbb2d03a96407d"
+  },
+  {
+   "path": "raw/wandb/forecast/hero-forecast-swap-adjusted-20260914/reference_eval_dropless__paloma__macro_loss.json",
+   "bytes": 1723,
+   "sha256": "d7ade1e851304b5ade85f5a7b6214b6062325aa0d67c2dbf2465d3b541fedbd8"
+  },
+  {
+   "path": "raw/wandb/forecast/hero-forecast-uncheatable-asymptote-no-swap-20260914/all.json",
+   "bytes": 7899,
+   "sha256": "27d6a2a75eb5a9d6eaefadc9b193304affc9841993e953e410e720c33de19960"
+  },
+  {
+   "path": "raw/wandb/forecast/hero-forecast-uncheatable-asymptote-no-swap-20260914/meta.json",
+   "bytes": 1270,
+   "sha256": "682f1259adcaa131262e80f6eeda404557ca9cc4466f333aeaad448d9a0fe650"
+  },
+  {
+   "path": "raw/wandb/forecast/hero-forecast-uncheatable-asymptote-no-swap-from0-20260914/all.json",
+   "bytes": 10596,
+   "sha256": "c321805b155e9f578d543d7a8ffb0c51b1c424803b3a6dfb8ac117bce2e6b084"
+  },
+  {
+   "path": "raw/wandb/forecast/hero-forecast-uncheatable-asymptote-no-swap-from0-20260914/meta.json",
+   "bytes": 1282,
+   "sha256": "0c5e28f6c0d4c977f77773330826ff4acbd37526678a4b1fd88cc455e311ab35"
+  },
+  {
+   "path": "raw/wandb/forecast/hero-forecast-uncheatable-asymptote-swap-20260914/all.json",
+   "bytes": 7902,
+   "sha256": "8c8cb1bdea35289136add845527f61145e7b3aed03c1d78f201320e14e390977"
+  },
+  {
+   "path": "raw/wandb/forecast/hero-forecast-uncheatable-asymptote-swap-20260914/meta.json",
+   "bytes": 1262,
+   "sha256": "fec744399817acfa72b4b9d61f88476c646b62235142b1661a1f603ad81c2b44"
+  },
+  {
+   "path": "raw/wandb/forecast/hero-forecast-uncheatable-asymptote-swap-from0-20260914/all.json",
+   "bytes": 10599,
+   "sha256": "1fdf8ecf2539492295b10f576f7a8da566e01e2743e123cc9f31506d1ff87a9e"
+  },
+  {
+   "path": "raw/wandb/forecast/hero-forecast-uncheatable-asymptote-swap-from0-20260914/meta.json",
+   "bytes": 1274,
+   "sha256": "4f698afa5fcb8536e602746d68ce87efc49716e39e51023bc33c9c1846c0c36a"
+  },
+  {
+   "path": "raw/wandb/forecast/hero-forecast-uncheatable-no-swap-20260914/all.json",
+   "bytes": 7897,
+   "sha256": "4a0ccea606a61b9f1ea5b2c00acbc3b5ecf030f0bc5e73caf9a2dc820bc7a061"
+  },
+  {
+   "path": "raw/wandb/forecast/hero-forecast-uncheatable-no-swap-20260914/meta.json",
+   "bytes": 1663,
+   "sha256": "d8f635f43a4566bc176e8597c3da7682e3caa3d24d8d06a809e813a43f3faf43"
+  },
+  {
+   "path": "raw/wandb/forecast/hero-forecast-uncheatable-swap-20260914/all.json",
+   "bytes": 17053,
+   "sha256": "751561df63c117debd5c364a895efdb461fafe22af4d6c230c5d528dde2f291e"
+  },
+  {
+   "path": "raw/wandb/forecast/hero-forecast-uncheatable-swap-20260914/meta.json",
+   "bytes": 1693,
+   "sha256": "0f2d322023a8fbb1fa2027d35863e57ca8890b95160b550a2d5bb8e44b933e09"
+  },
+  {
+   "path": "raw/wandb/forecast/hero-uncheatable-floor14-new-from30-75c36f/all.json",
+   "bytes": 461,
+   "sha256": "7a5d902b4dea98464e59ab66e03f9f6742556a130cbcf304dd627c49cbd77857"
+  },
+  {
+   "path": "raw/wandb/forecast/hero-uncheatable-floor14-new-from30-75c36f/meta.json",
+   "bytes": 1133,
+   "sha256": "f41da20d9c9db458784b4242dc6c002398241d25230c4c2309934598b9b8540e"
+  },
+  {
+   "path": "raw/wandb/forecast/hero-uncheatable-floor14-old-from30-75c36f/all.json",
+   "bytes": 461,
+   "sha256": "7b43ee5b0905fc91cacab1c140f8e0f3527d564a329b9df4219dc20d5a13fa99"
+  },
+  {
+   "path": "raw/wandb/forecast/hero-uncheatable-floor14-old-from30-75c36f/meta.json",
+   "bytes": 1133,
+   "sha256": "3214e2f59c190119d7fe44ae9489aabbc8aefa4d8addaef82f06b7cb87de5562"
+  },
+  {
+   "path": "raw/wandb/forecast/hero-uncheatable-joint-floor14-no-swap-20260914/all.json",
+   "bytes": 20724,
+   "sha256": "0ea2bbf51845ecccfc5035568e9ed6584bb5b2db53c475aedfc210ac2ede48f9"
+  },
+  {
+   "path": "raw/wandb/forecast/hero-uncheatable-joint-floor14-no-swap-20260914/meta.json",
+   "bytes": 1097,
+   "sha256": "4bc385ce67136f83dcafec26342f30389ee3cd7184cf98d21a38c5e2cdee4a9d"
+  },
+  {
+   "path": "raw/wandb/forecast/hero-uncheatable-joint-floor14-swap-20260914/all.json",
+   "bytes": 20720,
+   "sha256": "b11996bd01ca78428e5020f7b519b50ae4b55670efbfdabdaa36c254c5fb5efc"
+  },
+  {
+   "path": "raw/wandb/forecast/hero-uncheatable-joint-floor14-swap-20260914/meta.json",
+   "bytes": 1098,
+   "sha256": "35217d2813e065624733d09f0e06d1bec02a8e573e697497b8d77840f69b8143"
+  },
+  {
+   "path": "raw/wandb/forecast/hero-uncheatable-joint-floor15-no-swap-20260914/all.json",
+   "bytes": 20716,
+   "sha256": "a28a0e691a732955ab7350cdc4fc55d9b0f651186b9f8b63fd0fd7e41c44ad54"
+  },
+  {
+   "path": "raw/wandb/forecast/hero-uncheatable-joint-floor15-no-swap-20260914/meta.json",
+   "bytes": 1096,
+   "sha256": "2d11d5483803b1fb6e0c76e347a4dfb57c18a044d079df8daab6cfbf2dba19d0"
+  },
+  {
+   "path": "raw/wandb/forecast/hero-uncheatable-joint-floor15-swap-20260914/all.json",
+   "bytes": 20718,
+   "sha256": "e8c9897ddf34476615cb6bad5c16cc659db2383472ff36e5ab62cb744960451a"
+  },
+  {
+   "path": "raw/wandb/forecast/hero-uncheatable-joint-floor15-swap-20260914/meta.json",
+   "bytes": 1088,
+   "sha256": "c5e8e1379c082bab4c2ec03cc6ecb0f5c6ee35733a85430929fd01290c7fc23d"
+  },
+  {
+   "path": "raw/wandb/forecast/hero-uncheatable-ladder-floor14-no-swap-20260914/all.json",
+   "bytes": 2296,
+   "sha256": "37a4e7faf82a3821a7ae20838395d2a10fc268d5f801475b5e5ac3054c5c3d0e"
+  },
+  {
+   "path": "raw/wandb/forecast/hero-uncheatable-ladder-floor14-no-swap-20260914/meta.json",
+   "bytes": 1101,
+   "sha256": "47946462b5027ec83621d19cb637a5a07c6b3a286a85acd4679b5762f5f913e5"
+  },
+  {
+   "path": "raw/wandb/forecast/hero-uncheatable-ladder-floor14-swap-20260914/all.json",
+   "bytes": 2299,
+   "sha256": "15a414e6291255003cbabba66500baa1bebb70ca6c7003c51ccd62535db5bc08"
+  },
+  {
+   "path": "raw/wandb/forecast/hero-uncheatable-ladder-floor14-swap-20260914/meta.json",
+   "bytes": 1095,
+   "sha256": "c78791867b55ab4620c77ae95398a3e7035fe50a8795ff7263877c203ac5a572"
+  },
+  {
+   "path": "raw/wandb/forecast/hero-uncheatable-monotone-floor15-old-5d24c2/all.json",
+   "bytes": 21737,
+   "sha256": "9e221a0c9372bcdd33a8af440cbd99b3a5f6565404a641bd38b65f3d1637cec5"
+  },
+  {
+   "path": "raw/wandb/forecast/hero-uncheatable-monotone-floor15-old-5d24c2/meta.json",
+   "bytes": 3061,
+   "sha256": "1129d779068a23429980a3a56c13b60ed3b9a0c80349551d18c5732b3338cf83"
+  },
+  {
+   "path": "raw/wandb/forecast/hero-uncheatable-monotone-floor15-swap-5d24c2/all.json",
+   "bytes": 21757,
+   "sha256": "73c7c1c528f0d261d2d8d45455cb6a78fd33b21fc67c489dd9578d4355111d65"
+  },
+  {
+   "path": "raw/wandb/forecast/hero-uncheatable-monotone-floor15-swap-5d24c2/meta.json",
+   "bytes": 3063,
+   "sha256": "de8699db6175c7effba3abdee804a1f283a8d152e03bd56ae890ff148885263d"
+  },
+  {
+   "path": "raw/wandb/hero/hero-12d8b6f0-dee637/eval___top.json",
+   "bytes": 3445,
+   "sha256": "32f819301a7fc6f2468412368461b05e94a12f5e2ff99076856b356675591a26"
+  },
+  {
+   "path": "raw/wandb/hero/hero-12d8b6f0-dee637/eval__paloma.json",
+   "bytes": 44046,
+   "sha256": "1ea7a232b12722bdf366fe3ed532515acd4c36b3084add9e4f0746226f069d57"
+  },
+  {
+   "path": "raw/wandb/hero/hero-12d8b6f0-dee637/eval__uncheatable_eval.json",
+   "bytes": 25280,
+   "sha256": "2147675fc979fc964d5b094dbd9d8e59d93161f1d89b60426a8bb92acdb1e6fa"
+  },
+  {
+   "path": "raw/wandb/hero/hero-12d8b6f0-dee637/eval_dropless___top.json",
+   "bytes": 4171,
+   "sha256": "434f1c006593ab1e2e2e8e87861e32a11c60aa82fa36b9516cf5b4c9efc844ec"
+  },
+  {
+   "path": "raw/wandb/hero/hero-12d8b6f0-dee637/eval_dropless__paloma.json",
+   "bytes": 50537,
+   "sha256": "e4ba9e61634621da5963e690f7940fee961e893885ee526feded0a711b12bea1"
+  },
+  {
+   "path": "raw/wandb/hero/hero-12d8b6f0-dee637/eval_dropless__uncheatable_eval.json",
+   "bytes": 28563,
+   "sha256": "48bf60632a0985f42b3ed010f2b154ef1bfab902abdc04862f7c80c39fd5dd52"
+  },
+  {
+   "path": "raw/wandb/hero/hero-12d8b6f0-dee637/meta.json",
+   "bytes": 175654,
+   "sha256": "f56997ccfb254e2634c2971cd85ff5827b2482ac7fa8412127376044b8a9a304"
+  },
+  {
+   "path": "raw/wandb/hero/hero-12d8b6f0-dee637/reference_eval_dropless__paloma__macro_loss.json",
+   "bytes": 1606,
+   "sha256": "e848bada739b04a1dcb50379683767b6f64efc72c3cd318003169d8bec04c3f9"
+  },
+  {
+   "path": "raw/wandb/hero/hero-12d8b6f0-dee637/train_sampled.json",
+   "bytes": 627342,
+   "sha256": "d2492ffbe9f0fb08c92e371e0544516db77429c8742d33a55fe036dfeab3d215"
+  },
+  {
+   "path": "raw/wandb/hero/hero-84579c80-072503/eval___top.json",
+   "bytes": 169,
+   "sha256": "eaf831cb26089d2e2e8ef9489f496f16c3cbf146d70622f315dbc8ec932910ce"
+  },
+  {
+   "path": "raw/wandb/hero/hero-84579c80-072503/eval__paloma.json",
+   "bytes": 2196,
+   "sha256": "0d2f370809b90e06f867a4dc3fd77948a14e37e67c0b6a6ec75a2a257d7255a0"
+  },
+  {
+   "path": "raw/wandb/hero/hero-84579c80-072503/eval__uncheatable_eval.json",
+   "bytes": 1261,
+   "sha256": "b5aaff657dfc17fcebc364d3859c9ce7e610a7d34cb637ed135edd0fa204604f"
+  },
+  {
+   "path": "raw/wandb/hero/hero-84579c80-072503/eval_dropless___top.json",
+   "bytes": 206,
+   "sha256": "bbdb2f8d7a2f8a09177b09d597fe56c8916499b8858eb62f73aef75ae58dbf06"
+  },
+  {
+   "path": "raw/wandb/hero/hero-84579c80-072503/eval_dropless__paloma.json",
+   "bytes": 2524,
+   "sha256": "9be09beffd674e692cea55c2839ed85b93823ef7e8d866899a2cd67a81092eda"
+  },
+  {
+   "path": "raw/wandb/hero/hero-84579c80-072503/eval_dropless__uncheatable_eval.json",
+   "bytes": 1423,
+   "sha256": "b907137bc26362fb1681d68f22de1a5f6b2a5d7e18cdf1a6d253210a54fbdf52"
+  },
+  {
+   "path": "raw/wandb/hero/hero-84579c80-072503/meta.json",
+   "bytes": 111882,
+   "sha256": "ebc706430a9ab53ddf1cde8c6a5a769a54b94937a130754bed82bf5a5a0f51ce"
+  },
+  {
+   "path": "raw/wandb/hero/hero-84579c80-072503/reference_eval_dropless__paloma__macro_loss.json",
+   "bytes": 79,
+   "sha256": "f8d8bd69fae5e2a8e45b44d126a230113466f43aa0fb33f439755499479cf4b7"
+  },
+  {
+   "path": "raw/wandb/hero/hero-fa4sm100-nomask-step146k/eval_dropless___top.json",
+   "bytes": 8404,
+   "sha256": "5ecc4b136d919c5a71504d78428f82c061d353dd08417952695d824319569b16"
+  },
+  {
+   "path": "raw/wandb/hero/hero-fa4sm100-nomask-step146k/eval_dropless__paloma.json",
+   "bytes": 101202,
+   "sha256": "cfffce034807cc29d9f69e29777fcd83b4a3c42d9e3296028f305bf258c6f6ac"
+  },
+  {
+   "path": "raw/wandb/hero/hero-fa4sm100-nomask-step146k/eval_dropless__uncheatable_eval.json",
+   "bytes": 57201,
+   "sha256": "027bd9a6c85a772f707c3bfe7ed7ec57085c32092ace282785d806230c54d529"
+  },
+  {
+   "path": "raw/wandb/hero/hero-fa4sm100-nomask-step146k/meta.json",
+   "bytes": 372023,
+   "sha256": "1c9981497795007875e4d5b27f58fb3a453fc2a355a338d4ea64a4148217d455"
+  },
+  {
+   "path": "raw/wandb/hero/hero-fa4sm100-nomask-step146k/reference_eval_dropless__paloma__macro_loss.json",
+   "bytes": 3263,
+   "sha256": "d0d688fc31ae8ef612151c135c41137eef02aa01ea4e918944de1aca890c1e2d"
+  },
+  {
+   "path": "raw/wandb/hero/hero-fa4sm100-nomask-step146k/train_sampled.json",
+   "bytes": 632368,
+   "sha256": "b6fcaa792d51712409ee52162cd38cd246f1ea5f36e632914008ef1eed188acf"
+  },
+  {
+   "path": "raw/wandb/hero/hero-main-step121638/eval_dropless___top.json",
+   "bytes": 2522,
+   "sha256": "2a3f0372cb9d3a73f47e9bc393714855ff212eb70dc7f06463ab3dbbd37e7994"
+  },
+  {
+   "path": "raw/wandb/hero/hero-main-step121638/eval_dropless__paloma.json",
+   "bytes": 30351,
+   "sha256": "bd1989a374bf6de69dbae59a229b06eff5045cedd7aedb0d192de6c643c72fb2"
+  },
+  {
+   "path": "raw/wandb/hero/hero-main-step121638/eval_dropless__uncheatable_eval.json",
+   "bytes": 17158,
+   "sha256": "7c0b8c40fb37eb8de527d84c8fa1ea8044076fb1348091b4d38d64257056d938"
+  },
+  {
+   "path": "raw/wandb/hero/hero-main-step121638/meta.json",
+   "bytes": 372292,
+   "sha256": "01da31e4a57308c15b4898c0d1b858145be892f29a8eda942b87fba8f7c434c2"
+  },
+  {
+   "path": "raw/wandb/hero/hero-main-step121638/reference_eval_dropless__paloma__macro_loss.json",
+   "bytes": 982,
+   "sha256": "185c8abcfd27c3b0eb202c62a7c2c13a38a37213deccef94cb8ddf85858b36ae"
+  },
+  {
+   "path": "raw/wandb/hero/hero-main-step121638/train_sampled.json",
+   "bytes": 632099,
+   "sha256": "19e7b36af47a181864f263e77421b329b6bffcbf360f5d89a4781c2d4b04847e"
+  },
+  {
+   "path": "raw/wandb/hero/hero-nopdl-step108k/eval_dropless___top.json",
+   "bytes": 839,
+   "sha256": "959ca0d60918045203f423e8472a3a080adc587689fdb9e76be1c5752da1eeec"
+  },
+  {
+   "path": "raw/wandb/hero/hero-nopdl-step108k/eval_dropless__paloma.json",
+   "bytes": 10121,
+   "sha256": "86fa72e0abf2844df304c09789e6f14ecdcd295d0c07db9c3d077890dab5c4e5"
+  },
+  {
+   "path": "raw/wandb/hero/hero-nopdl-step108k/eval_dropless__uncheatable_eval.json",
+   "bytes": 5721,
+   "sha256": "6807728be0df5b3ce35e63cb4c2f0426208f53227efeb69f8e6b006d40c98f54"
+  },
+  {
+   "path": "raw/wandb/hero/hero-nopdl-step108k/meta.json",
+   "bytes": 371386,
+   "sha256": "6ffe6a42bbb20fc8a346a593f2b49ae567c4b01f3baa460c775be765556704a7"
+  },
+  {
+   "path": "raw/wandb/hero/hero-nopdl-step108k/reference_eval_dropless__paloma__macro_loss.json",
+   "bytes": 328,
+   "sha256": "04eb18aba1800e51db5de19983fd5fce7a92bb583e566356d35af30b1cf6a9f6"
+  },
+  {
+   "path": "raw/wandb/hero/hero-nopdl-step108k/train_sampled.json",
+   "bytes": 632110,
+   "sha256": "c1b5220c171bec0597dd63868a2c8b784d26628bd781f9e1c2d644083ea7c0f2"
+  },
+  {
+   "path": "raw/wandb/hero/hero-ragged_a2a-nccl2307-ep-step81k/eval_dropless___top.json",
+   "bytes": 1881,
+   "sha256": "20f86546d58c6843ca1e251a1cb4a655a0df022bfd74ed6d8a0979f7d282992e"
+  },
+  {
+   "path": "raw/wandb/hero/hero-ragged_a2a-nccl2307-ep-step81k/eval_dropless__paloma.json",
+   "bytes": 22743,
+   "sha256": "90949a998c071db4af50048f498545fef19438082e64c20c834b1393602b5c97"
+  },
+  {
+   "path": "raw/wandb/hero/hero-ragged_a2a-nccl2307-ep-step81k/eval_dropless__uncheatable_eval.json",
+   "bytes": 12867,
+   "sha256": "a2118ccfa0881b61e8ec6a2366f1075a4dc9fb7322d868aab3e98ab74838519f"
+  },
+  {
+   "path": "raw/wandb/hero/hero-ragged_a2a-nccl2307-ep-step81k/meta.json",
+   "bytes": 363898,
+   "sha256": "7f057d978bf1a95c6d7b11d14d8106421fe4910f45c07fc16cc0962fc7c74937"
+  },
+  {
+   "path": "raw/wandb/hero/hero-ragged_a2a-nccl2307-ep-step81k/reference_eval_dropless__paloma__macro_loss.json",
+   "bytes": 731,
+   "sha256": "f08233a60e5e5650c15af056fabc9c50af2089a0ee308e5928cb0f70ea566801"
+  },
+  {
+   "path": "raw/wandb/hero/hero-ragged_a2a-nccl2307-ep-step81k/train_sampled.json",
+   "bytes": 629389,
+   "sha256": "4c565d1d7b9c21f34a5c6958d5d0ab04f155b502bce6d92bca4110b858346929"
+  },
+  {
+   "path": "raw/wandb/hero/hero-wd-gate-router-p02-step58k/eval_dropless___top.json",
+   "bytes": 1675,
+   "sha256": "cb655dc452b43985f861400dd262bb290410226bb1792e7c823534fc1e9dc5a5"
+  },
+  {
+   "path": "raw/wandb/hero/hero-wd-gate-router-p02-step58k/eval_dropless__paloma.json",
+   "bytes": 20242,
+   "sha256": "b3bdaca3aa49bb60b783aec5569f21483136d0f4ce179cadd6c6d3fbfa55e2af"
+  },
+  {
+   "path": "raw/wandb/hero/hero-wd-gate-router-p02-step58k/eval_dropless__uncheatable_eval.json",
+   "bytes": 11433,
+   "sha256": "495dac799c8baa824f98d3921e8eccd0370f8d98d27fbdc4475e4bd43b4b51e7"
+  },
+  {
+   "path": "raw/wandb/hero/hero-wd-gate-router-p02-step58k/meta.json",
+   "bytes": 345041,
+   "sha256": "a04a221da01ec2f64a84fc650c8142b39ae07becd1b672b1362f748adaee64ff"
+  },
+  {
+   "path": "raw/wandb/hero/hero-wd-gate-router-p02-step58k/reference_eval_dropless__paloma__macro_loss.json",
+   "bytes": 647,
+   "sha256": "4dbe92d0f0c61e5067721f89df8e1a388c7842904ec85bbfc9cbf15503d1bc46"
+  },
+  {
+   "path": "raw/wandb/hero/hero-wd-gate-router-p02-step58k/train_sampled.json",
+   "bytes": 628015,
+   "sha256": "58e9e7d8fac37375fc0629d740c93e9a9f75aae33dbe28751f0bcaed67480c7a"
+  },
+  {
+   "path": "raw/wandb/ladder/rav-ladder-d1024/eval___top.json",
+   "bytes": 3430,
+   "sha256": "b1509bb4fbc84cdb1583b37fac4521780cc65324b32e9ea33f201bd64ecf86fd"
+  },
+  {
+   "path": "raw/wandb/ladder/rav-ladder-d1024/eval__paloma.json",
+   "bytes": 43988,
+   "sha256": "f2371affb3c1eff1a3cc9bcb4b68e90c112545aaf4d5314384160d9237317dcc"
+  },
+  {
+   "path": "raw/wandb/ladder/rav-ladder-d1024/eval_dropless___top.json",
+   "bytes": 4157,
+   "sha256": "47bcb24b0ccb505f74825d5d61b7c8c56b497b56af3cb8fc9ff2bf8f6fc18660"
+  },
+  {
+   "path": "raw/wandb/ladder/rav-ladder-d1024/eval_dropless__paloma.json",
+   "bytes": 50491,
+   "sha256": "610488cdf94fc922f833605a2e427fdf738a311fdcb1213fa2d725f730f4013e"
+  },
+  {
+   "path": "raw/wandb/ladder/rav-ladder-d1024/meta.json",
+   "bytes": 132896,
+   "sha256": "b6facdb5cf8abce30bffb2c54348c783ad294fca5c7614cbfb497049e48da617"
+  },
+  {
+   "path": "raw/wandb/ladder/rav-ladder-d1024/reference_eval_dropless__paloma__macro_loss.json",
+   "bytes": 1598,
+   "sha256": "11697ebfa99bfe3fa1c15216035c5201bdec2a5421a182c1e89852c8151b9ed8"
+  },
+  {
+   "path": "raw/wandb/ladder/rav-ladder-d1024/train_sampled.json",
+   "bytes": 622938,
+   "sha256": "1fb0399515d7c0a969a9d80c388dd989452f37014ebcc60291f145fcde47b68f"
+  },
+  {
+   "path": "raw/wandb/ladder/rav-ladder-d1536/eval___top.json",
+   "bytes": 3617,
+   "sha256": "fb79a302415cef2f686319b5e0570b8e02eef73d53cc99d6ab2526e8355b91bf"
+  },
+  {
+   "path": "raw/wandb/ladder/rav-ladder-d1536/eval__paloma.json",
+   "bytes": 46219,
+   "sha256": "5affe9d922a0dd6e0287d6d84afec08bf7d064494442d80c812cb209f350a71b"
+  },
+  {
+   "path": "raw/wandb/ladder/rav-ladder-d1536/eval_dropless___top.json",
+   "bytes": 4377,
+   "sha256": "f79e3c2203bc67241cb1eadd90f98f0d1ede7afaf61475fd4f3f08f6b6ff4d4d"
+  },
+  {
+   "path": "raw/wandb/ladder/rav-ladder-d1536/eval_dropless__paloma.json",
+   "bytes": 53043,
+   "sha256": "d94c6faae85bf84bdeef59a2eba46edbf363ee6fafc782d905fdf613b0f43816"
+  },
+  {
+   "path": "raw/wandb/ladder/rav-ladder-d1536/meta.json",
+   "bytes": 136830,
+   "sha256": "ead0cafa55d2674723cf8112e2872793517ead0350f042c093505c57fc7eebbe"
+  },
+  {
+   "path": "raw/wandb/ladder/rav-ladder-d1536/reference_eval_dropless__paloma__macro_loss.json",
+   "bytes": 1679,
+   "sha256": "6a204f1a90b57da7dea88649fc28f2104c9253e2d213f7064e7e5d6033aca9ae"
+  },
+  {
+   "path": "raw/wandb/ladder/rav-ladder-d1536/train_sampled.json",
+   "bytes": 623164,
+   "sha256": "ad99668e3324aadeb723b0153921abb3bb5bab341e2ebd16ea37edbf47476ff9"
+  },
+  {
+   "path": "raw/wandb/ladder/rav-ladder-d2048-v3/eval___top.json",
+   "bytes": 2756,
+   "sha256": "307ac3510652b7c075948e0bf172fc340ad0c8ff57a895c561e81face3fff03e"
+  },
+  {
+   "path": "raw/wandb/ladder/rav-ladder-d2048-v3/eval__paloma.json",
+   "bytes": 35204,
+   "sha256": "70096e873f7ab02ff9120877dc5834a677c2998ed44feafa2a25522262e910a3"
+  },
+  {
+   "path": "raw/wandb/ladder/rav-ladder-d2048-v3/eval_dropless___top.json",
+   "bytes": 3338,
+   "sha256": "7791124b31cc4b4d0bce99f00983e4caf9d8ddfdd669fb5c6c4a30d6b855e913"
+  },
+  {
+   "path": "raw/wandb/ladder/rav-ladder-d2048-v3/eval_dropless__paloma.json",
+   "bytes": 40425,
+   "sha256": "c5f0728a6b6b602ffb405c7c62d638b635b8f99894a6f4f8d95d5520ed9b61a4"
+  },
+  {
+   "path": "raw/wandb/ladder/rav-ladder-d2048-v3/meta.json",
+   "bytes": 142656,
+   "sha256": "247eebe7e37dc429b7f2983e0c8fc50206a0c3f12d8bbe54131ebb0537f4f66c"
+  },
+  {
+   "path": "raw/wandb/ladder/rav-ladder-d2048-v3/reference_eval_dropless__paloma__macro_loss.json",
+   "bytes": 1282,
+   "sha256": "c3bc46111339369acfffa827322bf182807f77708c71868c8493fdc348243ac5"
+  },
+  {
+   "path": "raw/wandb/ladder/rav-ladder-d2048-v3/train_sampled.json",
+   "bytes": 623047,
+   "sha256": "a511a958ea823e88c7e92509c3a8b92d0e00a07ab71201bbb4814762435aa267"
+  },
+  {
+   "path": "raw/wandb/ladder/rav-ladder-d768-v2/eval___top.json",
+   "bytes": 3435,
+   "sha256": "8f702cfcb9a93daaf05064c91436bc8d3993da439609536c1e0b28e1e2aad563"
+  },
+  {
+   "path": "raw/wandb/ladder/rav-ladder-d768-v2/eval__paloma.json",
+   "bytes": 43955,
+   "sha256": "5a6eadd8b4f6e3987e787d2bd4db132484736c4d50da1798a3a0435100828ad5"
+  },
+  {
+   "path": "raw/wandb/ladder/rav-ladder-d768-v2/eval_dropless___top.json",
+   "bytes": 4159,
+   "sha256": "5ce96c58e3b303fc7aa2c190d34ad1111f98b1ec1a740194f08d77fb153a0798"
+  },
+  {
+   "path": "raw/wandb/ladder/rav-ladder-d768-v2/eval_dropless__paloma.json",
+   "bytes": 50453,
+   "sha256": "b6caf077064feee99a84d2da4088939d18f7130ebc5f6cc1b4224e35597294e8"
+  },
+  {
+   "path": "raw/wandb/ladder/rav-ladder-d768-v2/meta.json",
+   "bytes": 144441,
+   "sha256": "d8b261eada1fc1c8da75524c3bee2524c021a981504bdf10e9e05bfa84a26239"
+  },
+  {
+   "path": "raw/wandb/ladder/rav-ladder-d768-v2/reference_eval_dropless__paloma__macro_loss.json",
+   "bytes": 1592,
+   "sha256": "ef27920dce609efef2d2dc7713b4348701c5e75b87123c4c9f95924041bda1b5"
+  },
+  {
+   "path": "raw/wandb/ladder/rav-ladder-d768-v2/train_sampled.json",
+   "bytes": 620479,
+   "sha256": "18ea88eeaee0aa91706c7c3a30015d89305a946ace35db343a42b424e9ffabde"
+  },
+  {
+   "path": "raw/wandb/ladder_h100/h100-ladder-d1024-ep8x4-bs1024-791tpp-20260825-rno2a-interactive/eval___top.json",
+   "bytes": 3445,
+   "sha256": "511a675e086366ee2c4e23f2571d63f5478eff517f668d09349b8f321b60dcb3"
+  },
+  {
+   "path": "raw/wandb/ladder_h100/h100-ladder-d1024-ep8x4-bs1024-791tpp-20260825-rno2a-interactive/eval__paloma.json",
+   "bytes": 43993,
+   "sha256": "b2cb9098d0e7edb95b69fdfc6003d8908d69e272446517f90bbac7198fb1d178"
+  },
+  {
+   "path": "raw/wandb/ladder_h100/h100-ladder-d1024-ep8x4-bs1024-791tpp-20260825-rno2a-interactive/eval__uncheatable_eval.json",
+   "bytes": 25266,
+   "sha256": "2963c85832e919f87740d80cb03cdf9ac5b877a434203a699d79771fd7bb94eb"
+  },
+  {
+   "path": "raw/wandb/ladder_h100/h100-ladder-d1024-ep8x4-bs1024-791tpp-20260825-rno2a-interactive/eval_dropless___top.json",
+   "bytes": 4164,
+   "sha256": "5c1dc62844785dc3452fa69b9d7cea8892fe435f6fbbcea2d3d47a9139442554"
+  },
+  {
+   "path": "raw/wandb/ladder_h100/h100-ladder-d1024-ep8x4-bs1024-791tpp-20260825-rno2a-interactive/eval_dropless__paloma.json",
+   "bytes": 50483,
+   "sha256": "d6d60584adaad5d0cc6b406197e6d0db8ee0e4359c295d89f0a3501765370cce"
+  },
+  {
+   "path": "raw/wandb/ladder_h100/h100-ladder-d1024-ep8x4-bs1024-791tpp-20260825-rno2a-interactive/eval_dropless__uncheatable_eval.json",
+   "bytes": 28529,
+   "sha256": "b53acbccf8f91966091216b93175729173c606a38a48a7c6123feba271a0d61b"
+  },
+  {
+   "path": "raw/wandb/ladder_h100/h100-ladder-d1024-ep8x4-bs1024-791tpp-20260825-rno2a-interactive/meta.json",
+   "bytes": 151003,
+   "sha256": "09cd07db7056d46c3ace9ebb7c81721b085f21b2d2483fe3e13e34f1cea1deb2"
+  },
+  {
+   "path": "raw/wandb/ladder_h100/h100-ladder-d1024-ep8x4-bs1024-791tpp-20260825-rno2a-interactive/reference_eval_dropless__paloma__macro_loss.json",
+   "bytes": 1605,
+   "sha256": "cca8cf7ec6f38daf10354291651725ee66e1b6702427a524101a96d0b94983e1"
+  },
+  {
+   "path": "raw/wandb/ladder_h100/h100-ladder-d1024-ep8x4-bs1024-791tpp-20260825-rno2a-interactive/train_sampled.json",
+   "bytes": 624816,
+   "sha256": "8c83aa6f174f0e1b814fc6b311001126173c2974387ee91089054ab41a0a3e03"
+  },
+  {
+   "path": "raw/wandb/ladder_h100/h100-ladder-d1536-ep8x8-bs1024-791tpp-20260825-rno2a-interactive/eval___top.json",
+   "bytes": 1024,
+   "sha256": "a599f2627b9857a3dc1bc65e5b856549a372354270aef70b1fb7c58c6c21950d"
+  },
+  {
+   "path": "raw/wandb/ladder_h100/h100-ladder-d1536-ep8x8-bs1024-791tpp-20260825-rno2a-interactive/eval__paloma.json",
+   "bytes": 13204,
+   "sha256": "84885f7108a15d862e85730d1b77ddcd70f87b77c55f0fa49f0bc2580c68a10e"
+  },
+  {
+   "path": "raw/wandb/ladder_h100/h100-ladder-d1536-ep8x8-bs1024-791tpp-20260825-rno2a-interactive/eval__uncheatable_eval.json",
+   "bytes": 7577,
+   "sha256": "bd8edb34cda645a971f6b4e8aeed3d0ee4f400dc2705cc306be75c79fddc554c"
+  },
+  {
+   "path": "raw/wandb/ladder_h100/h100-ladder-d1536-ep8x8-bs1024-791tpp-20260825-rno2a-interactive/eval_dropless___top.json",
+   "bytes": 1253,
+   "sha256": "25e96c8a6b8d4c5ae7c492e700dab91e023066e55155b0cd544644b8042aea78"
+  },
+  {
+   "path": "raw/wandb/ladder_h100/h100-ladder-d1536-ep8x8-bs1024-791tpp-20260825-rno2a-interactive/eval_dropless__paloma.json",
+   "bytes": 15154,
+   "sha256": "10585bc6a3971e3d76604b2d28a0f5a4306835dd49bbebba4ffa538db8da6ed5"
+  },
+  {
+   "path": "raw/wandb/ladder_h100/h100-ladder-d1536-ep8x8-bs1024-791tpp-20260825-rno2a-interactive/eval_dropless__uncheatable_eval.json",
+   "bytes": 8552,
+   "sha256": "df1fb6154b33b3fefd8e2bbdfcfe82e423280dff5833394add1164122aedfafe"
+  },
+  {
+   "path": "raw/wandb/ladder_h100/h100-ladder-d1536-ep8x8-bs1024-791tpp-20260825-rno2a-interactive/meta.json",
+   "bytes": 162977,
+   "sha256": "f0d8c0f8dde3b5d9420bf1cd439dad67a1b47ac04ece287d7d6be12d3aa02fc4"
+  },
+  {
+   "path": "raw/wandb/ladder_h100/h100-ladder-d1536-ep8x8-bs1024-791tpp-20260825-rno2a-interactive/reference_eval_dropless__paloma__macro_loss.json",
+   "bytes": 482,
+   "sha256": "457af9efd1692cbb6d1de4339b2aa566dec8041ce337cdebabff408ee355763e"
+  },
+  {
+   "path": "raw/wandb/ladder_h100/h100-ladder-d1536-ep8x8-bs1024-791tpp-20260825-rno2a-interactive/train_sampled.json",
+   "bytes": 624452,
+   "sha256": "034b96c531ae4267f32edd081fa360ecafca9da90c8afd49f7ceba33c9be81b6"
+  },
+  {
+   "path": "raw/wandb/ladder_h100/h100-ladder-d512-ep8-bs1024-791tpp-20260824-rno2a/eval___top.json",
+   "bytes": 3604,
+   "sha256": "166d74d114418a504859633afe13878aa62bb17959f8109a7b49e0cfd8a2685c"
+  },
+  {
+   "path": "raw/wandb/ladder_h100/h100-ladder-d512-ep8-bs1024-791tpp-20260824-rno2a/eval__paloma.json",
+   "bytes": 46081,
+   "sha256": "243da68f50387a26f46c89ae1451c99adef5e55d4e76c7688878b1bfa737e83a"
+  },
+  {
+   "path": "raw/wandb/ladder_h100/h100-ladder-d512-ep8-bs1024-791tpp-20260824-rno2a/eval__uncheatable_eval.json",
+   "bytes": 26468,
+   "sha256": "fbb0941b8b44ff8698e41e26cceb8b8fc83ecb8a86f6da97e85d39274b0b65cd"
+  },
+  {
+   "path": "raw/wandb/ladder_h100/h100-ladder-d512-ep8-bs1024-791tpp-20260824-rno2a/eval_dropless___top.json",
+   "bytes": 4355,
+   "sha256": "e96224b362248efbdab8f67e19cc68047d3655de61e421474e1d9961203c6d35"
+  },
+  {
+   "path": "raw/wandb/ladder_h100/h100-ladder-d512-ep8-bs1024-791tpp-20260824-rno2a/eval_dropless__paloma.json",
+   "bytes": 52952,
+   "sha256": "666d9ad3d6b2f77b6f4fb35bad69ff6dbba6fdfb64e14149bce8b25dce7a1443"
+  },
+  {
+   "path": "raw/wandb/ladder_h100/h100-ladder-d512-ep8-bs1024-791tpp-20260824-rno2a/eval_dropless__uncheatable_eval.json",
+   "bytes": 29903,
+   "sha256": "10af87d26919f360640dedb062fa484e403bff7652c315273e68685c37a87334"
+  },
+  {
+   "path": "raw/wandb/ladder_h100/h100-ladder-d512-ep8-bs1024-791tpp-20260824-rno2a/meta.json",
+   "bytes": 138965,
+   "sha256": "2148d7b990120178362a5fc2cfc4be410fe16f6a586843ceb1d75a8a2e9ef258"
+  },
+  {
+   "path": "raw/wandb/ladder_h100/h100-ladder-d512-ep8-bs1024-791tpp-20260824-rno2a/reference_eval_dropless__paloma__macro_loss.json",
+   "bytes": 1667,
+   "sha256": "ba38a19f0ecacc6dda043a0492bcf3b872c904d5c6c9abe76904189cfa9342e7"
+  },
+  {
+   "path": "raw/wandb/ladder_h100/h100-ladder-d512-ep8-bs1024-791tpp-20260824-rno2a/train_sampled.json",
+   "bytes": 607198,
+   "sha256": "1a4ad3033a30cfaec04f477ce2a58d0ba2041686fa59e897a3806131d4a07349"
+  },
+  {
+   "path": "raw/wandb/ladder_h100/h100-ladder-d768-2xep8-bs1024-791tpp-20260824/eval___top.json",
+   "bytes": 3441,
+   "sha256": "a046b2152d51bfad52410f3f7c3112fa70f32bfe687bd4671e28a8b1a7c4f56d"
+  },
+  {
+   "path": "raw/wandb/ladder_h100/h100-ladder-d768-2xep8-bs1024-791tpp-20260824/eval__paloma.json",
+   "bytes": 43950,
+   "sha256": "7bffd9e4e58768c6b17c82ed3358c1a70b2845431077cc4415470921b2f4487b"
+  },
+  {
+   "path": "raw/wandb/ladder_h100/h100-ladder-d768-2xep8-bs1024-791tpp-20260824/eval__uncheatable_eval.json",
+   "bytes": 25243,
+   "sha256": "df2238f9f98bb0ac0163a5fc4ae86d2df4f6e187a76c187a17d0b80943e18a7a"
+  },
+  {
+   "path": "raw/wandb/ladder_h100/h100-ladder-d768-2xep8-bs1024-791tpp-20260824/eval_dropless___top.json",
+   "bytes": 4152,
+   "sha256": "79d249ec8e0d8172d6b343c977d71a3c537949339b3962e1af50e0c79954defa"
+  },
+  {
+   "path": "raw/wandb/ladder_h100/h100-ladder-d768-2xep8-bs1024-791tpp-20260824/eval_dropless__paloma.json",
+   "bytes": 50468,
+   "sha256": "df69c7c3abbc51008ab2420d9a7eeb07bffb9004f0b50950d820fc39ef5307c0"
+  },
+  {
+   "path": "raw/wandb/ladder_h100/h100-ladder-d768-2xep8-bs1024-791tpp-20260824/eval_dropless__uncheatable_eval.json",
+   "bytes": 28499,
+   "sha256": "d68a11ec79c26e95c6a7df9434c88a88a11c2dfed1598e138b677b197c56a462"
+  },
+  {
+   "path": "raw/wandb/ladder_h100/h100-ladder-d768-2xep8-bs1024-791tpp-20260824/meta.json",
+   "bytes": 142829,
+   "sha256": "45099b2ac1da890189d90b803ec90e6a2b3324fa52c1c5f621ba03cc81006c10"
+  },
+  {
+   "path": "raw/wandb/ladder_h100/h100-ladder-d768-2xep8-bs1024-791tpp-20260824/reference_eval_dropless__paloma__macro_loss.json",
+   "bytes": 1593,
+   "sha256": "43cd3f5e514f865f57bdf468cdd4a31265da9f792e44a610f22119b6efea533a"
+  },
+  {
+   "path": "raw/wandb/ladder_h100/h100-ladder-d768-2xep8-bs1024-791tpp-20260824/train_sampled.json",
+   "bytes": 620517,
+   "sha256": "326c57cb41bdb6776e87a2288639b495ca4c477e5040669af5812416df7b09d3"
+  },
+  {
+   "path": "raw/wandb/ladder_h100/h100-mix25-20260912-d1024/eval___top.json",
+   "bytes": 3444,
+   "sha256": "96eb5e7b14a8a83da95e7f1cb3c343916087f14eb9da71b3e095b9d7bdb662ea"
+  },
+  {
+   "path": "raw/wandb/ladder_h100/h100-mix25-20260912-d1024/eval__paloma.json",
+   "bytes": 43984,
+   "sha256": "43b927d9503c00bec5593684fe938a54de497fcce46242dfcf08e34a7dc39cf3"
+  },
+  {
+   "path": "raw/wandb/ladder_h100/h100-mix25-20260912-d1024/eval__uncheatable_eval.json",
+   "bytes": 25270,
+   "sha256": "22503a4753975841fd5f5dd42ae59e0b37fb4accbbcf26d2202f7e060ebe9b35"
+  },
+  {
+   "path": "raw/wandb/ladder_h100/h100-mix25-20260912-d1024/eval_dropless___top.json",
+   "bytes": 4160,
+   "sha256": "7c4ea96d30389b414aec3a55469de0869070cbf78cf2b5e1b4114d3b8635c586"
+  },
+  {
+   "path": "raw/wandb/ladder_h100/h100-mix25-20260912-d1024/eval_dropless__paloma.json",
+   "bytes": 50521,
+   "sha256": "24ebc477cd210b1ae88580e945f83b182b7895f0b76bf598cdcf899b5c904c6c"
+  },
+  {
+   "path": "raw/wandb/ladder_h100/h100-mix25-20260912-d1024/eval_dropless__uncheatable_eval.json",
+   "bytes": 28523,
+   "sha256": "eb4c25208a2a3ff9a1427cf09249e67af0ec80b4a31f8ccd076cef6b529b98df"
+  },
+  {
+   "path": "raw/wandb/ladder_h100/h100-mix25-20260912-d1024/meta.json",
+   "bytes": 200934,
+   "sha256": "87846af847c05c469a2a6f629c6b48ffd943d900821f4d16b4a33cde49228125"
+  },
+  {
+   "path": "raw/wandb/ladder_h100/h100-mix25-20260912-d1024/reference_eval_dropless__paloma__macro_loss.json",
+   "bytes": 1606,
+   "sha256": "d725191c93331759bafbc575e8a502daa2bd9606958841a0a98ce4c125dccfb5"
+  },
+  {
+   "path": "raw/wandb/ladder_h100/h100-mix25-20260912-d1024/train_sampled.json",
+   "bytes": 624806,
+   "sha256": "50de215f1d4b7dfb3e7db13329bfa73bb48640671d11603d519b2b5964127c84"
+  },
+  {
+   "path": "raw/wandb/ladder_h100/h100-mix25-20260912-d1536/eval___top.json",
+   "bytes": 3626,
+   "sha256": "58996f36ee6403eeabc5219a06cd89c31e3469e4c2e3ace8daf38d5c81492d11"
+  },
+  {
+   "path": "raw/wandb/ladder_h100/h100-mix25-20260912-d1536/eval__paloma.json",
+   "bytes": 46229,
+   "sha256": "64b9082543f236d4806a2a23d551e89e8d20bfd770ddfe1ed25a86235c1974bf"
+  },
+  {
+   "path": "raw/wandb/ladder_h100/h100-mix25-20260912-d1536/eval__uncheatable_eval.json",
+   "bytes": 26542,
+   "sha256": "7675f45d5332ad2218d0f5b65a9c204b93f0e7c8b8d81784a1850db4242b1c43"
+  },
+  {
+   "path": "raw/wandb/ladder_h100/h100-mix25-20260912-d1536/eval_dropless___top.json",
+   "bytes": 4381,
+   "sha256": "9996ff60f66846ef542352fc403a8a42c8646b1345542821c8939822a937f410"
+  },
+  {
+   "path": "raw/wandb/ladder_h100/h100-mix25-20260912-d1536/eval_dropless__paloma.json",
+   "bytes": 53055,
+   "sha256": "986b83d462ccb50ba5a4833e4b302e975b0678519b888457de9b0f160015a575"
+  },
+  {
+   "path": "raw/wandb/ladder_h100/h100-mix25-20260912-d1536/eval_dropless__uncheatable_eval.json",
+   "bytes": 29990,
+   "sha256": "2c03675ec292da601d85256f38858a562d8c49db0f1db663990bf37212ff28c4"
+  },
+  {
+   "path": "raw/wandb/ladder_h100/h100-mix25-20260912-d1536/meta.json",
+   "bytes": 227350,
+   "sha256": "f87bcb627022744da2e2bbb6a7b2efe7399e78722b740e20d1e86cac9115f4ab"
+  },
+  {
+   "path": "raw/wandb/ladder_h100/h100-mix25-20260912-d1536/reference_eval_dropless__paloma__macro_loss.json",
+   "bytes": 1692,
+   "sha256": "49a0221a5dc9c13ac6c002f22d1c42ba39cd14db74eca9e158c52a661fff4636"
+  },
+  {
+   "path": "raw/wandb/ladder_h100/h100-mix25-20260912-d1536/train_sampled.json",
+   "bytes": 627163,
+   "sha256": "f55733f84af0e241f2ce302826886e44d8a534149906417ac63d55ecf6d27621"
+  },
+  {
+   "path": "raw/wandb/ladder_h100/h100-mix25-20260912-d512/eval___top.json",
+   "bytes": 3596,
+   "sha256": "e8920e208f46d24c4716dd67335115009ddb1d4de6dbb756ec6eceeabaecb621"
+  },
+  {
+   "path": "raw/wandb/ladder_h100/h100-mix25-20260912-d512/eval__paloma.json",
+   "bytes": 46107,
+   "sha256": "9226ff395fee2ffbf314e1d5be400063c1812f2112d3f96e1d11034143079e5b"
+  },
+  {
+   "path": "raw/wandb/ladder_h100/h100-mix25-20260912-d512/eval__uncheatable_eval.json",
+   "bytes": 26448,
+   "sha256": "7824fa5275912ed54cd69df66918680163474e0c4ead06f688d2947ecaa4d70a"
+  },
+  {
+   "path": "raw/wandb/ladder_h100/h100-mix25-20260912-d512/eval_dropless___top.json",
+   "bytes": 4350,
+   "sha256": "54aa82003c0b9bd922f9a46a67a2e300b3b99856672375fc946295e42151fcd9"
+  },
+  {
+   "path": "raw/wandb/ladder_h100/h100-mix25-20260912-d512/eval_dropless__paloma.json",
+   "bytes": 52984,
+   "sha256": "739603b7f9e6faa490b9387c3b081fa1997ec4e63c52a25ed8d0a5202f37d178"
+  },
+  {
+   "path": "raw/wandb/ladder_h100/h100-mix25-20260912-d512/eval_dropless__uncheatable_eval.json",
+   "bytes": 29914,
+   "sha256": "25b26e9d386ddb47e68eb915848ee7d279c7513beec6657eb3f6760e36b2c8ed"
+  },
+  {
+   "path": "raw/wandb/ladder_h100/h100-mix25-20260912-d512/meta.json",
+   "bytes": 167751,
+   "sha256": "592d98d8cd0d68b5cf0fc0c1c66fb188d409f70dd25eb3897cb5e878e4a869c3"
+  },
+  {
+   "path": "raw/wandb/ladder_h100/h100-mix25-20260912-d512/reference_eval_dropless__paloma__macro_loss.json",
+   "bytes": 1667,
+   "sha256": "60f0341021467f9be7571566b715bd8550a7688077d4f7975ca3714ea08af319"
+  },
+  {
+   "path": "raw/wandb/ladder_h100/h100-mix25-20260912-d512/train_sampled.json",
+   "bytes": 607374,
+   "sha256": "de2973d5574b6965bd3841899eb3f8fd85668fe36715cd43c62cd2d2917a73a9"
+  },
+  {
+   "path": "raw/wandb/ladder_h100/h100-mix25-20260912-d768/eval___top.json",
+   "bytes": 3438,
+   "sha256": "3281cddab81882bd3c8104b17bb248839524c72aab97ddd6c0c6d22549972c76"
+  },
+  {
+   "path": "raw/wandb/ladder_h100/h100-mix25-20260912-d768/eval__paloma.json",
+   "bytes": 43956,
+   "sha256": "d99f8059db6462e00933d9b8c91169a258bd143bfd3f8c96a1a4bc759d5d5a0b"
+  },
+  {
+   "path": "raw/wandb/ladder_h100/h100-mix25-20260912-d768/eval__uncheatable_eval.json",
+   "bytes": 25222,
+   "sha256": "ecd73db08c2133f1221270cf9e2c634799389f54cc7a049430e6d6594c15fa1a"
+  },
+  {
+   "path": "raw/wandb/ladder_h100/h100-mix25-20260912-d768/eval_dropless___top.json",
+   "bytes": 4156,
+   "sha256": "f1e7cf4255c85fc54abb97c4aeb21b3a07ff73e24fc185a83519f1b6c3319477"
+  },
+  {
+   "path": "raw/wandb/ladder_h100/h100-mix25-20260912-d768/eval_dropless__paloma.json",
+   "bytes": 50479,
+   "sha256": "67550abe7c4572ddbe060d2ac29c80a960e9e79fa05fd178e3bf1edea3e5a619"
+  },
+  {
+   "path": "raw/wandb/ladder_h100/h100-mix25-20260912-d768/eval_dropless__uncheatable_eval.json",
+   "bytes": 28504,
+   "sha256": "65c274cf69e109439d76aada9d83ee64484e93e48cac2fe5ce85ad6f8e0bc988"
+  },
+  {
+   "path": "raw/wandb/ladder_h100/h100-mix25-20260912-d768/meta.json",
+   "bytes": 178613,
+   "sha256": "c7d8fb8b2ba21a4521393b6d55e6ac226c5ecf050590c629f2b547d68820ff28"
+  },
+  {
+   "path": "raw/wandb/ladder_h100/h100-mix25-20260912-d768/reference_eval_dropless__paloma__macro_loss.json",
+   "bytes": 1592,
+   "sha256": "f3f41dc0d9f0bd7f00bdb8912122c4e17ddce4ae951edb3c488c8886c3a207ea"
+  },
+  {
+   "path": "raw/wandb/ladder_h100/h100-mix25-20260912-d768/train_sampled.json",
+   "bytes": 620709,
+   "sha256": "c2d69b69e243bbf8299b8475c165b7a17bf266e3e81183dfde7c87dbf4cd7762"
+  },
+  {
+   "path": "raw/wandb/ladder_mix/rav-ladder-d768-v2-epsilon0-monotonic-pi-57rows-candidate1-pergpu-prefetch32-w512-ts125g/eval___top.json",
+   "bytes": 3432,
+   "sha256": "dcababe3dc33f64355e714e06ea90d8cf5169001b31f83d6bc5750382dba0a51"
+  },
+  {
+   "path": "raw/wandb/ladder_mix/rav-ladder-d768-v2-epsilon0-monotonic-pi-57rows-candidate1-pergpu-prefetch32-w512-ts125g/eval__paloma.json",
+   "bytes": 43964,
+   "sha256": "0151b48f405fc11adeb7f3dcfc8f860ad432794e6d007437842bd85da68b4e34"
+  },
+  {
+   "path": "raw/wandb/ladder_mix/rav-ladder-d768-v2-epsilon0-monotonic-pi-57rows-candidate1-pergpu-prefetch32-w512-ts125g/eval__uncheatable_eval.json",
+   "bytes": 25238,
+   "sha256": "3361d5a1025024e9491f238c2ce25da110579ec6b3f7577c0fd62a9fe5b97a8d"
+  },
+  {
+   "path": "raw/wandb/ladder_mix/rav-ladder-d768-v2-epsilon0-monotonic-pi-57rows-candidate1-pergpu-prefetch32-w512-ts125g/eval_dropless___top.json",
+   "bytes": 4152,
+   "sha256": "7b6022ae2ab8661fb47a22c84c9fd8d91794e11f1e3b0a03d31626950ef03797"
+  },
+  {
+   "path": "raw/wandb/ladder_mix/rav-ladder-d768-v2-epsilon0-monotonic-pi-57rows-candidate1-pergpu-prefetch32-w512-ts125g/eval_dropless__paloma.json",
+   "bytes": 50496,
+   "sha256": "5a578d0091c9bd33576987edf4def21f68a3d60700aa620d5a07b1527d3d83d2"
+  },
+  {
+   "path": "raw/wandb/ladder_mix/rav-ladder-d768-v2-epsilon0-monotonic-pi-57rows-candidate1-pergpu-prefetch32-w512-ts125g/eval_dropless__uncheatable_eval.json",
+   "bytes": 28509,
+   "sha256": "030ac7ec6ee5c988b88e93d9842beaa296fb86f024b6f361155cb4e6b4141036"
+  },
+  {
+   "path": "raw/wandb/ladder_mix/rav-ladder-d768-v2-epsilon0-monotonic-pi-57rows-candidate1-pergpu-prefetch32-w512-ts125g/meta.json",
+   "bytes": 151693,
+   "sha256": "c8dfd9b500c7c5e158baf3415cf527f12d52a87196a59e97c130d54fce7479d2"
+  },
+  {
+   "path": "raw/wandb/ladder_mix/rav-ladder-d768-v2-epsilon0-monotonic-pi-57rows-candidate1-pergpu-prefetch32-w512-ts125g/reference_eval_dropless__paloma__macro_loss.json",
+   "bytes": 1596,
+   "sha256": "97db81610656bd1c502c462360324dca45cf51c545b42d5d2bf9bb0f04d2197b"
+  },
+  {
+   "path": "raw/wandb/ladder_mix/rav-ladder-d768-v2-epsilon0-monotonic-pi-57rows-candidate1-pergpu-prefetch32-w512-ts125g/train_sampled.json",
+   "bytes": 620449,
+   "sha256": "cbff31ef617888657399a8a21cb041061289a59954159820a4495a7e8189b186"
+  },
+  {
+   "path": "raw/wandb/ladder_mix/rav-ladder-d768-v2-epsilon0-pi-57rows-candidate1-pergpu-prefetch32-w512-ts125g/eval___top.json",
+   "bytes": 3433,
+   "sha256": "56afbec0a15702b77ef7b060da5f32e64547eff1db4e85da9cc1219cae373df2"
+  },
+  {
+   "path": "raw/wandb/ladder_mix/rav-ladder-d768-v2-epsilon0-pi-57rows-candidate1-pergpu-prefetch32-w512-ts125g/eval__paloma.json",
+   "bytes": 43973,
+   "sha256": "71a1162a3d21724ebef236ff1f2ed28b61e343f31bd106ace50c7bed6a67966d"
+  },
+  {
+   "path": "raw/wandb/ladder_mix/rav-ladder-d768-v2-epsilon0-pi-57rows-candidate1-pergpu-prefetch32-w512-ts125g/eval__uncheatable_eval.json",
+   "bytes": 25244,
+   "sha256": "71678f041928ee75d10d7e0163006f17fc753f3cd80ba2ccc9c0d45f6488ce0a"
+  },
+  {
+   "path": "raw/wandb/ladder_mix/rav-ladder-d768-v2-epsilon0-pi-57rows-candidate1-pergpu-prefetch32-w512-ts125g/eval_dropless___top.json",
+   "bytes": 4151,
+   "sha256": "4b3caaeaf9d5183ef4d84c212aef6e86874d00da4783a469d8c9d264ab48e27e"
+  },
+  {
+   "path": "raw/wandb/ladder_mix/rav-ladder-d768-v2-epsilon0-pi-57rows-candidate1-pergpu-prefetch32-w512-ts125g/eval_dropless__paloma.json",
+   "bytes": 50473,
+   "sha256": "062458fc2a016013df0daea8dbbd892047392dc74a3675ffd2f9945aa37cdc3e"
+  },
+  {
+   "path": "raw/wandb/ladder_mix/rav-ladder-d768-v2-epsilon0-pi-57rows-candidate1-pergpu-prefetch32-w512-ts125g/eval_dropless__uncheatable_eval.json",
+   "bytes": 28486,
+   "sha256": "e92f894892e52f37425ea3204972b8e0ffa149cf30659dd920ff0c36c2643426"
+  },
+  {
+   "path": "raw/wandb/ladder_mix/rav-ladder-d768-v2-epsilon0-pi-57rows-candidate1-pergpu-prefetch32-w512-ts125g/meta.json",
+   "bytes": 151585,
+   "sha256": "2e93f84884bca0dd29df15c7a554ae394eb6a9d12fdde64d8847240aca9ab6dd"
+  },
+  {
+   "path": "raw/wandb/ladder_mix/rav-ladder-d768-v2-epsilon0-pi-57rows-candidate1-pergpu-prefetch32-w512-ts125g/reference_eval_dropless__paloma__macro_loss.json",
+   "bytes": 1591,
+   "sha256": "c3b1ce7ea0ecf2631698ab17e2ac153d489f84b6637f3e97102ddd39c450610c"
+  },
+  {
+   "path": "raw/wandb/ladder_mix/rav-ladder-d768-v2-epsilon0-pi-57rows-candidate1-pergpu-prefetch32-w512-ts125g/train_sampled.json",
+   "bytes": 620183,
+   "sha256": "e15df0378d6a8ee31e5c8c3f9a0a1edb873c842da12e63720c6791c7c30d2777"
+  },
+  {
+   "path": "raw/wandb/ladder_mix/rav-ladder-d768-v2-old-mix/eval___top.json",
+   "bytes": 3434,
+   "sha256": "181096ed5200c1f327031f29b20cc026d5cbfe92d75b5e3032ab946eed1add29"
+  },
+  {
+   "path": "raw/wandb/ladder_mix/rav-ladder-d768-v2-old-mix/eval__paloma.json",
+   "bytes": 43982,
+   "sha256": "18656e9be9e6e66e52a195e0b97ae0ce64a581b76594e529c71150dd3308b037"
+  },
+  {
+   "path": "raw/wandb/ladder_mix/rav-ladder-d768-v2-old-mix/eval_dropless___top.json",
+   "bytes": 4150,
+   "sha256": "a4294cbd4219e4d941b9626bc3235ec7f267306e6c9be804e5db107e4a97d7c9"
+  },
+  {
+   "path": "raw/wandb/ladder_mix/rav-ladder-d768-v2-old-mix/eval_dropless__paloma.json",
+   "bytes": 50456,
+   "sha256": "0859e7a338b05ca338a8974c2793c554eafbdb0ace5f4b1edd3fc6e59944a530"
+  },
+  {
+   "path": "raw/wandb/ladder_mix/rav-ladder-d768-v2-old-mix/meta.json",
+   "bytes": 144589,
+   "sha256": "949bfdf7d402eb91b36d46b0b1c17a2fddf3c16ace73167cfd4ab6efc7163f00"
+  },
+  {
+   "path": "raw/wandb/ladder_mix/rav-ladder-d768-v2-old-mix/reference_eval_dropless__paloma__macro_loss.json",
+   "bytes": 1592,
+   "sha256": "8c6708e83c90185493597e942877b67370934ac4618a157560977ec4ed723967"
+  },
+  {
+   "path": "raw/wandb/ladder_mix/rav-ladder-d768-v2-old-mix/train_sampled.json",
+   "bytes": 620321,
+   "sha256": "0f5ddc199d49754b585c11aa5cb47e90588572897adce3305d24202e65bd999d"
+  },
+  {
+   "path": "raw/wandb/ladder_mix/rav-ladder-d768-v2-semantic-pi-56rows-candidate1-pergpu-prefetch32-w512-ts125g/eval___top.json",
+   "bytes": 3428,
+   "sha256": "757d176ce1a8354e7c0c70440775dbb6bca8f86e96febfc20196f862469f75be"
+  },
+  {
+   "path": "raw/wandb/ladder_mix/rav-ladder-d768-v2-semantic-pi-56rows-candidate1-pergpu-prefetch32-w512-ts125g/eval__paloma.json",
+   "bytes": 43938,
+   "sha256": "ae19403f9eae9b59cec92114e8372ae922c568d15467137b8d478404c03a04df"
+  },
+  {
+   "path": "raw/wandb/ladder_mix/rav-ladder-d768-v2-semantic-pi-56rows-candidate1-pergpu-prefetch32-w512-ts125g/eval__uncheatable_eval.json",
+   "bytes": 25242,
+   "sha256": "bb14aa758629c92b499e1976349810b0cf74e67f5d54c7b9718e10e0a4c3e9d9"
+  },
+  {
+   "path": "raw/wandb/ladder_mix/rav-ladder-d768-v2-semantic-pi-56rows-candidate1-pergpu-prefetch32-w512-ts125g/eval_dropless___top.json",
+   "bytes": 4157,
+   "sha256": "cfb12696c7b3540620a7bc469c2397e1c3c2b18e0456cb162f7543d03f58de1b"
+  },
+  {
+   "path": "raw/wandb/ladder_mix/rav-ladder-d768-v2-semantic-pi-56rows-candidate1-pergpu-prefetch32-w512-ts125g/eval_dropless__paloma.json",
+   "bytes": 50488,
+   "sha256": "3d1d155a8938f8acfebe883dd56e70b3adbaf7e1ad7d268d57ab785bc190239f"
+  },
+  {
+   "path": "raw/wandb/ladder_mix/rav-ladder-d768-v2-semantic-pi-56rows-candidate1-pergpu-prefetch32-w512-ts125g/eval_dropless__uncheatable_eval.json",
+   "bytes": 28498,
+   "sha256": "c5c0e19ad83ada409f102dd2b6931e6e7b4d8705a474a412d1b49b258069c9cd"
+  },
+  {
+   "path": "raw/wandb/ladder_mix/rav-ladder-d768-v2-semantic-pi-56rows-candidate1-pergpu-prefetch32-w512-ts125g/meta.json",
+   "bytes": 151576,
+   "sha256": "08c0d555032ad6c90a50bc4398487614820cd2981f8d12270b5dfda1078a008a"
+  },
+  {
+   "path": "raw/wandb/ladder_mix/rav-ladder-d768-v2-semantic-pi-56rows-candidate1-pergpu-prefetch32-w512-ts125g/reference_eval_dropless__paloma__macro_loss.json",
+   "bytes": 1598,
+   "sha256": "92e3ecc31cbc8ccb6b7de243cb3f0cdef41620d649e2762e8d806bd4d6a5896b"
+  },
+  {
+   "path": "raw/wandb/ladder_mix/rav-ladder-d768-v2-semantic-pi-56rows-candidate1-pergpu-prefetch32-w512-ts125g/train_sampled.json",
+   "bytes": 621011,
+   "sha256": "0f802c4db636a7719bcb8d5aeb4035f3aaa220872e733b2dd8996cc55deb2c92"
+  },
+  {
+   "path": "tables/runs.csv",
+   "bytes": 7971,
+   "sha256": "54c94460d52bd49529b41750c5b7c6fcbf55488bd9c16bffdac7d65223e51de3"
+  },
+  {
+   "path": "tables/train_sampled_long.csv",
+   "bytes": 31362728,
+   "sha256": "521cb50de6f74a447068586394e0b286c0b58a51bb407ff586ff065e7eac0049"
+  },
+  {
+   "path": "tables/wandb_long.csv",
+   "bytes": 9036674,
+   "sha256": "4b0a76237291645a50cdbee1bcaba4c71e2a55e6f882ebf9ac5930ae92e2f76a"
+  }
+ ]
+}

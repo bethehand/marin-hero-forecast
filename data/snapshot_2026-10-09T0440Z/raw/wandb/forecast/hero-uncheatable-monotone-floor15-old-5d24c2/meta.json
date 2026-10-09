@@ -1,0 +1,119 @@
+{
+ "name": "hero-uncheatable-monotone-floor15-old-5d24c2",
+ "displayName": "hero-uncheatable-monotone-floor15-old-5d24c2",
+ "createdAt": "2026-09-15T01:25:56Z",
+ "heartbeatAt": "2026-09-15T01:25:59Z",
+ "state": "finished",
+ "config": {
+  "_wandb": {
+   "value": {
+    "cli_version": "0.29.0",
+    "m": [],
+    "python_version": "3.12.12",
+    "t": {
+     "12": "0.29.0",
+     "13": "darwin-arm64",
+     "3": [
+      2,
+      13,
+      14,
+      16,
+      61
+     ],
+     "4": "3.12.12",
+     "5": "0.29.0"
+    }
+   }
+  },
+  "assumptions": {
+   "value": [
+    "Fixed floor 1.5 is a comparison assumption, not a measured irreducible loss.",
+    "Log(loss-floor) is affine in log(full training compute) independently at 5% knots, with jointly imposed non-increasing progress constraints over d512-to-d6144 compute.",
+    "Log excess loss is linearly interpolated between knots. Flats are allowed; no imposed temporal power law.",
+    "Compute includes lm_head, unlike Larry's original Paloma fit.",
+    "Completed d512/d768/d1024 fit both curves. Partial d1536 is held out, not imputed.",
+    "Averaged paired mixture response uses signed main and cooldown coefficients and actual per-run transition positions; both forecast curves are constrained monotone.",
+    "Hero losses are excluded; the pre-swap hero prediction is positively biased relative to observations.",
+    "Only three independent complete width pairs; sensitivity ranges are not confidence intervals.",
+    "Displayed range starts at 25000; no step-zero forecast."
+   ]
+  },
+  "branch": {
+   "value": "old"
+  },
+  "fit_widths": {
+   "value": [
+    512,
+    768,
+    1024
+   ]
+  },
+  "floor": {
+   "value": 1.5
+  },
+  "forecast_only": {
+   "value": true
+  },
+  "hero_loss_used_for_fit": {
+   "value": false
+  },
+  "method": {
+   "value": "Monotone per-progress H100 scaling fit; signed two-phase paired mixture response"
+  },
+  "model": {
+   "value": {
+    "hidden_dim": 6144
+   }
+  },
+  "num_train_steps": {
+   "value": 390251
+  },
+  "start_step": {
+   "value": 25000
+  },
+  "validation": {
+   "value": [
+    {
+     "bias": -0.008274378228923074,
+     "rmse": 0.024708502046324524,
+     "swap": false,
+     "points": 20,
+     "heldout_width": 1024,
+     "max_abs_error": 0.04948110797226813
+    },
+    {
+     "bias": -0.00391485771270077,
+     "rmse": 0.024018095260189127,
+     "swap": true,
+     "points": 20,
+     "heldout_width": 1024,
+     "max_abs_error": 0.05031342723191168
+    },
+    {
+     "bias": -0.02885205250277852,
+     "rmse": 0.03120731152696693,
+     "swap": false,
+     "points": 6,
+     "heldout_width": 1536,
+     "max_abs_error": 0.04492409389078578
+    },
+    {
+     "bias": -0.002589819919781415,
+     "rmse": 0.02258658382275588,
+     "swap": true,
+     "points": 15,
+     "heldout_width": 1536,
+     "max_abs_error": 0.043262077975868785
+    }
+   ]
+  }
+ },
+ "summaryMetrics": {
+  "_runtime": 0.9498195,
+  "_step": 390251,
+  "_timestamp": 1789435556.720365,
+  "_wandb.runtime": 0,
+  "eval_dropless/uncheatable_eval/macro_loss": 1.6260349023481675,
+  "run_progress": 1
+ }
+}

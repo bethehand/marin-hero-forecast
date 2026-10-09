@@ -1,0 +1,64 @@
+{
+ "name": "hero-forecast-uncheatable-asymptote-swap-20260914",
+ "displayName": "hero-forecast-uncheatable-asymptote-swap-20260914",
+ "createdAt": "2026-09-15T00:54:45Z",
+ "heartbeatAt": "2026-09-15T00:54:48Z",
+ "state": "finished",
+ "config": {
+  "_wandb": {
+   "value": {
+    "cli_version": "0.29.0",
+    "m": [],
+    "python_version": "3.12.12",
+    "t": {
+     "12": "0.29.0",
+     "13": "darwin-arm64",
+     "3": [
+      2,
+      13,
+      14,
+      16,
+      61
+     ],
+     "4": "3.12.12",
+     "5": "0.29.0"
+    }
+   }
+  },
+  "fit": {
+   "value": {
+    "final": 1.5975211364988982,
+    "floor": 1.5789066018396696,
+    "heldout_rmse": null,
+    "n": 8,
+    "sse": 4.214203449088738e-06,
+    "tau_ksteps": 195.97234821281285
+   }
+  },
+  "forecast_only": {
+   "value": true
+  },
+  "method": {
+   "value": "exponential asymptote fit to eight hero observations; no endpoint anchoring"
+  },
+  "model": {
+   "value": {
+    "hidden_dim": 6144
+   }
+  },
+  "num_train_steps": {
+   "value": 390251
+  },
+  "swap_adjusted": {
+   "value": true
+  }
+ },
+ "summaryMetrics": {
+  "_runtime": 0.727056459,
+  "_step": 390251,
+  "_timestamp": 1789433686.242118,
+  "_wandb.runtime": 0,
+  "eval_dropless/uncheatable_eval/macro_loss": 1.575456534841226,
+  "run_progress": 1
+ }
+}

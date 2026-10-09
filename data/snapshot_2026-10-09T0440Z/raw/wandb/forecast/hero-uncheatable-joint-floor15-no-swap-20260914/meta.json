@@ -1,0 +1,57 @@
+{
+ "name": "hero-uncheatable-joint-floor15-no-swap-20260914",
+ "displayName": "hero-uncheatable-joint-floor15-no-swap-20260914",
+ "createdAt": "2026-09-15T01:10:32Z",
+ "heartbeatAt": "2026-09-15T01:10:36Z",
+ "state": "finished",
+ "config": {
+  "_wandb": {
+   "value": {
+    "cli_version": "0.29.0",
+    "m": [],
+    "python_version": "3.12.12",
+    "t": {
+     "12": "0.29.0",
+     "13": "darwin-arm64",
+     "3": [
+      2,
+      13,
+      14,
+      16,
+      61
+     ],
+     "4": "3.12.12",
+     "5": "0.29.0"
+    }
+   }
+  },
+  "cohort": {
+   "value": "old"
+  },
+  "fixed_floor": {
+   "value": 1.5
+  },
+  "forecast_only": {
+   "value": true
+  },
+  "method": {
+   "value": "joint monotone size/progress model fitted only to ladder data; hero observations excluded"
+  },
+  "model": {
+   "value": {
+    "hidden_dim": 6144
+   }
+  },
+  "num_train_steps": {
+   "value": 390251
+  }
+ },
+ "summaryMetrics": {
+  "_runtime": 1.290293208,
+  "_step": 390251,
+  "_timestamp": 1789434633.202085,
+  "_wandb.runtime": 1,
+  "eval_dropless/uncheatable_eval/macro_loss": 1.647230649779203,
+  "run_progress": 1
+ }
+}

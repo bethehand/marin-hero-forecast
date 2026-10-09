@@ -1,0 +1,308 @@
+{
+ "name": "hero-dropless-refit-new-20261003-aa4pdwep",
+ "displayName": "Hero forecast · new mix · refitted floors · 15 points",
+ "createdAt": "2026-10-03T20:09:23Z",
+ "heartbeatAt": "2026-10-03T20:09:26Z",
+ "state": "finished",
+ "config": {
+  "_wandb": {
+   "value": {
+    "cli_version": "0.26.0",
+    "code_path": "code/.codex/.chatgpt-projects/g-p-67e2ed9d6e2c819180dc823e2c926ad4/forecasts/hero-dropless-refit-2026-10-03/refit_forecasts.py",
+    "m": [],
+    "python_version": "3.12.11",
+    "t": {
+     "12": "0.26.0",
+     "13": "darwin-arm64",
+     "3": [
+      2,
+      13,
+      14,
+      16,
+      61,
+      62
+     ],
+     "4": "3.12.11",
+     "5": "0.26.0"
+    }
+   }
+  },
+  "exponent_bounds": {
+   "value": [
+    0,
+    5
+   ]
+  },
+  "final_fit_d1536_coverage": {
+   "value": {
+    "new": [
+     0.3,
+     0.35,
+     0.4,
+     0.45,
+     0.5,
+     0.55,
+     0.6,
+     0.65,
+     0.7,
+     0.75,
+     0.8,
+     0.85,
+     0.9,
+     0.95,
+     1
+    ],
+    "old": [
+     0.3
+    ]
+   }
+  },
+  "fit_widths": {
+   "value": [
+    512,
+    768,
+    1024,
+    1536
+   ]
+  },
+  "floor_sensitivity": {
+   "value": "profile floors with <=10% additional training-fit SSE, not a confidence interval"
+  },
+  "forecast_only": {
+   "value": true
+  },
+  "fractions": {
+   "value": [
+    0.3,
+    0.35,
+    0.4,
+    0.45,
+    0.5,
+    0.55,
+    0.6,
+    0.65,
+    0.7,
+    0.75,
+    0.8,
+    0.85,
+    0.9,
+    0.95,
+    1
+   ]
+  },
+  "hero_loss_used": {
+   "value": false
+  },
+  "method": {
+   "value": "loss-space least squares: one nonnegative floor per metric shared across progress and mixtures; independent positive amplitude and exponent per mixture/progress"
+  },
+  "metric_count": {
+   "value": 29
+  },
+  "mixture": {
+   "value": "new"
+  },
+  "paloma_subsets": {
+   "value": 16
+  },
+  "preliminary_holdout_width": {
+   "value": 1536
+  },
+  "progress_alignment": {
+   "value": "nearest 5% bin of (zero-indexed step + 1)/stop_after_steps; last duplicate wins"
+  },
+  "source_compute": {
+   "value": {
+    "d1024-new": 2.735902188489325e+20,
+    "d1024-old": 2.735902188489325e+20,
+    "d1536-new": 1.831305999780126e+21,
+    "d1536-old": 1.831305999780126e+21,
+    "d512-new": 1.0016130022244352e+19,
+    "d512-old": 1.0016130022244352e+19,
+    "d6144-old": 2.6960230106658617e+24,
+    "d768-new": 5.480525398095692e+19,
+    "d768-old": 5.480525398095692e+19
+   }
+  },
+  "source_history_sha256": {
+   "value": {
+    "h100-ladder-d1024-ep8x4-bs1024-791tpp-20260825-rno2a-interactive-all-losses.json": "9810a02eec2da1637d7cf8c0321d9666a8059cb593a7bd1c94c005d1d12a3596",
+    "h100-ladder-d1536-ep8x8-bs1024-791tpp-20260825-rno2a-interactive-all-losses.json": "e909a6aa6e25b511ced5498c81c533570058400191ed79095c521fa95c27be34",
+    "h100-ladder-d512-ep8-bs1024-791tpp-20260824-rno2a-all-losses.json": "3e3d9b743524b616c0b71639695da6648e43ec34c4b8d3e23d24c0510d3cdfef",
+    "h100-ladder-d768-2xep8-bs1024-791tpp-20260824-all-losses.json": "74e1278476a86ed1a016bf1801418bd504b99971a5f1b27ecd1190747acb6b09",
+    "h100-mix25-20260912-d1024-all-losses.json": "bb369b09579845df3702fa5cb126ea89ed6f68eb50ce2b393aaf9b19f1d1aeb2",
+    "h100-mix25-20260912-d1536-all-losses.json": "7981b924f8ed396c68a962dfb5c72fc56ca91ce912154db9062b06942c0db529",
+    "h100-mix25-20260912-d512-all-losses.json": "1365608c03fe19cb18861591366820785633ae7c9b3ffec6b1fab25060a1b451",
+    "h100-mix25-20260912-d768-all-losses.json": "3a8bc41532e37f6fcbe1d6463ccbd7d04a4936b4757f90e82577092f39bd7ec6"
+   }
+  },
+  "source_runs": {
+   "value": {
+    "d1024-new": "h100-mix25-20260912-d1024",
+    "d1024-old": "h100-ladder-d1024-ep8x4-bs1024-791tpp-20260825-rno2a-interactive",
+    "d1536-new": "h100-mix25-20260912-d1536",
+    "d1536-old": "h100-ladder-d1536-ep8x8-bs1024-791tpp-20260825-rno2a-interactive",
+    "d512-new": "h100-mix25-20260912-d512",
+    "d512-old": "h100-ladder-d512-ep8-bs1024-791tpp-20260824-rno2a",
+    "d6144-old": "hero-ragged_a2a-nccl2307-ep-step81k",
+    "d768-new": "h100-mix25-20260912-d768",
+    "d768-old": "h100-ladder-d768-2xep8-bs1024-791tpp-20260824"
+   }
+  },
+  "uncheatable_subsets": {
+   "value": 7
+  }
+ },
+ "summaryMetrics": {
+  "_runtime": 0.659297292,
+  "_step": 390251,
+  "_timestamp": 1791058163.773592,
+  "_wandb.runtime": 0,
+  "eval_dropless/loss": 1.8098640859219812,
+  "eval_dropless/macro_loss": 1.9317822373222082,
+  "eval_dropless/paloma/4chan-llama3/loss": 1.8642088368294187,
+  "eval_dropless/paloma/c4_100_domains-llama3/loss": 1.9880651080211664,
+  "eval_dropless/paloma/c4_en-llama3/loss": 2.1740289679861555,
+  "eval_dropless/paloma/dolma-v1_5-llama3/loss": 1.7961625198870041,
+  "eval_dropless/paloma/dolma_100_programing_languages-llama3/loss": 0.7282276596708781,
+  "eval_dropless/paloma/dolma_100_subreddits-llama3/loss": 2.4973098744965787,
+  "eval_dropless/paloma/falcon-refinedweb-llama3/loss": 2.209348098539408,
+  "eval_dropless/paloma/gab-llama3/loss": 3.2353936951172932,
+  "eval_dropless/paloma/m2d2_s2orc_unsplit-llama3/loss": 1.6931232341493703,
+  "eval_dropless/paloma/m2d2_wikipedia_unsplit-llama3/loss": 1.7963712908040896,
+  "eval_dropless/paloma/macro_loss": 2.100069599508814,
+  "eval_dropless/paloma/manosphere_meta_sep-llama3/loss": 2.487730870783395,
+  "eval_dropless/paloma/mc4-llama3/loss": 1.8083134923891855,
+  "eval_dropless/paloma/micro_loss": 1.8384481909627552,
+  "eval_dropless/paloma/ptb-llama3/loss": 1.765725346079196,
+  "eval_dropless/paloma/redpajama-llama3/loss": 1.544851702398043,
+  "eval_dropless/paloma/twitterAAE_HELM_fixed-llama3/loss": 4.358790117927147,
+  "eval_dropless/paloma/wikitext_103-llama3/loss": 1.607702545625939,
+  "eval_dropless/uncheatable_eval/ao3_english-llama3/loss": 2.262269695574228,
+  "eval_dropless/uncheatable_eval/arxiv_computer_science-llama3/loss": 1.8434208884017524,
+  "eval_dropless/uncheatable_eval/arxiv_physics-llama3/loss": 1.6479237804219926,
+  "eval_dropless/uncheatable_eval/bbc_news-llama3/loss": 1.9661237607381796,
+  "eval_dropless/uncheatable_eval/github_cpp-llama3/loss": 0.6454287531324383,
+  "eval_dropless/uncheatable_eval/github_python-llama3/loss": 0.6986376748203074,
+  "eval_dropless/uncheatable_eval/macro_loss": 1.543690779519177,
+  "eval_dropless/uncheatable_eval/micro_loss": 1.537062431312671,
+  "eval_dropless/uncheatable_eval/wikipedia_english-llama3/loss": 1.7006826704516642,
+  "fit/loss/fit_rmse": 0.0021338851840071167,
+  "fit/loss/floor": 1.5920964921448504,
+  "fit/loss/floor_at_boundary": false,
+  "fit/loss/small_width_fit_heldout_rmse": 0.005161181204212992,
+  "fit/macro_loss/fit_rmse": 0.0023850710233709865,
+  "fit/macro_loss/floor": 1.7170806880497371,
+  "fit/macro_loss/floor_at_boundary": false,
+  "fit/macro_loss/small_width_fit_heldout_rmse": 0.005240890363240904,
+  "fit/paloma/4chan-llama3/loss/fit_rmse": 0.003740373445621061,
+  "fit/paloma/4chan-llama3/loss/floor": 1.692725471368461,
+  "fit/paloma/4chan-llama3/loss/floor_at_boundary": false,
+  "fit/paloma/4chan-llama3/loss/small_width_fit_heldout_rmse": 0.010357148143288242,
+  "fit/paloma/c4_100_domains-llama3/loss/fit_rmse": 0.002435268958214198,
+  "fit/paloma/c4_100_domains-llama3/loss/floor": 1.7478226703430746,
+  "fit/paloma/c4_100_domains-llama3/loss/floor_at_boundary": false,
+  "fit/paloma/c4_100_domains-llama3/loss/small_width_fit_heldout_rmse": 0.006834609673425287,
+  "fit/paloma/c4_en-llama3/loss/fit_rmse": 0.0026938872847648023,
+  "fit/paloma/c4_en-llama3/loss/floor": 1.9437878176950778,
+  "fit/paloma/c4_en-llama3/loss/floor_at_boundary": false,
+  "fit/paloma/c4_en-llama3/loss/small_width_fit_heldout_rmse": 0.006213858697913866,
+  "fit/paloma/dolma-v1_5-llama3/loss/fit_rmse": 0.0018865042524144244,
+  "fit/paloma/dolma-v1_5-llama3/loss/floor": 1.5712804436608947,
+  "fit/paloma/dolma-v1_5-llama3/loss/floor_at_boundary": false,
+  "fit/paloma/dolma-v1_5-llama3/loss/small_width_fit_heldout_rmse": 0.006703044175245196,
+  "fit/paloma/dolma_100_programing_languages-llama3/loss/fit_rmse": 0.0028817055325363666,
+  "fit/paloma/dolma_100_programing_languages-llama3/loss/floor": 0.6111390311412297,
+  "fit/paloma/dolma_100_programing_languages-llama3/loss/floor_at_boundary": false,
+  "fit/paloma/dolma_100_programing_languages-llama3/loss/small_width_fit_heldout_rmse": 0.004830860355526629,
+  "fit/paloma/dolma_100_subreddits-llama3/loss/fit_rmse": 0.0026813816322144163,
+  "fit/paloma/dolma_100_subreddits-llama3/loss/floor": 2.176712873748408,
+  "fit/paloma/dolma_100_subreddits-llama3/loss/floor_at_boundary": false,
+  "fit/paloma/dolma_100_subreddits-llama3/loss/small_width_fit_heldout_rmse": 0.009475425925893476,
+  "fit/paloma/falcon-refinedweb-llama3/loss/fit_rmse": 0.0023814343038429165,
+  "fit/paloma/falcon-refinedweb-llama3/loss/floor": 1.9568877015683221,
+  "fit/paloma/falcon-refinedweb-llama3/loss/floor_at_boundary": false,
+  "fit/paloma/falcon-refinedweb-llama3/loss/small_width_fit_heldout_rmse": 0.00591920595339025,
+  "fit/paloma/gab-llama3/loss/fit_rmse": 0.0062425817683192525,
+  "fit/paloma/gab-llama3/loss/floor": 3.0773414775703007,
+  "fit/paloma/gab-llama3/loss/floor_at_boundary": false,
+  "fit/paloma/gab-llama3/loss/small_width_fit_heldout_rmse": 0.017801156718345437,
+  "fit/paloma/m2d2_s2orc_unsplit-llama3/loss/fit_rmse": 0.002437326161116594,
+  "fit/paloma/m2d2_s2orc_unsplit-llama3/loss/floor": 1.4459249284698945,
+  "fit/paloma/m2d2_s2orc_unsplit-llama3/loss/floor_at_boundary": false,
+  "fit/paloma/m2d2_s2orc_unsplit-llama3/loss/small_width_fit_heldout_rmse": 0.00788578888600656,
+  "fit/paloma/m2d2_wikipedia_unsplit-llama3/loss/fit_rmse": 0.0028211849453087636,
+  "fit/paloma/m2d2_wikipedia_unsplit-llama3/loss/floor": 1.5933448088976938,
+  "fit/paloma/m2d2_wikipedia_unsplit-llama3/loss/floor_at_boundary": false,
+  "fit/paloma/m2d2_wikipedia_unsplit-llama3/loss/small_width_fit_heldout_rmse": 0.0072757701365307815,
+  "fit/paloma/macro_loss/fit_rmse": 0.002634997009305648,
+  "fit/paloma/macro_loss/floor": 1.8580885185173621,
+  "fit/paloma/macro_loss/floor_at_boundary": false,
+  "fit/paloma/macro_loss/small_width_fit_heldout_rmse": 0.006893143681014314,
+  "fit/paloma/manosphere_meta_sep-llama3/loss/fit_rmse": 0.0029484224196633236,
+  "fit/paloma/manosphere_meta_sep-llama3/loss/floor": 2.1507314102465713,
+  "fit/paloma/manosphere_meta_sep-llama3/loss/floor_at_boundary": false,
+  "fit/paloma/manosphere_meta_sep-llama3/loss/small_width_fit_heldout_rmse": 0.008089224675331876,
+  "fit/paloma/mc4-llama3/loss/fit_rmse": 0.0036379033712464685,
+  "fit/paloma/mc4-llama3/loss/floor": 1.6031660985315117,
+  "fit/paloma/mc4-llama3/loss/floor_at_boundary": false,
+  "fit/paloma/mc4-llama3/loss/small_width_fit_heldout_rmse": 0.011868798037483828,
+  "fit/paloma/micro_loss/fit_rmse": 0.0021655318018766715,
+  "fit/paloma/micro_loss/floor": 1.613712040155638,
+  "fit/paloma/micro_loss/floor_at_boundary": false,
+  "fit/paloma/micro_loss/small_width_fit_heldout_rmse": 0.005733800778691494,
+  "fit/paloma/ptb-llama3/loss/fit_rmse": 0.010534160100725722,
+  "fit/paloma/ptb-llama3/loss/floor": 0.8743065072029357,
+  "fit/paloma/ptb-llama3/loss/floor_at_boundary": false,
+  "fit/paloma/ptb-llama3/loss/small_width_fit_heldout_rmse": 0.038700648676997546,
+  "fit/paloma/redpajama-llama3/loss/fit_rmse": 0.0019107229800733841,
+  "fit/paloma/redpajama-llama3/loss/floor": 1.3600770257755754,
+  "fit/paloma/redpajama-llama3/loss/floor_at_boundary": false,
+  "fit/paloma/redpajama-llama3/loss/small_width_fit_heldout_rmse": 0.007360014631058482,
+  "fit/paloma/twitterAAE_HELM_fixed-llama3/loss/fit_rmse": 0.013429940995380146,
+  "fit/paloma/twitterAAE_HELM_fixed-llama3/loss/floor": 4.216571703946963,
+  "fit/paloma/twitterAAE_HELM_fixed-llama3/loss/floor_at_boundary": false,
+  "fit/paloma/twitterAAE_HELM_fixed-llama3/loss/small_width_fit_heldout_rmse": 0.031075493289061184,
+  "fit/paloma/wikitext_103-llama3/loss/fit_rmse": 0.006582526096165754,
+  "fit/paloma/wikitext_103-llama3/loss/floor": 1.3341455578380723,
+  "fit/paloma/wikitext_103-llama3/loss/floor_at_boundary": false,
+  "fit/paloma/wikitext_103-llama3/loss/small_width_fit_heldout_rmse": 0.02207926470909625,
+  "fit/uncheatable_eval/ao3_english-llama3/loss/fit_rmse": 0.003072946237432887,
+  "fit/uncheatable_eval/ao3_english-llama3/loss/floor": 1.9360531739988402,
+  "fit/uncheatable_eval/ao3_english-llama3/loss/floor_at_boundary": false,
+  "fit/uncheatable_eval/ao3_english-llama3/loss/small_width_fit_heldout_rmse": 0.008054582626592165,
+  "fit/uncheatable_eval/arxiv_computer_science-llama3/loss/fit_rmse": 0.0038977902862471336,
+  "fit/uncheatable_eval/arxiv_computer_science-llama3/loss/floor": 1.6450865262673315,
+  "fit/uncheatable_eval/arxiv_computer_science-llama3/loss/floor_at_boundary": false,
+  "fit/uncheatable_eval/arxiv_computer_science-llama3/loss/small_width_fit_heldout_rmse": 0.016073914751392363,
+  "fit/uncheatable_eval/arxiv_physics-llama3/loss/fit_rmse": 0.002815708875155987,
+  "fit/uncheatable_eval/arxiv_physics-llama3/loss/floor": 1.4077601753675126,
+  "fit/uncheatable_eval/arxiv_physics-llama3/loss/floor_at_boundary": false,
+  "fit/uncheatable_eval/arxiv_physics-llama3/loss/small_width_fit_heldout_rmse": 0.0055657998885815995,
+  "fit/uncheatable_eval/bbc_news-llama3/loss/fit_rmse": 0.002458233138116562,
+  "fit/uncheatable_eval/bbc_news-llama3/loss/floor": 1.7570788493762624,
+  "fit/uncheatable_eval/bbc_news-llama3/loss/floor_at_boundary": false,
+  "fit/uncheatable_eval/bbc_news-llama3/loss/small_width_fit_heldout_rmse": 0.0073108381069708385,
+  "fit/uncheatable_eval/github_cpp-llama3/loss/fit_rmse": 0.0033557966942235687,
+  "fit/uncheatable_eval/github_cpp-llama3/loss/floor": 0.5825657591461217,
+  "fit/uncheatable_eval/github_cpp-llama3/loss/floor_at_boundary": false,
+  "fit/uncheatable_eval/github_cpp-llama3/loss/small_width_fit_heldout_rmse": 0.018296545480127366,
+  "fit/uncheatable_eval/github_python-llama3/loss/fit_rmse": 0.003111634242039502,
+  "fit/uncheatable_eval/github_python-llama3/loss/floor": 0.6346462552039944,
+  "fit/uncheatable_eval/github_python-llama3/loss/floor_at_boundary": false,
+  "fit/uncheatable_eval/github_python-llama3/loss/small_width_fit_heldout_rmse": 0.011857634303824478,
+  "fit/uncheatable_eval/macro_loss/fit_rmse": 0.0025452203170166004,
+  "fit/uncheatable_eval/macro_loss/floor": 1.377859896849757,
+  "fit/uncheatable_eval/macro_loss/floor_at_boundary": false,
+  "fit/uncheatable_eval/macro_loss/small_width_fit_heldout_rmse": 0.008997419729958257,
+  "fit/uncheatable_eval/micro_loss/fit_rmse": 0.0025343378385071515,
+  "fit/uncheatable_eval/micro_loss/floor": 1.3701195079656037,
+  "fit/uncheatable_eval/micro_loss/floor_at_boundary": false,
+  "fit/uncheatable_eval/micro_loss/small_width_fit_heldout_rmse": 0.009279517846418294,
+  "fit/uncheatable_eval/wikipedia_english-llama3/loss/fit_rmse": 0.003378559394018194,
+  "fit/uncheatable_eval/wikipedia_english-llama3/loss/floor": 1.5180058499340412,
+  "fit/uncheatable_eval/wikipedia_english-llama3/loss/floor_at_boundary": false,
+  "fit/uncheatable_eval/wikipedia_english-llama3/loss/small_width_fit_heldout_rmse": 0.007722640623138456,
+  "run_progress": 1
+ }
+}
