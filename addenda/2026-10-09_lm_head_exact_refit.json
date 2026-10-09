@@ -1,0 +1,41 @@
+{
+ "setting": "H100 d512-d1536, old and new mixes, 15 progress points (30%-100%), one shared floor, least squares in loss space (the Oct 3 refit's method)",
+ "compute_ratio_with_over_without_lm_head": {
+  "d512": 2.844242493960658,
+  "d768": 2.068372650939624,
+  "d1024": 1.5850027367268746,
+  "d1536": 1.3257742014142893
+ },
+ "hero_compute_ratio": 1.0326052471018914,
+ "with_lm_head": {
+  "floor": 1.8580885185058262,
+  "floor_range_sse_within_10pct": [
+   1.8187736801692531,
+   1.895005555150935
+  ],
+  "hero_final_new_mix": 2.1000695995541565,
+  "hero_final_new_mix_over_floor_range": [
+   2.0840425500043622,
+   2.115815504236541
+  ],
+  "hero_final_old_mix": 2.1133323863998106
+ },
+ "without_lm_head": {
+  "floor": 1.6302187653893123,
+  "floor_range_sse_within_10pct": [
+   1.5787530960672604,
+   1.678272344653146
+  ],
+  "hero_final_new_mix": 2.0558947612361536,
+  "hero_final_new_mix_over_floor_range": [
+   2.0414246897239705,
+   2.070173645400118
+  ],
+  "hero_final_old_mix": 2.071985682235474
+ },
+ "gap_to_prereg": {
+  "gap": 0.06106959955415636,
+  "closed_by_removing_lm_head": 0.04417483831800295,
+  "share": 0.7233523494587323
+ }
+}

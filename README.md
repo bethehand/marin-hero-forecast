@@ -41,6 +41,7 @@ The bridge table in the pre-registration shows how much each change moves the fo
 | `data/snapshot_2026-10-09T0440Z/` | The W&B metric table, run configs and `manifest.json` (SHA-256 of every file in the original snapshot) |
 | `results/v2/` | The v2 frozen results and `freeze_manifest_v2.json` |
 | `results/step5/` | The v1 frozen results and `freeze_manifest.json` |
+| `addenda/` | Notes added after the freeze, each with its script and output. They never change the frozen forecast |
 | `results/step2_*`, `results/step3*`, `results/hero_actual.csv` | Reproduction of the team's forecasts and exploration, from an earlier snapshot (data through step 224,999) |
 
 ## Reproduce
