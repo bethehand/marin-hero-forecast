@@ -1,0 +1,14 @@
+{
+ "inputs": {
+  "file": "wikitext_document_level-test.json",
+  "file_sha256": "fdfcbf31feb34e593804b2c3c86da67a894412acac49f1f1c8e87a578957790b",
+  "eval_parquet_sha256": "5f1bea067869d04849c0f975a2b29c4ff47d867f484f5010ea5e861eab246d91"
+ },
+ "documents_in_file": 62,
+ "eval_articles": 62,
+ "eval_article_titles_in_file": 62,
+ "eval_13grams": 240749,
+ "share_as_written": 0.7505,
+ "share_after_json_decoding": 1.0,
+ "identical_after_whitespace_normalization": true
+}

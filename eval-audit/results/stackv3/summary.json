@@ -1,0 +1,12 @@
+{
+ "revision": "1f61b735bc0a5698345ce2196730f24bfa467f33",
+ "parquet_files": 8192,
+ "repos": 172802712,
+ "stage_a_candidates": 529,
+ "stage_b_row_groups": 246,
+ "matches_min_hits": 100,
+ "matches": 75,
+ "stage_a_failed_files": [],
+ "stage_b_failed_row_groups": [],
+ "seconds": 10887
+}

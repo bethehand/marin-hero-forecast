@@ -1,0 +1,9 @@
+{
+ "val_tar_sha256": "0cd21cfdea87643d82c5b8f0c330bfa439510ba46a86cc575616917ec4c179a2",
+ "sequences": 122,
+ "paloma_val_13grams": 210763,
+ "wt103_validation_share_in_paloma_val": 0.98,
+ "paloma_val_share_in_wt103_validation": 0.993,
+ "wt103_test_share_in_paloma_val": 0.0,
+ "paloma_val_share_in_wt103_test": 0.0
+}
