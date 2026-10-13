@@ -1,0 +1,2414 @@
+{
+ "ctx9615-ctl-4k-s0-01": {
+  "180000": {
+   "train/loss": 1.2614134550094604,
+   "train/cross_entropy_loss": 1.2614134550094604
+  },
+  "180001": {
+   "train/loss": 1.2346006631851196,
+   "train/cross_entropy_loss": 1.2346006631851196
+  },
+  "180002": {
+   "train/loss": 1.200222134590149,
+   "train/cross_entropy_loss": 1.200222134590149
+  },
+  "180003": {
+   "train/loss": 1.2568037509918213,
+   "train/cross_entropy_loss": 1.2568037509918213
+  },
+  "180004": {
+   "train/loss": 1.2380120754241943,
+   "train/cross_entropy_loss": 1.2380120754241943
+  },
+  "180005": {
+   "train/loss": 1.2146592140197754,
+   "train/cross_entropy_loss": 1.2146592140197754
+  },
+  "180006": {
+   "train/loss": 1.2305402755737305,
+   "train/cross_entropy_loss": 1.2305402755737305
+  },
+  "180007": {
+   "train/loss": 1.2190064191818237,
+   "train/cross_entropy_loss": 1.2190064191818237
+  },
+  "180008": {
+   "train/loss": 1.2773782014846802,
+   "train/cross_entropy_loss": 1.2773782014846802
+  },
+  "180009": {
+   "train/loss": 1.2272276878356934,
+   "train/cross_entropy_loss": 1.2272276878356934
+  },
+  "180010": {
+   "train/loss": 1.2068097591400146,
+   "train/cross_entropy_loss": 1.2068097591400146
+  },
+  "180011": {
+   "train/loss": 1.2080491781234741,
+   "train/cross_entropy_loss": 1.2080491781234741
+  },
+  "180012": {
+   "train/loss": 1.1944466829299927,
+   "train/cross_entropy_loss": 1.1944466829299927
+  },
+  "180013": {
+   "train/loss": 1.1723679304122925,
+   "train/cross_entropy_loss": 1.1723679304122925
+  },
+  "180014": {
+   "train/loss": 1.214535117149353,
+   "train/cross_entropy_loss": 1.214535117149353
+  },
+  "180015": {
+   "train/loss": 1.2304657697677612,
+   "train/cross_entropy_loss": 1.2304657697677612
+  },
+  "180016": {
+   "train/loss": 1.2405712604522705,
+   "train/cross_entropy_loss": 1.2405712604522705
+  },
+  "180017": {
+   "train/loss": 1.2102195024490356,
+   "train/cross_entropy_loss": 1.2102195024490356
+  },
+  "180018": {
+   "train/loss": 1.2288379669189453,
+   "train/cross_entropy_loss": 1.2288379669189453
+  },
+  "180019": {
+   "train/loss": 1.2302799224853516,
+   "train/cross_entropy_loss": 1.2302799224853516
+  },
+  "180020": {
+   "train/loss": 1.159252643585205,
+   "train/cross_entropy_loss": 1.159252643585205
+  },
+  "180021": {
+   "train/loss": 1.2329310178756714,
+   "train/cross_entropy_loss": 1.2329310178756714
+  },
+  "180022": {
+   "train/loss": 1.191030740737915,
+   "train/cross_entropy_loss": 1.191030740737915
+  },
+  "180023": {
+   "train/loss": 1.2294068336486816,
+   "train/cross_entropy_loss": 1.2294068336486816
+  },
+  "180024": {
+   "train/loss": 1.190058946609497,
+   "train/cross_entropy_loss": 1.190058946609497
+  },
+  "180025": {
+   "train/loss": 1.193566083908081,
+   "train/cross_entropy_loss": 1.193566083908081
+  },
+  "180026": {
+   "train/loss": 1.2123991250991821,
+   "train/cross_entropy_loss": 1.2123991250991821
+  },
+  "180027": {
+   "train/loss": 1.1905176639556885,
+   "train/cross_entropy_loss": 1.1905176639556885
+  },
+  "180028": {
+   "train/loss": 1.2132748365402222,
+   "train/cross_entropy_loss": 1.2132748365402222
+  },
+  "180029": {
+   "train/loss": 1.2283762693405151,
+   "train/cross_entropy_loss": 1.2283762693405151
+  },
+  "180030": {
+   "train/loss": 1.1834758520126343,
+   "train/cross_entropy_loss": 1.1834758520126343
+  },
+  "180031": {
+   "train/loss": 1.193149209022522,
+   "train/cross_entropy_loss": 1.193149209022522
+  },
+  "180032": {
+   "train/loss": 1.2251436710357666,
+   "train/cross_entropy_loss": 1.2251436710357666
+  },
+  "180033": {
+   "train/loss": 1.2340521812438965,
+   "train/cross_entropy_loss": 1.2340521812438965
+  },
+  "180034": {
+   "train/loss": 1.2208284139633179,
+   "train/cross_entropy_loss": 1.2208284139633179
+  },
+  "180035": {
+   "train/loss": 1.2444730997085571,
+   "train/cross_entropy_loss": 1.2444730997085571
+  },
+  "180036": {
+   "train/loss": 1.2309709787368774,
+   "train/cross_entropy_loss": 1.2309709787368774
+  },
+  "180037": {
+   "train/loss": 1.2395508289337158,
+   "train/cross_entropy_loss": 1.2395508289337158
+  },
+  "180038": {
+   "train/loss": 1.1830625534057617,
+   "train/cross_entropy_loss": 1.1830625534057617
+  },
+  "180039": {
+   "train/loss": 1.1655597686767578,
+   "train/cross_entropy_loss": 1.1655597686767578
+  },
+  "180040": {
+   "train/loss": 1.242030382156372,
+   "train/cross_entropy_loss": 1.242030382156372
+  },
+  "180041": {
+   "train/loss": 1.286133885383606,
+   "train/cross_entropy_loss": 1.286133885383606
+  },
+  "180042": {
+   "train/loss": 1.2252169847488403,
+   "train/cross_entropy_loss": 1.2252169847488403
+  },
+  "180043": {
+   "train/loss": 1.2223869562149048,
+   "train/cross_entropy_loss": 1.2223869562149048
+  },
+  "180044": {
+   "train/loss": 1.225730299949646,
+   "train/cross_entropy_loss": 1.225730299949646
+  },
+  "180045": {
+   "train/loss": 1.2353025674819946,
+   "train/cross_entropy_loss": 1.2353025674819946
+  },
+  "180046": {
+   "train/loss": 1.2388508319854736,
+   "train/cross_entropy_loss": 1.2388508319854736
+  },
+  "180047": {
+   "train/loss": 1.2346491813659668,
+   "train/cross_entropy_loss": 1.2346491813659668
+  },
+  "180048": {
+   "train/loss": 1.271531581878662,
+   "train/cross_entropy_loss": 1.271531581878662
+  },
+  "180049": {
+   "train/loss": 1.2416199445724487,
+   "train/cross_entropy_loss": 1.2416199445724487
+  },
+  "180050": {
+   "train/loss": 1.1898167133331299,
+   "train/cross_entropy_loss": 1.1898167133331299
+  },
+  "180051": {
+   "train/loss": 1.2112385034561157,
+   "train/cross_entropy_loss": 1.2112385034561157
+  },
+  "180052": {
+   "train/loss": 1.2468082904815674,
+   "train/cross_entropy_loss": 1.2468082904815674
+  },
+  "180053": {
+   "train/loss": 1.2538663148880005,
+   "train/cross_entropy_loss": 1.2538663148880005
+  },
+  "180054": {
+   "train/loss": 1.2373954057693481,
+   "train/cross_entropy_loss": 1.2373954057693481
+  },
+  "180055": {
+   "train/loss": 1.2324903011322021,
+   "train/cross_entropy_loss": 1.2324903011322021
+  },
+  "180056": {
+   "train/loss": 1.233185887336731,
+   "train/cross_entropy_loss": 1.233185887336731
+  },
+  "180057": {
+   "train/loss": 1.2242547273635864,
+   "train/cross_entropy_loss": 1.2242547273635864
+  },
+  "180058": {
+   "train/loss": 1.2538707256317139,
+   "train/cross_entropy_loss": 1.2538707256317139
+  },
+  "180059": {
+   "train/loss": 1.2683367729187012,
+   "train/cross_entropy_loss": 1.2683367729187012
+  },
+  "180060": {
+   "train/loss": 1.2381212711334229,
+   "train/cross_entropy_loss": 1.2381212711334229
+  },
+  "180061": {
+   "train/loss": 1.2363824844360352,
+   "train/cross_entropy_loss": 1.2363824844360352
+  },
+  "180062": {
+   "train/loss": 1.252999186515808,
+   "train/cross_entropy_loss": 1.252999186515808
+  },
+  "180063": {
+   "train/loss": 1.2667874097824097,
+   "train/cross_entropy_loss": 1.2667874097824097
+  },
+  "180064": {
+   "train/loss": 1.2457995414733887,
+   "train/cross_entropy_loss": 1.2457995414733887
+  },
+  "180065": {
+   "train/loss": 1.1561949253082275,
+   "train/cross_entropy_loss": 1.1561949253082275
+  },
+  "180066": {
+   "train/loss": 1.2404247522354126,
+   "train/cross_entropy_loss": 1.2404247522354126
+  },
+  "180067": {
+   "train/loss": 1.2431285381317139,
+   "train/cross_entropy_loss": 1.2431285381317139
+  },
+  "180068": {
+   "train/loss": 1.2266976833343506,
+   "train/cross_entropy_loss": 1.2266976833343506
+  },
+  "180069": {
+   "train/loss": 1.220794677734375,
+   "train/cross_entropy_loss": 1.220794677734375
+  },
+  "180070": {
+   "train/loss": 1.2190887928009033,
+   "train/cross_entropy_loss": 1.2190887928009033
+  },
+  "180071": {
+   "train/loss": 1.2438666820526123,
+   "train/cross_entropy_loss": 1.2438666820526123
+  },
+  "180072": {
+   "train/loss": 1.2020772695541382,
+   "train/cross_entropy_loss": 1.2020772695541382
+  },
+  "180073": {
+   "train/loss": 1.2012975215911865,
+   "train/cross_entropy_loss": 1.2012975215911865
+  },
+  "180074": {
+   "train/loss": 1.2274621725082397,
+   "train/cross_entropy_loss": 1.2274621725082397
+  },
+  "180075": {
+   "train/loss": 1.2420755624771118,
+   "train/cross_entropy_loss": 1.2420755624771118
+  },
+  "180076": {
+   "train/loss": 1.2212022542953491,
+   "train/cross_entropy_loss": 1.2212022542953491
+  },
+  "180077": {
+   "train/loss": 1.1884225606918335,
+   "train/cross_entropy_loss": 1.1884225606918335
+  },
+  "180078": {
+   "train/loss": 1.2083408832550049,
+   "train/cross_entropy_loss": 1.2083408832550049
+  },
+  "180079": {
+   "train/loss": 1.1730892658233643,
+   "train/cross_entropy_loss": 1.1730892658233643
+  },
+  "180080": {
+   "train/loss": 1.205993890762329,
+   "train/cross_entropy_loss": 1.205993890762329
+  },
+  "180081": {
+   "train/loss": 1.1776881217956543,
+   "train/cross_entropy_loss": 1.1776881217956543
+  },
+  "180082": {
+   "train/loss": 1.1917426586151123,
+   "train/cross_entropy_loss": 1.1917426586151123
+  },
+  "180083": {
+   "train/loss": 1.201098084449768,
+   "train/cross_entropy_loss": 1.201098084449768
+  },
+  "180084": {
+   "train/loss": 1.2313728332519531,
+   "train/cross_entropy_loss": 1.2313728332519531
+  },
+  "180085": {
+   "train/loss": 1.2755846977233887,
+   "train/cross_entropy_loss": 1.2755846977233887
+  },
+  "180086": {
+   "train/loss": 1.1882187128067017,
+   "train/cross_entropy_loss": 1.1882187128067017
+  },
+  "180087": {
+   "train/loss": 1.2095990180969238,
+   "train/cross_entropy_loss": 1.2095990180969238
+  },
+  "180088": {
+   "train/loss": 1.183652639389038,
+   "train/cross_entropy_loss": 1.183652639389038
+  },
+  "180089": {
+   "train/loss": 1.2261346578598022,
+   "train/cross_entropy_loss": 1.2261346578598022
+  },
+  "180090": {
+   "train/loss": 1.2202893495559692,
+   "train/cross_entropy_loss": 1.2202893495559692
+  },
+  "180091": {
+   "train/loss": 1.2057559490203857,
+   "train/cross_entropy_loss": 1.2057559490203857
+  },
+  "180092": {
+   "train/loss": 1.2432572841644287,
+   "train/cross_entropy_loss": 1.2432572841644287
+  },
+  "180093": {
+   "train/loss": 1.2305316925048828,
+   "train/cross_entropy_loss": 1.2305316925048828
+  },
+  "180094": {
+   "train/loss": 1.2367123365402222,
+   "train/cross_entropy_loss": 1.2367123365402222
+  },
+  "180095": {
+   "train/loss": 1.2091139554977417,
+   "train/cross_entropy_loss": 1.2091139554977417
+  },
+  "180096": {
+   "train/loss": 1.229392647743225,
+   "train/cross_entropy_loss": 1.229392647743225
+  },
+  "180097": {
+   "train/loss": 1.2495001554489136,
+   "train/cross_entropy_loss": 1.2495001554489136
+  },
+  "180098": {
+   "train/loss": 1.2223379611968994,
+   "train/cross_entropy_loss": 1.2223379611968994
+  },
+  "180099": {
+   "train/loss": 1.2104554176330566,
+   "train/cross_entropy_loss": 1.2104554176330566
+  }
+ },
+ "ctx9615-ctl-8k-s0-01": {
+  "180000": {
+   "train/loss": 1.2378228902816772,
+   "train/cross_entropy_loss": 1.2378228902816772
+  },
+  "180001": {
+   "train/loss": 1.1788182258605957,
+   "train/cross_entropy_loss": 1.1788182258605957
+  },
+  "180002": {
+   "train/loss": 1.1734507083892822,
+   "train/cross_entropy_loss": 1.1734507083892822
+  },
+  "180003": {
+   "train/loss": 1.1394671201705933,
+   "train/cross_entropy_loss": 1.1394671201705933
+  },
+  "180004": {
+   "train/loss": 1.1819603443145752,
+   "train/cross_entropy_loss": 1.1819603443145752
+  },
+  "180005": {
+   "train/loss": 1.1516132354736328,
+   "train/cross_entropy_loss": 1.1516132354736328
+  },
+  "180006": {
+   "train/loss": 1.1338313817977905,
+   "train/cross_entropy_loss": 1.1338313817977905
+  },
+  "180007": {
+   "train/loss": 1.2215871810913086,
+   "train/cross_entropy_loss": 1.2215871810913086
+  },
+  "180008": {
+   "train/loss": 1.1577249765396118,
+   "train/cross_entropy_loss": 1.1577249765396118
+  },
+  "180009": {
+   "train/loss": 1.113808035850525,
+   "train/cross_entropy_loss": 1.113808035850525
+  },
+  "180010": {
+   "train/loss": 1.2087934017181396,
+   "train/cross_entropy_loss": 1.2087934017181396
+  },
+  "180011": {
+   "train/loss": 1.1837893724441528,
+   "train/cross_entropy_loss": 1.1837893724441528
+  },
+  "180012": {
+   "train/loss": 1.1803532838821411,
+   "train/cross_entropy_loss": 1.1803532838821411
+  },
+  "180013": {
+   "train/loss": 1.1909767389297485,
+   "train/cross_entropy_loss": 1.1909767389297485
+  },
+  "180014": {
+   "train/loss": 1.1917424201965332,
+   "train/cross_entropy_loss": 1.1917424201965332
+  },
+  "180015": {
+   "train/loss": 1.1870298385620117,
+   "train/cross_entropy_loss": 1.1870298385620117
+  },
+  "180016": {
+   "train/loss": 1.1545590162277222,
+   "train/cross_entropy_loss": 1.1545590162277222
+  },
+  "180017": {
+   "train/loss": 1.1736246347427368,
+   "train/cross_entropy_loss": 1.1736246347427368
+  },
+  "180018": {
+   "train/loss": 1.1667345762252808,
+   "train/cross_entropy_loss": 1.1667345762252808
+  },
+  "180019": {
+   "train/loss": 1.187046766281128,
+   "train/cross_entropy_loss": 1.187046766281128
+  },
+  "180020": {
+   "train/loss": 1.1616626977920532,
+   "train/cross_entropy_loss": 1.1616626977920532
+  },
+  "180021": {
+   "train/loss": 1.1701548099517822,
+   "train/cross_entropy_loss": 1.1701548099517822
+  },
+  "180022": {
+   "train/loss": 1.229580283164978,
+   "train/cross_entropy_loss": 1.229580283164978
+  },
+  "180023": {
+   "train/loss": 1.1760631799697876,
+   "train/cross_entropy_loss": 1.1760631799697876
+  },
+  "180024": {
+   "train/loss": 1.180896282196045,
+   "train/cross_entropy_loss": 1.180896282196045
+  },
+  "180025": {
+   "train/loss": 1.1818360090255737,
+   "train/cross_entropy_loss": 1.1818360090255737
+  },
+  "180026": {
+   "train/loss": 1.1413812637329102,
+   "train/cross_entropy_loss": 1.1413812637329102
+  },
+  "180027": {
+   "train/loss": 1.187950849533081,
+   "train/cross_entropy_loss": 1.187950849533081
+  },
+  "180028": {
+   "train/loss": 1.2099839448928833,
+   "train/cross_entropy_loss": 1.2099839448928833
+  },
+  "180029": {
+   "train/loss": 1.1862250566482544,
+   "train/cross_entropy_loss": 1.1862250566482544
+  },
+  "180030": {
+   "train/loss": 1.1408824920654297,
+   "train/cross_entropy_loss": 1.1408824920654297
+  },
+  "180031": {
+   "train/loss": 1.2020012140274048,
+   "train/cross_entropy_loss": 1.2020012140274048
+  },
+  "180032": {
+   "train/loss": 1.1955246925354004,
+   "train/cross_entropy_loss": 1.1955246925354004
+  },
+  "180033": {
+   "train/loss": 1.1841397285461426,
+   "train/cross_entropy_loss": 1.1841397285461426
+  },
+  "180034": {
+   "train/loss": 1.1376030445098877,
+   "train/cross_entropy_loss": 1.1376030445098877
+  },
+  "180035": {
+   "train/loss": 1.1619558334350586,
+   "train/cross_entropy_loss": 1.1619558334350586
+  },
+  "180036": {
+   "train/loss": 1.1491092443466187,
+   "train/cross_entropy_loss": 1.1491092443466187
+  },
+  "180037": {
+   "train/loss": 1.2047820091247559,
+   "train/cross_entropy_loss": 1.2047820091247559
+  },
+  "180038": {
+   "train/loss": 1.1828681230545044,
+   "train/cross_entropy_loss": 1.1828681230545044
+  },
+  "180039": {
+   "train/loss": 1.1265032291412354,
+   "train/cross_entropy_loss": 1.1265032291412354
+  },
+  "180040": {
+   "train/loss": 1.1647177934646606,
+   "train/cross_entropy_loss": 1.1647177934646606
+  },
+  "180041": {
+   "train/loss": 1.2665190696716309,
+   "train/cross_entropy_loss": 1.2665190696716309
+  },
+  "180042": {
+   "train/loss": 1.147238850593567,
+   "train/cross_entropy_loss": 1.147238850593567
+  },
+  "180043": {
+   "train/loss": 1.1945772171020508,
+   "train/cross_entropy_loss": 1.1945772171020508
+  },
+  "180044": {
+   "train/loss": 1.2170023918151855,
+   "train/cross_entropy_loss": 1.2170023918151855
+  },
+  "180045": {
+   "train/loss": 1.2164340019226074,
+   "train/cross_entropy_loss": 1.2164340019226074
+  },
+  "180046": {
+   "train/loss": 1.2371464967727661,
+   "train/cross_entropy_loss": 1.2371464967727661
+  },
+  "180047": {
+   "train/loss": 1.2065069675445557,
+   "train/cross_entropy_loss": 1.2065069675445557
+  },
+  "180048": {
+   "train/loss": 1.1108046770095825,
+   "train/cross_entropy_loss": 1.1108046770095825
+  },
+  "180049": {
+   "train/loss": 1.146490216255188,
+   "train/cross_entropy_loss": 1.146490216255188
+  },
+  "180050": {
+   "train/loss": 1.2097980976104736,
+   "train/cross_entropy_loss": 1.2097980976104736
+  },
+  "180051": {
+   "train/loss": 1.2302852869033813,
+   "train/cross_entropy_loss": 1.2302852869033813
+  },
+  "180052": {
+   "train/loss": 1.2004934549331665,
+   "train/cross_entropy_loss": 1.2004934549331665
+  },
+  "180053": {
+   "train/loss": 1.1964740753173828,
+   "train/cross_entropy_loss": 1.1964740753173828
+  },
+  "180054": {
+   "train/loss": 1.1540026664733887,
+   "train/cross_entropy_loss": 1.1540026664733887
+  },
+  "180055": {
+   "train/loss": 1.2252440452575684,
+   "train/cross_entropy_loss": 1.2252440452575684
+  },
+  "180056": {
+   "train/loss": 1.1911280155181885,
+   "train/cross_entropy_loss": 1.1911280155181885
+  },
+  "180057": {
+   "train/loss": 1.1350146532058716,
+   "train/cross_entropy_loss": 1.1350146532058716
+  },
+  "180058": {
+   "train/loss": 1.2366293668746948,
+   "train/cross_entropy_loss": 1.2366293668746948
+  },
+  "180059": {
+   "train/loss": 1.1556912660598755,
+   "train/cross_entropy_loss": 1.1556912660598755
+  },
+  "180060": {
+   "train/loss": 1.1836268901824951,
+   "train/cross_entropy_loss": 1.1836268901824951
+  },
+  "180061": {
+   "train/loss": 1.12880539894104,
+   "train/cross_entropy_loss": 1.12880539894104
+  },
+  "180062": {
+   "train/loss": 1.1266356706619263,
+   "train/cross_entropy_loss": 1.1266356706619263
+  },
+  "180063": {
+   "train/loss": 1.1817080974578857,
+   "train/cross_entropy_loss": 1.1817080974578857
+  },
+  "180064": {
+   "train/loss": 1.1988497972488403,
+   "train/cross_entropy_loss": 1.1988497972488403
+  },
+  "180065": {
+   "train/loss": 1.209515929222107,
+   "train/cross_entropy_loss": 1.209515929222107
+  },
+  "180066": {
+   "train/loss": 1.1793593168258667,
+   "train/cross_entropy_loss": 1.1793593168258667
+  },
+  "180067": {
+   "train/loss": 1.226566195487976,
+   "train/cross_entropy_loss": 1.226566195487976
+  },
+  "180068": {
+   "train/loss": 1.2099189758300781,
+   "train/cross_entropy_loss": 1.2099189758300781
+  },
+  "180069": {
+   "train/loss": 1.1456592082977295,
+   "train/cross_entropy_loss": 1.1456592082977295
+  },
+  "180070": {
+   "train/loss": 1.134250521659851,
+   "train/cross_entropy_loss": 1.134250521659851
+  },
+  "180071": {
+   "train/loss": 1.1885101795196533,
+   "train/cross_entropy_loss": 1.1885101795196533
+  },
+  "180072": {
+   "train/loss": 1.1485414505004883,
+   "train/cross_entropy_loss": 1.1485414505004883
+  },
+  "180073": {
+   "train/loss": 1.1743383407592773,
+   "train/cross_entropy_loss": 1.1743383407592773
+  },
+  "180074": {
+   "train/loss": 1.1708017587661743,
+   "train/cross_entropy_loss": 1.1708017587661743
+  },
+  "180075": {
+   "train/loss": 1.2032554149627686,
+   "train/cross_entropy_loss": 1.2032554149627686
+  },
+  "180076": {
+   "train/loss": 1.1989789009094238,
+   "train/cross_entropy_loss": 1.1989789009094238
+  },
+  "180077": {
+   "train/loss": 1.191407322883606,
+   "train/cross_entropy_loss": 1.191407322883606
+  },
+  "180078": {
+   "train/loss": 1.2385159730911255,
+   "train/cross_entropy_loss": 1.2385159730911255
+  },
+  "180079": {
+   "train/loss": 1.211522102355957,
+   "train/cross_entropy_loss": 1.211522102355957
+  },
+  "180080": {
+   "train/loss": 1.2014024257659912,
+   "train/cross_entropy_loss": 1.2014024257659912
+  },
+  "180081": {
+   "train/loss": 1.2283529043197632,
+   "train/cross_entropy_loss": 1.2283529043197632
+  },
+  "180082": {
+   "train/loss": 1.21445894241333,
+   "train/cross_entropy_loss": 1.21445894241333
+  },
+  "180083": {
+   "train/loss": 1.1790125370025635,
+   "train/cross_entropy_loss": 1.1790125370025635
+  },
+  "180084": {
+   "train/loss": 1.2056827545166016,
+   "train/cross_entropy_loss": 1.2056827545166016
+  },
+  "180085": {
+   "train/loss": 1.2493330240249634,
+   "train/cross_entropy_loss": 1.2493330240249634
+  },
+  "180086": {
+   "train/loss": 1.1901096105575562,
+   "train/cross_entropy_loss": 1.1901096105575562
+  },
+  "180087": {
+   "train/loss": 1.2234655618667603,
+   "train/cross_entropy_loss": 1.2234655618667603
+  },
+  "180088": {
+   "train/loss": 1.1811693906784058,
+   "train/cross_entropy_loss": 1.1811693906784058
+  },
+  "180089": {
+   "train/loss": 1.1926355361938477,
+   "train/cross_entropy_loss": 1.1926355361938477
+  },
+  "180090": {
+   "train/loss": 1.1585123538970947,
+   "train/cross_entropy_loss": 1.1585123538970947
+  },
+  "180091": {
+   "train/loss": 1.1709107160568237,
+   "train/cross_entropy_loss": 1.1709107160568237
+  },
+  "180092": {
+   "train/loss": 1.2214064598083496,
+   "train/cross_entropy_loss": 1.2214064598083496
+  },
+  "180093": {
+   "train/loss": 1.1709915399551392,
+   "train/cross_entropy_loss": 1.1709915399551392
+  },
+  "180094": {
+   "train/loss": 1.2019808292388916,
+   "train/cross_entropy_loss": 1.2019808292388916
+  },
+  "180095": {
+   "train/loss": 1.1338838338851929,
+   "train/cross_entropy_loss": 1.1338838338851929
+  },
+  "180096": {
+   "train/loss": 1.1574550867080688,
+   "train/cross_entropy_loss": 1.1574550867080688
+  },
+  "180097": {
+   "train/loss": 1.2213791608810425,
+   "train/cross_entropy_loss": 1.2213791608810425
+  },
+  "180098": {
+   "train/loss": 1.1876157522201538,
+   "train/cross_entropy_loss": 1.1876157522201538
+  },
+  "180099": {
+   "train/loss": 1.1533836126327515,
+   "train/cross_entropy_loss": 1.1533836126327515
+  }
+ },
+ "ctx9615-ctl-16k-s0-01": {
+  "180000": {
+   "train/loss": 1.192876935005188,
+   "train/cross_entropy_loss": 1.192876935005188
+  },
+  "180001": {
+   "train/loss": 1.1259901523590088,
+   "train/cross_entropy_loss": 1.1259901523590088
+  },
+  "180002": {
+   "train/loss": 1.1528892517089844,
+   "train/cross_entropy_loss": 1.1528892517089844
+  },
+  "180003": {
+   "train/loss": 1.1330232620239258,
+   "train/cross_entropy_loss": 1.1330232620239258
+  },
+  "180004": {
+   "train/loss": 1.1683450937271118,
+   "train/cross_entropy_loss": 1.1683450937271118
+  },
+  "180005": {
+   "train/loss": 1.172169804573059,
+   "train/cross_entropy_loss": 1.172169804573059
+  },
+  "180006": {
+   "train/loss": 1.0904428958892822,
+   "train/cross_entropy_loss": 1.0904428958892822
+  },
+  "180007": {
+   "train/loss": 1.1264652013778687,
+   "train/cross_entropy_loss": 1.1264652013778687
+  },
+  "180008": {
+   "train/loss": 1.179584264755249,
+   "train/cross_entropy_loss": 1.179584264755249
+  },
+  "180009": {
+   "train/loss": 1.109965443611145,
+   "train/cross_entropy_loss": 1.109965443611145
+  },
+  "180010": {
+   "train/loss": 1.0784324407577515,
+   "train/cross_entropy_loss": 1.0784324407577515
+  },
+  "180011": {
+   "train/loss": 1.1990875005722046,
+   "train/cross_entropy_loss": 1.1990875005722046
+  },
+  "180012": {
+   "train/loss": 1.2430416345596313,
+   "train/cross_entropy_loss": 1.2430416345596313
+  },
+  "180013": {
+   "train/loss": 1.13482666015625,
+   "train/cross_entropy_loss": 1.13482666015625
+  },
+  "180014": {
+   "train/loss": 1.1365083456039429,
+   "train/cross_entropy_loss": 1.1365083456039429
+  },
+  "180015": {
+   "train/loss": 1.173272967338562,
+   "train/cross_entropy_loss": 1.173272967338562
+  },
+  "180016": {
+   "train/loss": 1.2468310594558716,
+   "train/cross_entropy_loss": 1.2468310594558716
+  },
+  "180017": {
+   "train/loss": 1.0989776849746704,
+   "train/cross_entropy_loss": 1.0989776849746704
+  },
+  "180018": {
+   "train/loss": 1.154195785522461,
+   "train/cross_entropy_loss": 1.154195785522461
+  },
+  "180019": {
+   "train/loss": 1.204581618309021,
+   "train/cross_entropy_loss": 1.204581618309021
+  },
+  "180020": {
+   "train/loss": 1.1835553646087646,
+   "train/cross_entropy_loss": 1.1835553646087646
+  },
+  "180021": {
+   "train/loss": 1.0691242218017578,
+   "train/cross_entropy_loss": 1.0691242218017578
+  },
+  "180022": {
+   "train/loss": 1.1565791368484497,
+   "train/cross_entropy_loss": 1.1565791368484497
+  },
+  "180023": {
+   "train/loss": 1.0902365446090698,
+   "train/cross_entropy_loss": 1.0902365446090698
+  },
+  "180024": {
+   "train/loss": 1.0992956161499023,
+   "train/cross_entropy_loss": 1.0992956161499023
+  },
+  "180025": {
+   "train/loss": 1.2354576587677002,
+   "train/cross_entropy_loss": 1.2354576587677002
+  },
+  "180026": {
+   "train/loss": 1.1181892156600952,
+   "train/cross_entropy_loss": 1.1181892156600952
+  },
+  "180027": {
+   "train/loss": 1.1032569408416748,
+   "train/cross_entropy_loss": 1.1032569408416748
+  },
+  "180028": {
+   "train/loss": 1.267493486404419,
+   "train/cross_entropy_loss": 1.267493486404419
+  },
+  "180029": {
+   "train/loss": 1.1197645664215088,
+   "train/cross_entropy_loss": 1.1197645664215088
+  },
+  "180030": {
+   "train/loss": 1.1062886714935303,
+   "train/cross_entropy_loss": 1.1062886714935303
+  },
+  "180031": {
+   "train/loss": 1.158356785774231,
+   "train/cross_entropy_loss": 1.158356785774231
+  },
+  "180032": {
+   "train/loss": 1.0932393074035645,
+   "train/cross_entropy_loss": 1.0932393074035645
+  },
+  "180033": {
+   "train/loss": 1.1029417514801025,
+   "train/cross_entropy_loss": 1.1029417514801025
+  },
+  "180034": {
+   "train/loss": 1.160131573677063,
+   "train/cross_entropy_loss": 1.160131573677063
+  },
+  "180035": {
+   "train/loss": 1.1174482107162476,
+   "train/cross_entropy_loss": 1.1174482107162476
+  },
+  "180036": {
+   "train/loss": 1.160209059715271,
+   "train/cross_entropy_loss": 1.160209059715271
+  },
+  "180037": {
+   "train/loss": 1.1014683246612549,
+   "train/cross_entropy_loss": 1.1014683246612549
+  },
+  "180038": {
+   "train/loss": 1.1187700033187866,
+   "train/cross_entropy_loss": 1.1187700033187866
+  },
+  "180039": {
+   "train/loss": 1.1796759366989136,
+   "train/cross_entropy_loss": 1.1796759366989136
+  },
+  "180040": {
+   "train/loss": 1.191118836402893,
+   "train/cross_entropy_loss": 1.191118836402893
+  },
+  "180041": {
+   "train/loss": 1.1165863275527954,
+   "train/cross_entropy_loss": 1.1165863275527954
+  },
+  "180042": {
+   "train/loss": 1.1254969835281372,
+   "train/cross_entropy_loss": 1.1254969835281372
+  },
+  "180043": {
+   "train/loss": 1.1574801206588745,
+   "train/cross_entropy_loss": 1.1574801206588745
+  },
+  "180044": {
+   "train/loss": 1.1288633346557617,
+   "train/cross_entropy_loss": 1.1288633346557617
+  },
+  "180045": {
+   "train/loss": 1.0962036848068237,
+   "train/cross_entropy_loss": 1.0962036848068237
+  },
+  "180046": {
+   "train/loss": 1.161988615989685,
+   "train/cross_entropy_loss": 1.161988615989685
+  },
+  "180047": {
+   "train/loss": 1.091851830482483,
+   "train/cross_entropy_loss": 1.091851830482483
+  },
+  "180048": {
+   "train/loss": 1.2068973779678345,
+   "train/cross_entropy_loss": 1.2068973779678345
+  },
+  "180049": {
+   "train/loss": 1.08750581741333,
+   "train/cross_entropy_loss": 1.08750581741333
+  },
+  "180050": {
+   "train/loss": 1.1647555828094482,
+   "train/cross_entropy_loss": 1.1647555828094482
+  },
+  "180051": {
+   "train/loss": 1.193554162979126,
+   "train/cross_entropy_loss": 1.193554162979126
+  },
+  "180052": {
+   "train/loss": 1.163179636001587,
+   "train/cross_entropy_loss": 1.163179636001587
+  },
+  "180053": {
+   "train/loss": 1.1921560764312744,
+   "train/cross_entropy_loss": 1.1921560764312744
+  },
+  "180054": {
+   "train/loss": 1.1985355615615845,
+   "train/cross_entropy_loss": 1.1985355615615845
+  },
+  "180055": {
+   "train/loss": 1.1555702686309814,
+   "train/cross_entropy_loss": 1.1555702686309814
+  },
+  "180056": {
+   "train/loss": 1.1795153617858887,
+   "train/cross_entropy_loss": 1.1795153617858887
+  },
+  "180057": {
+   "train/loss": 1.1185396909713745,
+   "train/cross_entropy_loss": 1.1185396909713745
+  },
+  "180058": {
+   "train/loss": 1.1195783615112305,
+   "train/cross_entropy_loss": 1.1195783615112305
+  },
+  "180059": {
+   "train/loss": 1.126939296722412,
+   "train/cross_entropy_loss": 1.126939296722412
+  },
+  "180060": {
+   "train/loss": 1.1213139295578003,
+   "train/cross_entropy_loss": 1.1213139295578003
+  },
+  "180061": {
+   "train/loss": 1.1070308685302734,
+   "train/cross_entropy_loss": 1.1070308685302734
+  },
+  "180062": {
+   "train/loss": 1.1772044897079468,
+   "train/cross_entropy_loss": 1.1772044897079468
+  },
+  "180063": {
+   "train/loss": 1.1788091659545898,
+   "train/cross_entropy_loss": 1.1788091659545898
+  },
+  "180064": {
+   "train/loss": 1.2029635906219482,
+   "train/cross_entropy_loss": 1.2029635906219482
+  },
+  "180065": {
+   "train/loss": 1.2007896900177002,
+   "train/cross_entropy_loss": 1.2007896900177002
+  },
+  "180066": {
+   "train/loss": 1.2136129140853882,
+   "train/cross_entropy_loss": 1.2136129140853882
+  },
+  "180067": {
+   "train/loss": 1.1364307403564453,
+   "train/cross_entropy_loss": 1.1364307403564453
+  },
+  "180068": {
+   "train/loss": 1.1817063093185425,
+   "train/cross_entropy_loss": 1.1817063093185425
+  },
+  "180069": {
+   "train/loss": 1.162135124206543,
+   "train/cross_entropy_loss": 1.162135124206543
+  },
+  "180070": {
+   "train/loss": 1.197859525680542,
+   "train/cross_entropy_loss": 1.197859525680542
+  },
+  "180071": {
+   "train/loss": 1.1974403858184814,
+   "train/cross_entropy_loss": 1.1974403858184814
+  },
+  "180072": {
+   "train/loss": 1.178193211555481,
+   "train/cross_entropy_loss": 1.178193211555481
+  },
+  "180073": {
+   "train/loss": 1.1770838499069214,
+   "train/cross_entropy_loss": 1.1770838499069214
+  },
+  "180074": {
+   "train/loss": 1.223635196685791,
+   "train/cross_entropy_loss": 1.223635196685791
+  },
+  "180075": {
+   "train/loss": 1.241602897644043,
+   "train/cross_entropy_loss": 1.241602897644043
+  },
+  "180076": {
+   "train/loss": 1.2053848505020142,
+   "train/cross_entropy_loss": 1.2053848505020142
+  },
+  "180077": {
+   "train/loss": 1.1959195137023926,
+   "train/cross_entropy_loss": 1.1959195137023926
+  },
+  "180078": {
+   "train/loss": 1.0748142004013062,
+   "train/cross_entropy_loss": 1.0748142004013062
+  },
+  "180079": {
+   "train/loss": 1.123696208000183,
+   "train/cross_entropy_loss": 1.123696208000183
+  },
+  "180080": {
+   "train/loss": 1.1529511213302612,
+   "train/cross_entropy_loss": 1.1529511213302612
+  },
+  "180081": {
+   "train/loss": 1.1953392028808594,
+   "train/cross_entropy_loss": 1.1953392028808594
+  },
+  "180082": {
+   "train/loss": 1.1543093919754028,
+   "train/cross_entropy_loss": 1.1543093919754028
+  },
+  "180083": {
+   "train/loss": 1.1557368040084839,
+   "train/cross_entropy_loss": 1.1557368040084839
+  },
+  "180084": {
+   "train/loss": 1.1844470500946045,
+   "train/cross_entropy_loss": 1.1844470500946045
+  },
+  "180085": {
+   "train/loss": 1.1844104528427124,
+   "train/cross_entropy_loss": 1.1844104528427124
+  },
+  "180086": {
+   "train/loss": 1.2670047283172607,
+   "train/cross_entropy_loss": 1.2670047283172607
+  },
+  "180087": {
+   "train/loss": 1.1581796407699585,
+   "train/cross_entropy_loss": 1.1581796407699585
+  },
+  "180088": {
+   "train/loss": 1.2080225944519043,
+   "train/cross_entropy_loss": 1.2080225944519043
+  },
+  "180089": {
+   "train/loss": 1.155471920967102,
+   "train/cross_entropy_loss": 1.155471920967102
+  },
+  "180090": {
+   "train/loss": 1.1349047422409058,
+   "train/cross_entropy_loss": 1.1349047422409058
+  },
+  "180091": {
+   "train/loss": 1.2066338062286377,
+   "train/cross_entropy_loss": 1.2066338062286377
+  },
+  "180092": {
+   "train/loss": 1.1827386617660522,
+   "train/cross_entropy_loss": 1.1827386617660522
+  },
+  "180093": {
+   "train/loss": 1.254722237586975,
+   "train/cross_entropy_loss": 1.254722237586975
+  },
+  "180094": {
+   "train/loss": 1.1694817543029785,
+   "train/cross_entropy_loss": 1.1694817543029785
+  },
+  "180095": {
+   "train/loss": 1.176474690437317,
+   "train/cross_entropy_loss": 1.176474690437317
+  },
+  "180096": {
+   "train/loss": 1.205322265625,
+   "train/cross_entropy_loss": 1.205322265625
+  },
+  "180097": {
+   "train/loss": 1.121471643447876,
+   "train/cross_entropy_loss": 1.121471643447876
+  },
+  "180098": {
+   "train/loss": 1.221246361732483,
+   "train/cross_entropy_loss": 1.221246361732483
+  },
+  "180099": {
+   "train/loss": 1.1751171350479126,
+   "train/cross_entropy_loss": 1.1751171350479126
+  }
+ },
+ "ctx9615-tip-4k-s0-01": {
+  "180000": {
+   "train/loss": 1.2614134550094604,
+   "train/cross_entropy_loss": 1.2614134550094604
+  },
+  "180001": {
+   "train/loss": 1.2345870733261108,
+   "train/cross_entropy_loss": 1.2345870733261108
+  },
+  "180002": {
+   "train/loss": 1.2002167701721191,
+   "train/cross_entropy_loss": 1.2002167701721191
+  },
+  "180003": {
+   "train/loss": 1.2568458318710327,
+   "train/cross_entropy_loss": 1.2568458318710327
+  },
+  "180004": {
+   "train/loss": 1.2381019592285156,
+   "train/cross_entropy_loss": 1.2381019592285156
+  },
+  "180005": {
+   "train/loss": 1.214773416519165,
+   "train/cross_entropy_loss": 1.214773416519165
+  },
+  "180006": {
+   "train/loss": 1.2306098937988281,
+   "train/cross_entropy_loss": 1.2306098937988281
+  },
+  "180007": {
+   "train/loss": 1.2190059423446655,
+   "train/cross_entropy_loss": 1.2190059423446655
+  },
+  "180008": {
+   "train/loss": 1.2774327993392944,
+   "train/cross_entropy_loss": 1.2774327993392944
+  },
+  "180009": {
+   "train/loss": 1.2271913290023804,
+   "train/cross_entropy_loss": 1.2271913290023804
+  },
+  "180010": {
+   "train/loss": 1.2068312168121338,
+   "train/cross_entropy_loss": 1.2068312168121338
+  },
+  "180011": {
+   "train/loss": 1.2080795764923096,
+   "train/cross_entropy_loss": 1.2080795764923096
+  },
+  "180012": {
+   "train/loss": 1.1944911479949951,
+   "train/cross_entropy_loss": 1.1944911479949951
+  },
+  "180013": {
+   "train/loss": 1.1724075078964233,
+   "train/cross_entropy_loss": 1.1724075078964233
+  },
+  "180014": {
+   "train/loss": 1.21452796459198,
+   "train/cross_entropy_loss": 1.21452796459198
+  },
+  "180015": {
+   "train/loss": 1.2305243015289307,
+   "train/cross_entropy_loss": 1.2305243015289307
+  },
+  "180016": {
+   "train/loss": 1.2406636476516724,
+   "train/cross_entropy_loss": 1.2406636476516724
+  },
+  "180017": {
+   "train/loss": 1.2102928161621094,
+   "train/cross_entropy_loss": 1.2102928161621094
+  },
+  "180018": {
+   "train/loss": 1.2288475036621094,
+   "train/cross_entropy_loss": 1.2288475036621094
+  },
+  "180019": {
+   "train/loss": 1.2304739952087402,
+   "train/cross_entropy_loss": 1.2304739952087402
+  },
+  "180020": {
+   "train/loss": 1.1594343185424805,
+   "train/cross_entropy_loss": 1.1594343185424805
+  },
+  "180021": {
+   "train/loss": 1.2330918312072754,
+   "train/cross_entropy_loss": 1.2330918312072754
+  },
+  "180022": {
+   "train/loss": 1.1911317110061646,
+   "train/cross_entropy_loss": 1.1911317110061646
+  },
+  "180023": {
+   "train/loss": 1.2294858694076538,
+   "train/cross_entropy_loss": 1.2294858694076538
+  },
+  "180024": {
+   "train/loss": 1.1901538372039795,
+   "train/cross_entropy_loss": 1.1901538372039795
+  },
+  "180025": {
+   "train/loss": 1.1935851573944092,
+   "train/cross_entropy_loss": 1.1935851573944092
+  },
+  "180026": {
+   "train/loss": 1.2123655080795288,
+   "train/cross_entropy_loss": 1.2123655080795288
+  },
+  "180027": {
+   "train/loss": 1.190566062927246,
+   "train/cross_entropy_loss": 1.190566062927246
+  },
+  "180028": {
+   "train/loss": 1.2133427858352661,
+   "train/cross_entropy_loss": 1.2133427858352661
+  },
+  "180029": {
+   "train/loss": 1.2284884452819824,
+   "train/cross_entropy_loss": 1.2284884452819824
+  },
+  "180030": {
+   "train/loss": 1.1835771799087524,
+   "train/cross_entropy_loss": 1.1835771799087524
+  },
+  "180031": {
+   "train/loss": 1.1932494640350342,
+   "train/cross_entropy_loss": 1.1932494640350342
+  },
+  "180032": {
+   "train/loss": 1.2252377271652222,
+   "train/cross_entropy_loss": 1.2252377271652222
+  },
+  "180033": {
+   "train/loss": 1.234282374382019,
+   "train/cross_entropy_loss": 1.234282374382019
+  },
+  "180034": {
+   "train/loss": 1.2210804224014282,
+   "train/cross_entropy_loss": 1.2210804224014282
+  },
+  "180035": {
+   "train/loss": 1.244702696800232,
+   "train/cross_entropy_loss": 1.244702696800232
+  },
+  "180036": {
+   "train/loss": 1.231177568435669,
+   "train/cross_entropy_loss": 1.231177568435669
+  },
+  "180037": {
+   "train/loss": 1.239763617515564,
+   "train/cross_entropy_loss": 1.239763617515564
+  },
+  "180038": {
+   "train/loss": 1.1833055019378662,
+   "train/cross_entropy_loss": 1.1833055019378662
+  },
+  "180039": {
+   "train/loss": 1.1657435894012451,
+   "train/cross_entropy_loss": 1.1657435894012451
+  },
+  "180040": {
+   "train/loss": 1.2421497106552124,
+   "train/cross_entropy_loss": 1.2421497106552124
+  },
+  "180041": {
+   "train/loss": 1.2863457202911377,
+   "train/cross_entropy_loss": 1.2863457202911377
+  },
+  "180042": {
+   "train/loss": 1.2253848314285278,
+   "train/cross_entropy_loss": 1.2253848314285278
+  },
+  "180043": {
+   "train/loss": 1.2224359512329102,
+   "train/cross_entropy_loss": 1.2224359512329102
+  },
+  "180044": {
+   "train/loss": 1.2257943153381348,
+   "train/cross_entropy_loss": 1.2257943153381348
+  },
+  "180045": {
+   "train/loss": 1.2354819774627686,
+   "train/cross_entropy_loss": 1.2354819774627686
+  },
+  "180046": {
+   "train/loss": 1.2389028072357178,
+   "train/cross_entropy_loss": 1.2389028072357178
+  },
+  "180047": {
+   "train/loss": 1.2348458766937256,
+   "train/cross_entropy_loss": 1.2348458766937256
+  },
+  "180048": {
+   "train/loss": 1.2717502117156982,
+   "train/cross_entropy_loss": 1.2717502117156982
+  },
+  "180049": {
+   "train/loss": 1.241683006286621,
+   "train/cross_entropy_loss": 1.241683006286621
+  },
+  "180050": {
+   "train/loss": 1.189940094947815,
+   "train/cross_entropy_loss": 1.189940094947815
+  },
+  "180051": {
+   "train/loss": 1.211357593536377,
+   "train/cross_entropy_loss": 1.211357593536377
+  },
+  "180052": {
+   "train/loss": 1.2470866441726685,
+   "train/cross_entropy_loss": 1.2470866441726685
+  },
+  "180053": {
+   "train/loss": 1.2541478872299194,
+   "train/cross_entropy_loss": 1.2541478872299194
+  },
+  "180054": {
+   "train/loss": 1.2374718189239502,
+   "train/cross_entropy_loss": 1.2374718189239502
+  },
+  "180055": {
+   "train/loss": 1.2327179908752441,
+   "train/cross_entropy_loss": 1.2327179908752441
+  },
+  "180056": {
+   "train/loss": 1.2338424921035767,
+   "train/cross_entropy_loss": 1.2338424921035767
+  },
+  "180057": {
+   "train/loss": 1.2244491577148438,
+   "train/cross_entropy_loss": 1.2244491577148438
+  },
+  "180058": {
+   "train/loss": 1.254148244857788,
+   "train/cross_entropy_loss": 1.254148244857788
+  },
+  "180059": {
+   "train/loss": 1.2688301801681519,
+   "train/cross_entropy_loss": 1.2688301801681519
+  },
+  "180060": {
+   "train/loss": 1.2384109497070312,
+   "train/cross_entropy_loss": 1.2384109497070312
+  },
+  "180061": {
+   "train/loss": 1.2366679906845093,
+   "train/cross_entropy_loss": 1.2366679906845093
+  },
+  "180062": {
+   "train/loss": 1.2532483339309692,
+   "train/cross_entropy_loss": 1.2532483339309692
+  },
+  "180063": {
+   "train/loss": 1.267030954360962,
+   "train/cross_entropy_loss": 1.267030954360962
+  },
+  "180064": {
+   "train/loss": 1.246361255645752,
+   "train/cross_entropy_loss": 1.246361255645752
+  },
+  "180065": {
+   "train/loss": 1.1565792560577393,
+   "train/cross_entropy_loss": 1.1565792560577393
+  },
+  "180066": {
+   "train/loss": 1.2409369945526123,
+   "train/cross_entropy_loss": 1.2409369945526123
+  },
+  "180067": {
+   "train/loss": 1.2436517477035522,
+   "train/cross_entropy_loss": 1.2436517477035522
+  },
+  "180068": {
+   "train/loss": 1.2271308898925781,
+   "train/cross_entropy_loss": 1.2271308898925781
+  },
+  "180069": {
+   "train/loss": 1.221264123916626,
+   "train/cross_entropy_loss": 1.221264123916626
+  },
+  "180070": {
+   "train/loss": 1.219660997390747,
+   "train/cross_entropy_loss": 1.219660997390747
+  },
+  "180071": {
+   "train/loss": 1.2445275783538818,
+   "train/cross_entropy_loss": 1.2445275783538818
+  },
+  "180072": {
+   "train/loss": 1.2028404474258423,
+   "train/cross_entropy_loss": 1.2028404474258423
+  },
+  "180073": {
+   "train/loss": 1.2018533945083618,
+   "train/cross_entropy_loss": 1.2018533945083618
+  },
+  "180074": {
+   "train/loss": 1.2282426357269287,
+   "train/cross_entropy_loss": 1.2282426357269287
+  },
+  "180075": {
+   "train/loss": 1.2429213523864746,
+   "train/cross_entropy_loss": 1.2429213523864746
+  },
+  "180076": {
+   "train/loss": 1.2217676639556885,
+   "train/cross_entropy_loss": 1.2217676639556885
+  },
+  "180077": {
+   "train/loss": 1.1891664266586304,
+   "train/cross_entropy_loss": 1.1891664266586304
+  },
+  "180078": {
+   "train/loss": 1.2092020511627197,
+   "train/cross_entropy_loss": 1.2092020511627197
+  },
+  "180079": {
+   "train/loss": 1.173661231994629,
+   "train/cross_entropy_loss": 1.173661231994629
+  },
+  "180080": {
+   "train/loss": 1.2067513465881348,
+   "train/cross_entropy_loss": 1.2067513465881348
+  },
+  "180081": {
+   "train/loss": 1.1782809495925903,
+   "train/cross_entropy_loss": 1.1782809495925903
+  },
+  "180082": {
+   "train/loss": 1.1925609111785889,
+   "train/cross_entropy_loss": 1.1925609111785889
+  },
+  "180083": {
+   "train/loss": 1.201784372329712,
+   "train/cross_entropy_loss": 1.201784372329712
+  },
+  "180084": {
+   "train/loss": 1.2321083545684814,
+   "train/cross_entropy_loss": 1.2321083545684814
+  },
+  "180085": {
+   "train/loss": 1.2762997150421143,
+   "train/cross_entropy_loss": 1.2762997150421143
+  },
+  "180086": {
+   "train/loss": 1.1889926195144653,
+   "train/cross_entropy_loss": 1.1889926195144653
+  },
+  "180087": {
+   "train/loss": 1.2103452682495117,
+   "train/cross_entropy_loss": 1.2103452682495117
+  },
+  "180088": {
+   "train/loss": 1.1842420101165771,
+   "train/cross_entropy_loss": 1.1842420101165771
+  },
+  "180089": {
+   "train/loss": 1.22667396068573,
+   "train/cross_entropy_loss": 1.22667396068573
+  },
+  "180090": {
+   "train/loss": 1.2209988832473755,
+   "train/cross_entropy_loss": 1.2209988832473755
+  },
+  "180091": {
+   "train/loss": 1.2062137126922607,
+   "train/cross_entropy_loss": 1.2062137126922607
+  },
+  "180092": {
+   "train/loss": 1.244120717048645,
+   "train/cross_entropy_loss": 1.244120717048645
+  },
+  "180093": {
+   "train/loss": 1.2311513423919678,
+   "train/cross_entropy_loss": 1.2311513423919678
+  },
+  "180094": {
+   "train/loss": 1.2374062538146973,
+   "train/cross_entropy_loss": 1.2374062538146973
+  },
+  "180095": {
+   "train/loss": 1.2096920013427734,
+   "train/cross_entropy_loss": 1.2096920013427734
+  },
+  "180096": {
+   "train/loss": 1.2299376726150513,
+   "train/cross_entropy_loss": 1.2299376726150513
+  },
+  "180097": {
+   "train/loss": 1.249921441078186,
+   "train/cross_entropy_loss": 1.249921441078186
+  },
+  "180098": {
+   "train/loss": 1.222611427307129,
+   "train/cross_entropy_loss": 1.222611427307129
+  },
+  "180099": {
+   "train/loss": 1.2110674381256104,
+   "train/cross_entropy_loss": 1.2110674381256104
+  }
+ },
+ "ctx9615-tip-8k-s0-01": {
+  "180000": {
+   "train/loss": 1.2378228902816772,
+   "train/cross_entropy_loss": 1.2378228902816772
+  },
+  "180001": {
+   "train/loss": 1.1788398027420044,
+   "train/cross_entropy_loss": 1.1788398027420044
+  },
+  "180002": {
+   "train/loss": 1.1734026670455933,
+   "train/cross_entropy_loss": 1.1734026670455933
+  },
+  "180003": {
+   "train/loss": 1.1394927501678467,
+   "train/cross_entropy_loss": 1.1394927501678467
+  },
+  "180004": {
+   "train/loss": 1.1819502115249634,
+   "train/cross_entropy_loss": 1.1819502115249634
+  },
+  "180005": {
+   "train/loss": 1.1516293287277222,
+   "train/cross_entropy_loss": 1.1516293287277222
+  },
+  "180006": {
+   "train/loss": 1.1338053941726685,
+   "train/cross_entropy_loss": 1.1338053941726685
+  },
+  "180007": {
+   "train/loss": 1.2215511798858643,
+   "train/cross_entropy_loss": 1.2215511798858643
+  },
+  "180008": {
+   "train/loss": 1.157780647277832,
+   "train/cross_entropy_loss": 1.157780647277832
+  },
+  "180009": {
+   "train/loss": 1.1138426065444946,
+   "train/cross_entropy_loss": 1.1138426065444946
+  },
+  "180010": {
+   "train/loss": 1.2087761163711548,
+   "train/cross_entropy_loss": 1.2087761163711548
+  },
+  "180011": {
+   "train/loss": 1.1838300228118896,
+   "train/cross_entropy_loss": 1.1838300228118896
+  },
+  "180012": {
+   "train/loss": 1.1803375482559204,
+   "train/cross_entropy_loss": 1.1803375482559204
+  },
+  "180013": {
+   "train/loss": 1.1909911632537842,
+   "train/cross_entropy_loss": 1.1909911632537842
+  },
+  "180014": {
+   "train/loss": 1.19180428981781,
+   "train/cross_entropy_loss": 1.19180428981781
+  },
+  "180015": {
+   "train/loss": 1.1870121955871582,
+   "train/cross_entropy_loss": 1.1870121955871582
+  },
+  "180016": {
+   "train/loss": 1.1546435356140137,
+   "train/cross_entropy_loss": 1.1546435356140137
+  },
+  "180017": {
+   "train/loss": 1.1737066507339478,
+   "train/cross_entropy_loss": 1.1737066507339478
+  },
+  "180018": {
+   "train/loss": 1.1667132377624512,
+   "train/cross_entropy_loss": 1.1667132377624512
+  },
+  "180019": {
+   "train/loss": 1.1870486736297607,
+   "train/cross_entropy_loss": 1.1870486736297607
+  },
+  "180020": {
+   "train/loss": 1.1615735292434692,
+   "train/cross_entropy_loss": 1.1615735292434692
+  },
+  "180021": {
+   "train/loss": 1.1702293157577515,
+   "train/cross_entropy_loss": 1.1702293157577515
+  },
+  "180022": {
+   "train/loss": 1.2295746803283691,
+   "train/cross_entropy_loss": 1.2295746803283691
+  },
+  "180023": {
+   "train/loss": 1.1761213541030884,
+   "train/cross_entropy_loss": 1.1761213541030884
+  },
+  "180024": {
+   "train/loss": 1.1809027194976807,
+   "train/cross_entropy_loss": 1.1809027194976807
+  },
+  "180025": {
+   "train/loss": 1.1818228960037231,
+   "train/cross_entropy_loss": 1.1818228960037231
+  },
+  "180026": {
+   "train/loss": 1.1413941383361816,
+   "train/cross_entropy_loss": 1.1413941383361816
+  },
+  "180027": {
+   "train/loss": 1.188029170036316,
+   "train/cross_entropy_loss": 1.188029170036316
+  },
+  "180028": {
+   "train/loss": 1.2099988460540771,
+   "train/cross_entropy_loss": 1.2099988460540771
+  },
+  "180029": {
+   "train/loss": 1.1860870122909546,
+   "train/cross_entropy_loss": 1.1860870122909546
+  },
+  "180030": {
+   "train/loss": 1.1407721042633057,
+   "train/cross_entropy_loss": 1.1407721042633057
+  },
+  "180031": {
+   "train/loss": 1.2021291255950928,
+   "train/cross_entropy_loss": 1.2021291255950928
+  },
+  "180032": {
+   "train/loss": 1.195534586906433,
+   "train/cross_entropy_loss": 1.195534586906433
+  },
+  "180033": {
+   "train/loss": 1.1841713190078735,
+   "train/cross_entropy_loss": 1.1841713190078735
+  },
+  "180034": {
+   "train/loss": 1.1374876499176025,
+   "train/cross_entropy_loss": 1.1374876499176025
+  },
+  "180035": {
+   "train/loss": 1.1619333028793335,
+   "train/cross_entropy_loss": 1.1619333028793335
+  },
+  "180036": {
+   "train/loss": 1.1490710973739624,
+   "train/cross_entropy_loss": 1.1490710973739624
+  },
+  "180037": {
+   "train/loss": 1.2047429084777832,
+   "train/cross_entropy_loss": 1.2047429084777832
+  },
+  "180038": {
+   "train/loss": 1.1827683448791504,
+   "train/cross_entropy_loss": 1.1827683448791504
+  },
+  "180039": {
+   "train/loss": 1.126461386680603,
+   "train/cross_entropy_loss": 1.126461386680603
+  },
+  "180040": {
+   "train/loss": 1.1646064519882202,
+   "train/cross_entropy_loss": 1.1646064519882202
+  },
+  "180041": {
+   "train/loss": 1.2663377523422241,
+   "train/cross_entropy_loss": 1.2663377523422241
+  },
+  "180042": {
+   "train/loss": 1.14700186252594,
+   "train/cross_entropy_loss": 1.14700186252594
+  },
+  "180043": {
+   "train/loss": 1.1945104598999023,
+   "train/cross_entropy_loss": 1.1945104598999023
+  },
+  "180044": {
+   "train/loss": 1.2169519662857056,
+   "train/cross_entropy_loss": 1.2169519662857056
+  },
+  "180045": {
+   "train/loss": 1.2161388397216797,
+   "train/cross_entropy_loss": 1.2161388397216797
+  },
+  "180046": {
+   "train/loss": 1.236922264099121,
+   "train/cross_entropy_loss": 1.236922264099121
+  },
+  "180047": {
+   "train/loss": 1.2062642574310303,
+   "train/cross_entropy_loss": 1.2062642574310303
+  },
+  "180048": {
+   "train/loss": 1.1104873418807983,
+   "train/cross_entropy_loss": 1.1104873418807983
+  },
+  "180049": {
+   "train/loss": 1.1462886333465576,
+   "train/cross_entropy_loss": 1.1462886333465576
+  },
+  "180050": {
+   "train/loss": 1.2094342708587646,
+   "train/cross_entropy_loss": 1.2094342708587646
+  },
+  "180051": {
+   "train/loss": 1.230126976966858,
+   "train/cross_entropy_loss": 1.230126976966858
+  },
+  "180052": {
+   "train/loss": 1.2003607749938965,
+   "train/cross_entropy_loss": 1.2003607749938965
+  },
+  "180053": {
+   "train/loss": 1.1964681148529053,
+   "train/cross_entropy_loss": 1.1964681148529053
+  },
+  "180054": {
+   "train/loss": 1.1537848711013794,
+   "train/cross_entropy_loss": 1.1537848711013794
+  },
+  "180055": {
+   "train/loss": 1.225050449371338,
+   "train/cross_entropy_loss": 1.225050449371338
+  },
+  "180056": {
+   "train/loss": 1.1910145282745361,
+   "train/cross_entropy_loss": 1.1910145282745361
+  },
+  "180057": {
+   "train/loss": 1.1349931955337524,
+   "train/cross_entropy_loss": 1.1349931955337524
+  },
+  "180058": {
+   "train/loss": 1.2366262674331665,
+   "train/cross_entropy_loss": 1.2366262674331665
+  },
+  "180059": {
+   "train/loss": 1.1556073427200317,
+   "train/cross_entropy_loss": 1.1556073427200317
+  },
+  "180060": {
+   "train/loss": 1.1835156679153442,
+   "train/cross_entropy_loss": 1.1835156679153442
+  },
+  "180061": {
+   "train/loss": 1.128519058227539,
+   "train/cross_entropy_loss": 1.128519058227539
+  },
+  "180062": {
+   "train/loss": 1.1262379884719849,
+   "train/cross_entropy_loss": 1.1262379884719849
+  },
+  "180063": {
+   "train/loss": 1.1813182830810547,
+   "train/cross_entropy_loss": 1.1813182830810547
+  },
+  "180064": {
+   "train/loss": 1.1985019445419312,
+   "train/cross_entropy_loss": 1.1985019445419312
+  },
+  "180065": {
+   "train/loss": 1.2091950178146362,
+   "train/cross_entropy_loss": 1.2091950178146362
+  },
+  "180066": {
+   "train/loss": 1.179298758506775,
+   "train/cross_entropy_loss": 1.179298758506775
+  },
+  "180067": {
+   "train/loss": 1.226249098777771,
+   "train/cross_entropy_loss": 1.226249098777771
+  },
+  "180068": {
+   "train/loss": 1.2094945907592773,
+   "train/cross_entropy_loss": 1.2094945907592773
+  },
+  "180069": {
+   "train/loss": 1.145379662513733,
+   "train/cross_entropy_loss": 1.145379662513733
+  },
+  "180070": {
+   "train/loss": 1.1338053941726685,
+   "train/cross_entropy_loss": 1.1338053941726685
+  },
+  "180071": {
+   "train/loss": 1.188011884689331,
+   "train/cross_entropy_loss": 1.188011884689331
+  },
+  "180072": {
+   "train/loss": 1.1482186317443848,
+   "train/cross_entropy_loss": 1.1482186317443848
+  },
+  "180073": {
+   "train/loss": 1.1738814115524292,
+   "train/cross_entropy_loss": 1.1738814115524292
+  },
+  "180074": {
+   "train/loss": 1.1704038381576538,
+   "train/cross_entropy_loss": 1.1704038381576538
+  },
+  "180075": {
+   "train/loss": 1.2023382186889648,
+   "train/cross_entropy_loss": 1.2023382186889648
+  },
+  "180076": {
+   "train/loss": 1.1983939409255981,
+   "train/cross_entropy_loss": 1.1983939409255981
+  },
+  "180077": {
+   "train/loss": 1.1908966302871704,
+   "train/cross_entropy_loss": 1.1908966302871704
+  },
+  "180078": {
+   "train/loss": 1.2375818490982056,
+   "train/cross_entropy_loss": 1.2375818490982056
+  },
+  "180079": {
+   "train/loss": 1.210368275642395,
+   "train/cross_entropy_loss": 1.210368275642395
+  },
+  "180080": {
+   "train/loss": 1.2008347511291504,
+   "train/cross_entropy_loss": 1.2008347511291504
+  },
+  "180081": {
+   "train/loss": 1.2276273965835571,
+   "train/cross_entropy_loss": 1.2276273965835571
+  },
+  "180082": {
+   "train/loss": 1.2134441137313843,
+   "train/cross_entropy_loss": 1.2134441137313843
+  },
+  "180083": {
+   "train/loss": 1.17801034450531,
+   "train/cross_entropy_loss": 1.17801034450531
+  },
+  "180084": {
+   "train/loss": 1.204298973083496,
+   "train/cross_entropy_loss": 1.204298973083496
+  },
+  "180085": {
+   "train/loss": 1.2482595443725586,
+   "train/cross_entropy_loss": 1.2482595443725586
+  },
+  "180086": {
+   "train/loss": 1.1887524127960205,
+   "train/cross_entropy_loss": 1.1887524127960205
+  },
+  "180087": {
+   "train/loss": 1.2220112085342407,
+   "train/cross_entropy_loss": 1.2220112085342407
+  },
+  "180088": {
+   "train/loss": 1.1798561811447144,
+   "train/cross_entropy_loss": 1.1798561811447144
+  },
+  "180089": {
+   "train/loss": 1.1916440725326538,
+   "train/cross_entropy_loss": 1.1916440725326538
+  },
+  "180090": {
+   "train/loss": 1.1574515104293823,
+   "train/cross_entropy_loss": 1.1574515104293823
+  },
+  "180091": {
+   "train/loss": 1.169629693031311,
+   "train/cross_entropy_loss": 1.169629693031311
+  },
+  "180092": {
+   "train/loss": 1.2198991775512695,
+   "train/cross_entropy_loss": 1.2198991775512695
+  },
+  "180093": {
+   "train/loss": 1.1695528030395508,
+   "train/cross_entropy_loss": 1.1695528030395508
+  },
+  "180094": {
+   "train/loss": 1.2007935047149658,
+   "train/cross_entropy_loss": 1.2007935047149658
+  },
+  "180095": {
+   "train/loss": 1.1326006650924683,
+   "train/cross_entropy_loss": 1.1326006650924683
+  },
+  "180096": {
+   "train/loss": 1.1562210321426392,
+   "train/cross_entropy_loss": 1.1562210321426392
+  },
+  "180097": {
+   "train/loss": 1.2202214002609253,
+   "train/cross_entropy_loss": 1.2202214002609253
+  },
+  "180098": {
+   "train/loss": 1.1863397359848022,
+   "train/cross_entropy_loss": 1.1863397359848022
+  },
+  "180099": {
+   "train/loss": 1.1522607803344727,
+   "train/cross_entropy_loss": 1.1522607803344727
+  }
+ },
+ "ctx9615-tip-16k-s0-01": {
+  "180000": {
+   "train/loss": 1.192876935005188,
+   "train/cross_entropy_loss": 1.192876935005188
+  },
+  "180001": {
+   "train/loss": 1.1259835958480835,
+   "train/cross_entropy_loss": 1.1259835958480835
+  },
+  "180002": {
+   "train/loss": 1.152932047843933,
+   "train/cross_entropy_loss": 1.152932047843933
+  },
+  "180003": {
+   "train/loss": 1.1330764293670654,
+   "train/cross_entropy_loss": 1.1330764293670654
+  },
+  "180004": {
+   "train/loss": 1.1683789491653442,
+   "train/cross_entropy_loss": 1.1683789491653442
+  },
+  "180005": {
+   "train/loss": 1.172221064567566,
+   "train/cross_entropy_loss": 1.172221064567566
+  },
+  "180006": {
+   "train/loss": 1.0904853343963623,
+   "train/cross_entropy_loss": 1.0904853343963623
+  },
+  "180007": {
+   "train/loss": 1.12648344039917,
+   "train/cross_entropy_loss": 1.12648344039917
+  },
+  "180008": {
+   "train/loss": 1.1797025203704834,
+   "train/cross_entropy_loss": 1.1797025203704834
+  },
+  "180009": {
+   "train/loss": 1.1100484132766724,
+   "train/cross_entropy_loss": 1.1100484132766724
+  },
+  "180010": {
+   "train/loss": 1.0785166025161743,
+   "train/cross_entropy_loss": 1.0785166025161743
+  },
+  "180011": {
+   "train/loss": 1.199236512184143,
+   "train/cross_entropy_loss": 1.199236512184143
+  },
+  "180012": {
+   "train/loss": 1.2432477474212646,
+   "train/cross_entropy_loss": 1.2432477474212646
+  },
+  "180013": {
+   "train/loss": 1.1349960565567017,
+   "train/cross_entropy_loss": 1.1349960565567017
+  },
+  "180014": {
+   "train/loss": 1.1367149353027344,
+   "train/cross_entropy_loss": 1.1367149353027344
+  },
+  "180015": {
+   "train/loss": 1.173534631729126,
+   "train/cross_entropy_loss": 1.173534631729126
+  },
+  "180016": {
+   "train/loss": 1.2470362186431885,
+   "train/cross_entropy_loss": 1.2470362186431885
+  },
+  "180017": {
+   "train/loss": 1.0991733074188232,
+   "train/cross_entropy_loss": 1.0991733074188232
+  },
+  "180018": {
+   "train/loss": 1.1543821096420288,
+   "train/cross_entropy_loss": 1.1543821096420288
+  },
+  "180019": {
+   "train/loss": 1.2047683000564575,
+   "train/cross_entropy_loss": 1.2047683000564575
+  },
+  "180020": {
+   "train/loss": 1.183833122253418,
+   "train/cross_entropy_loss": 1.183833122253418
+  },
+  "180021": {
+   "train/loss": 1.0693703889846802,
+   "train/cross_entropy_loss": 1.0693703889846802
+  },
+  "180022": {
+   "train/loss": 1.1569231748580933,
+   "train/cross_entropy_loss": 1.1569231748580933
+  },
+  "180023": {
+   "train/loss": 1.090513825416565,
+   "train/cross_entropy_loss": 1.090513825416565
+  },
+  "180024": {
+   "train/loss": 1.0995944738388062,
+   "train/cross_entropy_loss": 1.0995944738388062
+  },
+  "180025": {
+   "train/loss": 1.235681176185608,
+   "train/cross_entropy_loss": 1.235681176185608
+  },
+  "180026": {
+   "train/loss": 1.1183931827545166,
+   "train/cross_entropy_loss": 1.1183931827545166
+  },
+  "180027": {
+   "train/loss": 1.1034724712371826,
+   "train/cross_entropy_loss": 1.1034724712371826
+  },
+  "180028": {
+   "train/loss": 1.2677555084228516,
+   "train/cross_entropy_loss": 1.2677555084228516
+  },
+  "180029": {
+   "train/loss": 1.1200530529022217,
+   "train/cross_entropy_loss": 1.1200530529022217
+  },
+  "180030": {
+   "train/loss": 1.1066062450408936,
+   "train/cross_entropy_loss": 1.1066062450408936
+  },
+  "180031": {
+   "train/loss": 1.158817172050476,
+   "train/cross_entropy_loss": 1.158817172050476
+  },
+  "180032": {
+   "train/loss": 1.0933703184127808,
+   "train/cross_entropy_loss": 1.0933703184127808
+  },
+  "180033": {
+   "train/loss": 1.1031699180603027,
+   "train/cross_entropy_loss": 1.1031699180603027
+  },
+  "180034": {
+   "train/loss": 1.1603862047195435,
+   "train/cross_entropy_loss": 1.1603862047195435
+  },
+  "180035": {
+   "train/loss": 1.1175991296768188,
+   "train/cross_entropy_loss": 1.1175991296768188
+  },
+  "180036": {
+   "train/loss": 1.1605654954910278,
+   "train/cross_entropy_loss": 1.1605654954910278
+  },
+  "180037": {
+   "train/loss": 1.101682424545288,
+   "train/cross_entropy_loss": 1.101682424545288
+  },
+  "180038": {
+   "train/loss": 1.1189329624176025,
+   "train/cross_entropy_loss": 1.1189329624176025
+  },
+  "180039": {
+   "train/loss": 1.1798756122589111,
+   "train/cross_entropy_loss": 1.1798756122589111
+  },
+  "180040": {
+   "train/loss": 1.1912177801132202,
+   "train/cross_entropy_loss": 1.1912177801132202
+  },
+  "180041": {
+   "train/loss": 1.1166952848434448,
+   "train/cross_entropy_loss": 1.1166952848434448
+  },
+  "180042": {
+   "train/loss": 1.1256036758422852,
+   "train/cross_entropy_loss": 1.1256036758422852
+  },
+  "180043": {
+   "train/loss": 1.1576071977615356,
+   "train/cross_entropy_loss": 1.1576071977615356
+  },
+  "180044": {
+   "train/loss": 1.1289910078048706,
+   "train/cross_entropy_loss": 1.1289910078048706
+  },
+  "180045": {
+   "train/loss": 1.0963490009307861,
+   "train/cross_entropy_loss": 1.0963490009307861
+  },
+  "180046": {
+   "train/loss": 1.1620564460754395,
+   "train/cross_entropy_loss": 1.1620564460754395
+  },
+  "180047": {
+   "train/loss": 1.0918755531311035,
+   "train/cross_entropy_loss": 1.0918755531311035
+  },
+  "180048": {
+   "train/loss": 1.206974983215332,
+   "train/cross_entropy_loss": 1.206974983215332
+  },
+  "180049": {
+   "train/loss": 1.0874320268630981,
+   "train/cross_entropy_loss": 1.0874320268630981
+  },
+  "180050": {
+   "train/loss": 1.1648601293563843,
+   "train/cross_entropy_loss": 1.1648601293563843
+  },
+  "180051": {
+   "train/loss": 1.1937376260757446,
+   "train/cross_entropy_loss": 1.1937376260757446
+  },
+  "180052": {
+   "train/loss": 1.163238286972046,
+   "train/cross_entropy_loss": 1.163238286972046
+  },
+  "180053": {
+   "train/loss": 1.1921759843826294,
+   "train/cross_entropy_loss": 1.1921759843826294
+  },
+  "180054": {
+   "train/loss": 1.1984858512878418,
+   "train/cross_entropy_loss": 1.1984858512878418
+  },
+  "180055": {
+   "train/loss": 1.1556288003921509,
+   "train/cross_entropy_loss": 1.1556288003921509
+  },
+  "180056": {
+   "train/loss": 1.1792455911636353,
+   "train/cross_entropy_loss": 1.1792455911636353
+  },
+  "180057": {
+   "train/loss": 1.1186046600341797,
+   "train/cross_entropy_loss": 1.1186046600341797
+  },
+  "180058": {
+   "train/loss": 1.1196860074996948,
+   "train/cross_entropy_loss": 1.1196860074996948
+  },
+  "180059": {
+   "train/loss": 1.1266472339630127,
+   "train/cross_entropy_loss": 1.1266472339630127
+  },
+  "180060": {
+   "train/loss": 1.1209564208984375,
+   "train/cross_entropy_loss": 1.1209564208984375
+  },
+  "180061": {
+   "train/loss": 1.1067167520523071,
+   "train/cross_entropy_loss": 1.1067167520523071
+  },
+  "180062": {
+   "train/loss": 1.1769554615020752,
+   "train/cross_entropy_loss": 1.1769554615020752
+  },
+  "180063": {
+   "train/loss": 1.1786056756973267,
+   "train/cross_entropy_loss": 1.1786056756973267
+  },
+  "180064": {
+   "train/loss": 1.201980471611023,
+   "train/cross_entropy_loss": 1.201980471611023
+  },
+  "180065": {
+   "train/loss": 1.2006016969680786,
+   "train/cross_entropy_loss": 1.2006016969680786
+  },
+  "180066": {
+   "train/loss": 1.2133896350860596,
+   "train/cross_entropy_loss": 1.2133896350860596
+  },
+  "180067": {
+   "train/loss": 1.1360522508621216,
+   "train/cross_entropy_loss": 1.1360522508621216
+  },
+  "180068": {
+   "train/loss": 1.181075096130371,
+   "train/cross_entropy_loss": 1.181075096130371
+  },
+  "180069": {
+   "train/loss": 1.1619243621826172,
+   "train/cross_entropy_loss": 1.1619243621826172
+  },
+  "180070": {
+   "train/loss": 1.1974642276763916,
+   "train/cross_entropy_loss": 1.1974642276763916
+  },
+  "180071": {
+   "train/loss": 1.1972317695617676,
+   "train/cross_entropy_loss": 1.1972317695617676
+  },
+  "180072": {
+   "train/loss": 1.1778916120529175,
+   "train/cross_entropy_loss": 1.1778916120529175
+  },
+  "180073": {
+   "train/loss": 1.176754355430603,
+   "train/cross_entropy_loss": 1.176754355430603
+  },
+  "180074": {
+   "train/loss": 1.2234052419662476,
+   "train/cross_entropy_loss": 1.2234052419662476
+  },
+  "180075": {
+   "train/loss": 1.241366982460022,
+   "train/cross_entropy_loss": 1.241366982460022
+  },
+  "180076": {
+   "train/loss": 1.2049591541290283,
+   "train/cross_entropy_loss": 1.2049591541290283
+  },
+  "180077": {
+   "train/loss": 1.1954145431518555,
+   "train/cross_entropy_loss": 1.1954145431518555
+  },
+  "180078": {
+   "train/loss": 1.0748056173324585,
+   "train/cross_entropy_loss": 1.0748056173324585
+  },
+  "180079": {
+   "train/loss": 1.1234080791473389,
+   "train/cross_entropy_loss": 1.1234080791473389
+  },
+  "180080": {
+   "train/loss": 1.152692437171936,
+   "train/cross_entropy_loss": 1.152692437171936
+  },
+  "180081": {
+   "train/loss": 1.194936990737915,
+   "train/cross_entropy_loss": 1.194936990737915
+  },
+  "180082": {
+   "train/loss": 1.1541873216629028,
+   "train/cross_entropy_loss": 1.1541873216629028
+  },
+  "180083": {
+   "train/loss": 1.1554125547409058,
+   "train/cross_entropy_loss": 1.1554125547409058
+  },
+  "180084": {
+   "train/loss": 1.1845757961273193,
+   "train/cross_entropy_loss": 1.1845757961273193
+  },
+  "180085": {
+   "train/loss": 1.1842682361602783,
+   "train/cross_entropy_loss": 1.1842682361602783
+  },
+  "180086": {
+   "train/loss": 1.2670341730117798,
+   "train/cross_entropy_loss": 1.2670341730117798
+  },
+  "180087": {
+   "train/loss": 1.157989263534546,
+   "train/cross_entropy_loss": 1.157989263534546
+  },
+  "180088": {
+   "train/loss": 1.2080841064453125,
+   "train/cross_entropy_loss": 1.2080841064453125
+  },
+  "180089": {
+   "train/loss": 1.1555081605911255,
+   "train/cross_entropy_loss": 1.1555081605911255
+  },
+  "180090": {
+   "train/loss": 1.134881615638733,
+   "train/cross_entropy_loss": 1.134881615638733
+  },
+  "180091": {
+   "train/loss": 1.2067538499832153,
+   "train/cross_entropy_loss": 1.2067538499832153
+  },
+  "180092": {
+   "train/loss": 1.1825649738311768,
+   "train/cross_entropy_loss": 1.1825649738311768
+  },
+  "180093": {
+   "train/loss": 1.2547272443771362,
+   "train/cross_entropy_loss": 1.2547272443771362
+  },
+  "180094": {
+   "train/loss": 1.1694501638412476,
+   "train/cross_entropy_loss": 1.1694501638412476
+  },
+  "180095": {
+   "train/loss": 1.1737905740737915,
+   "train/cross_entropy_loss": 1.1737905740737915
+  },
+  "180096": {
+   "train/loss": 1.2049790620803833,
+   "train/cross_entropy_loss": 1.2049790620803833
+  },
+  "180097": {
+   "train/loss": 1.121147632598877,
+   "train/cross_entropy_loss": 1.121147632598877
+  },
+  "180098": {
+   "train/loss": 1.2211661338806152,
+   "train/cross_entropy_loss": 1.2211661338806152
+  },
+  "180099": {
+   "train/loss": 1.1749051809310913,
+   "train/cross_entropy_loss": 1.1749051809310913
+  }
+ }
+}
