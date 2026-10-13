@@ -1,0 +1,16 @@
+{
+ "all stable configs": {
+  "config_pairs": 1563,
+  "rate_macro16_over_0.005": 0.007037747920665387,
+  "gaussian_rate_same_sd": 0.0013069543478612684,
+  "rate_macro14_over_0.004": 0.008957133717210493,
+  "macro14_bar_matching_rate": 0.004249321562903141
+ },
+ "configs within 0.01 of the batch median": {
+  "config_pairs": 1102,
+  "rate_macro16_over_0.005": 0.003629764065335753,
+  "gaussian_rate_same_sd": 0.0004445589827359062,
+  "rate_macro14_over_0.004": 0.0054446460980036296,
+  "macro14_bar_matching_rate": 0.004174355949674302
+ }
+}

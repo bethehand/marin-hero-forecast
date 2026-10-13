@@ -43,6 +43,7 @@ The bridge table in the pre-registration shows how much each change moves the fo
 | `results/step5/` | The v1 frozen results and `freeze_manifest.json` |
 | `addenda/` | Notes added after the freeze, each with its script and output. They never change the frozen forecast |
 | `eval-audit/` | A separate analysis from Oct 9: PTB and WikiText-103 eval drops on the hero, and a recall test of Marin's decontamination matcher on the PTB copy found in training. See its README |
+| `belay-noise/` | A separate analysis from Oct 13: which Paloma subsets carry the seed noise in Marin Belay's paired d512 comparisons, and how much a macro without PTB and WikiText-103 helps. See its README |
 | `results/step2_*`, `results/step3*`, `results/hero_actual.csv` | Reproduction of the team's forecasts and exploration, from an earlier snapshot (data through step 224,999) |
 
 ## Reproduce
