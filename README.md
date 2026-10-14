@@ -2,7 +2,9 @@
 
 This is an independent analysis, not affiliated with Marin or Open Athena. It uses only public data: the W&B project `marin-community/marin_moe` and the [marin-community/marin](https://github.com/marin-community/marin) GitHub repo. The hero run is tracked in [#8435](https://github.com/marin-community/marin/issues/8435).
 
-**Current forecast: v2, frozen 2026-10-09** (data through step 227,999 of 390,251, i.e. 58.4%):
+**Scored on 2026-10-14.** The hero moved to 16K context at step 257,553 ([#10101](https://github.com/marin-community/marin/pull/10101)), so v2 was scored under condition 2 at the last 4K eval, step 254,999. The realized macro, 2.1114, fell 0.0039 below v2's 95% interval [2.1153, 2.1336]. WikiText fell 0.168 at that eval, which lowered the macro by 0.0105; that drop stays in the score under the pre-registered rules, and all 9 evals since the freeze came in below v2's median. The quantile scores and the 70% check-in are in [the addendum](addenda/2026-10-14_switch_score.md). The end-of-run value will be reported, unscored.
+
+**Forecast v2, frozen 2026-10-09** (data through step 227,999 of 390,251, i.e. 58.4%):
 
 | Final eval, 4K eval packing | Median | 80% interval | 95% interval |
 |---|---|---|---|
@@ -41,7 +43,7 @@ The bridge table in the pre-registration shows how much each change moves the fo
 | `data/snapshot_2026-10-09T0440Z/` | The W&B metric table, run configs and `manifest.json` (SHA-256 of every file in the original snapshot) |
 | `results/v2/` | The v2 frozen results and `freeze_manifest_v2.json` |
 | `results/step5/` | The v1 frozen results and `freeze_manifest.json` |
-| `addenda/` | Notes added after the freeze, each with its script and output. They never change the frozen forecast |
+| `addenda/` | Notes added after the freeze, each with its script in `code/` and its output. They never change the frozen forecast |
 | `eval-audit/` | A separate analysis from Oct 9: PTB and WikiText-103 eval drops on the hero, and a recall test of Marin's decontamination matcher on the PTB copy found in training. See its README |
 | `belay-noise/` | A separate analysis from Oct 13: which Paloma subsets carry the seed noise in Marin Belay's paired d512 comparisons, and how much a macro without PTB and WikiText-103 helps. See its README |
 | `qk-trial-noise/` | A separate analysis from Oct 14 for the hero's `qk_mult` trial (#9615): on shared batches, how noisy per-step loss differences and grad norms are, from existing step-180k restores and the 67B qk test. See its README |
