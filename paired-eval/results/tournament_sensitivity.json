@@ -1,0 +1,140 @@
+{
+ "v0": {
+  "candidates": 21,
+  "published_pick": "open-athena/Grug-67B-A2B-Merge-Campaign3-DARE-Linear-02-2026.10.12",
+  "published_runner_up": "open-athena/Grug-67B-A2B-Merge-Campaign2-DARE-TIES-02-2026.10.10",
+  "pick_rate": 0.6206521739130435,
+  "runner_up_rate": 0.6195652173913043,
+  "top_two_head_to_head": {
+   "benchmarks": 23,
+   "ties": 17
+  },
+  "all": {
+   "comparisons": 4830,
+   "ties": 2475,
+   "ties_with_ratio_at_least": {
+    "0.50": 963,
+    "0.60": 739,
+    "0.71": 477,
+    "0.80": 324
+   },
+   "leader_changes": [
+    {
+     "from_r": 1.0,
+     "leader": "open-athena/Grug-67B-A2B-Merge-Campaign3-DARE-Linear-02-2026.10.12"
+    },
+    {
+     "from_r": 0.9804,
+     "leader": "exact tie: open-athena/Grug-67B-A2B-Merge-Campaign2-DARE-TIES-02-2026.10.10 | open-athena/Grug-67B-A2B-Merge-Campaign3-DARE-Linear-02-2026.10.12"
+    },
+    {
+     "from_r": 0.9778,
+     "leader": "open-athena/Grug-67B-A2B-Merge-Campaign3-DARE-Linear-02-2026.10.12"
+    },
+    {
+     "from_r": 0.9765,
+     "leader": "exact tie: open-athena/Grug-67B-A2B-Merge-Campaign2-DARE-TIES-02-2026.10.10 | open-athena/Grug-67B-A2B-Merge-Campaign3-DARE-Linear-02-2026.10.12"
+    },
+    {
+     "from_r": 0.9733,
+     "leader": "open-athena/Grug-67B-A2B-Merge-Campaign2-DARE-TIES-02-2026.10.10"
+    },
+    {
+     "from_r": 0.9681,
+     "leader": "exact tie: open-athena/Grug-67B-A2B-Merge-Campaign2-DARE-TIES-02-2026.10.10 | open-athena/Grug-67B-A2B-Merge-Campaign3-DARE-Linear-02-2026.10.12"
+    },
+    {
+     "from_r": 0.9606,
+     "leader": "open-athena/Grug-67B-A2B-Merge-Campaign2-DARE-TIES-02-2026.10.10"
+    }
+   ]
+  },
+  "single": {
+   "comparisons": 3990,
+   "ties": 2010,
+   "ties_with_ratio_at_least": {
+    "0.50": 778,
+    "0.60": 595,
+    "0.71": 379,
+    "0.80": 256
+   },
+   "leader_changes": [
+    {
+     "from_r": 1.0,
+     "leader": "open-athena/Grug-67B-A2B-Merge-Campaign3-DARE-Linear-02-2026.10.12"
+    },
+    {
+     "from_r": 0.9733,
+     "leader": "exact tie: open-athena/Grug-67B-A2B-Merge-Campaign2-DARE-TIES-02-2026.10.10 | open-athena/Grug-67B-A2B-Merge-Campaign3-DARE-Linear-02-2026.10.12"
+    },
+    {
+     "from_r": 0.9681,
+     "leader": "open-athena/Grug-67B-A2B-Merge-Campaign3-DARE-Linear-02-2026.10.12"
+    },
+    {
+     "from_r": 0.9606,
+     "leader": "open-athena/Grug-67B-A2B-Merge-Campaign2-DARE-TIES-02-2026.10.10"
+    },
+    {
+     "from_r": 0.9374,
+     "leader": "exact tie: open-athena/Grug-67B-A2B-Merge-Campaign2-DARE-TIES-02-2026.10.10 | open-athena/Grug-67B-A2B-Merge-Campaign3-DARE-Linear-02-2026.10.12"
+    },
+    {
+     "from_r": 0.9363,
+     "leader": "open-athena/Grug-67B-A2B-Merge-Campaign2-DARE-TIES-02-2026.10.10"
+    },
+    {
+     "from_r": 0.9338,
+     "leader": "exact tie: open-athena/Grug-67B-A2B-Merge-Campaign2-DARE-TIES-02-2026.10.10 | open-athena/Grug-67B-A2B-Merge-Campaign3-DARE-Linear-02-2026.10.12"
+    },
+    {
+     "from_r": 0.9288,
+     "leader": "open-athena/Grug-67B-A2B-Merge-Campaign2-DARE-TIES-02-2026.10.10"
+    }
+   ]
+  }
+ },
+ "v01": {
+  "candidates": 23,
+  "published_pick": "open-athena/Snowball-Smartie-RL-2026.10.15.32-step14",
+  "published_runner_up": "open-athena/Snowball-Smartie-RL-2026.10.17.49-step12",
+  "pick_rate": 0.6837944664031621,
+  "runner_up_rate": 0.633399209486166,
+  "top_two_head_to_head": {
+   "benchmarks": 23,
+   "ties": 18
+  },
+  "all": {
+   "comparisons": 5819,
+   "ties": 2988,
+   "ties_with_ratio_at_least": {
+    "0.50": 1145,
+    "0.60": 885,
+    "0.71": 573,
+    "0.80": 383
+   },
+   "leader_changes": [
+    {
+     "from_r": 1.0,
+     "leader": "open-athena/Snowball-Smartie-RL-2026.10.15.32-step14"
+    }
+   ]
+  },
+  "single": {
+   "comparisons": 4807,
+   "ties": 2389,
+   "ties_with_ratio_at_least": {
+    "0.50": 923,
+    "0.60": 714,
+    "0.71": 459,
+    "0.80": 306
+   },
+   "leader_changes": [
+    {
+     "from_r": 1.0,
+     "leader": "open-athena/Snowball-Smartie-RL-2026.10.15.32-step14"
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,1395 @@
+{
+ "dataset": "marin-community/grug-67b-a2b-snowball-post-sft-evals",
+ "revision": "ad03b3669eec9b583bb35e3790c989b4101763f4",
+ "close_pair_gap": 0.15,
+ "tasks": {
+  "arc_challenge": {
+   "models": 7,
+   "tasks": 1172,
+   "samples_per_task": 1,
+   "accuracy": {
+    "deepseek-ai-deepseek-v2-lite-chat": 0.6083617747440273,
+    "grug-67b-a2b-sft-s2-thinking-step630": 0.6535836177474402,
+    "inclusionai-ling-lite": 0.6774744027303754,
+    "moonshotai-moonlight-16b-a3b-instruct": 0.6527303754266212,
+    "qwen-qwen3-30b-a3b-thinking-2507": 0.7013651877133106,
+    "qwen-qwen3-5-35b-a3b": 0.735494880546075,
+    "qwen-qwen3-next-80b-a3b-thinking": 0.734641638225256
+   },
+   "pairs": 21,
+   "ratio_median_all": 0.6272416895210152,
+   "close_pairs": 21,
+   "ratio_median_close": 0.6272416895210152,
+   "ratio_range_close": [
+    0.4983396409206596,
+    0.6936468331790145
+   ],
+   "pair_rows": [
+    {
+     "a": "deepseek-ai-deepseek-v2-lite-chat",
+     "b": "grug-67b-a2b-sft-s2-thinking-step630",
+     "n": 1172,
+     "acc_a": 0.6083617747440273,
+     "acc_b": 0.6535836177474402,
+     "ratio": 0.6619148761284946
+    },
+    {
+     "a": "deepseek-ai-deepseek-v2-lite-chat",
+     "b": "inclusionai-ling-lite",
+     "n": 1172,
+     "acc_a": 0.6083617747440273,
+     "acc_b": 0.6774744027303754,
+     "ratio": 0.6743010817192099
+    },
+    {
+     "a": "deepseek-ai-deepseek-v2-lite-chat",
+     "b": "moonshotai-moonlight-16b-a3b-instruct",
+     "n": 1172,
+     "acc_a": 0.6083617747440273,
+     "acc_b": 0.6527303754266212,
+     "ratio": 0.6407194424221629
+    },
+    {
+     "a": "deepseek-ai-deepseek-v2-lite-chat",
+     "b": "qwen-qwen3-30b-a3b-thinking-2507",
+     "n": 1172,
+     "acc_a": 0.6083617747440273,
+     "acc_b": 0.7013651877133106,
+     "ratio": 0.6718714266398421
+    },
+    {
+     "a": "deepseek-ai-deepseek-v2-lite-chat",
+     "b": "qwen-qwen3-5-35b-a3b",
+     "n": 1172,
+     "acc_a": 0.6083617747440273,
+     "acc_b": 0.735494880546075,
+     "ratio": 0.6936468331790145
+    },
+    {
+     "a": "deepseek-ai-deepseek-v2-lite-chat",
+     "b": "qwen-qwen3-next-80b-a3b-thinking",
+     "n": 1172,
+     "acc_a": 0.6083617747440273,
+     "acc_b": 0.734641638225256,
+     "ratio": 0.6894132677183911
+    },
+    {
+     "a": "grug-67b-a2b-sft-s2-thinking-step630",
+     "b": "inclusionai-ling-lite",
+     "n": 1172,
+     "acc_a": 0.6535836177474402,
+     "acc_b": 0.6774744027303754,
+     "ratio": 0.6244527391584989
+    },
+    {
+     "a": "grug-67b-a2b-sft-s2-thinking-step630",
+     "b": "moonshotai-moonlight-16b-a3b-instruct",
+     "n": 1172,
+     "acc_a": 0.6535836177474402,
+     "acc_b": 0.6527303754266212,
+     "ratio": 0.590243173171474
+    },
+    {
+     "a": "grug-67b-a2b-sft-s2-thinking-step630",
+     "b": "qwen-qwen3-30b-a3b-thinking-2507",
+     "n": 1172,
+     "acc_a": 0.6535836177474402,
+     "acc_b": 0.7013651877133106,
+     "ratio": 0.5791219480513179
+    },
+    {
+     "a": "grug-67b-a2b-sft-s2-thinking-step630",
+     "b": "qwen-qwen3-5-35b-a3b",
+     "n": 1172,
+     "acc_a": 0.6535836177474402,
+     "acc_b": 0.735494880546075,
+     "ratio": 0.6207997343267434
+    },
+    {
+     "a": "grug-67b-a2b-sft-s2-thinking-step630",
+     "b": "qwen-qwen3-next-80b-a3b-thinking",
+     "n": 1172,
+     "acc_a": 0.6535836177474402,
+     "acc_b": 0.734641638225256,
+     "ratio": 0.6288723176739865
+    },
+    {
+     "a": "inclusionai-ling-lite",
+     "b": "moonshotai-moonlight-16b-a3b-instruct",
+     "n": 1172,
+     "acc_a": 0.6774744027303754,
+     "acc_b": 0.6527303754266212,
+     "ratio": 0.616470501929228
+    },
+    {
+     "a": "inclusionai-ling-lite",
+     "b": "qwen-qwen3-30b-a3b-thinking-2507",
+     "n": 1172,
+     "acc_a": 0.6774744027303754,
+     "acc_b": 0.7013651877133106,
+     "ratio": 0.6272416895210152
+    },
+    {
+     "a": "inclusionai-ling-lite",
+     "b": "qwen-qwen3-5-35b-a3b",
+     "n": 1172,
+     "acc_a": 0.6774744027303754,
+     "acc_b": 0.735494880546075,
+     "ratio": 0.6649665523917089
+    },
+    {
+     "a": "inclusionai-ling-lite",
+     "b": "qwen-qwen3-next-80b-a3b-thinking",
+     "n": 1172,
+     "acc_a": 0.6774744027303754,
+     "acc_b": 0.734641638225256,
+     "ratio": 0.6411187270878999
+    },
+    {
+     "a": "moonshotai-moonlight-16b-a3b-instruct",
+     "b": "qwen-qwen3-30b-a3b-thinking-2507",
+     "n": 1172,
+     "acc_a": 0.6527303754266212,
+     "acc_b": 0.7013651877133106,
+     "ratio": 0.6003548986142199
+    },
+    {
+     "a": "moonshotai-moonlight-16b-a3b-instruct",
+     "b": "qwen-qwen3-5-35b-a3b",
+     "n": 1172,
+     "acc_a": 0.6527303754266212,
+     "acc_b": 0.735494880546075,
+     "ratio": 0.6348626610953712
+    },
+    {
+     "a": "moonshotai-moonlight-16b-a3b-instruct",
+     "b": "qwen-qwen3-next-80b-a3b-thinking",
+     "n": 1172,
+     "acc_a": 0.6527303754266212,
+     "acc_b": 0.734641638225256,
+     "ratio": 0.6104459804306035
+    },
+    {
+     "a": "qwen-qwen3-30b-a3b-thinking-2507",
+     "b": "qwen-qwen3-5-35b-a3b",
+     "n": 1172,
+     "acc_a": 0.7013651877133106,
+     "acc_b": 0.735494880546075,
+     "ratio": 0.5824631466753212
+    },
+    {
+     "a": "qwen-qwen3-30b-a3b-thinking-2507",
+     "b": "qwen-qwen3-next-80b-a3b-thinking",
+     "n": 1172,
+     "acc_a": 0.7013651877133106,
+     "acc_b": 0.734641638225256,
+     "ratio": 0.4983396409206596
+    },
+    {
+     "a": "qwen-qwen3-5-35b-a3b",
+     "b": "qwen-qwen3-next-80b-a3b-thinking",
+     "n": 1172,
+     "acc_a": 0.735494880546075,
+     "acc_b": 0.734641638225256,
+     "ratio": 0.5674766218865339
+    }
+   ]
+  },
+  "boolq": {
+   "models": 7,
+   "tasks": 3270,
+   "samples_per_task": 1,
+   "accuracy": {
+    "deepseek-ai-deepseek-v2-lite-chat": 0.8299694189602447,
+    "grug-67b-a2b-sft-s2-thinking-step630": 0.8403669724770643,
+    "inclusionai-ling-lite": 0.8351681957186544,
+    "moonshotai-moonlight-16b-a3b-instruct": 0.8470948012232415,
+    "qwen-qwen3-30b-a3b-thinking-2507": 0.8654434250764526,
+    "qwen-qwen3-5-35b-a3b": 0.8804281345565749,
+    "qwen-qwen3-next-80b-a3b-thinking": 0.8874617737003058
+   },
+   "pairs": 21,
+   "ratio_median_all": 0.7652433312187042,
+   "close_pairs": 21,
+   "ratio_median_close": 0.7652433312187042,
+   "ratio_range_close": [
+    0.7078302892994608,
+    0.8245223840674717
+   ],
+   "pair_rows": [
+    {
+     "a": "deepseek-ai-deepseek-v2-lite-chat",
+     "b": "grug-67b-a2b-sft-s2-thinking-step630",
+     "n": 3270,
+     "acc_a": 0.8299694189602447,
+     "acc_b": 0.8403669724770643,
+     "ratio": 0.7554025422531693
+    },
+    {
+     "a": "deepseek-ai-deepseek-v2-lite-chat",
+     "b": "inclusionai-ling-lite",
+     "n": 3270,
+     "acc_a": 0.8299694189602447,
+     "acc_b": 0.8351681957186544,
+     "ratio": 0.7731369560625583
+    },
+    {
+     "a": "deepseek-ai-deepseek-v2-lite-chat",
+     "b": "moonshotai-moonlight-16b-a3b-instruct",
+     "n": 3270,
+     "acc_a": 0.8299694189602447,
+     "acc_b": 0.8470948012232415,
+     "ratio": 0.7154751540667074
+    },
+    {
+     "a": "deepseek-ai-deepseek-v2-lite-chat",
+     "b": "qwen-qwen3-30b-a3b-thinking-2507",
+     "n": 3270,
+     "acc_a": 0.8299694189602447,
+     "acc_b": 0.8654434250764526,
+     "ratio": 0.7532499426227321
+    },
+    {
+     "a": "deepseek-ai-deepseek-v2-lite-chat",
+     "b": "qwen-qwen3-5-35b-a3b",
+     "n": 3270,
+     "acc_a": 0.8299694189602447,
+     "acc_b": 0.8804281345565749,
+     "ratio": 0.802338968228632
+    },
+    {
+     "a": "deepseek-ai-deepseek-v2-lite-chat",
+     "b": "qwen-qwen3-next-80b-a3b-thinking",
+     "n": 3270,
+     "acc_a": 0.8299694189602447,
+     "acc_b": 0.8874617737003058,
+     "ratio": 0.7797904870344963
+    },
+    {
+     "a": "grug-67b-a2b-sft-s2-thinking-step630",
+     "b": "inclusionai-ling-lite",
+     "n": 3270,
+     "acc_a": 0.8403669724770643,
+     "acc_b": 0.8351681957186544,
+     "ratio": 0.7958137430122505
+    },
+    {
+     "a": "grug-67b-a2b-sft-s2-thinking-step630",
+     "b": "moonshotai-moonlight-16b-a3b-instruct",
+     "n": 3270,
+     "acc_a": 0.8403669724770643,
+     "acc_b": 0.8470948012232415,
+     "ratio": 0.7223140083591151
+    },
+    {
+     "a": "grug-67b-a2b-sft-s2-thinking-step630",
+     "b": "qwen-qwen3-30b-a3b-thinking-2507",
+     "n": 3270,
+     "acc_a": 0.8403669724770643,
+     "acc_b": 0.8654434250764526,
+     "ratio": 0.7293728144879366
+    },
+    {
+     "a": "grug-67b-a2b-sft-s2-thinking-step630",
+     "b": "qwen-qwen3-5-35b-a3b",
+     "n": 3270,
+     "acc_a": 0.8403669724770643,
+     "acc_b": 0.8804281345565749,
+     "ratio": 0.7745971735074639
+    },
+    {
+     "a": "grug-67b-a2b-sft-s2-thinking-step630",
+     "b": "qwen-qwen3-next-80b-a3b-thinking",
+     "n": 3270,
+     "acc_a": 0.8403669724770643,
+     "acc_b": 0.8874617737003058,
+     "ratio": 0.7708703069792746
+    },
+    {
+     "a": "inclusionai-ling-lite",
+     "b": "moonshotai-moonlight-16b-a3b-instruct",
+     "n": 3270,
+     "acc_a": 0.8351681957186544,
+     "acc_b": 0.8470948012232415,
+     "ratio": 0.7508212576042829
+    },
+    {
+     "a": "inclusionai-ling-lite",
+     "b": "qwen-qwen3-30b-a3b-thinking-2507",
+     "n": 3270,
+     "acc_a": 0.8351681957186544,
+     "acc_b": 0.8654434250764526,
+     "ratio": 0.7710402298321927
+    },
+    {
+     "a": "inclusionai-ling-lite",
+     "b": "qwen-qwen3-5-35b-a3b",
+     "n": 3270,
+     "acc_a": 0.8351681957186544,
+     "acc_b": 0.8804281345565749,
+     "ratio": 0.7334099029605111
+    },
+    {
+     "a": "inclusionai-ling-lite",
+     "b": "qwen-qwen3-next-80b-a3b-thinking",
+     "n": 3270,
+     "acc_a": 0.8351681957186544,
+     "acc_b": 0.8874617737003058,
+     "ratio": 0.8245223840674717
+    },
+    {
+     "a": "moonshotai-moonlight-16b-a3b-instruct",
+     "b": "qwen-qwen3-30b-a3b-thinking-2507",
+     "n": 3270,
+     "acc_a": 0.8470948012232415,
+     "acc_b": 0.8654434250764526,
+     "ratio": 0.7370043581432439
+    },
+    {
+     "a": "moonshotai-moonlight-16b-a3b-instruct",
+     "b": "qwen-qwen3-5-35b-a3b",
+     "n": 3270,
+     "acc_a": 0.8470948012232415,
+     "acc_b": 0.8804281345565749,
+     "ratio": 0.7885032022763888
+    },
+    {
+     "a": "moonshotai-moonlight-16b-a3b-instruct",
+     "b": "qwen-qwen3-next-80b-a3b-thinking",
+     "n": 3270,
+     "acc_a": 0.8470948012232415,
+     "acc_b": 0.8874617737003058,
+     "ratio": 0.769928586266401
+    },
+    {
+     "a": "qwen-qwen3-30b-a3b-thinking-2507",
+     "b": "qwen-qwen3-5-35b-a3b",
+     "n": 3270,
+     "acc_a": 0.8654434250764526,
+     "acc_b": 0.8804281345565749,
+     "ratio": 0.7392843856216659
+    },
+    {
+     "a": "qwen-qwen3-30b-a3b-thinking-2507",
+     "b": "qwen-qwen3-next-80b-a3b-thinking",
+     "n": 3270,
+     "acc_a": 0.8654434250764526,
+     "acc_b": 0.8874617737003058,
+     "ratio": 0.7078302892994608
+    },
+    {
+     "a": "qwen-qwen3-5-35b-a3b",
+     "b": "qwen-qwen3-next-80b-a3b-thinking",
+     "n": 3270,
+     "acc_a": 0.8804281345565749,
+     "acc_b": 0.8874617737003058,
+     "ratio": 0.7652433312187042
+    }
+   ]
+  },
+  "winogrande": {
+   "models": 7,
+   "tasks": 1267,
+   "samples_per_task": 1,
+   "accuracy": {
+    "deepseek-ai-deepseek-v2-lite-chat": 0.7569060773480663,
+    "grug-67b-a2b-sft-s2-thinking-step630": 0.6929755327545383,
+    "inclusionai-ling-lite": 0.6882399368587214,
+    "moonshotai-moonlight-16b-a3b-instruct": 0.7474348855564326,
+    "qwen-qwen3-30b-a3b-thinking-2507": 0.7324388318863457,
+    "qwen-qwen3-5-35b-a3b": 0.7758484609313339,
+    "qwen-qwen3-next-80b-a3b-thinking": 0.7861089187056038
+   },
+   "pairs": 21,
+   "ratio_median_all": 0.784438979229833,
+   "close_pairs": 21,
+   "ratio_median_close": 0.784438979229833,
+   "ratio_range_close": [
+    0.6774048018540443,
+    0.8637883797184872
+   ],
+   "pair_rows": [
+    {
+     "a": "deepseek-ai-deepseek-v2-lite-chat",
+     "b": "grug-67b-a2b-sft-s2-thinking-step630",
+     "n": 1267,
+     "acc_a": 0.7569060773480663,
+     "acc_b": 0.6929755327545383,
+     "ratio": 0.8389577625439391
+    },
+    {
+     "a": "deepseek-ai-deepseek-v2-lite-chat",
+     "b": "inclusionai-ling-lite",
+     "n": 1267,
+     "acc_a": 0.7569060773480663,
+     "acc_b": 0.6882399368587214,
+     "ratio": 0.8169469379497402
+    },
+    {
+     "a": "deepseek-ai-deepseek-v2-lite-chat",
+     "b": "moonshotai-moonlight-16b-a3b-instruct",
+     "n": 1267,
+     "acc_a": 0.7569060773480663,
+     "acc_b": 0.7474348855564326,
+     "ratio": 0.7587205712750669
+    },
+    {
+     "a": "deepseek-ai-deepseek-v2-lite-chat",
+     "b": "qwen-qwen3-30b-a3b-thinking-2507",
+     "n": 1267,
+     "acc_a": 0.7569060773480663,
+     "acc_b": 0.7324388318863457,
+     "ratio": 0.784438979229833
+    },
+    {
+     "a": "deepseek-ai-deepseek-v2-lite-chat",
+     "b": "qwen-qwen3-5-35b-a3b",
+     "n": 1267,
+     "acc_a": 0.7569060773480663,
+     "acc_b": 0.7758484609313339,
+     "ratio": 0.7738341149865757
+    },
+    {
+     "a": "deepseek-ai-deepseek-v2-lite-chat",
+     "b": "qwen-qwen3-next-80b-a3b-thinking",
+     "n": 1267,
+     "acc_a": 0.7569060773480663,
+     "acc_b": 0.7861089187056038,
+     "ratio": 0.7543995957637109
+    },
+    {
+     "a": "grug-67b-a2b-sft-s2-thinking-step630",
+     "b": "inclusionai-ling-lite",
+     "n": 1267,
+     "acc_a": 0.6929755327545383,
+     "acc_b": 0.6882399368587214,
+     "ratio": 0.8637883797184872
+    },
+    {
+     "a": "grug-67b-a2b-sft-s2-thinking-step630",
+     "b": "moonshotai-moonlight-16b-a3b-instruct",
+     "n": 1267,
+     "acc_a": 0.6929755327545383,
+     "acc_b": 0.7474348855564326,
+     "ratio": 0.8237799627304003
+    },
+    {
+     "a": "grug-67b-a2b-sft-s2-thinking-step630",
+     "b": "qwen-qwen3-30b-a3b-thinking-2507",
+     "n": 1267,
+     "acc_a": 0.6929755327545383,
+     "acc_b": 0.7324388318863457,
+     "ratio": 0.8452956742767878
+    },
+    {
+     "a": "grug-67b-a2b-sft-s2-thinking-step630",
+     "b": "qwen-qwen3-5-35b-a3b",
+     "n": 1267,
+     "acc_a": 0.6929755327545383,
+     "acc_b": 0.7758484609313339,
+     "ratio": 0.8285236322420848
+    },
+    {
+     "a": "grug-67b-a2b-sft-s2-thinking-step630",
+     "b": "qwen-qwen3-next-80b-a3b-thinking",
+     "n": 1267,
+     "acc_a": 0.6929755327545383,
+     "acc_b": 0.7861089187056038,
+     "ratio": 0.8356541098124846
+    },
+    {
+     "a": "inclusionai-ling-lite",
+     "b": "moonshotai-moonlight-16b-a3b-instruct",
+     "n": 1267,
+     "acc_a": 0.6882399368587214,
+     "acc_b": 0.7474348855564326,
+     "ratio": 0.8139415041786632
+    },
+    {
+     "a": "inclusionai-ling-lite",
+     "b": "qwen-qwen3-30b-a3b-thinking-2507",
+     "n": 1267,
+     "acc_a": 0.6882399368587214,
+     "acc_b": 0.7324388318863457,
+     "ratio": 0.7959378349525621
+    },
+    {
+     "a": "inclusionai-ling-lite",
+     "b": "qwen-qwen3-5-35b-a3b",
+     "n": 1267,
+     "acc_a": 0.6882399368587214,
+     "acc_b": 0.7758484609313339,
+     "ratio": 0.8228728623155137
+    },
+    {
+     "a": "inclusionai-ling-lite",
+     "b": "qwen-qwen3-next-80b-a3b-thinking",
+     "n": 1267,
+     "acc_a": 0.6882399368587214,
+     "acc_b": 0.7861089187056038,
+     "ratio": 0.7731710430243433
+    },
+    {
+     "a": "moonshotai-moonlight-16b-a3b-instruct",
+     "b": "qwen-qwen3-30b-a3b-thinking-2507",
+     "n": 1267,
+     "acc_a": 0.7474348855564326,
+     "acc_b": 0.7324388318863457,
+     "ratio": 0.7615490772411093
+    },
+    {
+     "a": "moonshotai-moonlight-16b-a3b-instruct",
+     "b": "qwen-qwen3-5-35b-a3b",
+     "n": 1267,
+     "acc_a": 0.7474348855564326,
+     "acc_b": 0.7758484609313339,
+     "ratio": 0.7735635608052185
+    },
+    {
+     "a": "moonshotai-moonlight-16b-a3b-instruct",
+     "b": "qwen-qwen3-next-80b-a3b-thinking",
+     "n": 1267,
+     "acc_a": 0.7474348855564326,
+     "acc_b": 0.7861089187056038,
+     "ratio": 0.7362134247060729
+    },
+    {
+     "a": "qwen-qwen3-30b-a3b-thinking-2507",
+     "b": "qwen-qwen3-5-35b-a3b",
+     "n": 1267,
+     "acc_a": 0.7324388318863457,
+     "acc_b": 0.7758484609313339,
+     "ratio": 0.7283545383024819
+    },
+    {
+     "a": "qwen-qwen3-30b-a3b-thinking-2507",
+     "b": "qwen-qwen3-next-80b-a3b-thinking",
+     "n": 1267,
+     "acc_a": 0.7324388318863457,
+     "acc_b": 0.7861089187056038,
+     "ratio": 0.6848129479923061
+    },
+    {
+     "a": "qwen-qwen3-5-35b-a3b",
+     "b": "qwen-qwen3-next-80b-a3b-thinking",
+     "n": 1267,
+     "acc_a": 0.7758484609313339,
+     "acc_b": 0.7861089187056038,
+     "ratio": 0.6774048018540443
+    }
+   ]
+  },
+  "MATH500": {
+   "models": 7,
+   "tasks": 500,
+   "samples_per_task": 1,
+   "accuracy": {
+    "deepseek-ai-deepseek-v2-lite-chat": 0.276,
+    "grug-67b-a2b-sft-s2-thinking-step630": 0.678,
+    "inclusionai-ling-lite": 0.752,
+    "moonshotai-moonlight-16b-a3b-instruct": 0.668,
+    "qwen-qwen3-30b-a3b-thinking-2507": 0.924,
+    "qwen-qwen3-5-35b-a3b": 0.846,
+    "qwen-qwen3-next-80b-a3b-thinking": 0.928
+   },
+   "pairs": 21,
+   "ratio_median_all": 0.842949606228819,
+   "close_pairs": 7,
+   "ratio_median_close": 0.7352338336625005,
+   "ratio_range_close": [
+    0.4183474564032183,
+    0.9217849425273875
+   ],
+   "pair_rows": [
+    {
+     "a": "deepseek-ai-deepseek-v2-lite-chat",
+     "b": "grug-67b-a2b-sft-s2-thinking-step630",
+     "n": 500,
+     "acc_a": 0.276,
+     "acc_b": 0.678,
+     "ratio": 0.8362282905178126
+    },
+    {
+     "a": "deepseek-ai-deepseek-v2-lite-chat",
+     "b": "inclusionai-ling-lite",
+     "n": 500,
+     "acc_a": 0.276,
+     "acc_b": 0.752,
+     "ratio": 0.8412880499189478
+    },
+    {
+     "a": "deepseek-ai-deepseek-v2-lite-chat",
+     "b": "moonshotai-moonlight-16b-a3b-instruct",
+     "n": 500,
+     "acc_a": 0.276,
+     "acc_b": 0.668,
+     "ratio": 0.8125206171665327
+    },
+    {
+     "a": "deepseek-ai-deepseek-v2-lite-chat",
+     "b": "qwen-qwen3-30b-a3b-thinking-2507",
+     "n": 500,
+     "acc_a": 0.276,
+     "acc_b": 0.924,
+     "ratio": 0.9507358025134153
+    },
+    {
+     "a": "deepseek-ai-deepseek-v2-lite-chat",
+     "b": "qwen-qwen3-5-35b-a3b",
+     "n": 500,
+     "acc_a": 0.276,
+     "acc_b": 0.846,
+     "ratio": 1.0045216276241786
+    },
+    {
+     "a": "deepseek-ai-deepseek-v2-lite-chat",
+     "b": "qwen-qwen3-next-80b-a3b-thinking",
+     "n": 500,
+     "acc_a": 0.276,
+     "acc_b": 0.928,
+     "ratio": 0.954437580520335
+    },
+    {
+     "a": "grug-67b-a2b-sft-s2-thinking-step630",
+     "b": "inclusionai-ling-lite",
+     "n": 500,
+     "acc_a": 0.678,
+     "acc_b": 0.752,
+     "ratio": 0.7107967771017195
+    },
+    {
+     "a": "grug-67b-a2b-sft-s2-thinking-step630",
+     "b": "moonshotai-moonlight-16b-a3b-instruct",
+     "n": 500,
+     "acc_a": 0.678,
+     "acc_b": 0.668,
+     "ratio": 0.7352338336625005
+    },
+    {
+     "a": "grug-67b-a2b-sft-s2-thinking-step630",
+     "b": "qwen-qwen3-30b-a3b-thinking-2507",
+     "n": 500,
+     "acc_a": 0.678,
+     "acc_b": 0.924,
+     "ratio": 0.8356362440374806
+    },
+    {
+     "a": "grug-67b-a2b-sft-s2-thinking-step630",
+     "b": "qwen-qwen3-5-35b-a3b",
+     "n": 500,
+     "acc_a": 0.678,
+     "acc_b": 0.846,
+     "ratio": 0.9022442853408896
+    },
+    {
+     "a": "grug-67b-a2b-sft-s2-thinking-step630",
+     "b": "qwen-qwen3-next-80b-a3b-thinking",
+     "n": 500,
+     "acc_a": 0.678,
+     "acc_b": 0.928,
+     "ratio": 0.8530727519378177
+    },
+    {
+     "a": "inclusionai-ling-lite",
+     "b": "moonshotai-moonlight-16b-a3b-instruct",
+     "n": 500,
+     "acc_a": 0.752,
+     "acc_b": 0.668,
+     "ratio": 0.6200083814524492
+    },
+    {
+     "a": "inclusionai-ling-lite",
+     "b": "qwen-qwen3-30b-a3b-thinking-2507",
+     "n": 500,
+     "acc_a": 0.752,
+     "acc_b": 0.924,
+     "ratio": 0.842949606228819
+    },
+    {
+     "a": "inclusionai-ling-lite",
+     "b": "qwen-qwen3-5-35b-a3b",
+     "n": 500,
+     "acc_a": 0.752,
+     "acc_b": 0.846,
+     "ratio": 0.9217849425273875
+    },
+    {
+     "a": "inclusionai-ling-lite",
+     "b": "qwen-qwen3-next-80b-a3b-thinking",
+     "n": 500,
+     "acc_a": 0.752,
+     "acc_b": 0.928,
+     "ratio": 0.8546457767632522
+    },
+    {
+     "a": "moonshotai-moonlight-16b-a3b-instruct",
+     "b": "qwen-qwen3-30b-a3b-thinking-2507",
+     "n": 500,
+     "acc_a": 0.668,
+     "acc_b": 0.924,
+     "ratio": 0.8806597775733918
+    },
+    {
+     "a": "moonshotai-moonlight-16b-a3b-instruct",
+     "b": "qwen-qwen3-5-35b-a3b",
+     "n": 500,
+     "acc_a": 0.668,
+     "acc_b": 0.846,
+     "ratio": 0.9327741431414553
+    },
+    {
+     "a": "moonshotai-moonlight-16b-a3b-instruct",
+     "b": "qwen-qwen3-next-80b-a3b-thinking",
+     "n": 500,
+     "acc_a": 0.668,
+     "acc_b": 0.928,
+     "ratio": 0.8896228019970716
+    },
+    {
+     "a": "qwen-qwen3-30b-a3b-thinking-2507",
+     "b": "qwen-qwen3-5-35b-a3b",
+     "n": 500,
+     "acc_a": 0.924,
+     "acc_b": 0.846,
+     "ratio": 0.7733439889530825
+    },
+    {
+     "a": "qwen-qwen3-30b-a3b-thinking-2507",
+     "b": "qwen-qwen3-next-80b-a3b-thinking",
+     "n": 500,
+     "acc_a": 0.924,
+     "acc_b": 0.928,
+     "ratio": 0.4183474564032183
+    },
+    {
+     "a": "qwen-qwen3-5-35b-a3b",
+     "b": "qwen-qwen3-next-80b-a3b-thinking",
+     "n": 500,
+     "acc_a": 0.846,
+     "acc_b": 0.928,
+     "ratio": 0.7513762107264658
+    }
+   ]
+  },
+  "gsm8k": {
+   "models": 7,
+   "tasks": 1319,
+   "samples_per_task": 1,
+   "accuracy": {
+    "deepseek-ai-deepseek-v2-lite-chat": 0.5056861258529188,
+    "grug-67b-a2b-sft-s2-thinking-step630": 0.2494313874147081,
+    "inclusionai-ling-lite": 0.7975739196360879,
+    "moonshotai-moonlight-16b-a3b-instruct": 0.5064442759666414,
+    "qwen-qwen3-30b-a3b-thinking-2507": 0.7065959059893859,
+    "qwen-qwen3-5-35b-a3b": 0.7763457164518575,
+    "qwen-qwen3-next-80b-a3b-thinking": 0.6671721000758151
+   },
+   "pairs": 21,
+   "ratio_median_all": 0.954972361175049,
+   "close_pairs": 7,
+   "ratio_median_close": 0.9402831958200168,
+   "ratio_range_close": [
+    0.8230600012720437,
+    0.9600091431471258
+   ],
+   "pair_rows": [
+    {
+     "a": "deepseek-ai-deepseek-v2-lite-chat",
+     "b": "grug-67b-a2b-sft-s2-thinking-step630",
+     "n": 1319,
+     "acc_a": 0.5056861258529188,
+     "acc_b": 0.2494313874147081,
+     "ratio": 0.9689456557759564
+    },
+    {
+     "a": "deepseek-ai-deepseek-v2-lite-chat",
+     "b": "inclusionai-ling-lite",
+     "n": 1319,
+     "acc_a": 0.5056861258529188,
+     "acc_b": 0.7975739196360879,
+     "ratio": 0.921317164553395
+    },
+    {
+     "a": "deepseek-ai-deepseek-v2-lite-chat",
+     "b": "moonshotai-moonlight-16b-a3b-instruct",
+     "n": 1319,
+     "acc_a": 0.5056861258529188,
+     "acc_b": 0.5064442759666414,
+     "ratio": 0.9402831958200168
+    },
+    {
+     "a": "deepseek-ai-deepseek-v2-lite-chat",
+     "b": "qwen-qwen3-30b-a3b-thinking-2507",
+     "n": 1319,
+     "acc_a": 0.5056861258529188,
+     "acc_b": 0.7065959059893859,
+     "ratio": 0.977021403223006
+    },
+    {
+     "a": "deepseek-ai-deepseek-v2-lite-chat",
+     "b": "qwen-qwen3-5-35b-a3b",
+     "n": 1319,
+     "acc_a": 0.5056861258529188,
+     "acc_b": 0.7763457164518575,
+     "ratio": 0.9687685999990473
+    },
+    {
+     "a": "deepseek-ai-deepseek-v2-lite-chat",
+     "b": "qwen-qwen3-next-80b-a3b-thinking",
+     "n": 1319,
+     "acc_a": 0.5056861258529188,
+     "acc_b": 0.6671721000758151,
+     "ratio": 0.9983986281796439
+    },
+    {
+     "a": "grug-67b-a2b-sft-s2-thinking-step630",
+     "b": "inclusionai-ling-lite",
+     "n": 1319,
+     "acc_a": 0.2494313874147081,
+     "acc_b": 0.7975739196360879,
+     "ratio": 0.9722202007849
+    },
+    {
+     "a": "grug-67b-a2b-sft-s2-thinking-step630",
+     "b": "moonshotai-moonlight-16b-a3b-instruct",
+     "n": 1319,
+     "acc_a": 0.2494313874147081,
+     "acc_b": 0.5064442759666414,
+     "ratio": 0.954972361175049
+    },
+    {
+     "a": "grug-67b-a2b-sft-s2-thinking-step630",
+     "b": "qwen-qwen3-30b-a3b-thinking-2507",
+     "n": 1319,
+     "acc_a": 0.2494313874147081,
+     "acc_b": 0.7065959059893859,
+     "ratio": 0.9736532806712695
+    },
+    {
+     "a": "grug-67b-a2b-sft-s2-thinking-step630",
+     "b": "qwen-qwen3-5-35b-a3b",
+     "n": 1319,
+     "acc_a": 0.2494313874147081,
+     "acc_b": 0.7763457164518575,
+     "ratio": 0.9579741762553574
+    },
+    {
+     "a": "grug-67b-a2b-sft-s2-thinking-step630",
+     "b": "qwen-qwen3-next-80b-a3b-thinking",
+     "n": 1319,
+     "acc_a": 0.2494313874147081,
+     "acc_b": 0.6671721000758151,
+     "ratio": 0.9765691704300083
+    },
+    {
+     "a": "inclusionai-ling-lite",
+     "b": "moonshotai-moonlight-16b-a3b-instruct",
+     "n": 1319,
+     "acc_a": 0.7975739196360879,
+     "acc_b": 0.5064442759666414,
+     "ratio": 0.9148874069871059
+    },
+    {
+     "a": "inclusionai-ling-lite",
+     "b": "qwen-qwen3-30b-a3b-thinking-2507",
+     "n": 1319,
+     "acc_a": 0.7975739196360879,
+     "acc_b": 0.7065959059893859,
+     "ratio": 0.9435967526769194
+    },
+    {
+     "a": "inclusionai-ling-lite",
+     "b": "qwen-qwen3-5-35b-a3b",
+     "n": 1319,
+     "acc_a": 0.7975739196360879,
+     "acc_b": 0.7763457164518575,
+     "ratio": 0.8230600012720437
+    },
+    {
+     "a": "inclusionai-ling-lite",
+     "b": "qwen-qwen3-next-80b-a3b-thinking",
+     "n": 1319,
+     "acc_a": 0.7975739196360879,
+     "acc_b": 0.6671721000758151,
+     "ratio": 0.9343149398399411
+    },
+    {
+     "a": "moonshotai-moonlight-16b-a3b-instruct",
+     "b": "qwen-qwen3-30b-a3b-thinking-2507",
+     "n": 1319,
+     "acc_a": 0.5064442759666414,
+     "acc_b": 0.7065959059893859,
+     "ratio": 0.9799126861773318
+    },
+    {
+     "a": "moonshotai-moonlight-16b-a3b-instruct",
+     "b": "qwen-qwen3-5-35b-a3b",
+     "n": 1319,
+     "acc_a": 0.5064442759666414,
+     "acc_b": 0.7763457164518575,
+     "ratio": 0.9402213781614419
+    },
+    {
+     "a": "moonshotai-moonlight-16b-a3b-instruct",
+     "b": "qwen-qwen3-next-80b-a3b-thinking",
+     "n": 1319,
+     "acc_a": 0.5064442759666414,
+     "acc_b": 0.6671721000758151,
+     "ratio": 0.9534124293950629
+    },
+    {
+     "a": "qwen-qwen3-30b-a3b-thinking-2507",
+     "b": "qwen-qwen3-5-35b-a3b",
+     "n": 1319,
+     "acc_a": 0.7065959059893859,
+     "acc_b": 0.7763457164518575,
+     "ratio": 0.9521967743553752
+    },
+    {
+     "a": "qwen-qwen3-30b-a3b-thinking-2507",
+     "b": "qwen-qwen3-next-80b-a3b-thinking",
+     "n": 1319,
+     "acc_a": 0.7065959059893859,
+     "acc_b": 0.6671721000758151,
+     "ratio": 0.9600091431471258
+    },
+    {
+     "a": "qwen-qwen3-5-35b-a3b",
+     "b": "qwen-qwen3-next-80b-a3b-thinking",
+     "n": 1319,
+     "acc_a": 0.7763457164518575,
+     "acc_b": 0.6671721000758151,
+     "ratio": 0.9205558157319836
+    }
+   ]
+  },
+  "GPQADiamond": {
+   "models": 7,
+   "tasks": 198,
+   "samples_per_task": 1,
+   "accuracy": {
+    "deepseek-ai-deepseek-v2-lite-chat": 0.2828282828282828,
+    "grug-67b-a2b-sft-s2-thinking-step630": 0.5202020202020202,
+    "inclusionai-ling-lite": 0.30303030303030304,
+    "moonshotai-moonlight-16b-a3b-instruct": 0.2727272727272727,
+    "qwen-qwen3-30b-a3b-thinking-2507": 0.7373737373737373,
+    "qwen-qwen3-5-35b-a3b": 0.8282828282828283,
+    "qwen-qwen3-next-80b-a3b-thinking": 0.7676767676767676
+   },
+   "pairs": 21,
+   "ratio_median_all": 0.9410899129282213,
+   "close_pairs": 6,
+   "ratio_median_close": 0.8254148263234189,
+   "ratio_range_close": [
+    0.6572520462739707,
+    1.0355913684961342
+   ],
+   "pair_rows": [
+    {
+     "a": "deepseek-ai-deepseek-v2-lite-chat",
+     "b": "grug-67b-a2b-sft-s2-thinking-step630",
+     "n": 198,
+     "acc_a": 0.2828282828282828,
+     "acc_b": 0.5202020202020202,
+     "ratio": 1.0662499655891164
+    },
+    {
+     "a": "deepseek-ai-deepseek-v2-lite-chat",
+     "b": "inclusionai-ling-lite",
+     "n": 198,
+     "acc_a": 0.2828282828282828,
+     "acc_b": 0.30303030303030304,
+     "ratio": 1.0355913684961342
+    },
+    {
+     "a": "deepseek-ai-deepseek-v2-lite-chat",
+     "b": "moonshotai-moonlight-16b-a3b-instruct",
+     "n": 198,
+     "acc_a": 0.2828282828282828,
+     "acc_b": 0.2727272727272727,
+     "ratio": 0.911383864976092
+    },
+    {
+     "a": "deepseek-ai-deepseek-v2-lite-chat",
+     "b": "qwen-qwen3-30b-a3b-thinking-2507",
+     "n": 198,
+     "acc_a": 0.2828282828282828,
+     "acc_b": 0.7373737373737373,
+     "ratio": 1.0287928957956145
+    },
+    {
+     "a": "deepseek-ai-deepseek-v2-lite-chat",
+     "b": "qwen-qwen3-5-35b-a3b",
+     "n": 198,
+     "acc_a": 0.2828282828282828,
+     "acc_b": 0.8282828282828283,
+     "ratio": 1.0056022847309865
+    },
+    {
+     "a": "deepseek-ai-deepseek-v2-lite-chat",
+     "b": "qwen-qwen3-next-80b-a3b-thinking",
+     "n": 198,
+     "acc_a": 0.2828282828282828,
+     "acc_b": 0.7676767676767676,
+     "ratio": 1.0260264093674616
+    },
+    {
+     "a": "grug-67b-a2b-sft-s2-thinking-step630",
+     "b": "inclusionai-ling-lite",
+     "n": 198,
+     "acc_a": 0.5202020202020202,
+     "acc_b": 0.30303030303030304,
+     "ratio": 0.9106498471978652
+    },
+    {
+     "a": "grug-67b-a2b-sft-s2-thinking-step630",
+     "b": "moonshotai-moonlight-16b-a3b-instruct",
+     "n": 198,
+     "acc_a": 0.5202020202020202,
+     "acc_b": 0.2727272727272727,
+     "ratio": 1.0010244738031042
+    },
+    {
+     "a": "grug-67b-a2b-sft-s2-thinking-step630",
+     "b": "qwen-qwen3-30b-a3b-thinking-2507",
+     "n": 198,
+     "acc_a": 0.5202020202020202,
+     "acc_b": 0.7373737373737373,
+     "ratio": 0.8382096305244404
+    },
+    {
+     "a": "grug-67b-a2b-sft-s2-thinking-step630",
+     "b": "qwen-qwen3-5-35b-a3b",
+     "n": 198,
+     "acc_a": 0.5202020202020202,
+     "acc_b": 0.8282828282828283,
+     "ratio": 0.8954528563696696
+    },
+    {
+     "a": "grug-67b-a2b-sft-s2-thinking-step630",
+     "b": "qwen-qwen3-next-80b-a3b-thinking",
+     "n": 198,
+     "acc_a": 0.5202020202020202,
+     "acc_b": 0.7676767676767676,
+     "ratio": 0.8614103413136343
+    },
+    {
+     "a": "inclusionai-ling-lite",
+     "b": "moonshotai-moonlight-16b-a3b-instruct",
+     "n": 198,
+     "acc_a": 0.30303030303030304,
+     "acc_b": 0.2727272727272727,
+     "ratio": 0.9410899129282213
+    },
+    {
+     "a": "inclusionai-ling-lite",
+     "b": "qwen-qwen3-30b-a3b-thinking-2507",
+     "n": 198,
+     "acc_a": 0.30303030303030304,
+     "acc_b": 0.7373737373737373,
+     "ratio": 0.9387760133417378
+    },
+    {
+     "a": "inclusionai-ling-lite",
+     "b": "qwen-qwen3-5-35b-a3b",
+     "n": 198,
+     "acc_a": 0.30303030303030304,
+     "acc_b": 0.8282828282828283,
+     "ratio": 0.9665299470622363
+    },
+    {
+     "a": "inclusionai-ling-lite",
+     "b": "qwen-qwen3-next-80b-a3b-thinking",
+     "n": 198,
+     "acc_a": 0.30303030303030304,
+     "acc_b": 0.7676767676767676,
+     "ratio": 0.9055732218524335
+    },
+    {
+     "a": "moonshotai-moonlight-16b-a3b-instruct",
+     "b": "qwen-qwen3-30b-a3b-thinking-2507",
+     "n": 198,
+     "acc_a": 0.2727272727272727,
+     "acc_b": 0.7373737373737373,
+     "ratio": 0.9976547198982951
+    },
+    {
+     "a": "moonshotai-moonlight-16b-a3b-instruct",
+     "b": "qwen-qwen3-5-35b-a3b",
+     "n": 198,
+     "acc_a": 0.2727272727272727,
+     "acc_b": 0.8282828282828283,
+     "ratio": 0.980944874096184
+    },
+    {
+     "a": "moonshotai-moonlight-16b-a3b-instruct",
+     "b": "qwen-qwen3-next-80b-a3b-thinking",
+     "n": 198,
+     "acc_a": 0.2727272727272727,
+     "acc_b": 0.7676767676767676,
+     "ratio": 0.9926599524250131
+    },
+    {
+     "a": "qwen-qwen3-30b-a3b-thinking-2507",
+     "b": "qwen-qwen3-5-35b-a3b",
+     "n": 198,
+     "acc_a": 0.7373737373737373,
+     "acc_b": 0.8282828282828283,
+     "ratio": 0.7394457876707459
+    },
+    {
+     "a": "qwen-qwen3-30b-a3b-thinking-2507",
+     "b": "qwen-qwen3-next-80b-a3b-thinking",
+     "n": 198,
+     "acc_a": 0.7373737373737373,
+     "acc_b": 0.7676767676767676,
+     "ratio": 0.6572520462739707
+    },
+    {
+     "a": "qwen-qwen3-5-35b-a3b",
+     "b": "qwen-qwen3-next-80b-a3b-thinking",
+     "n": 198,
+     "acc_a": 0.8282828282828283,
+     "acc_b": 0.7676767676767676,
+     "ratio": 0.679095890516846
+    }
+   ]
+  },
+  "AIME24": {
+   "models": 7,
+   "tasks": 30,
+   "samples_per_task": 3,
+   "accuracy": {
+    "deepseek-ai-deepseek-v2-lite-chat": 0.0,
+    "grug-67b-a2b-sft-s2-thinking-step630": 0.18888888888888888,
+    "inclusionai-ling-lite": 0.13333333333333333,
+    "moonshotai-moonlight-16b-a3b-instruct": 0.03333333333333333,
+    "qwen-qwen3-30b-a3b-thinking-2507": 0.8666666666666667,
+    "qwen-qwen3-5-35b-a3b": 0.7888888888888889,
+    "qwen-qwen3-next-80b-a3b-thinking": 0.9
+   },
+   "pairs": 21,
+   "ratio_median_all": 0.950895199626262,
+   "close_pairs": 7,
+   "ratio_median_close": 0.6034146441459896,
+   "ratio_range_close": [
+    0.4878341888856269,
+    1.0296360405210423
+   ],
+   "pair_rows": [
+    {
+     "a": "deepseek-ai-deepseek-v2-lite-chat",
+     "b": "grug-67b-a2b-sft-s2-thinking-step630",
+     "n": 30,
+     "acc_a": 0.0,
+     "acc_b": 0.18888888888888886,
+     "ratio": 1.0
+    },
+    {
+     "a": "deepseek-ai-deepseek-v2-lite-chat",
+     "b": "inclusionai-ling-lite",
+     "n": 30,
+     "acc_a": 0.0,
+     "acc_b": 0.13333333333333333,
+     "ratio": 1.0
+    },
+    {
+     "a": "deepseek-ai-deepseek-v2-lite-chat",
+     "b": "moonshotai-moonlight-16b-a3b-instruct",
+     "n": 30,
+     "acc_a": 0.0,
+     "acc_b": 0.03333333333333333,
+     "ratio": 1.0
+    },
+    {
+     "a": "deepseek-ai-deepseek-v2-lite-chat",
+     "b": "qwen-qwen3-30b-a3b-thinking-2507",
+     "n": 30,
+     "acc_a": 0.0,
+     "acc_b": 0.8666666666666667,
+     "ratio": 1.0
+    },
+    {
+     "a": "deepseek-ai-deepseek-v2-lite-chat",
+     "b": "qwen-qwen3-5-35b-a3b",
+     "n": 30,
+     "acc_a": 0.0,
+     "acc_b": 0.788888888888889,
+     "ratio": 1.0
+    },
+    {
+     "a": "deepseek-ai-deepseek-v2-lite-chat",
+     "b": "qwen-qwen3-next-80b-a3b-thinking",
+     "n": 30,
+     "acc_a": 0.0,
+     "acc_b": 0.9000000000000001,
+     "ratio": 1.0
+    },
+    {
+     "a": "grug-67b-a2b-sft-s2-thinking-step630",
+     "b": "inclusionai-ling-lite",
+     "n": 30,
+     "acc_a": 0.18888888888888886,
+     "acc_b": 0.13333333333333333,
+     "ratio": 0.5952216046628616
+    },
+    {
+     "a": "grug-67b-a2b-sft-s2-thinking-step630",
+     "b": "moonshotai-moonlight-16b-a3b-instruct",
+     "n": 30,
+     "acc_a": 0.18888888888888886,
+     "acc_b": 0.03333333333333333,
+     "ratio": 0.9670099032989289
+    },
+    {
+     "a": "grug-67b-a2b-sft-s2-thinking-step630",
+     "b": "qwen-qwen3-30b-a3b-thinking-2507",
+     "n": 30,
+     "acc_a": 0.18888888888888886,
+     "acc_b": 0.8666666666666667,
+     "ratio": 0.8715364145359098
+    },
+    {
+     "a": "grug-67b-a2b-sft-s2-thinking-step630",
+     "b": "qwen-qwen3-5-35b-a3b",
+     "n": 30,
+     "acc_a": 0.18888888888888886,
+     "acc_b": 0.788888888888889,
+     "ratio": 0.9027586953511363
+    },
+    {
+     "a": "grug-67b-a2b-sft-s2-thinking-step630",
+     "b": "qwen-qwen3-next-80b-a3b-thinking",
+     "n": 30,
+     "acc_a": 0.18888888888888886,
+     "acc_b": 0.9000000000000001,
+     "ratio": 0.8958686539673603
+    },
+    {
+     "a": "inclusionai-ling-lite",
+     "b": "moonshotai-moonlight-16b-a3b-instruct",
+     "n": 30,
+     "acc_a": 0.13333333333333333,
+     "acc_b": 0.03333333333333333,
+     "ratio": 1.0296360405210423
+    },
+    {
+     "a": "inclusionai-ling-lite",
+     "b": "qwen-qwen3-30b-a3b-thinking-2507",
+     "n": 30,
+     "acc_a": 0.13333333333333333,
+     "acc_b": 0.8666666666666667,
+     "ratio": 0.9109265799407507
+    },
+    {
+     "a": "inclusionai-ling-lite",
+     "b": "qwen-qwen3-5-35b-a3b",
+     "n": 30,
+     "acc_a": 0.13333333333333333,
+     "acc_b": 0.788888888888889,
+     "ratio": 0.9230442697187334
+    },
+    {
+     "a": "inclusionai-ling-lite",
+     "b": "qwen-qwen3-next-80b-a3b-thinking",
+     "n": 30,
+     "acc_a": 0.13333333333333333,
+     "acc_b": 0.9000000000000001,
+     "ratio": 0.9274665356535948
+    },
+    {
+     "a": "moonshotai-moonlight-16b-a3b-instruct",
+     "b": "qwen-qwen3-30b-a3b-thinking-2507",
+     "n": 30,
+     "acc_a": 0.03333333333333333,
+     "acc_b": 0.8666666666666667,
+     "ratio": 0.9639520422837479
+    },
+    {
+     "a": "moonshotai-moonlight-16b-a3b-instruct",
+     "b": "qwen-qwen3-5-35b-a3b",
+     "n": 30,
+     "acc_a": 0.03333333333333333,
+     "acc_b": 0.788888888888889,
+     "ratio": 0.950895199626262
+    },
+    {
+     "a": "moonshotai-moonlight-16b-a3b-instruct",
+     "b": "qwen-qwen3-next-80b-a3b-thinking",
+     "n": 30,
+     "acc_a": 0.03333333333333333,
+     "acc_b": 0.9000000000000001,
+     "ratio": 0.9684683962230051
+    },
+    {
+     "a": "qwen-qwen3-30b-a3b-thinking-2507",
+     "b": "qwen-qwen3-5-35b-a3b",
+     "n": 30,
+     "acc_a": 0.8666666666666667,
+     "acc_b": 0.788888888888889,
+     "ratio": 0.4878341888856269
+    },
+    {
+     "a": "qwen-qwen3-30b-a3b-thinking-2507",
+     "b": "qwen-qwen3-next-80b-a3b-thinking",
+     "n": 30,
+     "acc_a": 0.8666666666666667,
+     "acc_b": 0.9000000000000001,
+     "ratio": 0.5283189180039639
+    },
+    {
+     "a": "qwen-qwen3-5-35b-a3b",
+     "b": "qwen-qwen3-next-80b-a3b-thinking",
+     "n": 30,
+     "acc_a": 0.788888888888889,
+     "acc_b": 0.9000000000000001,
+     "ratio": 0.6034146441459896
+    }
+   ],
+   "task_vs_sample_se": [
+    {
+     "model": "grug-67b-a2b-sft-s2-thinking-step630",
+     "accuracy": 0.18888888888888888,
+     "sample_se": 0.04149047224366527,
+     "task_se": 0.06329265346761406,
+     "factor": 1.525474405205825
+    },
+    {
+     "model": "inclusionai-ling-lite",
+     "accuracy": 0.13333333333333333,
+     "sample_se": 0.03603299916346275,
+     "task_se": 0.06312427686319992,
+     "factor": 1.7518463166731777
+    },
+    {
+     "model": "moonshotai-moonlight-16b-a3b-instruct",
+     "accuracy": 0.03333333333333333,
+     "sample_se": 0.01902754426349144,
+     "task_se": 0.033333333333333326,
+     "factor": 1.7518463166731773
+    },
+    {
+     "model": "qwen-qwen3-30b-a3b-thinking-2507",
+     "accuracy": 0.8666666666666667,
+     "sample_se": 0.036032999163462746,
+     "task_se": 0.05673086289311755,
+     "factor": 1.5744141262224522
+    },
+    {
+     "model": "qwen-qwen3-5-35b-a3b",
+     "accuracy": 0.7888888888888889,
+     "sample_se": 0.043258201778214905,
+     "task_se": 0.06288779225449506,
+     "factor": 1.4537773108767027
+    },
+    {
+     "model": "qwen-qwen3-next-80b-a3b-thinking",
+     "accuracy": 0.9,
+     "sample_se": 0.0317999364001908,
+     "task_se": 0.05091750772173155,
+     "factor": 1.6011826904605397
+    }
+   ]
+  }
+ }
+}

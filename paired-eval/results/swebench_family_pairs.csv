@@ -1,0 +1,11 @@
+family,system_a,system_b,rate_a,rate_b,discordant,se_paired,se_unpaired,ratio
+Qwen2.5-Coder-32B-Instruct fine-tunes: SWE-agent-LM-32B vs Skywork-SWE-32B,20250511_sweagent_lm_32b,20250616_Skywork-SWE-32B,0.402,0.38,0.20600000000000002,0.020273924139149777,0.03085436760006596,0.6570844167652439
+Qwen3-Coder-30B-A3B-Instruct (OpenHands) vs an EntroPO fine-tune of it (R2E-Gym),20250805_openhands-Qwen3-Coder-30B-A3B-Instruct,20250901_entroPO_R2E_QwenCoder30BA3B,0.516,0.522,0.178,0.01886605417144772,0.03159936708226922,0.5970389888610677
+"Lingma SWE-GPT 72B, two submissions",20240918_lingma-agent_lingma-swe-gpt-72b,20241002_lingma-agent_lingma-swe-gpt-72b,0.25,0.288,0.186,0.01921228773467647,0.02801985010666545,0.6856670418128393
+"Lingma SWE-GPT 7B, two submissions",20240918_lingma-agent_lingma-swe-gpt-7b,20241002_lingma-agent_lingma-swe-gpt-7b,0.102,0.182,0.132,0.01584929020492716,0.021930435472192523,0.722707500497372
+"SWE-Fixer, two versions",20241128_SWE-Fixer_Qwen2.5-7b-retriever_Qwen2.5-72b-editor_20241128,20250306_SWE-Fixer_Qwen2.5-7b-retriever_Qwen2.5-72b-editor,0.302,0.328,0.026,0.007116740827092132,0.029367056372745292,0.2423375614076517
+Devstral Small 2505 (OpenHands) vs 2507 (SWE-agent),20250520_openhands_devstral_small,20250725_sweagent_devstral_small_2507,0.468,0.38,0.208,0.020012795906619345,0.031131206208561853,0.6428532120645981
+"GLM-4.5 vs GLM-4.6, Z.ai's own submissions",20250728_zai_glm4-5,20250930_zai_glm4-6,0.642,0.682,0.14,0.01663730747446834,0.029890199062568984,0.5566141409644533
+Kimi K2 (OpenHands: 0711-preview; SWE-agent: kimi-k2-instruct; Lingxi: 0905-preview),20250716_openhands_kimi_k2,20250804_codesweep_sweagent_kimi_k2_instruct,0.654,0.534,0.23199999999999998,0.020861447696648473,0.03082622260349133,0.676743562290559
+Kimi K2 (OpenHands: 0711-preview; SWE-agent: kimi-k2-instruct; Lingxi: 0905-preview),20250716_openhands_kimi_k2,20251014_Lingxi_kimi_k2,0.654,0.712,0.13,0.015914521670474423,0.02937141467481606,0.541837083663526
+Kimi K2 (OpenHands: 0711-preview; SWE-agent: kimi-k2-instruct; Lingxi: 0905-preview),20250804_codesweep_sweagent_kimi_k2_instruct,20251014_Lingxi_kimi_k2,0.534,0.712,0.242,0.02050931495686777,0.030129719547317396,0.6807004932342233

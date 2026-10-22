@@ -1,0 +1,16 @@
+{
+ "swebench_experiments_commit": "40f164d5b8f1d249bf95a6df8b74b577fd8e519d",
+ "systems": 135,
+ "pairs": 467,
+ "ratio_median": 0.7076175120448909,
+ "ratio_p10": 0.6570844167652439,
+ "ratio_p90": 0.7607987351932136,
+ "decisive_gap_500_unpaired_pts": 6.316270426974029,
+ "decisive_gap_500_paired_pts": 4.404222684853456,
+ "discordant_median": 0.22999999999999998,
+ "systems_in_pairs": 40,
+ "family_pairs": 10,
+ "family_ratio_min": 0.2423375614076517,
+ "family_ratio_median": 0.6499688144149209,
+ "family_ratio_max": 0.722707500497372
+}
