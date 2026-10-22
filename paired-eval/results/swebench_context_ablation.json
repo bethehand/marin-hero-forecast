@@ -1,0 +1,951 @@
+{
+ "dataset": "open-athena/swebench-context-compaction-ablation-2026-10-22",
+ "revision": "21991381dc1910473789b63b8bbde1353c0491d0",
+ "marin_commit": "58ff2c03aa4e14ca4d8c109aaf286e9988135bae",
+ "models": {
+  "qwen36": {
+   "common_tasks": 499,
+   "on_common_tasks": {
+    "65k": 88,
+    "131k": 95,
+    "solved_65k": 24.0,
+    "solved_131k": 41.0,
+    "timed_out_131k": 2,
+    "timeouts_65k_all_common": 0,
+    "timeouts_131k_all_common": 4,
+    "slowdown_65k": {
+     "1.5": [
+      1,
+      0.0
+     ],
+     "2.0": [
+      7,
+      1.0
+     ],
+     "3.0": [
+      46,
+      19.0
+     ]
+    },
+    "slowdown_131k": {
+     "1.5": [
+      9,
+      4.0
+     ],
+     "2.0": [
+      18,
+      9.0
+     ],
+     "3.0": [
+      60,
+      28.0
+     ]
+    }
+   },
+   "diff": {
+    "mean": 0.028056112224448898,
+    "se_paired": 0.01744281901849065,
+    "se_unpaired": 0.029890629689692073,
+    "ratio": 0.5835547527627325
+   },
+   "long_part": {
+    "mean": 0.03406813627254509,
+    "se": 0.013667578002068094
+   },
+   "short_part": {
+    "mean": -0.006012024048096192,
+    "se": 0.01805216141791102
+   },
+   "long_share_diff": {
+    "mean": 0.014028056112224449,
+    "se": 0.016160821699393604
+   },
+   "65k-16k-no-summary": {
+    "max_calls_solved": 142,
+    "max_calls": 161,
+    "rejected_calls": 297,
+    "over_call_limit": {
+     "150": [
+      2,
+      0.0
+     ],
+     "200": [
+      0,
+      0
+     ],
+     "250": [
+      0,
+      0
+     ],
+     "300": [
+      0,
+      0
+     ]
+    },
+    "long_pace_seconds_per_call": [
+     5.286155324821363,
+     9.026295591373833,
+     10.234163348064866
+    ],
+    "minutes_for_250_calls": [
+     22.025647186755677,
+     37.60956496405764,
+     42.64234728360361
+    ],
+    "long_share_slower_than_one_hour_for_250": 0.0,
+    "timeouts_after_agent_exit": 0,
+    "timeouts_after_agent_exit_solved": 0,
+    "timeouts_after_agent_exit_idle_seconds": [
+     null,
+     null
+    ],
+    "timeouts_with_a_call_over_300s": 0,
+    "slowdown": {
+     "1.5": [
+      1,
+      0.0
+     ],
+     "2.0": [
+      7,
+      1.0
+     ],
+     "3.0": [
+      46,
+      19.0
+     ]
+    },
+    "median_model_seconds_per_call": {
+     "h100": 4.275982209614345,
+     "gb200": 2.929700810994421
+    },
+    "n": 500,
+    "solve": 0.65,
+    "long": 88,
+    "long_solved": 24.0,
+    "long_timed_out": 0,
+    "long_finished_solved": 24.0,
+    "context_limit_exits": 88,
+    "timeouts": 0,
+    "timeouts_solved": 0,
+    "timeout_seconds": [
+     null,
+     null
+    ],
+    "median_seconds_per_step_long": 5.286155324821363,
+    "median_seconds_per_step_long_timed_out": null,
+    "median_seconds_per_step_long_finished": 5.286155324821363,
+    "median_seconds_per_step_short": 4.64889755995719,
+    "median_completion_tokens_per_call_long": 259.73703703703706,
+    "median_output_tokens_per_model_second_long": 58.240938718118585,
+    "mean_prompt_tokens_per_trial": 1748555.012,
+    "served_on_gb200": 17,
+    "recovery": {
+     "retained_from_original_run": 326,
+     "deadline_replays": 0,
+     "replays_timed_out_again": 0,
+     "replays_finished": 0,
+     "replays_finished_solved": 0
+    }
+   },
+   "131k-16k-no-summary": {
+    "max_calls_solved": 201,
+    "max_calls": 225,
+    "rejected_calls": 147,
+    "over_call_limit": {
+     "150": [
+      18,
+      8.0
+     ],
+     "200": [
+      2,
+      1.0
+     ],
+     "250": [
+      0,
+      0
+     ],
+     "300": [
+      0,
+      0
+     ]
+    },
+    "long_pace_seconds_per_call": [
+     5.364029049873352,
+     9.22761160065146,
+     11.0023867410772
+    ],
+    "minutes_for_250_calls": [
+     22.350121041138966,
+     38.448381669381085,
+     45.843278087821666
+    ],
+    "long_share_slower_than_one_hour_for_250": 0.042105263157894736,
+    "timeouts_after_agent_exit": 4,
+    "timeouts_after_agent_exit_solved": 1.0,
+    "timeouts_after_agent_exit_idle_seconds": [
+     1172.392823457718,
+     1467.7858107089996
+    ],
+    "timeouts_with_a_call_over_300s": 0,
+    "slowdown": {
+     "1.5": [
+      9,
+      4.0
+     ],
+     "2.0": [
+      18,
+      9.0
+     ],
+     "3.0": [
+      60,
+      28.0
+     ]
+    },
+    "median_model_seconds_per_call": {
+     "h100": 4.228445272597056,
+     "gb200": 3.150463165191871
+    },
+    "n": 499,
+    "solve": 0.6793587174348698,
+    "long": 95,
+    "long_solved": 41.0,
+    "long_timed_out": 2,
+    "long_finished_solved": 41.0,
+    "context_limit_exits": 6,
+    "timeouts": 4,
+    "timeouts_solved": 1.0,
+    "timeout_seconds": [
+     1800.144859790802,
+     1800.338016986847
+    ],
+    "median_seconds_per_step_long": 5.364029049873352,
+    "median_seconds_per_step_long_timed_out": 13.775280181971674,
+    "median_seconds_per_step_long_finished": 5.3307224478040425,
+    "median_seconds_per_step_short": 4.450269430564179,
+    "median_completion_tokens_per_call_long": 247.475,
+    "median_output_tokens_per_model_second_long": 57.44809919331977,
+    "mean_prompt_tokens_per_trial": 2145143.5070140283,
+    "served_on_gb200": 68,
+    "recovery": {
+     "retained_from_original_run": 287,
+     "deadline_replays": 1,
+     "replays_timed_out_again": 0,
+     "replays_finished": 1,
+     "replays_finished_solved": 1.0
+    }
+   }
+  },
+  "gemma4": {
+   "common_tasks": 462,
+   "on_common_tasks": {
+    "65k": 84,
+    "131k": 73,
+    "solved_65k": 12.0,
+    "solved_131k": 8.0,
+    "timed_out_131k": 54,
+    "timeouts_65k_all_common": 14,
+    "timeouts_131k_all_common": 72,
+    "slowdown_65k": {
+     "1.5": [
+      39,
+      11.0
+     ],
+     "2.0": [
+      99,
+      31.0
+     ],
+     "3.0": [
+      194,
+      69.0
+     ]
+    },
+    "slowdown_131k": {
+     "1.5": [
+      44,
+      21.0
+     ],
+     "2.0": [
+      85,
+      39.0
+     ],
+     "3.0": [
+      173,
+      77.0
+     ]
+    }
+   },
+   "diff": {
+    "mean": -0.017316017316017316,
+    "se_paired": 0.01912008656209587,
+    "se_unpaired": 0.03292336976478545,
+    "ratio": 0.5807451272058594
+   },
+   "long_part": {
+    "mean": -0.008658008658008658,
+    "se": 0.009682047498643515
+   },
+   "short_part": {
+    "mean": -0.008658008658008658,
+    "se": 0.019617503825549717
+   },
+   "long_share_diff": {
+    "mean": -0.023809523809523808,
+    "se": 0.019709758763613354
+   },
+   "65k-16k-no-summary": {
+    "max_calls_solved": 138,
+    "max_calls": 169,
+    "rejected_calls": 513,
+    "over_call_limit": {
+     "150": [
+      1,
+      0.0
+     ],
+     "200": [
+      0,
+      0
+     ],
+     "250": [
+      0,
+      0
+     ],
+     "300": [
+      0,
+      0
+     ]
+    },
+    "long_pace_seconds_per_call": [
+     12.179586638103832,
+     19.599390584847022,
+     24.455807999959067
+    ],
+    "minutes_for_250_calls": [
+     50.748277658765964,
+     81.66412743686259,
+     101.89919999982945
+    ],
+    "long_share_slower_than_one_hour_for_250": 0.32142857142857145,
+    "timeouts_after_agent_exit": 1,
+    "timeouts_after_agent_exit_solved": 0.0,
+    "timeouts_after_agent_exit_idle_seconds": [
+     744.8920545578003,
+     744.8920545578003
+    ],
+    "timeouts_with_a_call_over_300s": 8,
+    "slowdown": {
+     "1.5": [
+      39,
+      11.0
+     ],
+     "2.0": [
+      99,
+      31.0
+     ],
+     "3.0": [
+      195,
+      69.0
+     ]
+    },
+    "median_model_seconds_per_call": {
+     "h100": 9.89253997314572,
+     "gb200": null
+    },
+    "n": 466,
+    "solve": 0.5128755364806867,
+    "long": 84,
+    "long_solved": 12.0,
+    "long_timed_out": 1,
+    "long_finished_solved": 12.0,
+    "context_limit_exits": 84,
+    "timeouts": 14,
+    "timeouts_solved": 1.0,
+    "timeout_seconds": [
+     1800.1738409996033,
+     1805.8611860275269
+    ],
+    "median_seconds_per_step_long": 12.179586638103832,
+    "median_seconds_per_step_long_timed_out": 15.255966566376767,
+    "median_seconds_per_step_long_finished": 12.109169302564679,
+    "median_seconds_per_step_short": 9.885147333145142,
+    "median_completion_tokens_per_call_long": 411.22793476364905,
+    "median_output_tokens_per_model_second_long": 35.83647391987427,
+    "mean_prompt_tokens_per_trial": 1428610.1974248928,
+    "served_on_gb200": 0,
+    "recovery": {
+     "retained_from_original_run": 155,
+     "deadline_replays": 6,
+     "replays_timed_out_again": 1,
+     "replays_finished": 5,
+     "replays_finished_solved": 0.0
+    }
+   },
+   "131k-16k-no-summary": {
+    "max_calls_solved": 146,
+    "max_calls": 387,
+    "rejected_calls": 789,
+    "over_call_limit": {
+     "150": [
+      16,
+      0.0
+     ],
+     "200": [
+      3,
+      0.0
+     ],
+     "250": [
+      1,
+      0.0
+     ],
+     "300": [
+      1,
+      0.0
+     ]
+    },
+    "long_pace_seconds_per_call": [
+     14.636746106109,
+     21.955760159143587,
+     25.716813356535777
+    ],
+    "minutes_for_250_calls": [
+     60.9864421087875,
+     91.48233399643162,
+     107.15338898556574
+    ],
+    "long_share_slower_than_one_hour_for_250": 0.5316455696202531,
+    "timeouts_after_agent_exit": 0,
+    "timeouts_after_agent_exit_solved": 0,
+    "timeouts_after_agent_exit_idle_seconds": [
+     null,
+     null
+    ],
+    "timeouts_with_a_call_over_300s": 21,
+    "slowdown": {
+     "1.5": [
+      49,
+      25.0
+     ],
+     "2.0": [
+      92,
+      43.0
+     ],
+     "3.0": [
+      189,
+      85.0
+     ]
+    },
+    "median_model_seconds_per_call": {
+     "h100": 11.378775940491604,
+     "gb200": null
+    },
+    "n": 496,
+    "solve": 0.4959677419354839,
+    "long": 79,
+    "long_solved": 9.0,
+    "long_timed_out": 59,
+    "long_finished_solved": 5.0,
+    "context_limit_exits": 0,
+    "timeouts": 79,
+    "timeouts_solved": 4.0,
+    "timeout_seconds": [
+     1800.1695518493652,
+     1801.306035041809
+    ],
+    "median_seconds_per_step_long": 14.636746106109,
+    "median_seconds_per_step_long_timed_out": 15.386973470704168,
+    "median_seconds_per_step_long_finished": 11.590410119193642,
+    "median_seconds_per_step_short": 11.849442495240105,
+    "median_completion_tokens_per_call_long": 397.60330578512395,
+    "median_output_tokens_per_model_second_long": 28.15527381819388,
+    "mean_prompt_tokens_per_trial": 1804910.6088709678,
+    "served_on_gb200": 0,
+    "recovery": {
+     "retained_from_original_run": 101,
+     "deadline_replays": 18,
+     "replays_timed_out_again": 6,
+     "replays_finished": 12,
+     "replays_finished_solved": 4.0
+    }
+   }
+  },
+  "nemotron-lightning": {
+   "common_tasks": 500,
+   "on_common_tasks": {
+    "65k": 108,
+    "131k": 121,
+    "solved_65k": 15.0,
+    "solved_131k": 32.0,
+    "timed_out_131k": 0,
+    "timeouts_65k_all_common": 0,
+    "timeouts_131k_all_common": 0,
+    "slowdown_65k": {
+     "1.5": [
+      3,
+      1.0
+     ],
+     "2.0": [
+      7,
+      1.0
+     ],
+     "3.0": [
+      51,
+      11.0
+     ]
+    },
+    "slowdown_131k": {
+     "1.5": [
+      8,
+      1.0
+     ],
+     "2.0": [
+      22,
+      3.0
+     ],
+     "3.0": [
+      73,
+      14.0
+     ]
+    }
+   },
+   "diff": {
+    "mean": 0.018,
+    "se_paired": 0.02069319735646648,
+    "se_unpaired": 0.031496922265904795,
+    "ratio": 0.6569910920746287
+   },
+   "long_part": {
+    "mean": 0.034,
+    "se": 0.013343316236091952
+   },
+   "short_part": {
+    "mean": -0.016,
+    "se": 0.01939691936782541
+   },
+   "long_share_diff": {
+    "mean": 0.026,
+    "se": 0.019885645017336244
+   },
+   "65k-16k-no-summary": {
+    "max_calls_solved": 156,
+    "max_calls": 203,
+    "rejected_calls": 254,
+    "over_call_limit": {
+     "150": [
+      6,
+      1.0
+     ],
+     "200": [
+      1,
+      0.0
+     ],
+     "250": [
+      0,
+      0
+     ],
+     "300": [
+      0,
+      0
+     ]
+    },
+    "long_pace_seconds_per_call": [
+     4.2940040206909185,
+     7.346437581231661,
+     8.559185131540838
+    ],
+    "minutes_for_250_calls": [
+     17.891683419545494,
+     30.610156588465255,
+     35.66327138142016
+    ],
+    "long_share_slower_than_one_hour_for_250": 0.009259259259259259,
+    "timeouts_after_agent_exit": 0,
+    "timeouts_after_agent_exit_solved": 0,
+    "timeouts_after_agent_exit_idle_seconds": [
+     null,
+     null
+    ],
+    "timeouts_with_a_call_over_300s": 0,
+    "slowdown": {
+     "1.5": [
+      3,
+      1.0
+     ],
+     "2.0": [
+      7,
+      1.0
+     ],
+     "3.0": [
+      51,
+      11.0
+     ]
+    },
+    "median_model_seconds_per_call": {
+     "h100": 3.6911092877388,
+     "gb200": 1.9375257367503886
+    },
+    "n": 500,
+    "solve": 0.442,
+    "long": 108,
+    "long_solved": 15.0,
+    "long_timed_out": 0,
+    "long_finished_solved": 15.0,
+    "context_limit_exits": 107,
+    "timeouts": 0,
+    "timeouts_solved": 0,
+    "timeout_seconds": [
+     null,
+     null
+    ],
+    "median_seconds_per_step_long": 4.2940040206909185,
+    "median_seconds_per_step_long_timed_out": null,
+    "median_seconds_per_step_long_finished": 4.2940040206909185,
+    "median_seconds_per_step_short": 3.922722720020059,
+    "median_completion_tokens_per_call_long": 277.4738520408163,
+    "median_output_tokens_per_model_second_long": 82.01454379874642,
+    "mean_prompt_tokens_per_trial": 1840812.664,
+    "served_on_gb200": 30,
+    "recovery": {
+     "retained_from_original_run": 307,
+     "deadline_replays": 0,
+     "replays_timed_out_again": 0,
+     "replays_finished": 0,
+     "replays_finished_solved": 0
+    }
+   },
+   "131k-16k-no-summary": {
+    "max_calls_solved": 246,
+    "max_calls": 273,
+    "rejected_calls": 25,
+    "over_call_limit": {
+     "150": [
+      46,
+      9.0
+     ],
+     "200": [
+      11,
+      3.0
+     ],
+     "250": [
+      3,
+      0.0
+     ],
+     "300": [
+      0,
+      0
+     ]
+    },
+    "long_pace_seconds_per_call": [
+     4.3427743386414095,
+     7.368653870517423,
+     8.814583072414646
+    ],
+    "minutes_for_250_calls": [
+     18.09489307767254,
+     30.70272446048926,
+     36.727429468394355
+    ],
+    "long_share_slower_than_one_hour_for_250": 0.0,
+    "timeouts_after_agent_exit": 0,
+    "timeouts_after_agent_exit_solved": 0,
+    "timeouts_after_agent_exit_idle_seconds": [
+     null,
+     null
+    ],
+    "timeouts_with_a_call_over_300s": 0,
+    "slowdown": {
+     "1.5": [
+      8,
+      1.0
+     ],
+     "2.0": [
+      22,
+      3.0
+     ],
+     "3.0": [
+      73,
+      14.0
+     ]
+    },
+    "median_model_seconds_per_call": {
+     "h100": 3.7431260596874147,
+     "gb200": 2.035022735595703
+    },
+    "n": 500,
+    "solve": 0.46,
+    "long": 121,
+    "long_solved": 32.0,
+    "long_timed_out": 0,
+    "long_finished_solved": 32.0,
+    "context_limit_exits": 4,
+    "timeouts": 0,
+    "timeouts_solved": 0,
+    "timeout_seconds": [
+     null,
+     null
+    ],
+    "median_seconds_per_step_long": 4.3427743386414095,
+    "median_seconds_per_step_long_timed_out": null,
+    "median_seconds_per_step_long_finished": 4.3427743386414095,
+    "median_seconds_per_step_short": 3.906201690822453,
+    "median_completion_tokens_per_call_long": 285.219512195122,
+    "median_output_tokens_per_model_second_long": 75.7085231246884,
+    "mean_prompt_tokens_per_trial": 2568460.448,
+    "served_on_gb200": 35,
+    "recovery": {
+     "retained_from_original_run": 261,
+     "deadline_replays": 3,
+     "replays_timed_out_again": 0,
+     "replays_finished": 3,
+     "replays_finished_solved": 0.0
+    }
+   }
+  },
+  "snowball-v0.1": {
+   "common_tasks": 500,
+   "on_common_tasks": {
+    "65k": 73,
+    "131k": 60,
+    "solved_65k": 2.0,
+    "solved_131k": 4.0,
+    "timed_out_131k": 8,
+    "timeouts_65k_all_common": 2,
+    "timeouts_131k_all_common": 11,
+    "slowdown_65k": {
+     "1.5": [
+      9,
+      0.0
+     ],
+     "2.0": [
+      28,
+      3.0
+     ],
+     "3.0": [
+      100,
+      15.0
+     ]
+    },
+    "slowdown_131k": {
+     "1.5": [
+      13,
+      2.0
+     ],
+     "2.0": [
+      32,
+      2.0
+     ],
+     "3.0": [
+      85,
+      13.0
+     ]
+    }
+   },
+   "diff": {
+    "mean": 0.012,
+    "se_paired": 0.021180397032087885,
+    "se_unpaired": 0.02972013750214306,
+    "ratio": 0.712661475087745
+   },
+   "long_part": {
+    "mean": 0.004,
+    "se": 0.004900615478093336
+   },
+   "short_part": {
+    "mean": 0.008,
+    "se": 0.021372542458544374
+   },
+   "long_share_diff": {
+    "mean": -0.026,
+    "se": 0.019271501798332303
+   },
+   "65k-16k-no-summary": {
+    "max_calls_solved": 142,
+    "max_calls": 167,
+    "rejected_calls": 2101,
+    "over_call_limit": {
+     "150": [
+      2,
+      0.0
+     ],
+     "200": [
+      0,
+      0
+     ],
+     "250": [
+      0,
+      0
+     ],
+     "300": [
+      0,
+      0
+     ]
+    },
+    "long_pace_seconds_per_call": [
+     8.669992403550582,
+     21.603553581841386,
+     23.258277085789462
+    ],
+    "minutes_for_250_calls": [
+     36.12496834812743,
+     90.01480659100577,
+     96.90948785745609
+    ],
+    "long_share_slower_than_one_hour_for_250": 0.3150684931506849,
+    "timeouts_after_agent_exit": 0,
+    "timeouts_after_agent_exit_solved": 0,
+    "timeouts_after_agent_exit_idle_seconds": [
+     null,
+     null
+    ],
+    "timeouts_with_a_call_over_300s": 1,
+    "slowdown": {
+     "1.5": [
+      9,
+      0.0
+     ],
+     "2.0": [
+      28,
+      3.0
+     ],
+     "3.0": [
+      100,
+      15.0
+     ]
+    },
+    "median_model_seconds_per_call": {
+     "h100": 5.911911529923958,
+     "gb200": null
+    },
+    "n": 500,
+    "solve": 0.322,
+    "long": 73,
+    "long_solved": 2.0,
+    "long_timed_out": 0,
+    "long_finished_solved": 2.0,
+    "context_limit_exits": 73,
+    "timeouts": 2,
+    "timeouts_solved": 0.0,
+    "timeout_seconds": [
+     1800.1919829845428,
+     1800.3210740089417
+    ],
+    "median_seconds_per_step_long": 8.669992403550582,
+    "median_seconds_per_step_long_timed_out": null,
+    "median_seconds_per_step_long_finished": 8.669992403550582,
+    "median_seconds_per_step_short": 5.698028720793177,
+    "median_completion_tokens_per_call_long": 490.17808219178085,
+    "median_output_tokens_per_model_second_long": 56.10025644629597,
+    "mean_prompt_tokens_per_trial": 1285844.682,
+    "served_on_gb200": 0,
+    "recovery": {
+     "retained_from_original_run": 179,
+     "deadline_replays": 1,
+     "replays_timed_out_again": 0,
+     "replays_finished": 1,
+     "replays_finished_solved": 0.0
+    }
+   },
+   "131k-16k-no-summary": {
+    "max_calls_solved": 201,
+    "max_calls": 358,
+    "rejected_calls": 1744,
+    "over_call_limit": {
+     "150": [
+      9,
+      1.0
+     ],
+     "200": [
+      3,
+      1.0
+     ],
+     "250": [
+      1,
+      0.0
+     ],
+     "300": [
+      1,
+      0.0
+     ]
+    },
+    "long_pace_seconds_per_call": [
+     8.488614035596093,
+     24.354068673386866,
+     29.756828764651683
+    ],
+    "minutes_for_250_calls": [
+     35.36922514831705,
+     101.47528613911194,
+     123.98678651938202
+    ],
+    "long_share_slower_than_one_hour_for_250": 0.3333333333333333,
+    "timeouts_after_agent_exit": 2,
+    "timeouts_after_agent_exit_solved": 1.0,
+    "timeouts_after_agent_exit_idle_seconds": [
+     6.2973198890686035,
+     1210.9131109714508
+    ],
+    "timeouts_with_a_call_over_300s": 6,
+    "slowdown": {
+     "1.5": [
+      13,
+      2.0
+     ],
+     "2.0": [
+      32,
+      2.0
+     ],
+     "3.0": [
+      85,
+      13.0
+     ]
+    },
+    "median_model_seconds_per_call": {
+     "h100": 5.785071937405333,
+     "gb200": null
+    },
+    "n": 500,
+    "solve": 0.334,
+    "long": 60,
+    "long_solved": 4.0,
+    "long_timed_out": 8,
+    "long_finished_solved": 2.0,
+    "context_limit_exits": 1,
+    "timeouts": 11,
+    "timeouts_solved": 2.0,
+    "timeout_seconds": [
+     1800.180025100708,
+     1800.524806022644
+    ],
+    "median_seconds_per_step_long": 8.488614035596093,
+    "median_seconds_per_step_long_timed_out": 17.65834442531093,
+    "median_seconds_per_step_long_finished": 6.568785675622789,
+    "median_seconds_per_step_short": 5.901537924101858,
+    "median_completion_tokens_per_call_long": 410.9738783943329,
+    "median_output_tokens_per_model_second_long": 56.861810769100984,
+    "mean_prompt_tokens_per_trial": 1492310.414,
+    "served_on_gb200": 0,
+    "recovery": {
+     "retained_from_original_run": 145,
+     "deadline_replays": 5,
+     "replays_timed_out_again": 0,
+     "replays_finished": 5,
+     "replays_finished_solved": 1.0
+    }
+   }
+  }
+ },
+ "pooled_diff": {
+  "mean": 0.010185023727107896,
+  "se": 0.009831859185590253,
+  "ci95": [
+   -0.009085420276649,
+   0.02945546773086479
+  ]
+ },
+ "pooled_long_part": {
+  "mean": 0.015852531903634108,
+  "se": 0.005492067304582856,
+  "ci95": [
+   0.0050880799866517105,
+   0.026616983820616506
+  ]
+ }
+}
