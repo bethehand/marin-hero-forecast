@@ -4,6 +4,8 @@ This is an independent analysis, not affiliated with Marin or Open Athena. It us
 
 **Scored on 2026-10-14.** The hero moved to 16K context at step 257,553 ([#10101](https://github.com/marin-community/marin/pull/10101)), so v2 was scored under condition 2 at the last 4K eval, step 254,999. The realized macro, 2.1114, fell 0.0039 below v2's 95% interval [2.1153, 2.1336]. WikiText fell 0.168 at that eval, which lowered the macro by 0.0105; that drop stays in the score under the pre-registered rules, and all 9 evals since the freeze came in below v2's median. The quantile scores and the 70% check-in are in [the addendum](addenda/2026-10-14_switch_score.md). The end-of-run value will be reported, unscored.
 
+**Analysis plan fixed on 2026-10-22, before phase 2.** [This addendum](addenda/2026-10-22_phase2_plan.md) sets out what I will compute at the end of the run and how I will read it. The main question is whether the last 20% of training lowers the loss as much as the scaling ladder predicts: 0.044–0.048 on the 14-subset macro without PTB and WikiText. That stretch is phase 2, the cooldown data mix from step 312,192, while the learning rate finishes its linear decay.
+
 **Forecast v2, frozen 2026-10-09** (data through step 227,999 of 390,251, i.e. 58.4%):
 
 | Final eval, 4K eval packing | Median | 80% interval | 95% interval |
